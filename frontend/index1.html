@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trợ lý Pháp luật Việt Nam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .chat-container {
+            height: calc(100vh - 200px);
+        }
+
+        pre {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 h-screen font-sans">
+
+    <div class="container mx-auto h-full p-4">
+        <header class="mb-4">
+            <h1 class="text-2xl font-bold text-blue-800">⚖️ Trợ lý Pháp luật Việt Nam</h1>
+            <p class="text-gray-600">Hệ thống RAG - Truy vấn văn bản pháp luật</p>
+        </header>
+
+        <div class="grid grid-cols-12 gap-4 h-5/6">
+            <!-- Cột Trái: Chatbot -->
+            <div class="col-span-12 md:col-span-7 bg-white rounded-lg shadow-md flex flex-col">
+                <div id="chat-box" class="chat-container overflow-y-auto p-4 space-y-4 border-b">
+                    <!-- Tin nhắn sẽ hiện ở đây -->
+                    <div class="text-center text-gray-400 mt-10">Bắt đầu đặt câu hỏi về luật pháp...</div>
+                </div>
+
+                <div class="p-4 flex gap-2">
+                    <input type="text" id="user-input"
+                        class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Nhập câu hỏi của bạn...">
+                    <button id="send-btn"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Gửi</button>
+                    <button id="clear-btn"
+                        class="bg-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-300">Xóa</button>
+                </div>
+            </div>
+
+            <!-- Cột Phải: Debug JSON -->
+            <div class="col-span-12 md:col-span-5 bg-gray-900 rounded-lg shadow-md flex flex-col text-green-400">
+                <div class="p-3 border-b border-gray-700 flex justify-between items-center">
+                    <span class="font-bold text-sm">🔍 RETRIEVAL DEBUG (JSON)</span>
+                    <button onclick="copyDebug()" class="text-xs bg-gray-700 px-2 py-1 rounded">Copy</button>
+                </div>
+                <pre id="debug-json"
+                    class="flex-1 overflow-auto p-4 text-xs whitespace-pre-wrap">Dữ liệu trích xuất sẽ hiển thị ở đây...</pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const userInput = document.getElementById('user-input');
+        const sendBtn = document.getElementById('send-btn');
+        const debugJson = document.getElementById('debug-json');
+        let history = [];
+
+        async function handleChat() {
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            // Hiển thị tin nhắn User
+            appendMessage('user', message);
+            userInput.value = '';
+
+            // Tạo tin nhắn trống cho Bot
+            const botMessageDiv = appendMessage('assistant', '...');
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message, history })
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let fullAnswer = "";
+
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+
+                    const chunk = decoder.decode(value);
+                    const lines = chunk.split('\n');
+
+                    lines.forEach(line => {
+                        if (line.startsWith('data: ')) {
+                            const data = JSON.parse(line.substring(6));
+
+                            // Cập nhật JSON Debug
+                            debugJson.textContent = JSON.stringify(data.docs, null, 2);
+
+                            // Cập nhật Text Bot trả lời
+                            fullAnswer = data.answer;
+                            botMessageDiv.innerText = fullAnswer;
+                            chatBox.scrollTop = chatBox.scrollHeight;
+                        }
+                    });
+                }
+
+                // Lưu vào history
+                history.push({ role: "user", content: message });
+                history.push({ role: "assistant", content: fullAnswer });
+
+            } catch (error) {
+                botMessageDiv.innerText = "❌ Lỗi: Không thể kết nối đến server.";
+                console.error(error);
+            }
+        }
+
+        function appendMessage(role, text) {
+            const div = document.createElement('div');
+            div.className = `p-3 rounded-lg max-w-[80%] ${role === 'user' ? 'bg-blue-100 ml-auto text-blue-900' : 'bg-gray-200 text-gray-800'}`;
+            div.innerText = text;
+            chatBox.appendChild(div);
+            chatBox.scrollTop = chatBox.scrollHeight;
+            return div;
+        }
+
+        sendBtn.addEventListener('click', handleChat);
+        userInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') handleChat(); });
+        document.getElementById('clear-btn').addEventListener('click', () => {
+            chatBox.innerHTML = '';
+            debugJson.textContent = '...';
+            history = [];
+        });
+
+        function copyDebug() {
+            navigator.clipboard.writeText(debugJson.textContent);
+            alert('Đã copy JSON debug');
+        }
+    </script>
+</body>
+
+</html>

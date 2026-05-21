@@ -1,0 +1,14 @@
+PyYAML
+streamlit
+sentence_transformers
+qdrant_client
+transformers
+accelerate
+bitsandbytes
+torch
+peft
+trl
+datasets
+gradio
+python-dotenv
+torchvision

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trợ lý Pháp luật Việt Nam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300&family=DM+Mono:wght@300;400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0d1117;
+    --bg2: #161b22;
+    --bg3: #1c2330;
+    --bg4: #21262d;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.14);
+    --gold: #c9a84c;
+    --gold2: #e8c97a;
+    --gold-dim: rgba(201,168,76,0.12);
+    --gold-glow: rgba(201,168,76,0.08);
+    --text: #e6edf3;
+    --text2: #8b949e;
+    --text3: #6e7681;
+    --red: #f85149;
+    --green: #3fb950;
+    --blue: #58a6ff;
+    --mono: 'DM Mono', monospace;
+    --sans: 'Be Vietnam Pro', sans-serif;
+    --serif: 'Crimson Pro', Georgia, serif;
+    --radius: 10px;
+    --panel-w: 420px;
+  }
+
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 14px; overflow: hidden; }
+
+  /* LAYOUT */
+  .app { display: grid; grid-template-columns: 260px 1fr var(--panel-w); grid-template-rows: 100vh; height: 100vh; }
+
+  /* SIDEBAR */
+  .sidebar {
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .sidebar-header {
+    padding: 20px 16px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    font-family: var(--serif);
+    font-size: 17px; font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0.01em;
+  }
+  .logo-icon {
+    width: 32px; height: 32px;
+    background: var(--gold-dim);
+    border: 1px solid rgba(201,168,76,0.3);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .logo-sub { font-size: 10px; color: var(--text3); font-family: var(--mono); font-weight: 300; margin-top: 2px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  .new-chat-btn {
+    margin: 12px 16px;
+    display: flex; align-items: center; gap: 8px;
+    background: var(--gold-dim);
+    border: 1px solid rgba(201,168,76,0.25);
+    color: var(--gold);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px; font-family: var(--sans); font-weight: 500;
+    cursor: pointer; transition: all 0.15s;
+    width: calc(100% - 32px);
+  }
+  .new-chat-btn:hover { background: rgba(201,168,76,0.2); border-color: rgba(201,168,76,0.4); }
+
+  .sidebar-section { padding: 8px 16px 4px; font-size: 10px; font-family: var(--mono); color: var(--text3); letter-spacing: 0.1em; text-transform: uppercase; }
+
+  .suggested-list { padding: 4px 8px; flex: 1; overflow-y: auto; }
+  .suggest-item {
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12.5px;
+    color: var(--text2);
+    display: flex; align-items: flex-start; gap: 8px;
+    transition: all 0.12s;
+    line-height: 1.45;
+    border: 1px solid transparent;
+  }
+  .suggest-item:hover { background: var(--bg4); color: var(--text); border-color: var(--border); }
+  .suggest-icon { color: var(--gold); font-size: 12px; margin-top: 1px; flex-shrink: 0; }
+
+  .sidebar-footer {
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+  }
+  .status-dot { display: inline-block; width: 7px; height: 7px; background: var(--green); border-radius: 50%; margin-right: 6px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  .status-text { font-size: 11px; font-family: var(--mono); color: var(--text3); }
+
+  /* MAIN CHAT */
+  .chat-main {
+    display: flex; flex-direction: column;
+    background: var(--bg);
+    overflow: hidden;
+    border-right: 1px solid var(--border);
+  }
+
+  .chat-topbar {
+    padding: 0 20px;
+    height: 52px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 10px; }
+  .topbar-title { font-size: 13px; font-weight: 500; color: var(--text); }
+  .topbar-badge {
+    font-size: 10px; font-family: var(--mono);
+    background: var(--gold-dim); color: var(--gold);
+    border: 1px solid rgba(201,168,76,0.2);
+    padding: 2px 8px; border-radius: 20px;
+  }
+  .topbar-actions { display: flex; gap: 6px; }
+  .icon-btn {
+    width: 30px; height: 30px; border-radius: 7px;
+    background: transparent; border: 1px solid var(--border);
+    color: var(--text3); cursor: pointer; font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.12s;
+  }
+  .icon-btn:hover { background: var(--bg4); color: var(--text); border-color: var(--border2); }
+
+  .chat-messages {
+    flex: 1; overflow-y: auto;
+    padding: 24px 24px 12px;
+    scroll-behavior: smooth;
+  }
+  .chat-messages::-webkit-scrollbar { width: 4px; }
+  .chat-messages::-webkit-scrollbar-track { background: transparent; }
+  .chat-messages::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+  .empty-state {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    height: 100%; gap: 16px; text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  .empty-icon { font-size: 40px; opacity: 0.4; }
+  .empty-title { font-family: var(--serif); font-size: 22px; color: var(--text2); font-weight: 300; }
+  .empty-sub { font-size: 12px; color: var(--text3); max-width: 280px; line-height: 1.6; }
+  .empty-chips { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 4px; max-width: 400px; }
+  .empty-chip {
+    padding: 6px 12px; border-radius: 20px;
+    background: var(--bg2); border: 1px solid var(--border);
+    font-size: 12px; color: var(--text2);
+    cursor: pointer; transition: all 0.12s;
+  }
+  .empty-chip:hover { background: var(--bg4); border-color: var(--border2); color: var(--text); }
+
+  @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+  .msg-row { display: flex; gap: 12px; margin-bottom: 20px; animation: fadeIn 0.25s ease; }
+  .msg-row.user { flex-direction: row-reverse; }
+
+  .msg-avatar {
+    width: 32px; height: 32px; border-radius: 9px;
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 500;
+  }
+  .msg-avatar.bot { background: var(--gold-dim); border: 1px solid rgba(201,168,76,0.25); color: var(--gold); font-family: var(--serif); }
+  .msg-avatar.user { background: var(--bg4); border: 1px solid var(--border2); color: var(--text2); }
+
+  .msg-bubble {
+    max-width: 72%; padding: 12px 16px;
+    border-radius: 12px; line-height: 1.65;
+    font-size: 13.5px;
+  }
+  .msg-bubble.bot {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-top-left-radius: 4px;
+    color: var(--text);
+  }
+  .msg-bubble.user {
+    background: var(--gold-dim);
+    border: 1px solid rgba(201,168,76,0.2);
+    border-top-right-radius: 4px;
+    color: var(--text);
+  }
+  .msg-time { font-size: 10px; color: var(--text3); margin-top: 4px; font-family: var(--mono); }
+
+  .typing-dots span {
+    display: inline-block; width: 5px; height: 5px;
+    background: var(--gold); border-radius: 50%;
+    margin: 0 1.5px;
+    animation: blink 1.2s infinite;
+  }
+  .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+  .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes blink { 0%,80%,100%{opacity:0.2} 40%{opacity:1} }
+
+  /* INPUT AREA */
+  .chat-input-area {
+    padding: 12px 20px 16px;
+    border-top: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .input-wrapper {
+    display: flex; align-items: flex-end; gap: 8px;
+    background: var(--bg2);
+    border: 1px solid var(--border2);
+    border-radius: 12px;
+    padding: 8px 8px 8px 14px;
+    transition: border-color 0.15s;
+  }
+  .input-wrapper:focus-within { border-color: rgba(201,168,76,0.4); }
+  .chat-textarea {
+    flex: 1; background: transparent; border: none; outline: none;
+    color: var(--text); font-family: var(--sans); font-size: 13.5px;
+    resize: none; min-height: 22px; max-height: 140px;
+    line-height: 1.55;
+  }
+  .chat-textarea::placeholder { color: var(--text3); }
+  .send-btn {
+    width: 34px; height: 34px; border-radius: 8px;
+    background: var(--gold); border: none; color: var(--bg);
+    cursor: pointer; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s; flex-shrink: 0;
+  }
+  .send-btn:hover { background: var(--gold2); transform: scale(1.05); }
+  .send-btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+  .input-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+  .input-hint { font-size: 11px; font-family: var(--mono); color: var(--text3); }
+  .char-count { font-size: 11px; font-family: var(--mono); color: var(--text3); }
+
+  /* DEBUG PANEL */
+  .debug-panel {
+    background: var(--bg2);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .debug-topbar {
+    padding: 0 16px;
+    height: 52px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .debug-title { font-size: 11px; font-family: var(--mono); color: var(--text3); letter-spacing: 0.08em; text-transform: uppercase; }
+  .debug-tabs { display: flex; gap: 2px; }
+  .debug-tab {
+    padding: 4px 10px; border-radius: 6px;
+    font-size: 11px; font-family: var(--mono);
+    cursor: pointer; transition: all 0.12s;
+    border: none; background: transparent; color: var(--text3);
+  }
+  .debug-tab.active { background: var(--bg4); color: var(--text); }
+  .debug-tab:hover:not(.active) { color: var(--text2); }
+
+  .debug-content { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+
+  /* Tab: Retrieved Docs */
+  .docs-view { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .docs-view::-webkit-scrollbar { width: 3px; }
+  .docs-view::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+  .empty-debug {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 8px; color: var(--text3);
+    font-family: var(--mono); font-size: 12px; text-align: center;
+  }
+  .empty-debug-icon { font-size: 28px; opacity: 0.3; }
+
+  .doc-card {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    overflow: hidden;
+    transition: border-color 0.15s;
+    cursor: pointer;
+  }
+  .doc-card:hover { border-color: var(--border2); }
+  .doc-card.expanded .doc-body { display: block; }
+  .doc-header {
+    padding: 10px 12px;
+    display: flex; align-items: flex-start; gap: 10px;
+  }
+  .doc-score-bar {
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    flex-shrink: 0;
+  }
+  .score-ring {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    border: 2.5px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-family: var(--mono); font-weight: 400;
+    color: var(--text2);
+    position: relative;
+  }
+  .score-ring.high { border-color: var(--green); color: var(--green); }
+  .score-ring.mid { border-color: var(--gold); color: var(--gold); }
+  .score-ring.low { border-color: var(--red); color: var(--red); }
+  .doc-meta { flex: 1; min-width: 0; }
+  .doc-law-id { font-size: 10px; font-family: var(--mono); color: var(--gold); letter-spacing: 0.05em; margin-bottom: 3px; }
+  .doc-title { font-size: 12.5px; color: var(--text); font-weight: 500; line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .doc-article { font-size: 11px; color: var(--text3); margin-top: 2px; font-family: var(--mono); }
+  .doc-toggle { font-size: 11px; color: var(--text3); transition: transform 0.2s; flex-shrink: 0; margin-top: 2px; }
+  .doc-card.expanded .doc-toggle { transform: rotate(180deg); }
+
+  .doc-body {
+    display: none;
+    padding: 0 12px 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 0;
+  }
+  .doc-excerpt {
+    font-size: 12px; color: var(--text2);
+    line-height: 1.6; padding-top: 10px;
+    font-family: var(--serif);
+    font-style: italic;
+  }
+  .doc-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 8px; }
+  .doc-tag { font-size: 10px; font-family: var(--mono); padding: 2px 7px; border-radius: 4px; background: var(--bg4); color: var(--text3); border: 1px solid var(--border); }
+
+  /* Tab: JSON */
+  .json-view { flex: 1; overflow: auto; padding: 12px; }
+  .json-view::-webkit-scrollbar { width: 3px; }
+  .json-view::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+  .json-pre {
+    font-family: var(--mono); font-size: 11.5px;
+    color: #8be9fd;
+    white-space: pre-wrap; word-break: break-all;
+    line-height: 1.6;
+  }
+  .json-string { color: #f1fa8c; }
+  .json-number { color: #bd93f9; }
+  .json-bool { color: #ff79c6; }
+  .json-null { color: var(--text3); }
+  .json-key { color: #8be9fd; }
+
+  /* Tab: Stats */
+  .stats-view { flex: 1; padding: 12px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+  .stat-card {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 12px 14px;
+  }
+  .stat-label { font-size: 10px; font-family: var(--mono); color: var(--text3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .stat-value { font-size: 22px; font-family: var(--serif); font-weight: 600; color: var(--text); }
+  .stat-value.accent { color: var(--gold); }
+  .stat-sub { font-size: 11px; color: var(--text3); margin-top: 2px; font-family: var(--mono); }
+  .bar-track { height: 4px; background: var(--border); border-radius: 4px; margin-top: 8px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--gold); border-radius: 4px; transition: width 0.5s ease; }
+
+  .debug-footer {
+    padding: 8px 12px;
+    border-top: 1px solid var(--border);
+    display: flex; gap: 6px; align-items: center; flex-shrink: 0;
+  }
+  .copy-btn {
+    flex: 1; padding: 6px; border-radius: 7px;
+    background: var(--bg4); border: 1px solid var(--border);
+    color: var(--text2); font-size: 11px; font-family: var(--mono);
+    cursor: pointer; transition: all 0.12s;
+  }
+  .copy-btn:hover { background: var(--bg3); color: var(--text); border-color: var(--border2); }
+
+  /* Toast */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    background: var(--bg4); border: 1px solid var(--border2);
+    color: var(--text); font-size: 12px; font-family: var(--mono);
+    padding: 8px 16px; border-radius: 20px;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 1000;
+  }
+  .toast.show { opacity: 1; }
+
+  /* Scrollbar global */
+  * { scrollbar-width: thin; scrollbar-color: var(--border2) transparent; }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <div class="logo-icon">⚖</div>
+        <div>
+          <div>Pháp Luật AI</div>
+          <div class="logo-sub">RAG · Legal Assistant</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="new-chat-btn" onclick="clearChat()">
+      <span>＋</span> Cuộc hội thoại mới
+    </button>
+
+    <div class="sidebar-section">Gợi ý câu hỏi</div>
+    <div class="suggested-list">
+      <div class="suggest-item" onclick="setQ('Quy định về thời gian làm việc theo Bộ luật Lao động?')">
+        <span class="suggest-icon">▸</span>Thời gian làm việc theo Bộ luật Lao động
+      </div>
+      <div class="suggest-item" onclick="setQ('Điều kiện để được hưởng bảo hiểm xã hội?')">
+        <span class="suggest-icon">▸</span>Điều kiện hưởng bảo hiểm xã hội
+      </div>
+      <div class="suggest-item" onclick="setQ('Thủ tục đăng ký kết hôn theo pháp luật hiện hành?')">
+        <span class="suggest-icon">▸</span>Thủ tục đăng ký kết hôn
+      </div>
+      <div class="suggest-item" onclick="setQ('Quy định về mức xử phạt vi phạm giao thông?')">
+        <span class="suggest-icon">▸</span>Mức xử phạt vi phạm giao thông
+      </div>
+      <div class="suggest-item" onclick="setQ('Điều kiện thành lập doanh nghiệp tư nhân?')">
+        <span class="suggest-icon">▸</span>Điều kiện thành lập doanh nghiệp
+      </div>
+      <div class="suggest-item" onclick="setQ('Quy định về quyền thừa kế theo pháp luật?')">
+        <span class="suggest-icon">▸</span>Quyền thừa kế theo pháp luật
+      </div>
+      <div class="suggest-item" onclick="setQ('Mức lương tối thiểu vùng hiện nay là bao nhiêu?')">
+        <span class="suggest-icon">▸</span>Lương tối thiểu vùng hiện nay
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <span class="status-dot"></span>
+      <span class="status-text">Server: 127.0.0.1:8000</span>
+    </div>
+  </aside>
+
+  <!-- MAIN CHAT -->
+  <main class="chat-main">
+    <div class="chat-topbar">
+      <div class="topbar-left">
+        <span class="topbar-title">Trợ lý Pháp luật</span>
+        <span class="topbar-badge">RAG · v2.0</span>
+      </div>
+      <div class="topbar-actions">
+        <button class="icon-btn" title="Xuất hội thoại" onclick="exportChat()">↓</button>
+        <button class="icon-btn" title="Xóa hội thoại" onclick="clearChat()">✕</button>
+      </div>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">⚖</div>
+        <div class="empty-title">Hỏi về pháp luật Việt Nam</div>
+        <div class="empty-sub">Tôi có thể tra cứu các văn bản pháp luật, giải thích điều khoản và tư vấn thủ tục pháp lý.</div>
+        <div class="empty-chips">
+          <span class="empty-chip" onclick="setQ('Luật lao động')">Luật lao động</span>
+          <span class="empty-chip" onclick="setQ('Bảo hiểm xã hội')">Bảo hiểm xã hội</span>
+          <span class="empty-chip" onclick="setQ('Hôn nhân & gia đình')">Hôn nhân & gia đình</span>
+          <span class="empty-chip" onclick="setQ('Doanh nghiệp')">Doanh nghiệp</span>
+          <span class="empty-chip" onclick="setQ('Hình sự')">Hình sự</span>
+          <span class="empty-chip" onclick="setQ('Dân sự')">Dân sự</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <div class="input-wrapper">
+        <textarea class="chat-textarea" id="userInput" placeholder="Nhập câu hỏi pháp luật của bạn..." rows="1" maxlength="2000"></textarea>
+        <button class="send-btn" id="sendBtn" title="Gửi (Enter)">➤</button>
+      </div>
+      <div class="input-footer">
+        <span class="input-hint">Enter để gửi · Shift+Enter xuống dòng</span>
+        <span class="char-count" id="charCount">0 / 2000</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- DEBUG PANEL -->
+  <aside class="debug-panel">
+    <div class="debug-topbar">
+      <span class="debug-title">Retrieval Debug</span>
+      <div class="debug-tabs">
+        <button class="debug-tab active" onclick="switchTab('docs', this)">Tài liệu</button>
+        <button class="debug-tab" onclick="switchTab('json', this)">JSON</button>
+        <button class="debug-tab" onclick="switchTab('stats', this)">Thống kê</button>
+      </div>
+    </div>
+
+    <div class="debug-content">
+      <!-- Docs Tab -->
+      <div id="tab-docs" class="debug-content" style="display:flex; flex-direction:column; flex:1; overflow:hidden;">
+        <div class="docs-view" id="docsView">
+          <div class="empty-debug">
+            <div class="empty-debug-icon">📄</div>
+            <div>Chưa có kết quả truy xuất</div>
+            <div style="font-size:10px; margin-top:4px; color: var(--text3)">Kết quả sẽ hiện sau khi bạn đặt câu hỏi</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JSON Tab -->
+      <div id="tab-json" class="debug-content" style="display:none; flex-direction:column; flex:1; overflow:hidden;">
+        <div class="json-view">
+          <pre class="json-pre" id="jsonPre">// Chờ kết quả truy xuất...</pre>
+        </div>
+      </div>
+
+      <!-- Stats Tab -->
+      <div id="tab-stats" class="debug-content" style="display:none; flex-direction:column; flex:1; overflow:hidden;">
+        <div class="stats-view" id="statsView">
+          <div class="empty-debug">
+            <div class="empty-debug-icon">📊</div>
+            <div>Chưa có dữ liệu thống kê</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="debug-footer">
+      <button class="copy-btn" onclick="copyJSON()">📋 Copy JSON</button>
+      <button class="copy-btn" onclick="clearDebug()">🗑 Xóa</button>
+    </div>
+  </aside>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let history = [];
+let lastDocs = null;
+let activeTab = 'docs';
+let totalQueries = 0;
+let totalDocs = 0;
+let lastLatency = 0;
+
+const chatMessages = document.getElementById('chatMessages');
+const emptyState = document.getElementById('emptyState');
+const userInput = document.getElementById('userInput');
+const sendBtn = document.getElementById('sendBtn');
+const docsView = document.getElementById('docsView');
+const jsonPre = document.getElementById('jsonPre');
+const statsView = document.getElementById('statsView');
+const charCount = document.getElementById('charCount');
+
+function setQ(q) {
+  userInput.value = q;
+  userInput.dispatchEvent(new Event('input'));
+  userInput.focus();
+}
+
+function showToast(msg, duration = 1800) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), duration);
+}
+
+userInput.addEventListener('input', () => {
+  charCount.textContent = userInput.value.length + ' / 2000';
+  userInput.style.height = 'auto';
+  userInput.style.height = Math.min(userInput.scrollHeight, 140) + 'px';
+});
+
+userInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleChat(); }
+});
+sendBtn.addEventListener('click', handleChat);
+
+function getTime() {
+  return new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+}
+
+function appendMessage(role, text) {
+  if (emptyState && emptyState.parentNode) emptyState.remove();
+
+  const row = document.createElement('div');
+  row.className = 'msg-row ' + role;
+
+  const avatar = document.createElement('div');
+  avatar.className = 'msg-avatar ' + (role === 'user' ? 'user' : 'bot');
+  avatar.textContent = role === 'user' ? '👤' : '⚖';
+
+  const bubbleWrap = document.createElement('div');
+  bubbleWrap.style.display = 'flex';
+  bubbleWrap.style.flexDirection = 'column';
+  bubbleWrap.style.alignItems = role === 'user' ? 'flex-end' : 'flex-start';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'msg-bubble ' + (role === 'user' ? 'user' : 'bot');
+
+  if (text === '...') {
+    bubble.innerHTML = '<div class="typing-dots"><span></span><span></span><span></span></div>';
+  } else {
+    bubble.textContent = text;
+  }
+
+  const time = document.createElement('div');
+  time.className = 'msg-time';
+  time.textContent = getTime();
+
+  bubbleWrap.appendChild(bubble);
+  bubbleWrap.appendChild(time);
+  row.appendChild(avatar);
+  row.appendChild(bubbleWrap);
+  chatMessages.appendChild(row);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+  return bubble;
+}
+
+async function handleChat() {
+  const message = userInput.value.trim();
+  if (!message || sendBtn.disabled) return;
+
+  appendMessage('user', message);
+  userInput.value = '';
+  charCount.textContent = '0 / 2000';
+  userInput.style.height = 'auto';
+
+  sendBtn.disabled = true;
+  const botBubble = appendMessage('assistant', '...');
+  const t0 = Date.now();
+
+  try {
+    const resp = await fetch('http://127.0.0.1:8000/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message, history })
+    });
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let fullAnswer = '';
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value);
+      chunk.split('\n').forEach(line => {
+        if (!line.startsWith('data: ')) return;
+        const data = JSON.parse(line.substring(6));
+        lastDocs = data.docs;
+        fullAnswer = data.answer;
+        botBubble.textContent = fullAnswer;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        renderDocs(data.docs);
+        renderJSON(data.docs);
+      });
+    }
+
+    lastLatency = Date.now() - t0;
+    totalQueries++;
+    if (lastDocs) totalDocs += (lastDocs.length || 0);
+    renderStats();
+
+    history.push({ role: 'user', content: message });
+    history.push({ role: 'assistant', content: fullAnswer });
+
+  } catch (err) {
+    botBubble.textContent = '❌ Không thể kết nối đến server (127.0.0.1:8000). Kiểm tra backend đang chạy.';
+    console.error(err);
+  }
+
+  sendBtn.disabled = false;
+  userInput.focus();
+}
+
+function getScoreClass(score) {
+  if (score >= 0.75) return 'high';
+  if (score >= 0.5) return 'mid';
+  return 'low';
+}
+
+function renderDocs(docs) {
+  if (!docs || !docs.length) {
+    docsView.innerHTML = '<div class="empty-debug"><div class="empty-debug-icon">📄</div><div>Không tìm thấy tài liệu liên quan</div></div>';
+    return;
+  }
+
+  docsView.innerHTML = '';
+  docs.forEach((doc, i) => {
+    const score = typeof doc.score === 'number' ? doc.score : (doc.similarity || 0);
+    const scorePct = (score * 100).toFixed(0);
+    const cls = getScoreClass(score);
+
+    const card = document.createElement('div');
+    card.className = 'doc-card';
+    card.innerHTML = `
+      <div class="doc-header" onclick="this.parentElement.classList.toggle('expanded')">
+        <div class="doc-score-bar">
+          <div class="score-ring ${cls}">${scorePct}%</div>
+        </div>
+        <div class="doc-meta">
+          <div class="doc-law-id">${doc.law_id || doc.source || 'DOC-' + (i+1)}</div>
+          <div class="doc-title">${doc.title || doc.article_title || 'Điều khoản ' + (i+1)}</div>
+          <div class="doc-article">${doc.article || doc.chapter || ''}</div>
+        </div>
+        <div class="doc-toggle">⌄</div>
+      </div>
+      <div class="doc-body">
+        <div class="doc-excerpt">${(doc.content || doc.text || doc.excerpt || 'Không có nội dung trích xuất.').substring(0, 300)}${(doc.content || doc.text || '').length > 300 ? '...' : ''}</div>
+        <div class="doc-tags">
+          ${doc.category ? `<span class="doc-tag">${doc.category}</span>` : ''}
+          ${doc.year ? `<span class="doc-tag">${doc.year}</span>` : ''}
+          <span class="doc-tag">Relevance: ${scorePct}%</span>
+          <span class="doc-tag">#${i+1}</span>
+        </div>
+      </div>
+    `;
+    docsView.appendChild(card);
+  });
+}
+
+function syntaxHighlight(json) {
+  const str = JSON.stringify(json, null, 2);
+  return str.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, match => {
+    if (/^"/.test(match)) {
+      if (/:$/.test(match)) return `<span class="json-key">${match}</span>`;
+      return `<span class="json-string">${match}</span>`;
+    }
+    if (/true|false/.test(match)) return `<span class="json-bool">${match}</span>`;
+    if (/null/.test(match)) return `<span class="json-null">${match}</span>`;
+    return `<span class="json-number">${match}</span>`;
+  });
+}
+
+function renderJSON(docs) {
+  jsonPre.innerHTML = syntaxHighlight(docs || {});
+}
+
+function renderStats() {
+  if (!lastDocs) return;
+  const avgScore = lastDocs.length
+    ? (lastDocs.reduce((a, d) => a + (d.score || d.similarity || 0), 0) / lastDocs.length * 100).toFixed(1)
+    : 0;
+  const topScore = lastDocs.length
+    ? (Math.max(...lastDocs.map(d => d.score || d.similarity || 0)) * 100).toFixed(1)
+    : 0;
+
+  statsView.innerHTML = `
+    <div class="stat-card">
+      <div class="stat-label">Tổng số truy vấn</div>
+      <div class="stat-value accent">${totalQueries}</div>
+      <div class="stat-sub">trong phiên hiện tại</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Tài liệu truy xuất lần này</div>
+      <div class="stat-value">${lastDocs.length}</div>
+      <div class="stat-sub">Tổng tích lũy: ${totalDocs}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Độ tương đồng cao nhất</div>
+      <div class="stat-value accent">${topScore}%</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${topScore}%"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Độ tương đồng trung bình</div>
+      <div class="stat-value">${avgScore}%</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${avgScore}%"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Thời gian phản hồi</div>
+      <div class="stat-value">${(lastLatency / 1000).toFixed(2)}s</div>
+      <div class="stat-sub">${lastLatency < 2000 ? '✓ Nhanh' : lastLatency < 5000 ? '~ Trung bình' : '⚠ Chậm'}</div>
+    </div>
+  `;
+}
+
+function switchTab(tab, el) {
+  activeTab = tab;
+  document.querySelectorAll('.debug-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('tab-docs').style.display = tab === 'docs' ? 'flex' : 'none';
+  document.getElementById('tab-json').style.display = tab === 'json' ? 'flex' : 'none';
+  document.getElementById('tab-stats').style.display = tab === 'stats' ? 'flex' : 'none';
+}
+
+function copyJSON() {
+  const txt = lastDocs ? JSON.stringify(lastDocs, null, 2) : 'null';
+  navigator.clipboard.writeText(txt).then(() => showToast('✓ Đã copy JSON'));
+}
+
+function clearDebug() {
+  lastDocs = null;
+  docsView.innerHTML = '<div class="empty-debug"><div class="empty-debug-icon">📄</div><div>Đã xóa debug</div></div>';
+  jsonPre.innerHTML = '// Cleared';
+  statsView.innerHTML = '<div class="empty-debug"><div class="empty-debug-icon">📊</div><div>Chưa có dữ liệu</div></div>';
+  showToast('Đã xóa debug');
+}
+
+function clearChat() {
+  chatMessages.innerHTML = '';
+  const es = document.createElement('div');
+  es.className = 'empty-state';
+  es.id = 'emptyState';
+  es.innerHTML = `
+    <div class="empty-icon">⚖</div>
+    <div class="empty-title">Hỏi về pháp luật Việt Nam</div>
+    <div class="empty-sub">Tôi có thể tra cứu các văn bản pháp luật, giải thích điều khoản và tư vấn thủ tục pháp lý.</div>
+    <div class="empty-chips">
+      <span class="empty-chip" onclick="setQ('Luật lao động')">Luật lao động</span>
+      <span class="empty-chip" onclick="setQ('Bảo hiểm xã hội')">Bảo hiểm xã hội</span>
+      <span class="empty-chip" onclick="setQ('Hôn nhân & gia đình')">Hôn nhân & gia đình</span>
+      <span class="empty-chip" onclick="setQ('Doanh nghiệp')">Doanh nghiệp</span>
+      <span class="empty-chip" onclick="setQ('Hình sự')">Hình sự</span>
+      <span class="empty-chip" onclick="setQ('Dân sự')">Dân sự</span>
+    </div>`;
+  chatMessages.appendChild(es);
+  history = [];
+  totalQueries = 0;
+  totalDocs = 0;
+  showToast('Đã xóa hội thoại');
+}
+
+function exportChat() {
+  const rows = chatMessages.querySelectorAll('.msg-row');
+  if (!rows.length) { showToast('Chưa có hội thoại để xuất'); return; }
+  let txt = '=== LỊCH SỬ TƯ VẤN PHÁP LUẬT ===\n\n';
+  rows.forEach(r => {
+    const role = r.classList.contains('user') ? 'Người dùng' : 'Trợ lý';
+    const text = r.querySelector('.msg-bubble')?.textContent || '';
+    const time = r.querySelector('.msg-time')?.textContent || '';
+    txt += `[${time}] ${role}:\n${text}\n\n`;
+  });
+  const blob = new Blob([txt], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'tu-van-phap-luat-' + new Date().toLocaleDateString('vi-VN').replace(/\//g, '-') + '.txt';
+  a.click();
+  showToast('✓ Đã xuất hội thoại');
+}
+</script>
+</body>
+</html>
