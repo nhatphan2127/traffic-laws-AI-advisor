@@ -431,3 +431,219 @@
 [2026-05-20 22:36:01] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
 [2026-05-20 22:36:01] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
 [2026-05-20 22:36:02] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 10:04:54] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-21 10:04:54] INFO - sentence_transformers.base.model - No device provided, using cuda:0
+[2026-05-21 10:04:57] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:04:57] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/modules.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:00] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+[2026-05-21 10:05:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/README.md "HTTP/1.1 200 OK"
+[2026-05-21 10:05:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/modules.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:05] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:05] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:06] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:06] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:12] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:13] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:14] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:15] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:21] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-05-21 10:05:21] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-05-21 10:05:25] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+[2026-05-21 10:05:25] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 10:05:25] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-05-21 10:05:26] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+[2026-05-21 10:05:27] INFO - embedding - Completed embedding texts 1
+[2026-05-21 10:05:27] INFO - vector_datatbase - Connecting to Qdrant via URL
+[2026-05-21 10:05:32] ERROR - vector_datatbase - Failed to connect to Qdrant: [WinError 10061] No connection could be made because the target machine actively refused it
+[2026-05-21 10:05:54] INFO - embedding - Completed embedding texts 1
+[2026-05-21 10:05:54] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 10:05:54] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 10:05:54] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 10:05:54] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 10:05:55] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 10:07:45] INFO - embedding - Completed embedding texts 1
+[2026-05-21 10:07:45] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 10:07:45] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 10:07:45] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 10:07:45] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 10:07:46] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 10:11:45] INFO - embedding - Completed embedding texts 1
+[2026-05-21 10:11:45] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 10:11:45] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 10:11:45] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 10:11:45] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 10:11:46] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 10:13:07] INFO - embedding - Completed embedding texts 1
+[2026-05-21 10:13:07] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 10:13:07] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 10:13:07] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 10:13:08] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 10:13:08] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 11:00:33] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:00:33] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-21 11:00:59] INFO - embedding - Completed embedding texts 1052
+[2026-05-21 11:00:59] INFO - embedding - Built 1052 Qdrant points.
+[2026-05-21 11:00:59] INFO - vector_database - Upserted 1052 points into collection 'nmk_chatbot_collection'.
+[2026-05-21 11:00:59] INFO - sparse_vector - Initialized BM25: 1052 docs, 1088 terms.
+[2026-05-21 11:00:59] INFO - sparse_vector - Model saved to vectorstore\bm25store\bm25store.pkl
+[2026-05-21 11:02:48] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:05:15] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:05:15] INFO - ingestion - Chunking complete. Generated 1052 chunks from 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:05:52] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:05:52] INFO - ingestion - Processing document: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:05:52] INFO - ingestion - Chunking complete. Generated 1052 chunks from 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:06:53] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:06:53] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:06:53] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:06:54] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-21 11:07:20] INFO - embedding - Completed embedding texts 1052
+[2026-05-21 11:07:20] INFO - embedding - Built 1052 Qdrant points.
+[2026-05-21 11:07:20] INFO - vector_database - Upserted 1052 points into collection 'nmk_chatbot_collection'.
+[2026-05-21 11:07:20] INFO - sparse_vector - Initialized BM25: 1052 docs, 1088 terms.
+[2026-05-21 11:07:20] INFO - sparse_vector - Model saved to vectorstore\bm25store\bm25store.pkl
+[2026-05-21 11:13:10] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:13:10] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:13:10] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:15:40] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:15:40] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:15:40] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:17:22] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:17:22] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:17:22] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:18:44] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:18:44] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:18:44] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:19:47] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:19:47] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:19:47] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:20:11] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-21 11:20:11] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-21 11:20:11] INFO - ingestion - Chunking complete. Generated 1052 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-21 11:26:43] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-21 11:26:43] INFO - sentence_transformers.base.model - No device provided, using cuda:0
+[2026-05-21 11:26:50] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:50] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/modules.json "HTTP/1.1 200 OK"
+[2026-05-21 11:26:50] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:50] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from intfloat/multilingual-e5-small.
+[2026-05-21 11:26:50] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/README.md "HTTP/1.1 200 OK"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/modules.json "HTTP/1.1 200 OK"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:51] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:26:52] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:52] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:52] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:26:52] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:26:52] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:26:53] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:53] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:56] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:26:56] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-21 11:27:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:09] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:10] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:10] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-05-21 11:27:10] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-05-21 11:27:17] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+[2026-05-21 11:27:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-small/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-21 11:27:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-small/614241f622f53c4eeff9890bdc4f31cfecc418b3/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-05-21 11:27:19] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-small "HTTP/1.1 200 OK"
+[2026-05-21 11:27:20] INFO - embedding - Completed embedding texts 1
+[2026-05-21 11:27:20] INFO - vector_datatbase - Connecting to Qdrant via URL
+[2026-05-21 11:27:21] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 11:27:21] INFO - vector_datatbase - Successfully connected to Qdrant
+[2026-05-21 11:27:21] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 11:27:21] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 11:27:21] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 11:27:21] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 11:27:21] INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+[2026-05-21 11:27:21] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 11:29:17] INFO - embedding - Completed embedding texts 1
+[2026-05-21 11:29:17] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 11:29:17] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 11:29:17] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 11:29:17] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 11:29:17] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 12:13:07] INFO - embedding - Completed embedding texts 1
+[2026-05-21 12:13:07] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 12:13:07] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 12:13:07] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 12:13:07] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 12:13:07] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 12:13:20] INFO - embedding - Completed embedding texts 1
+[2026-05-21 12:13:20] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 12:13:20] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 12:13:20] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 12:13:21] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 12:13:21] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 12:14:44] INFO - embedding - Completed embedding texts 1
+[2026-05-21 12:14:44] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 12:14:44] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 12:14:44] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 12:14:44] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 12:14:44] INFO - retrieval - Success retrieval 5 items
+[2026-05-21 12:15:35] INFO - embedding - Completed embedding texts 1
+[2026-05-21 12:15:35] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-21 12:15:35] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-21 12:15:35] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-21 12:15:35] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-21 12:15:35] INFO - retrieval - Success retrieval 5 items
+[2026-05-22 21:37:08] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-22 21:37:08] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-22 21:37:08] INFO - ingestion - Chunking complete. Generated 1019 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-22 22:23:16] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-22 22:23:16] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-22 22:23:16] INFO - ingestion - Chunking complete. Generated 1019 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-22 22:23:41] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-22 22:23:59] INFO - embedding - Completed embedding texts 1019
+[2026-05-22 22:23:59] INFO - embedding - Built 1019 Qdrant points.
+[2026-05-22 22:23:59] INFO - vector_database - Upserted 1019 points into collection 'nmk_chatbot_collection'.
+[2026-05-22 22:23:59] INFO - sparse_vector - Initialized BM25: 1019 docs, 1103 terms.
+[2026-05-22 22:23:59] INFO - sparse_vector - Model saved to vectorstore\bm25store\bm25store.pkl
+[2026-05-23 09:45:15] INFO - functions - Filter 0 items from function calling
+[2026-05-23 09:56:31] INFO - functions - Filter 0 items from function calling
+[2026-05-23 10:33:55] INFO - ingestion - Starting chunking process for: data\processed\168_2024_ND-CP_619502.json
+[2026-05-23 10:33:55] INFO - ingestion - Processing document file: data\processed\168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-23 10:33:55] INFO - ingestion - Chunking complete. Generated 1019 chunks from file: 'data\processed\168_2024_ND-CP_619502.json'.
+[2026-05-23 10:35:43] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-23 10:36:00] INFO - embedding - Completed embedding texts 1019
+[2026-05-23 10:36:00] INFO - embedding - Built 1019 Qdrant points.
+[2026-05-23 10:36:00] INFO - vector_database - Upserted 1019 points into collection 'nmk_chatbot_collection'.
+[2026-05-23 10:36:01] INFO - sparse_vector - Initialized BM25: 1019 docs, 1103 terms.
+[2026-05-23 10:36:01] INFO - sparse_vector - Model saved to vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:04:46] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-23 11:04:58] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:04:58] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:04:59] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 11:05:33] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:05:33] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:05:33] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 11:06:14] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:06:14] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:06:14] INFO - retrieval - Success retrieval 5 items

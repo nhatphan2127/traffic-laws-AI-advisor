@@ -43,6 +43,11 @@ loggers:
     level: INFO
     handlers: [console, file]
     propagate: no
+
+  functions:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
   
   
 

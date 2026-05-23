@@ -3,10 +3,11 @@ from ingestion.chunking.laws import chunk_laws
 from vectorstore.bm25 import BM25
 from vectorstore.upsert import upsert_chunks
 from pathlib import Path
-
+from utils.histogram import visualize_chunk_distribution
 if __name__=='__main__':
-    load_data()
+    # load_data()
     chunks = chunk_laws()
+    visualize_chunk_distribution(chunks)
     upsert_chunks(chunks)
 
     documents = [document['text'] for document in chunks]

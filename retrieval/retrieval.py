@@ -110,6 +110,7 @@ def compute_rrf_and_combine(
             total_score=rrf_score,
             sparse_score=sparse_score_map[doc_id],
             dense_score=dense_score_map[doc_id],
+            
             text=text,
             metadata=payload
         )

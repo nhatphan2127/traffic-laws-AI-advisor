@@ -79,6 +79,7 @@
 
 
 import torch
+import json
 from transformers import AutoModelForImageTextToText, AutoProcessor, TextIteratorStreamer, BitsAndBytesConfig
 from core.load_settings import load_settings
 from threading import Thread
@@ -114,13 +115,55 @@ class LLMModel:
             trust_remote_code=True
         )
 
-    def stream_generate(self, messages: list):
+    def generate_with_tools(self, messages: list, tools: list = None):
+        """
+        Phiên bản generate hỗ trợ Tools (Function Calling). 
+        Sử dụng đồng bộ vì Function Calling thường cần xử lý xong response mới biết có gọi tool hay không.
+        """
+        if self.model is None:
+            return None
+
+        # Apply chat template với tools
+        inputs = self.processor.apply_chat_template(
+            messages,
+            tools=tools,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+        ).to(self.device)
+
+        generation_kwargs = dict(
+            **inputs,
+            max_new_tokens=self.max_new_tokens,
+            temperature=self.temperature,
+            do_sample=True if self.temperature > 0 else False,
+            pad_token_id=self.processor.tokenizer.eos_token_id
+        )
+
+        output_ids = self.model.generate(**generation_kwargs)
+        
+        # Chỉ lấy phần mới được sinh ra
+        generated_ids = [
+            output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)
+        ]
+        
+        # Decode kết quả. Lưu ý: Qwen2-VL sẽ trả về định dạng đặc biệt nếu có tool call
+        response_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+        
+        # Thử parse tool calls nếu có
+        # Đối với Qwen2, tool calls thường nằm trong response_text với định dạng cụ thể hoặc qua processor
+        # Ở đây ta giả định LLM sẽ sinh ra văn bản chứa tool calls theo format của template
+        return response_text
+
+    def stream_generate(self, messages: list, tools: list = None):
         if self.model is None:
             yield "Model error."
             return
 
         inputs = self.processor.apply_chat_template(
             messages,
+            tools=tools,
             add_generation_prompt=True,
             tokenize=True,
             return_dict=True,

@@ -12,3 +12,5 @@ datasets
 gradio
 python-dotenv
 torchvision
+matplotlib
+seaborn
