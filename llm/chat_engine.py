@@ -23,10 +23,13 @@ class ChatEngine:
         Yields: (docs, answer, thinking, tool_calls)
         """
         # 1. RAG Retrieval ban đầu
+        thinking_process = [f"Bắt đầu xử lý truy vấn: '{query}'"]
+        yield [], "", thinking_process, []
+
         docs = retrieval(query)
         debug_json_list = [asdict(doc) for doc in docs]
         
-        thinking_process = ["Đang truy xuất tài liệu liên quan..."]
+        thinking_process.append(f"Tìm thấy {len(docs)} tài liệu thô từ cơ sở dữ liệu.")
         yield debug_json_list, "", thinking_process, []
 
         # 2. Xây dựng prompt cho LLM
@@ -34,7 +37,6 @@ class ChatEngine:
             {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]}
         ]
         
-        # Thêm lịch sử nếu có
         for msg in history:
             formatted_messages.append(msg)
 
@@ -44,18 +46,18 @@ class ChatEngine:
             "content": [{"type": "text", "text": rag_prompt}]
         })
 
-        thinking_process.append("Đang phân tích yêu cầu và kiểm tra công cụ...")
+        thinking_process.append("Đang gửi ngữ cảnh cho LLM để phân tích khả năng gọi hàm...")
         yield debug_json_list, "", thinking_process, []
 
         # 3. Vòng lặp kiểm tra Function Calling
-        logger.info(f"🔍 [QUERY]: {query}")
+        print(f"🔍 [QUERY]: {query}")
         
         response = self.llm.generate_with_tools(formatted_messages, tools=TOOLS)
         
         tool_calls_info = []
         if "<tool_call>" in response:
             logger.info("🎯 [DECISION]: LLM requested tool calls.")
-            thinking_process.append("Phát hiện yêu cầu sử dụng công cụ chuyên sâu.")
+            thinking_process.append(f"Model phản hồi: 'Cần sử dụng công cụ chuyên sâu để trả lời chính xác.'")
             
             try:
                 available_tools = {
@@ -74,21 +76,35 @@ class ChatEngine:
                         func_name = tool_data.get("name")
                         args = tool_data.get("arguments", {})
                         
-                        tool_calls_info.append({"name": func_name, "args": args})
-                        thinking_process.append(f"Đang thực thi công cụ: {func_name}...")
+                        call_id = len(tool_calls_info) + 1
+                        current_tool_call = {"id": call_id, "name": func_name, "args": args, "status": "running"}
+                        tool_calls_info.append(current_tool_call)
+                        
+                        thinking_process.append(f"-> [Action {call_id}]: Gọi hàm '{func_name}' với tham số: {json.dumps(args, ensure_ascii=False)}")
                         yield debug_json_list, "", thinking_process, tool_calls_info
 
                         if func_name in available_tools:
                             results = available_tools[func_name](**args)
-                            tool_result = format_records_for_llm(results)
-                            tool_results_combined.append(tool_result)
+                            tool_result_str = format_records_for_llm(results)
+                            tool_results_combined.append(tool_result_str)
+                            
+                            current_tool_call["status"] = "success"
+                            current_tool_call["results_count"] = len(results)
+                            # current_tool_call["raw_results"] = [asdict(r) for r in results] # Optional: too heavy?
+                            
+                            thinking_process.append(f"<- [Result {call_id}]: Hàm '{func_name}' trả về {len(results)} bản ghi chi tiết.")
                         else:
-                            logger.warning(f"⚠️ Unknown tool: {func_name}")
+                            current_tool_call["status"] = "error"
+                            current_tool_call["error"] = "Hàm không tồn tại"
+                            thinking_process.append(f"<- [Result {call_id}]: Lỗi - Không tìm thấy hàm '{func_name}'.")
+                        
+                        yield debug_json_list, "", thinking_process, tool_calls_info
                     except Exception as e:
                         logger.error(f"❌ Tool parsing error: {e}")
+                        thinking_process.append(f"!! [Error]: Lỗi khi xử lý lệnh gọi hàm: {str(e)}")
 
                 if tool_results_combined:
-                    thinking_process.append("Đã nhận kết quả từ công cụ. Đang tổng hợp câu trả lời...")
+                    thinking_process.append("Đang tổng hợp kết quả từ các công cụ vào ngữ cảnh cuối cùng...")
                     yield debug_json_list, "", thinking_process, tool_calls_info
 
                     all_results_str = "\n\n".join(tool_results_combined)

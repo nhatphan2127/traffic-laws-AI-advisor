@@ -38,7 +38,8 @@ vector_database:
   api_key: null               
   collection_name: nmk_chatbot_collection
   distance: cosine           
-  vector_size: 384
+  vector_size: 768
+  # vector_size: 384
   timeout: 30                
 
 retrieval:

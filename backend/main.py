@@ -25,18 +25,20 @@ class ChatRequest(BaseModel):
     history: List[Dict[str, str]]
 
 async def chat_generator(message: str, history: List[Dict[str, str]]):
-    # engine.chat trả về generator: yield (docs, full_response)
-    for docs, full_text in engine.chat(message, history):
+    # engine.chat trả về generator: yield (docs, answer, thinking, tool_calls)
+    for docs, answer, thinking, tool_calls in engine.chat(message, history):
         # CHÚ Ý: Phải convert dataclass sang dict ở đây
         docs_to_send = [asdict(d) if hasattr(d, '__dataclass_fields__') else d for d in docs]
         
         data = {
-            "docs": docs_to_send,      # Gửi list dict
-            "answer": full_text 
+            "docs": docs_to_send,
+            "answer": answer,
+            "thinking": thinking,
+            "tool_calls": tool_calls
         }
         # SSE format: "data: <json>\n\n"
         yield f"data: {json.dumps(data, ensure_ascii=False)}\n\n"
-        await asyncio.sleep(0.02)
+        await asyncio.sleep(0.01)
 
 @app.post("/api/chat")
 async def chat_endpoint(request: ChatRequest):

@@ -19,6 +19,9 @@ def build_qdrant_points(chunks: list[dict]) -> list[dict]:
         logger.warning("No text found in the provided chunks.")
         return []
     
+    # ADD
+    texts = [chunk["metadata"].pop('text') for chunk in chunks]
+
     embeddings = embed_texts(texts)
     if not embeddings:
         logger.warning("No embeddings generated for the provided texts.")

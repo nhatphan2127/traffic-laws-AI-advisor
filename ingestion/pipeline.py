@@ -6,8 +6,9 @@ from pathlib import Path
 from utils.histogram import visualize_chunk_distribution
 if __name__=='__main__':
     # load_data()
-    chunks = chunk_laws()
-    visualize_chunk_distribution(chunks)
+    chunks:list = chunk_laws()
+    print(chunks[20:25])
+    visualize_chunk_distribution([{"text" : chunk["metadata"]["text"]} for chunk in chunks])
     upsert_chunks(chunks)
 
     documents = [document['text'] for document in chunks]

@@ -151,12 +151,17 @@ def retrieval(query: str) -> list[RetrievalDocument]:
     rrf_results = compute_rrf_and_combine(dense_points, sparse_ranked, rrf_k=TOP_K * 3)
 
     # Step 4: Post-reranking
-    if RERANKER_CONFIG.get("enabled"):
-        top_n = RERANKER_CONFIG.get("top_n", TOP_K)
-        final_results = rerank_results(query, rrf_results, top_n)
-    else:
-        final_results = rrf_results[:TOP_K]
+    # if RERANKER_CONFIG.get("enabled"):
+    #     top_n = RERANKER_CONFIG.get("top_n", TOP_K)
+    #     final_results = rerank_results(query, rrf_results, top_n)
+    # else:
+    #     final_results = rrf_results[:TOP_K]
 
+
+    final_results = rrf_results[:TOP_K]
     # Step 5: Return the final results
     logger.info(f'Success retrieval {len(final_results)} items')
+
+    # debug
+    print(final_results)
     return final_results

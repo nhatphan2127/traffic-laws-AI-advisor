@@ -3,7 +3,7 @@ import math
 import re
 import pickle
 from collections import Counter
-
+from pyvi import ViTokenizer
 
 logger = logging.getLogger('sparse_vector')
 
@@ -21,8 +21,10 @@ class BM25:
 
     def _tokenize(self, text: str) -> list[str]:
         """Cleans and splits text into a list of words."""
+        segmented_text = ViTokenizer.tokenize(text)
         # Lowercase and remove anything that isn't a word or space
-        clean_text = re.sub(r"[^\w\s]", '', text.lower())
+        lowered_text = segmented_text.lower()
+        clean_text = re.sub(r"[^\w\s]", '', lowered_text)
         return clean_text.split()
 
     def _build_corpus_stats(self, documents: list[str]):

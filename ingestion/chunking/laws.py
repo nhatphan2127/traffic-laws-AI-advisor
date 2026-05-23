@@ -171,7 +171,7 @@ def chunk_laws() -> List[Dict[str, Any]]:
 
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file.encode('ascii', 'replace').decode('ascii'))
+            data = json.load(file)
     except json.JSONDecodeError as e:
         logger.error(f"Failed to parse JSON (Invalid format): {e}")
         return chunks
@@ -250,6 +250,9 @@ def chunk_laws() -> List[Dict[str, Any]]:
                         chunks.append({
                             "text": enriched_text,
                             "metadata": {
+                                "point": "-1",
+                                # ADD mấy cái kia cũng v
+                                "text": f"{clause_content}",
                                 **base_metadata,
                                 "is_point": False,
                                 "references": clause_references # Serialized to ensure VectorDB compatibility
@@ -278,6 +281,7 @@ def chunk_laws() -> List[Dict[str, Any]]:
                                 "text": enriched_point_text,
                                 "metadata": {
                                     **base_metadata,
+                                    "text": f"{clause_content}\n{point_content}",
                                     "is_point": True,
                                     "point": point_label,
                                     "references": active_references 
@@ -293,6 +297,7 @@ def chunk_laws() -> List[Dict[str, Any]]:
         chunks.append({
             "text": f"Căn cứ pháp lý của văn bản:\n{legal_basis}", 
             "metadata": {
+                "text": f"Căn cứ pháp lý của văn bản:\n{legal_basis}",
                 "type": "legal_basis",
                 "document_title": document_title,
                 "chapter_total": len(chapters),
