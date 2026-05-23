@@ -171,7 +171,7 @@ def chunk_laws() -> List[Dict[str, Any]]:
 
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
+            data = json.load(file.encode('ascii', 'replace').decode('ascii'))
     except json.JSONDecodeError as e:
         logger.error(f"Failed to parse JSON (Invalid format): {e}")
         return chunks

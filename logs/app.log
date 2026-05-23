@@ -647,3 +647,89 @@
 [2026-05-23 11:06:14] INFO - embedding - Completed embedding texts 1
 [2026-05-23 11:06:14] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
 [2026-05-23 11:06:14] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 11:27:03] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-23 11:27:15] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:27:16] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:27:17] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 11:27:51] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:27:51] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:27:52] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 11:28:35] INFO - embedding - Completed embedding texts 1
+[2026-05-23 11:28:35] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 11:28:35] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 12:16:15] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:16:16] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:16:16] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:30:52] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:30:52] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:30:53] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:34:45] INFO - test_qdrant - === TEST 1: DIRECT CONTENT QUERY (FUNCTION 2) ===
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.1: Article 6, Clause 1, Point a ---
+[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 1 records
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.2: Entire Article 2 ---
+[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 12 records
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.3: Article 13 ---
+[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 33 records
+[2026-05-23 12:34:45] INFO - test_qdrant - === TEST 2: FIND INBOUND REFERENCES (FUNCTION 1) ===
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 2.1: Contents referencing Article 2 Clause 1 ---
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 8 records referencing Article 2 Clause 1
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 2.2: Contents referencing Article 6 Clause 11 (Supplementary penalties) ---
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 10 records
+[2026-05-23 12:34:45] INFO - test_qdrant - === TEST 3: GET CONTENT OF OUTBOUND REFERENCES (FUNCTION 3) ===
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 3.1: Actual content referenced by Article 2 Clause 2 ---
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 1 referenced records
+[2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 3.2: Contents referenced by Article 6 Clause 11 ---
+[2026-05-23 12:34:45] INFO - test_qdrant - Found: 0 referenced records
+[2026-05-23 12:37:30] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:37:30] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:37:31] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:45:44] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:45:44] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:45:44] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:50:05] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:50:05] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:50:05] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:50:05] INFO - functions - Function 3 - Aggregated 8 source chunks -> Found 1 unique references -> Successfully extracted 1 target chunks.
+[2026-05-23 12:50:45] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:50:45] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:50:45] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:50:45] INFO - functions - Function 3 - Aggregated 8 source chunks -> Found 1 unique references -> Successfully extracted 1 target chunks.
+[2026-05-23 12:50:45] INFO - functions - Chunks for Article 6 do not contain any references.
+[2026-05-23 12:52:01] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:52:01] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:52:01] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:52:01] INFO - functions - Function 1 - Filtered 8 items referencing Nghi dinh nay Article 2
+[2026-05-23 12:52:01] INFO - functions - Function 1 - Filtered 10 items referencing Nghi dinh nay Article 6
+[2026-05-23 12:52:01] INFO - functions - Function 3 - Aggregated 8 source chunks -> Found 1 unique references -> Successfully extracted 1 target chunks.
+[2026-05-23 12:52:01] INFO - functions - Chunks for Article 6 do not contain any references.
+[2026-05-23 12:56:58] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:58:57] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 13:00:39] INFO - functions - Function 1 - Filtered 4 items referencing Nghi dinh nay Article 7
+[2026-05-23 13:17:14] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 13:17:14] INFO - functions - Function 1 - Filtered 4 items referencing Nghi dinh nay Article 7
+[2026-05-23 13:25:04] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
+[2026-05-23 13:25:04] INFO - functions - Function 1 - Filtered 2 items referencing Nghi dinh nay Article 7
+[2026-05-23 13:26:52] INFO - functions - Function 3 - Aggregated 8 source chunks -> Found 1 unique references -> Successfully extracted 1 target chunks.
+[2026-05-23 13:26:52] INFO - functions - Chunks for Article 6 do not contain any references.
+[2026-05-23 13:28:21] INFO - functions - Function 3 - Aggregated 1 source chunks -> Found 5 unique references -> Successfully extracted 5 target chunks.
+[2026-05-23 13:33:01] INFO - functions - Function 3 - Aggregated 1 source chunks -> Found 5 unique references -> Successfully extracted 5 target chunks.
+[2026-05-23 13:33:01] INFO - functions - Chunks for Article 6 do not contain any references.
+[2026-05-23 13:39:39] INFO - embedding - Loadding embeding model. intfloat/multilingual-e5-small
+[2026-05-23 13:39:52] INFO - embedding - Completed embedding texts 1
+[2026-05-23 13:39:52] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 13:39:52] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 13:40:31] INFO - embedding - Completed embedding texts 1
+[2026-05-23 13:40:31] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 13:40:31] INFO - retrieval - Success retrieval 5 items
+[2026-05-23 13:41:13] INFO - embedding - Completed embedding texts 1
+[2026-05-23 13:41:13] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-23 13:41:13] INFO - retrieval - Success retrieval 5 items

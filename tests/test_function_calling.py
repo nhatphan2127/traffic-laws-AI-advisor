@@ -16,7 +16,7 @@ def test_chat_with_tools():
     
     # Danh sách các câu hỏi test cho từng loại tool
     test_queries = [
-        "Hôm qua tôi vượt đèn đỏ thì bị phạt bao nhiêu tiền", # Kỳ vọng gọi extract_clause_point
+        "Hôm qua tôi vượt đèn đỏ thì bị phạt bao nhiêu tiền?", # Kỳ vọng gọi extract_clause_point
         "Điều 6 khoản 11 điểm c đề cập việc gì?", # Kỳ vọng gọi extract_relevant_clause_point
         "Điều 6 khoản 15 điểm b tới những quy định nào?", # Kỳ vọng gọi extract_clause_point_references
     ]

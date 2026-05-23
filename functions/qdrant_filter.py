@@ -1,10 +1,9 @@
 from vectorstore.qdrant import get_qdrant_client, ensure_collection
 import logging
 from qdrant_client import QdrantClient
-from qdrant_client.models import FieldCondition, Filter, MatchValue, Record
+from qdrant_client.models import FieldCondition, Filter, MatchValue, Record, NestedCondition, Nested
 from core.setup_logging import setup_logging
 from core.load_settings import load_settings
-
 setup_logging()
 logger = logging.getLogger('functions')
 settings = load_settings()
@@ -26,18 +25,45 @@ def extract_relevant_clause_point(document: str, article: int, clause: int = Non
         return []
 
     # Khởi tạo các điều kiện bắt buộc phải có
-    must_conditions = [
-        FieldCondition(key="references[].document", match=MatchValue(value=document)),
-        FieldCondition(key="references[].article", match=MatchValue(value=article))
+    nested_conditions = [
+        FieldCondition(
+            key="document",
+            match=MatchValue(value=document)
+        ),
+        FieldCondition(
+            key="article",
+            match=MatchValue(value=article)
+        )
     ]
 
-    # Append linh hoạt các điều kiện nhỏ hơn
     if clause is not None:
-        must_conditions.append(FieldCondition(key="references[].clause", match=MatchValue(value=clause)))
-    if point is not None:
-        must_conditions.append(FieldCondition(key="references[].point", match=MatchValue(value=point)))
+        nested_conditions.append(
+            FieldCondition(
+                key="clause",
+                match=MatchValue(value=clause)
+            )
+        )
 
-    scroll_filter = Filter(must=must_conditions)
+    if point is not None:
+        nested_conditions.append(
+            FieldCondition(
+                key="point",
+                match=MatchValue(value=point)
+            )
+        )
+
+    scroll_filter = Filter(
+        must=[
+            NestedCondition(
+                nested=Nested(
+                    key="references",
+                    filter=Filter(
+                        must=nested_conditions
+                    )
+                )
+            )
+        ]
+    )
 
     results, _ = _client.scroll(
         collection_name=VECTOR_DB_COLLECTION,
@@ -45,7 +71,7 @@ def extract_relevant_clause_point(document: str, article: int, clause: int = Non
         limit=50 # Nên có limit để tránh tràn kết quả
     )
     
-    logger.info(f"Hàm 1 - Filtered {len(results)} items referencing {document} Article {article}")
+    logger.info(f"Function 1 - Filtered {len(results)} items referencing Nghi dinh nay Article {article}")
     return results
 
 
@@ -77,7 +103,7 @@ def extract_clause_point(article: int, clause: int = None, point: str = None) ->
         limit=50
     )
     
-    logger.info(f"Hàm 2 - Filtered {len(results)} items from exact structural search.")
+    logger.info(f"Function 2 - Filtered {len(results)} items from exact structural search.")
     return results
 
 
@@ -135,7 +161,7 @@ def extract_clause_point_references(article: int, clause: int = None, point: str
             unique_references[ref_key] = r
 
     if not unique_references:
-        logger.info(f"Các chunks của Điều {article} không chứa bất kỳ tham chiếu nào.")
+        logger.info(f"Chunks for Article {article} do not contain any references.")
         return []
 
     # BƯỚC 3: Dùng danh sách references (đã lọc trùng) đi query lại vào DB
@@ -169,8 +195,12 @@ def extract_clause_point_references(article: int, clause: int = None, point: str
     unique_chunks_dict = {record.id: record for record in referenced_chunks}
     unique_chunks = list(unique_chunks_dict.values())
 
-    logger.info(f"Hàm 3 - Đã gộp {len(source_records)} chunks nguồn -> Tìm thấy {len(unique_references)} references khác nhau -> Trích xuất thành công {len(unique_chunks)} chunks đích.")
-    
+    logger.info(
+        f"Function 3 - Aggregated {len(source_records)} source chunks -> "
+        f"Found {len(unique_references)} unique references -> "
+        f"Successfully extracted {len(unique_chunks)} target chunks."
+    )
+
     return unique_chunks
 
 
