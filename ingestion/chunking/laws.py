@@ -252,7 +252,6 @@ def chunk_laws() -> List[Dict[str, Any]]:
                             "metadata": {
                                 "point": "-1",
                                 # ADD mấy cái kia cũng v
-                                "text": f"{clause_content}",
                                 **base_metadata,
                                 "is_point": False,
                                 "references": clause_references # Serialized to ensure VectorDB compatibility
@@ -281,7 +280,6 @@ def chunk_laws() -> List[Dict[str, Any]]:
                                 "text": enriched_point_text,
                                 "metadata": {
                                     **base_metadata,
-                                    "text": f"{clause_content}\n{point_content}",
                                     "is_point": True,
                                     "point": point_label,
                                     "references": active_references 
@@ -297,7 +295,6 @@ def chunk_laws() -> List[Dict[str, Any]]:
         chunks.append({
             "text": f"Căn cứ pháp lý của văn bản:\n{legal_basis}", 
             "metadata": {
-                "text": f"Căn cứ pháp lý của văn bản:\n{legal_basis}",
                 "type": "legal_basis",
                 "document_title": document_title,
                 "chapter_total": len(chapters),

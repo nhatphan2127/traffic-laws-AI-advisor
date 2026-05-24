@@ -51,7 +51,46 @@ class BM25:
                 (self.doc_count - count + 0.5) / (count + 0.5) + 1
             )
         
+        # Create a vocabulary mapping for sparse vectors
+        self.vocab = {term: i for i, term in enumerate(sorted(self.idf.keys()))}
+        
         logger.info(f"Initialized BM25: {self.doc_count} docs, {len(self.idf)} terms.")
+
+    def get_sparse_vector(self, text: str) -> dict:
+        """
+        Converts text into a Qdrant-compatible sparse vector:
+        { "indices": [int, ...], "values": [float, ...] }
+        """
+        tokens = self._tokenize(text)
+        doc_term_freqs = Counter(tokens)
+        doc_len = len(tokens)
+        
+        indices = []
+        values = []
+        
+        for term, tf in doc_term_freqs.items():
+            if term in self.vocab:
+                idx = self.vocab[term]
+                idf = self.idf[term]
+                
+                # BM25-based weighting for the sparse vector values
+                # score = idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * (doc_len / avgdl)))
+                numerator = tf * (self.k1 + 1)
+                denominator = tf + self.k1 * (1 - self.b + self.b * (doc_len / self.avgdl))
+                weight = idf * (numerator / denominator)
+                
+                indices.append(idx)
+                values.append(float(weight))
+        
+        # Qdrant expects sorted indices for sparse vectors
+        if indices:
+            sorted_pairs = sorted(zip(indices, values))
+            indices, values = zip(*sorted_pairs)
+            
+        return {
+            "indices": list(indices),
+            "values": list(values)
+        }
 
     def score(self, query: str, doc: str) -> float:
         """

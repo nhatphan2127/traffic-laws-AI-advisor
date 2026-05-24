@@ -104,6 +104,8 @@ class LLMModel:
                 bnb_4bit_compute_dtype=torch.float16,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_use_double_quant=True,
+                # ######
+                llm_int8_enable_fp32_cpu_offload=True
             )
 
         self.processor = AutoProcessor.from_pretrained(self.model_name)

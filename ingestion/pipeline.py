@@ -7,13 +7,16 @@ from utils.histogram import visualize_chunk_distribution
 if __name__=='__main__':
     # load_data()
     chunks:list = chunk_laws()
-    print(chunks[20:25])
-    visualize_chunk_distribution([{"text" : chunk["metadata"]["text"]} for chunk in chunks])
-    upsert_chunks(chunks)
-
+    # print(chunks[20:25])
+    visualize_chunk_distribution([{"text" : chunk["text"]} for chunk in chunks])
+    
     documents = [document['text'] for document in chunks]
     path = Path("./vectorstore/bm25store/bm25store.pkl")
     BM25(documents=documents).save_model(path)
+
+    upsert_chunks(chunks)
+
+
 
 
 

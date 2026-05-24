@@ -38,7 +38,7 @@ vector_database:
   api_key: null               
   collection_name: nmk_chatbot_collection
   distance: cosine           
-  vector_size: 768
+  vector_size: 1024
   # vector_size: 384
   timeout: 30                
 
@@ -48,6 +48,6 @@ retrieval:
   dense_threshhold: 0.4
   reranker:
     enabled: true
-    model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    model_name: "BAAI/bge-reranker-v2-m3"
     top_n: 5
 

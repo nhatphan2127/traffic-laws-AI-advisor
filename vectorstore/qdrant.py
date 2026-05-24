@@ -1,6 +1,6 @@
 import logging
 from qdrant_client import QdrantClient
-from qdrant_client.models import Distance, VectorParams
+from qdrant_client.models import Distance, VectorParams, SparseVectorParams
 
 from core.load_settings import load_settings
 
@@ -9,7 +9,6 @@ logger = logging.getLogger('vector_datatbase')
 
 _client = None
 VECTOR_DB_SETTINGS = settings['vector_database']
-# qdrant.py - course-chatbot/...
 
 # VECTOR_DB SETTINGS
 VECTOR_DB_TYPE = VECTOR_DB_SETTINGS.get("type", "qdrant")
@@ -19,7 +18,7 @@ VECTOR_DB_URL = VECTOR_DB_SETTINGS.get("url", f"http://{VECTOR_DB_HOST}:{VECTOR_
 VECTOR_DB_API_KEY = VECTOR_DB_SETTINGS.get("api_key", None)
 VECTOR_DB_COLLECTION = VECTOR_DB_SETTINGS.get("collection_name", "default_collection")
 VECTOR_DB_DISTANCE = VECTOR_DB_SETTINGS.get("distance", "cosine")
-VECTOR_DB_SIZE = VECTOR_DB_SETTINGS.get("vector_size", "cosine")
+VECTOR_DB_SIZE = VECTOR_DB_SETTINGS.get("vector_size", 384)
 VECTOR_DB_TIMEOUT = VECTOR_DB_SETTINGS.get("timeout", 30)
 
 
@@ -29,7 +28,6 @@ def get_qdrant_client() -> QdrantClient:
         return _client
 
     try:
-        # ket noi qua url neu co
         if VECTOR_DB_URL:
             logger.info("Connecting to Qdrant via URL")
             _client = QdrantClient(
@@ -46,7 +44,6 @@ def get_qdrant_client() -> QdrantClient:
                 timeout=VECTOR_DB_TIMEOUT
             )
 
-        # Test connection
         _client.get_collections()
         logger.info("Successfully connected to Qdrant")
         return _client
@@ -63,13 +60,18 @@ def ensure_collection(client: QdrantClient):
         logger.info(f"Collection '{VECTOR_DB_COLLECTION}' already exists.")
         return
 
-    logger.info(f"Creating collection '{VECTOR_DB_COLLECTION}'...")
+    logger.info(f"Creating collection '{VECTOR_DB_COLLECTION}' with hybrid support...")
     client.recreate_collection(
         collection_name=VECTOR_DB_COLLECTION,
-        vectors_config=VectorParams(
-            size=VECTOR_DB_SIZE,
-            distance=Distance[VECTOR_DB_DISTANCE.upper()]
-        )
+        vectors_config={
+            "dense": VectorParams(
+                size=VECTOR_DB_SIZE,
+                distance=Distance[VECTOR_DB_DISTANCE.upper()]
+            )
+        },
+        sparse_vectors_config={
+            "sparse": SparseVectorParams()
+        }
     )
 
     logger.info(f"Collection '{VECTOR_DB_COLLECTION}' created successfully.")
