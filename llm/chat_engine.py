@@ -34,7 +34,9 @@ class ChatEngine:
 
         # 2. Xây dựng prompt cho LLM
         formatted_messages = [
-            {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]}
+            # {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]}
+            {"role": "system", "content": SYSTEM_PROMPT}
+
         ]
         
         for msg in history:
@@ -43,7 +45,9 @@ class ChatEngine:
         rag_prompt = get_rag_prompt(query, docs)
         formatted_messages.append({
             "role": "user", 
-            "content": [{"type": "text", "text": rag_prompt}]
+            # "content": [{"type": "text", "text": rag_prompt}]
+            "content": rag_prompt
+
         })
 
         thinking_process.append("Đang gửi ngữ cảnh cho LLM để phân tích khả năng gọi hàm...")
@@ -115,7 +119,7 @@ class ChatEngine:
                     })
                     
                     full_response = ""
-                    for chunk in self.llm.stream_generate(formatted_messages):
+                    for chunk in self.llm.stream_generate(formatted_messages, tools=TOOLS):
                         full_response += chunk
                         yield debug_json_list, full_response, thinking_process, tool_calls_info
                     return
@@ -127,7 +131,7 @@ class ChatEngine:
         # 4. Nếu không gọi tool hoặc tool lỗi
         thinking_process.append("Đang tạo câu trả lời cuối cùng...")
         full_response = ""
-        for chunk in self.llm.stream_generate(formatted_messages):
+        for chunk in self.llm.stream_generate(formatted_messages, tools=TOOLS):
             full_response += chunk
             yield debug_json_list, full_response, thinking_process, tool_calls_info
 

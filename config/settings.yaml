@@ -23,7 +23,10 @@ chunking:
 
 
 llm:
-  model_name: "Qwen/Qwen2-VL-2B-Instruct" # Example model, can be changed
+  # model_name: "Qwen/Qwen2-VL-2B-Instruct" # Example model, can be changed
+  # model_name: "Qwen/Qwen2.5-3B" # Example model, can be changed
+  model_name: Qwen/Qwen2.5-3B-Instruct
+
   device: "cuda" # or "cpu"
   max_new_tokens: 512
   temperature: 0.1
