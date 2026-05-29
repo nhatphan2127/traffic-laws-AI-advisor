@@ -1533,3 +1533,338 @@
 [2026-05-24 14:01:57] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
 [2026-05-24 14:02:28] INFO - retrieval - Successfully retrieved 5 items
 [2026-05-24 14:18:21] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
+[2026-05-24 14:30:22] INFO - ingestion - Starting chunking process for: data/processed/168_2024_ND-CP_619502.json
+[2026-05-24 14:30:22] INFO - ingestion - Processing document file: data/processed/168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-24 14:30:22] INFO - ingestion - Chunking complete. Generated 1019 chunks from file: 'data/processed/168_2024_ND-CP_619502.json'.
+[2026-05-24 14:30:27] INFO - sparse_vector - Initialized BM25: 1019 docs, 1388 terms.
+[2026-05-24 14:30:27] INFO - sparse_vector - Model saved to vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:30:27] INFO - embedding - Loadding embeding model. BAAI/bge-m3
+[2026-05-24 14:33:09] INFO - embedding - Completed embedding texts 1019
+[2026-05-24 14:33:09] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:33:10] INFO - embedding - Built 1019 Qdrant points with hybrid vectors.
+[2026-05-24 14:33:11] INFO - vector_database - Upserted 1019 points into collection 'nmk_chatbot_collection'.
+[2026-05-24 14:35:43] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
+[2026-05-24 14:39:52] INFO - embedding - Loadding embeding model. BAAI/bge-m3
+[2026-05-24 14:40:02] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:40:02] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:40:02] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:40:02] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:42:12] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
+[2026-05-24 14:42:59] INFO - embedding - Loadding embeding model. BAAI/bge-m3
+[2026-05-24 14:42:59] INFO - sentence_transformers.base.model - No device provided, using cuda:0
+[2026-05-24 14:42:59] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:42:59] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:00] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from BAAI/bge-m3.
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:00] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/README.md "HTTP/1.1 200 OK"
+[2026-05-24 14:43:01] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:01] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:01] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:01] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:01] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:02] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/main "HTTP/1.1 200 OK"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:03] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/refs%2Fpr%2F130 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors "HTTP/1.1 302 Found"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:04] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:05] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:05] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:05] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-05-24 14:43:05] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-05-24 14:43:07] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:07] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 14:43:07] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-05-24 14:43:07] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:08] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:43:08] INFO - vector_datatbase - Connecting to Qdrant via URL
+[2026-05-24 14:43:08] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:43:08] INFO - vector_datatbase - Successfully connected to Qdrant
+[2026-05-24 14:43:08] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:43:08] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:43:08] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:43:08] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:43:08] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:43:08] INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+[2026-05-24 14:43:08] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:43:56] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:43:56] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:43:56] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:43:56] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:43:56] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:43:56] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:43:56] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:51:24] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:51:24] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:51:24] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:51:24] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:51:24] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:51:24] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:51:25] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:51:32] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:51:32] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:51:32] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:51:32] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:51:32] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:51:32] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:51:32] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:52:45] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:52:45] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:52:45] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:52:45] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:52:45] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:52:45] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:52:46] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:54:13] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:54:13] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:54:13] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:54:13] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:54:13] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:54:13] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:54:13] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:56:51] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:56:51] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:56:51] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:56:51] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:56:51] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:56:51] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:56:52] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:57:06] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:57:06] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:57:06] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:57:06] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:57:06] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:57:06] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:57:06] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 14:57:18] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:57:18] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 14:57:18] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 14:57:18] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 14:57:18] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 14:57:18] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:57:18] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:01:58] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:01:58] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:01:58] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:01:58] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:01:58] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:01:58] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:01:58] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:05:34] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:05:34] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:05:34] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:05:34] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:05:34] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:05:34] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:05:34] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:06:27] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:06:27] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:06:27] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:06:27] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:06:27] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:06:27] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:06:27] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:12:23] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:12:23] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:12:23] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:12:23] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:12:23] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:12:23] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:12:23] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:13:09] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:13:09] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:13:09] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:13:09] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:13:09] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:13:09] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:13:09] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:13:23] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:13:23] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:13:23] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:13:23] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:13:23] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:13:23] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:13:23] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:13:56] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
+[2026-05-24 15:14:16] INFO - embedding - Loadding embeding model. BAAI/bge-m3
+[2026-05-24 15:14:16] INFO - sentence_transformers.base.model - No device provided, using cuda:0
+[2026-05-24 15:14:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:16] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:17] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from BAAI/bge-m3.
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:17] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/README.md "HTTP/1.1 200 OK"
+[2026-05-24 15:14:18] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:18] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/modules.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:18] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:18] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:18] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:19] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/main "HTTP/1.1 200 OK"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/commits/refs%2Fpr%2F130 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:20] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/refs%2Fpr%2F130/model.safetensors "HTTP/1.1 302 Found"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:21] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:22] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:22] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:22] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-05-24 15:14:22] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-05-24 15:14:24] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:24] INFO - httpx - HTTP Request: HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-24 15:14:24] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-05-24 15:14:24] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-m3 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:25] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:14:25] INFO - vector_datatbase - Connecting to Qdrant via URL
+[2026-05-24 15:14:25] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:14:25] INFO - vector_datatbase - Successfully connected to Qdrant
+[2026-05-24 15:14:25] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:14:25] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:14:25] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:14:25] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:14:25] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:14:25] INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+[2026-05-24 15:14:25] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:19:40] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:19:40] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:19:40] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:19:40] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:19:40] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:19:40] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:19:41] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:24:35] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:24:35] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:24:35] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:24:35] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:24:35] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:24:35] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:24:36] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:27:22] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:27:22] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:27:22] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:27:22] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:27:22] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:27:22] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:27:23] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:27:28] INFO - chat_engine - 🎯 [DECISION]: LLM requested tool calls.
+[2026-05-24 15:28:52] INFO - embedding - Completed embedding texts 1
+[2026-05-24 15:28:52] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-24 15:28:52] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-24 15:28:52] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-24 15:28:52] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-24 15:28:52] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 15:28:52] INFO - retrieval - Successfully retrieved 5 items
+[2026-05-24 15:28:58] INFO - chat_engine - 🎯 [DECISION]: LLM requested tool calls.
+[2026-05-27 11:30:04] INFO - ingestion - Starting chunking process for: data/processed/168_2024_ND-CP_619502.json
+[2026-05-27 11:30:04] INFO - ingestion - Processing document file: data/processed/168_2024_ND-CP_619502.json (4 chapters found)
+[2026-05-27 11:30:04] INFO - ingestion - Chunking complete. Generated 1019 chunks from file: 'data/processed/168_2024_ND-CP_619502.json'.
+[2026-05-27 11:30:10] INFO - sparse_vector - Initialized BM25: 1019 docs, 1388 terms.
+[2026-05-27 11:30:10] INFO - sparse_vector - Model saved to vectorstore/bm25store/bm25store.pkl
+[2026-05-27 11:30:10] INFO - embedding - Loadding embeding model. mainguyen9/vietlegal-harrier-0.6b
+[2026-05-27 11:31:53] INFO - embedding - Completed embedding texts 1019
+[2026-05-27 11:31:53] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-27 11:31:54] INFO - embedding - Built 1019 Qdrant points with hybrid vectors.
+[2026-05-27 11:31:54] INFO - vector_database - Upserted 1019 points into collection 'nmk_chatbot_collection'.
+[2026-05-27 11:36:37] INFO - embedding - Loadding embeding model. mainguyen9/vietlegal-harrier-0.6b
+[2026-05-27 11:36:37] INFO - sentence_transformers.base.model - No device provided, using cuda:0
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/modules.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:38] INFO - sentence_transformers.base.model - Loading SentenceTransformer model from mainguyen9/vietlegal-harrier-0.6b.
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:38] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:39] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:39] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/README.md "HTTP/1.1 200 OK"
+[2026-05-27 11:36:39] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:39] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/modules.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:40] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:40] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/sentence_bert_config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:40] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:40] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:40] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:41] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:41] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:41] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:41] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:42] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:42] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:42] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:42] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:43] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/mainguyen9/vietlegal-harrier-0.6b/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-05-27 11:36:44] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/mainguyen9/vietlegal-harrier-0.6b/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-05-27 11:36:44] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/mainguyen9/vietlegal-harrier-0.6b "HTTP/1.1 200 OK"
+[2026-05-27 11:36:45] INFO - httpx - HTTP Request: HEAD https://huggingface.co/mainguyen9/vietlegal-harrier-0.6b/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-05-27 11:36:45] INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/mainguyen9/vietlegal-harrier-0.6b/91a0e1ebe4b63b4475bbae40658b8ca9231bea74/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[2026-05-27 11:36:45] INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/mainguyen9/vietlegal-harrier-0.6b "HTTP/1.1 200 OK"
+[2026-05-27 11:36:45] INFO - sentence_transformers.base.model - Loaded 1 prompt with these keys: ['query']
+[2026-05-27 11:36:46] INFO - embedding - Completed embedding texts 1
+[2026-05-27 11:36:46] INFO - vector_datatbase - Connecting to Qdrant via URL
+[2026-05-27 11:36:46] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-27 11:36:46] INFO - vector_datatbase - Successfully connected to Qdrant
+[2026-05-27 11:36:46] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-27 11:36:46] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-27 11:36:46] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-27 11:36:46] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-27 11:36:46] INFO - retrieval - Successfully retrieved 7 items
+[2026-05-27 11:36:46] INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+[2026-05-27 11:39:33] INFO - embedding - Completed embedding texts 1
+[2026-05-27 11:39:33] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-27 11:39:33] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-27 11:39:33] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-27 11:39:33] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-27 11:39:33] INFO - retrieval - Successfully retrieved 7 items
+[2026-05-27 11:49:05] INFO - embedding - Completed embedding texts 1
+[2026-05-27 11:49:05] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-27 11:49:05] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-27 11:49:05] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-27 11:49:05] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-27 11:49:05] INFO - retrieval - Successfully retrieved 7 items
+[2026-05-27 12:17:21] INFO - embedding - Completed embedding texts 1
+[2026-05-27 12:17:21] INFO - httpx - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+[2026-05-27 12:17:21] INFO - vector_datatbase - Collection 'nmk_chatbot_collection' already exists.
+[2026-05-27 12:17:21] INFO - sparse_vector - Model loaded from vectorstore/bm25store/bm25store.pkl
+[2026-05-27 12:17:21] INFO - httpx - HTTP Request: POST http://localhost:6333/collections/nmk_chatbot_collection/points/query "HTTP/1.1 200 OK"
+[2026-05-27 12:17:21] INFO - retrieval - Successfully retrieved 7 items

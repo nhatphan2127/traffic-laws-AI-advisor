@@ -50,7 +50,7 @@ retrieval:
   beta: 0.6
   dense_threshhold: 0.4
   reranker:
-    enabled: true
+    enabled: false
     model_name: "BAAI/bge-reranker-v2-m3"
     top_n: 5
 

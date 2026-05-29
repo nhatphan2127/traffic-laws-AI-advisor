@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Legal Advisor - Expert Mode</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --bg-color: #0d1117;
@@ -19,89 +22,442 @@
             --gold: #d29922;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-color); height: 100vh; display: flex; overflow: hidden; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
 
         /* Sidebar */
-        .sidebar { width: 280px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); display: flex; flex-direction: column; }
-        .sidebar-header { padding: 16px; border-bottom: 1px solid var(--border-color); font-weight: 600; color: var(--gold); display: flex; align-items: center; gap: 8px; }
-        .new-chat { margin: 12px; padding: 10px; border: 1px solid var(--border-color); border-radius: 6px; cursor: pointer; text-align: center; font-size: 13px; }
-        .new-chat:hover { background: #21262d; }
-        .history { flex: 1; overflow-y: auto; padding: 8px; }
-        .history-item { padding: 8px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; margin-bottom: 4px; color: #8b949e; }
-        .history-item:hover { background: #21262d; color: white; }
+        .sidebar {
+            width: 280px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+            font-weight: 600;
+            color: var(--gold);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .new-chat {
+            margin: 12px;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .new-chat:hover {
+            background: #21262d;
+        }
+
+        .history {
+            flex: 1;
+            overflow-y: auto;
+            padding: 8px;
+        }
+
+        .history-item {
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            margin-bottom: 4px;
+            color: #8b949e;
+        }
+
+        .history-item:hover {
+            background: #21262d;
+            color: white;
+        }
 
         /* Main Chat */
-        .main-chat { flex: 1; display: flex; flex-direction: column; position: relative; background: var(--bg-color); }
-        .chat-container { flex: 1; overflow-y: auto; padding-bottom: 150px; scroll-behavior: smooth; }
-        .message-row { padding: 24px 15%; display: flex; gap: 20px; border-bottom: 1px solid var(--border-color); }
-        .message-row.user { background: transparent; }
-        .message-row.bot { background: var(--bot-msg-bg); }
-        
-        .avatar { width: 32px; height: 32px; border-radius: 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 12px; }
-        .avatar.user { background: #238636; color: white; }
-        .avatar.bot { background: #d29922; color: #0d1117; }
+        .main-chat {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: var(--bg-color);
+        }
 
-        .content { flex: 1; line-height: 1.6; font-size: 14.5px; }
-        
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 150px;
+            scroll-behavior: smooth;
+        }
+
+        .message-row {
+            padding: 24px 15%;
+            display: flex;
+            gap: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .message-row.user {
+            background: transparent;
+        }
+
+        .message-row.bot {
+            background: var(--bot-msg-bg);
+        }
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .avatar.user {
+            background: #238636;
+            color: white;
+        }
+
+        .avatar.bot {
+            background: #d29922;
+            color: #0d1117;
+        }
+
+        .content {
+            flex: 1;
+            line-height: 1.6;
+            font-size: 14.5px;
+        }
+
         /* Thinking Console */
-        .thinking-console { margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 6px; background: var(--thinking-bg); overflow: hidden; }
-        .console-header { padding: 8px 12px; font-size: 11px; font-family: 'JetBrains Mono', monospace; color: #58a6ff; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: #161b22; }
-        .console-body { padding: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.5; color: #8b949e; display: none; }
-        .console-body.show { display: block; }
-        .log-line { margin-bottom: 4px; display: flex; gap: 8px; }
-        .log-time { color: #484f58; flex-shrink: 0; }
-        .log-info { color: #3fb950; }
-        .log-action { color: #d29922; font-weight: bold; }
-        .log-result { color: #58a6ff; }
-        .log-error { color: #f85149; }
+        .thinking-console {
+            margin-bottom: 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--thinking-bg);
+            overflow: hidden;
+        }
+
+        .console-header {
+            padding: 8px 12px;
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+            color: #58a6ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: #161b22;
+        }
+
+        .console-body {
+            padding: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #8b949e;
+            display: none;
+        }
+
+        .console-body.show {
+            display: block;
+        }
+
+        .log-line {
+            margin-bottom: 4px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .log-time {
+            color: #484f58;
+            flex-shrink: 0;
+        }
+
+        .log-info {
+            color: #3fb950;
+        }
+
+        .log-action {
+            color: #d29922;
+            font-weight: bold;
+        }
+
+        .log-result {
+            color: #58a6ff;
+        }
+
+        .log-error {
+            color: #f85149;
+        }
 
         /* Agent Action UI */
-        .agent-action { margin: 12px 0; padding: 12px; background: var(--tool-call-bg); border: 1px solid var(--border-color); border-left: 4px solid var(--gold); border-radius: 0 4px 4px 0; }
-        .action-header { font-size: 11px; color: var(--gold); text-transform: uppercase; letter-spacing: 0.5px; font-weight: bold; margin-bottom: 8px; }
-        .action-call { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e6edf3; }
-        .action-args { font-size: 12px; color: #8b949e; margin-top: 4px; }
+        .agent-action {
+            margin: 12px 0;
+            padding: 12px;
+            background: var(--tool-call-bg);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--gold);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .action-header {
+            font-size: 11px;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .action-call {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            color: #e6edf3;
+        }
+
+        .action-args {
+            font-size: 12px;
+            color: #8b949e;
+            margin-top: 4px;
+        }
 
         /* Answer Area */
-        .answer-text { white-space: pre-wrap; }
+        .answer-text {
+            white-space: pre-wrap;
+        }
 
         /* Input Area */
-        .input-area { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 15%; background: linear-gradient(transparent, var(--bg-color) 40%); }
-        .input-wrapper { position: relative; border: 1px solid var(--border-color); border-radius: 8px; background: #0d1117; box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
-        .chat-input { width: 100%; border: none; padding: 14px 45px 14px 14px; border-radius: 8px; outline: none; font-size: 14px; resize: none; max-height: 200px; background: transparent; color: white; }
-        .send-btn { position: absolute; right: 8px; bottom: 8px; background: #238636; border: none; border-radius: 4px; padding: 6px; cursor: pointer; color: white; display: flex; transition: background 0.2s; }
-        .send-btn:hover { background: #2ea043; }
-        .send-btn:disabled { background: #21262d; cursor: not-allowed; opacity: 0.5; }
+        .input-area {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px 15%;
+            background: linear-gradient(transparent, var(--bg-color) 40%);
+        }
+
+        .input-wrapper {
+            position: relative;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: #0d1117;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .chat-input {
+            width: 100%;
+            border: none;
+            padding: 14px 45px 14px 14px;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+            resize: none;
+            max-height: 200px;
+            background: transparent;
+            color: white;
+        }
+
+        .send-btn {
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+            background: #238636;
+            border: none;
+            border-radius: 4px;
+            padding: 6px;
+            cursor: pointer;
+            color: white;
+            display: flex;
+            transition: background 0.2s;
+        }
+
+        .send-btn:hover {
+            background: #2ea043;
+        }
+
+        .send-btn:disabled {
+            background: #21262d;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
 
         /* Retrieval Panel (Side) */
-        .retrieval-panel { width: 380px; border-left: 1px solid var(--border-color); background: var(--sidebar-bg); display: flex; flex-direction: column; }
-        .panel-header { padding: 16px; border-bottom: 1px solid var(--border-color); font-weight: 600; font-size: 13px; color: #8b949e; text-transform: uppercase; letter-spacing: 1px; }
-        .doc-list { flex: 1; overflow-y: auto; padding: 12px; }
-        .doc-card { background: #0d1117; border: 1px solid var(--border-color); border-radius: 6px; padding: 16px; margin-bottom: 12px; transition: border-color 0.2s; cursor: pointer; }
-        .doc-card:hover { border-color: #58a6ff; }
-        .doc-meta { display: flex; flex-direction: column; gap: 4px; font-size: 11px; margin-bottom: 8px; font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid #30363d; padding-bottom: 8px; }
-        .doc-meta-row { display: flex; justify-content: space-between; }
-        .doc-score { color: #3fb950; font-weight: bold; }
-        .doc-sub-scores { display: flex; gap: 8px; color: #8b949e; font-size: 10px; }
-        .doc-law-id { color: var(--gold); }
-        .doc-title { font-weight: 600; font-size: 14px; margin-bottom: 8px; color: #58a6ff; display: block; }
-        .doc-content { font-size: 12.5px; color: #8b949e; line-height: 1.5; height: 3.8em; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; margin-bottom: 8px; }
-        .doc-tags { display: flex; flex-wrap: wrap; gap: 4px; }
-        .doc-tag { font-size: 10px; background: #21262d; padding: 2px 6px; border-radius: 3px; color: #c9d1d9; border: 1px solid var(--border-color); }
-        .doc-card.expanded .doc-content { height: auto; display: block; }
+        .retrieval-panel {
+            width: 380px;
+            border-left: 1px solid var(--border-color);
+            background: var(--sidebar-bg);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+            font-weight: 600;
+            font-size: 13px;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .doc-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+        }
+
+        .doc-card {
+            background: #0d1117;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 12px;
+            transition: border-color 0.2s;
+            cursor: pointer;
+        }
+
+        .doc-card:hover {
+            border-color: #58a6ff;
+        }
+
+        .doc-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            font-size: 11px;
+            margin-bottom: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 8px;
+        }
+
+        .doc-meta-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .doc-score {
+            color: #3fb950;
+            font-weight: bold;
+        }
+
+        .doc-sub-scores {
+            display: flex;
+            gap: 8px;
+            color: #8b949e;
+            font-size: 10px;
+        }
+
+        .doc-law-id {
+            color: var(--gold);
+        }
+
+        .doc-title {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #58a6ff;
+            display: block;
+        }
+
+        .doc-content {
+            font-size: 12.5px;
+            color: #8b949e;
+            line-height: 1.5;
+            height: 3.8em;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            margin-bottom: 8px;
+        }
+
+        .doc-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .doc-tag {
+            font-size: 10px;
+            background: #21262d;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #c9d1d9;
+            border: 1px solid var(--border-color);
+        }
+
+        .doc-card.expanded .doc-content {
+            height: auto;
+            display: block;
+        }
 
         /* Animation */
-        .loading-line { width: 100%; height: 2px; background: transparent; position: relative; overflow: hidden; }
-        .loading-line::after { content: ''; position: absolute; left: -50%; width: 50%; height: 100%; background: var(--gold); animation: loading 1.5s infinite; }
-        @keyframes loading { from { left: -50%; } to { left: 100%; } }
+        .loading-line {
+            width: 100%;
+            height: 2px;
+            background: transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loading-line::after {
+            content: '';
+            position: absolute;
+            left: -50%;
+            width: 50%;
+            height: 100%;
+            background: var(--gold);
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            from {
+                left: -50%;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
 
         @media (max-width: 1200px) {
-            .retrieval-panel { display: none; }
-            .message-row { padding: 24px 5%; }
-            .input-area { padding: 20px 5%; }
+            .retrieval-panel {
+                display: none;
+            }
+
+            .message-row {
+                padding: 24px 5%;
+            }
+
+            .input-area {
+                padding: 20px 5%;
+            }
         }
     </style>
 </head>
+
 <body>
     <aside class="sidebar">
         <div class="sidebar-header">⚖ AI Legal Advisor</div>
@@ -111,7 +467,8 @@
 
     <main class="main-chat">
         <div class="chat-container" id="chatContainer">
-            <div style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0.3;" id="welcomeView">
+            <div style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0.3;"
+                id="welcomeView">
                 <h1 style="font-size: 28px; font-weight: 600; margin-bottom: 8px;">Legal Reasoning Engine</h1>
                 <p style="font-size: 14px;">Truy xuất đa tầng & Phân tích chuyên sâu luật Việt Nam</p>
             </div>
@@ -119,9 +476,12 @@
 
         <div class="input-area">
             <div class="input-wrapper">
-                <textarea class="chat-input" id="userInput" placeholder="Hỏi về quy định, mức phạt, thủ tục..." rows="1"></textarea>
+                <textarea class="chat-input" id="userInput" placeholder="Hỏi về quy định, mức phạt, thủ tục..."
+                    rows="1"></textarea>
                 <button class="send-btn" id="sendBtn">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 8L1 15L3 8L1 1L15 8Z" fill="currentColor"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8L1 15L3 8L1 1L15 8Z" fill="currentColor" />
+                    </svg>
                 </button>
             </div>
         </div>
@@ -130,7 +490,8 @@
     <aside class="retrieval-panel">
         <div class="panel-header">Knowledge Base (RAG)</div>
         <div class="doc-list" id="docList">
-            <div style="text-align: center; padding-top: 60px; color: #484f58; font-size: 13px;">No documents retrieved yet.</div>
+            <div style="text-align: center; padding-top: 60px; color: #484f58; font-size: 13px;">No documents retrieved
+                yet.</div>
         </div>
     </aside>
 
@@ -140,11 +501,12 @@
         const sendBtn = document.getElementById('sendBtn');
         const docList = document.getElementById('docList');
         const welcomeView = document.getElementById('welcomeView');
-        
+
         let chatHistory = [];
         let isProcessing = false;
 
-        userInput.addEventListener('input', function() {
+
+        userInput.addEventListener('input', function () {
             this.style.height = 'auto';
             this.style.height = Math.min(this.scrollHeight, 200) + 'px';
         });
@@ -161,14 +523,14 @@
         function createMessage(role) {
             const row = document.createElement('div');
             row.className = `message-row ${role}`;
-            
+
             const avatar = document.createElement('div');
             avatar.className = `avatar ${role}`;
             avatar.textContent = role === 'user' ? 'U' : 'AI';
-            
+
             const content = document.createElement('div');
             content.className = 'content';
-            
+
             row.appendChild(avatar);
             row.appendChild(content);
             chatContainer.appendChild(row);
@@ -192,7 +554,7 @@
             // User UI
             const userBox = createMessage('user');
             userBox.textContent = query;
-            
+
             userInput.value = '';
             userInput.style.height = 'auto';
             isProcessing = true;
@@ -201,7 +563,7 @@
             // Bot UI Setup
             const botBox = createMessage('bot');
             const sessionID = Date.now();
-            
+
             botBox.innerHTML = `
                 <div class="thinking-console">
                     <div class="console-header" onclick="toggleConsole(${sessionID})">
@@ -220,6 +582,92 @@
             const answerArea = document.getElementById(`answer-${sessionID}`);
             const loader = document.getElementById(`loader-${sessionID}`);
 
+            // try {
+            //     const response = await fetch('http://127.0.0.1:8000/api/chat', {
+            //         method: 'POST',
+            //         headers: { 'Content-Type': 'application/json' },
+            //         body: JSON.stringify({ message: query, history: chatHistory })
+            //     });
+
+            //     const reader = response.body.getReader();
+            //     const decoder = new TextDecoder();
+            //     let lastLogCount = 0;
+            //     let finalAnswer = "";
+
+            //     while (true) {
+            //         const { value, done } = await reader.read();
+            //         if (done) break;
+
+            //         const chunk = decoder.decode(value);
+            //         const lines = chunk.split('\n');
+
+            //         for (const line of lines) {
+            //             if (line.startsWith('data: ')) {
+            //                 const data = JSON.parse(line.substring(6));
+
+            //                 // 1. RAG Display
+            //                 if (data.docs && data.docs.length > 0) renderDocs(data.docs);
+
+            //                 // 2. Thinking Logs
+            //                 if (data.thinking && data.thinking.length > lastLogCount) {
+            //                     for (let i = lastLogCount; i < data.thinking.length; i++) {
+            //                         const log = data.thinking[i];
+            //                         const div = document.createElement('div');
+            //                         div.className = 'log-line';
+
+            //                         let content = log;
+            //                         if (log.includes('-> [Action')) {
+            //                             content = `<span class="log-action">${log}</span>`;
+            //                         } else if (log.includes('<- [Result')) {
+            //                             content = `<span class="log-result">${log}</span>`;
+            //                         } else if (log.includes('!! [Error]')) {
+            //                             content = `<span class="log-error">${log}</span>`;
+            //                         } else {
+            //                             content = `<span class="log-info">${log}</span>`;
+            //                         }
+
+            //                         div.innerHTML = `<span class="log-time">[${new Date().toLocaleTimeString()}]</span> ${content}`;
+            //                         consoleBody.appendChild(div);
+            //                     }
+            //                     lastLogCount = data.thinking.length;
+            //                     consoleBody.scrollTop = consoleBody.scrollHeight;
+            //                 }
+
+            //                 // 3. Action Cards
+            //                 if (data.tool_calls && data.tool_calls.length > 0) {
+            //                     actionsArea.innerHTML = data.tool_calls.map(tc => `
+            //                         <div class="agent-action">
+            //                             <div class="action-header">Agent Task: ${tc.status}</div>
+            //                             <div class="action-call">exec: ${tc.name}()</div>
+            //                             <div class="action-args">params: ${JSON.stringify(tc.args)}</div>
+            //                             ${tc.results_count ? `<div style="font-size:11px; color:#3fb950; margin-top:5px;">✓ Found ${tc.results_count} relevant clauses</div>` : ''}
+            //                         </div>
+            //                     `).join('');
+            //                 }
+
+            //                 // 4. Answer
+            //                 if (data.answer) {
+            //                     answerArea.textContent = data.answer;
+            //                     finalAnswer = data.answer;
+            //                 }
+
+            //                 chatContainer.scrollTop = chatContainer.scrollHeight;
+            //             }
+            //         }
+            //     }
+
+            //     loader.remove();
+            //     chatHistory.push({ role: 'user', content: query });
+            //     chatHistory.push({ role: 'assistant', content: finalAnswer });
+
+            // } catch (error) {
+            //     console.error(error);
+            //     answerArea.innerHTML = `<span style="color:#f85149">Error: Network connection failed. Please check backend server.</span>`;
+            // } finally {
+            //     isProcessing = false;
+            //     sendBtn.disabled = false;
+            // }
+
             try {
                 const response = await fetch('http://127.0.0.1:8000/api/chat', {
                     method: 'POST',
@@ -231,49 +679,57 @@
                 const decoder = new TextDecoder();
                 let lastLogCount = 0;
                 let finalAnswer = "";
+                let buffer = ""; // Sử dụng biến buffer để lưu trữ các chuỗi JSON dở dang
 
                 while (true) {
                     const { value, done } = await reader.read();
                     if (done) break;
 
-                    const chunk = decoder.decode(value);
-                    const lines = chunk.split('\n');
-                    
+                    // Cộng dồn dữ liệu mới vào buffer
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split('\n');
+
+                    // Giữ lại dòng cuối cùng dở dang vào buffer để xử lý tiếp ở vòng lặp sau
+                    buffer = lines.pop();
+
                     for (const line of lines) {
-                        if (line.startsWith('data: ')) {
-                            const data = JSON.parse(line.substring(6));
-                            
-                            // 1. RAG Display
-                            if (data.docs && data.docs.length > 0) renderDocs(data.docs);
+                        const trimmedLine = line.trim();
+                        if (trimmedLine.startsWith('data: ')) {
+                            try {
+                                // Thực hiện parse an toàn bên trong khối try-catch
+                                const data = JSON.parse(trimmedLine.substring(6));
 
-                            // 2. Thinking Logs
-                            if (data.thinking && data.thinking.length > lastLogCount) {
-                                for (let i = lastLogCount; i < data.thinking.length; i++) {
-                                    const log = data.thinking[i];
-                                    const div = document.createElement('div');
-                                    div.className = 'log-line';
-                                    
-                                    let content = log;
-                                    if (log.includes('-> [Action')) {
-                                        content = `<span class="log-action">${log}</span>`;
-                                    } else if (log.includes('<- [Result')) {
-                                        content = `<span class="log-result">${log}</span>`;
-                                    } else if (log.includes('!! [Error]')) {
-                                        content = `<span class="log-error">${log}</span>`;
-                                    } else {
-                                        content = `<span class="log-info">${log}</span>`;
+                                // 1. RAG Display
+                                if (data.docs && data.docs.length > 0) renderDocs(data.docs);
+
+                                // 2. Thinking Logs
+                                if (data.thinking && data.thinking.length > lastLogCount) {
+                                    for (let i = lastLogCount; i < data.thinking.length; i++) {
+                                        const log = data.thinking[i];
+                                        const div = document.createElement('div');
+                                        div.className = 'log-line';
+
+                                        let content = log;
+                                        if (log.includes('-> [Action')) {
+                                            content = `<span class="log-action">${log}</span>`;
+                                        } else if (log.includes('<- [Result')) {
+                                            content = `<span class="log-result">${log}</span>`;
+                                        } else if (log.includes('!! [Error]')) {
+                                            content = `<span class="log-error">${log}</span>`;
+                                        } else {
+                                            content = `<span class="log-info">${log}</span>`;
+                                        }
+
+                                        div.innerHTML = `<span class="log-time">[${new Date().toLocaleTimeString()}]</span> ${content}`;
+                                        consoleBody.appendChild(div);
                                     }
-
-                                    div.innerHTML = `<span class="log-time">[${new Date().toLocaleTimeString()}]</span> ${content}`;
-                                    consoleBody.appendChild(div);
+                                    lastLogCount = data.thinking.length;
+                                    consoleBody.scrollTop = consoleBody.scrollHeight;
                                 }
-                                lastLogCount = data.thinking.length;
-                                consoleBody.scrollTop = consoleBody.scrollHeight;
-                            }
 
-                            // 3. Action Cards
-                            if (data.tool_calls && data.tool_calls.length > 0) {
-                                actionsArea.innerHTML = data.tool_calls.map(tc => `
+                                // 3. Action Cards
+                                if (data.tool_calls && data.tool_calls.length > 0) {
+                                    actionsArea.innerHTML = data.tool_calls.map(tc => `
                                     <div class="agent-action">
                                         <div class="action-header">Agent Task: ${tc.status}</div>
                                         <div class="action-call">exec: ${tc.name}()</div>
@@ -281,30 +737,37 @@
                                         ${tc.results_count ? `<div style="font-size:11px; color:#3fb950; margin-top:5px;">✓ Found ${tc.results_count} relevant clauses</div>` : ''}
                                     </div>
                                 `).join('');
-                            }
+                                }
 
-                            // 4. Answer
-                            if (data.answer) {
-                                answerArea.textContent = data.answer;
-                                finalAnswer = data.answer;
+                                // 4. Answer
+                                if (data.answer) {
+                                    answerArea.textContent = data.answer;
+                                    finalAnswer = data.answer;
+                                }
+
+                                chatContainer.scrollTop = chatContainer.scrollHeight;
+                            } catch (parseError) {
+                                // Bỏ qua lỗi parse nếu dòng dữ liệu chưa hoàn chỉnh (sẽ được ghép đầy đủ ở chunk sau)
+                                console.warn("Đang chờ gói tin hoàn chỉnh...", parseError);
                             }
-                            
-                            chatContainer.scrollTop = chatContainer.scrollHeight;
                         }
                     }
                 }
 
-                loader.remove();
+                if (loader) loader.remove();
                 chatHistory.push({ role: 'user', content: query });
                 chatHistory.push({ role: 'assistant', content: finalAnswer });
 
             } catch (error) {
                 console.error(error);
-                answerArea.innerHTML = `<span style="color:#f85149">Error: Network connection failed. Please check backend server.</span>`;
+                if (answerArea) {
+                    answerArea.innerHTML = `<span style="color:#f85149">Error: Network connection failed. Please check backend server.</span>`;
+                }
             } finally {
                 isProcessing = false;
                 sendBtn.disabled = false;
             }
+
         }
 
         function renderDocs(docs) {
@@ -313,16 +776,16 @@
                 const card = document.createElement('div');
                 card.className = 'doc-card';
                 card.onclick = () => card.classList.toggle('expanded');
-                
+
                 const totalScore = (doc.total_score || 0).toFixed(4);
                 const sparseScore = (doc.sparse_score || 0).toFixed(4);
                 const denseScore = (doc.dense_score || 0).toFixed(4);
-                
+
                 const metadata = doc.metadata || {};
                 const lawId = metadata.law_id || 'DOCUMENT';
                 const article = metadata.article || 'N/A';
                 const chapter = metadata.chapter || '';
-                
+
                 let tagsHtml = '';
                 if (chapter) tagsHtml += `<span class="doc-tag">${chapter}</span>`;
                 if (article !== 'N/A') tagsHtml += `<span class="doc-tag">Article ${article}</span>`;
@@ -347,4 +810,5 @@
         }
     </script>
 </body>
+
 </html>
