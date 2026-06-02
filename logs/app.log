@@ -657,24 +657,24 @@
 [2026-05-23 11:28:35] INFO - embedding - Completed embedding texts 1
 [2026-05-23 11:28:35] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
 [2026-05-23 11:28:35] INFO - retrieval - Success retrieval 5 items
-[2026-05-23 12:16:15] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
-[2026-05-23 12:16:16] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
-[2026-05-23 12:16:16] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
-[2026-05-23 12:30:52] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
-[2026-05-23 12:30:52] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
-[2026-05-23 12:30:53] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
-[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
-[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
-[2026-05-23 12:33:40] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:16:15] INFO - functions - Hï¿½m 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:16:16] INFO - functions - Hï¿½m 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:16:16] INFO - functions - Hï¿½m 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:30:52] INFO - functions - Hï¿½m 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:30:52] INFO - functions - Hï¿½m 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:30:53] INFO - functions - Hï¿½m 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hï¿½m 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hï¿½m 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:33:40] INFO - functions - Hï¿½m 2 - Filtered 33 items from exact structural search.
 [2026-05-23 12:34:45] INFO - test_qdrant - === TEST 1: DIRECT CONTENT QUERY (FUNCTION 2) ===
 [2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.1: Article 6, Clause 1, Point a ---
-[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:34:45] INFO - functions - Hï¿½m 2 - Filtered 1 items from exact structural search.
 [2026-05-23 12:34:45] INFO - test_qdrant - Found: 1 records
 [2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.2: Entire Article 2 ---
-[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:34:45] INFO - functions - Hï¿½m 2 - Filtered 12 items from exact structural search.
 [2026-05-23 12:34:45] INFO - test_qdrant - Found: 12 records
 [2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 1.3: Article 13 ---
-[2026-05-23 12:34:45] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:34:45] INFO - functions - Hï¿½m 2 - Filtered 33 items from exact structural search.
 [2026-05-23 12:34:45] INFO - test_qdrant - Found: 33 records
 [2026-05-23 12:34:45] INFO - test_qdrant - === TEST 2: FIND INBOUND REFERENCES (FUNCTION 1) ===
 [2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 2.1: Contents referencing Article 2 Clause 1 ---
@@ -686,9 +686,9 @@
 [2026-05-23 12:34:45] INFO - test_qdrant - Found: 1 referenced records
 [2026-05-23 12:34:45] INFO - test_qdrant - --- Scenario 3.2: Contents referenced by Article 6 Clause 11 ---
 [2026-05-23 12:34:45] INFO - test_qdrant - Found: 0 referenced records
-[2026-05-23 12:37:30] INFO - functions - Hàm 2 - Filtered 1 items from exact structural search.
-[2026-05-23 12:37:30] INFO - functions - Hàm 2 - Filtered 12 items from exact structural search.
-[2026-05-23 12:37:31] INFO - functions - Hàm 2 - Filtered 33 items from exact structural search.
+[2026-05-23 12:37:30] INFO - functions - Hï¿½m 2 - Filtered 1 items from exact structural search.
+[2026-05-23 12:37:30] INFO - functions - Hï¿½m 2 - Filtered 12 items from exact structural search.
+[2026-05-23 12:37:31] INFO - functions - Hï¿½m 2 - Filtered 33 items from exact structural search.
 [2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 1 items from exact structural search.
 [2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 12 items from exact structural search.
 [2026-05-23 12:41:29] INFO - functions - Function 2 - Filtered 33 items from exact structural search.
@@ -1533,8 +1533,3 @@
 [2026-05-24 14:01:57] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
 [2026-05-24 14:02:28] INFO - retrieval - Successfully retrieved 5 items
 [2026-05-24 14:18:21] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
-[2026-05-24 14:22:26] INFO - embedding - Loadding embeding model. BAAI/bge-m3
-[2026-05-24 14:22:45] INFO - embedding - Completed embedding texts 1
-[2026-05-24 14:22:46] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
-[2026-05-24 14:22:46] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
-[2026-05-24 14:23:18] INFO - retrieval - Successfully retrieved 5 items

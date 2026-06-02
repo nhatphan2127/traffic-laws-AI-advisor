@@ -90,6 +90,7 @@ class LLMModel:
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
+            
         ).to(self.device)
 
         streamer = TextIteratorStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
