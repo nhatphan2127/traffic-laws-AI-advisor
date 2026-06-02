@@ -1,0 +1,285 @@
+{
+    "document_title": "",
+    "legal_basis": "",
+    "chapters": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG",
+            "articles": [
+                {
+                    "article_number": 1,
+                    "article_title": "Điều 1. Phạm vi điều chỉnh",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Nghị định này quy định về:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm: hành vi vi phạm hành chính; hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể theo từng chức danh đối với hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ;",
+                                    "else_elements": [
+                                        {"type": "table/....", "content":}
+                                        ....
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Mức trừ điểm giấy phép lái xe đối với từng hành vi vi phạm hành chính; trình tự, thủ tục, thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe để quản lý việc chấp hành pháp luật về trật tự, an toàn giao thông đường bộ của người lái xe.",
+                                    "else_elements": []
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Các hành vi vi phạm hành chính trong lĩnh vực quản lý nhà nước khác liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ mà không quy định tại Nghị định này thì áp dụng quy định tại các Nghị định quy định về xử phạt vi phạm hành chính trong các lĩnh vực đó để xử phạt.",
+                            "else_elements": []
+                        }
+                    ],
+                    "else_elements": []
+                },
+                {
+                    "article_number": 2,
+                    "article_title": "Điều 2. Đối tượng áp dụng",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Cá nhân, tổ chức Việt Nam; cá nhân, tổ chức nước ngoài có hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Tổ chức quy định tại khoản 1 Điều này bao gồm:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao;"
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Đơn vị sự nghiệp công lập;"
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Tổ chức chính trị - xã hội, tổ chức chính trị xã hội nghề nghiệp, tổ chức xã hội, tổ chức xã hội nghề nghiệp;"
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Tổ chức kinh tế được thành lập theo quy định của Luật Doanh nghiệp gồm: doanh nghiệp tư nhân, công ty cổ phần, công ty trách nhiệm hữu hạn, công ty hợp danh và các đơn vị phụ thuộc doanh nghiệp (chi nhánh, văn phòng đại diện);"
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "Tổ chức kinh tế được thành lập theo quy định của Luật Hợp tác xã gồm: tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã;"
+                                },
+                                {
+                                    "point": "e",
+                                    "content": "Cơ sở đào tạo lái xe, trung tâm sát hạch lái xe, cơ sở đăng kiểm xe cơ giới, xe máy chuyên dùng, cơ sở thử nghiệm, sản xuất, lắp ráp, nhập khẩu, bảo hành, bảo dưỡng xe cơ giới, xe máy chuyên dùng;"
+                                },
+                                {
+                                    "point": "g",
+                                    "content": "Các tổ chức khác được thành lập theo quy định của pháp luật;"
+                                },
+                                {
+                                    "point": "h",
+                                    "content": "Cơ quan, tổ chức nước ngoài được cấp có thẩm quyền của Việt Nam cho phép hoạt động trên lãnh thổ Việt Nam."
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "document": "Nghị định này",
+                                    "article": 2,
+                                    "clause": 1,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy định tại Nghị định này bị xử phạt như đối với cá nhân vi phạm."
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Người có thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính và tổ chức, cá nhân có liên quan đến việc xử phạt vi phạm hành chính theo quy định tại Nghị định này."
+                        },
+                        {
+                            "clause_number": 5,
+                            "content": "Người có thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe."
+                        }
+                    ]
+                },
+                {
+                    "article_number": 3,
+                    "article_title": "Điều 3. Hình thức xử phạt vi phạm hành chính, biện pháp khắc phục hậu quả; thu hồi giấy phép, chứng chỉ hành nghề",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Cảnh cáo;"
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Phạt tiền;"
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Tịch thu phương tiện được sử dụng để vi phạm hành chính."
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Căn cứ vào tính chất, mức độ vi phạm, cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ còn có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung sau đây:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn;"
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Đình chỉ hoạt động có thời hạn;"
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính trong trường hợp không áp dụng là hình thức xử phạt chính theo quy định tại điểm c khoản 1 Điều này.",
+                                    "references": [
+                                        {
+                                            "document": "Nghị định này",
+                                            "article": 3,
+                                            "clause": 1,
+                                            "point": "c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra, trừ các biện pháp khắc phục hậu quả quy định tại điểm e, điểm n, điểm p khoản này;",
+                                    "references": [
+                                        {
+                                            "document": "Nghị định này",
+                                            "article": 3,
+                                            "clause": 3,
+                                            "point": "e"
+                                        },
+                                        {
+                                            "document": "Nghị định này",
+                                            "article": 3,
+                                            "clause": 3,
+                                            "point": "n"
+                                        },
+                                        {
+                                            "document": "Nghị định này",
+                                            "article": 3,
+                                            "clause": 3,
+                                            "point": "p"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường do vi phạm hành chính gây ra;"
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Buộc tái xuất phương tiện khỏi Việt Nam;"
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính;"
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "Buộc phá dỡ các vật che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông;"
+                                },
+                                {
+                                    "point": "e",
+                                    "content": "Buộc lắp đầy đủ thiết bị hoặc thay thế thiết bị đủ tiêu chuẩn, quy chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của phương tiện, thiết bị theo quy định hoặc tháo bỏ những thiết bị lắp thêm không đúng quy định;"
+                                },
+                                {
+                                    "point": "g",
+                                    "content": "Buộc cấp thẻ nhận dạng lái xe cho lái xe theo quy định;"
+                                },
+                                {
+                                    "point": "h",
+                                    "content": "Buộc tổ chức tập huấn, hướng dẫn nghiệp vụ, quy trình hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe theo quy định;"
+                                },
+                                {
+                                    "point": "i",
+                                    "content": "Buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học, dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ trên xe theo đúng quy định;"
+                                },
+                                {
+                                    "point": "k",
+                                    "content": "Buộc tháo dỡ thiết bị âm thanh, ánh sáng lắp đặt trên xe gây mất trật tự, an toàn giao thông đường bộ;"
+                                },
+                                {
+                                    "point": "l",
+                                    "content": "Buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định;"
+                                },
+                                {
+                                    "point": "m",
+                                    "content": "Buộc điều chỉnh lại chỉ số trên đồng hồ báo quãng đường của xe ô tô bị làm sai lệch;"
+                                },
+                                {
+                                    "point": "n",
+                                    "content": "Buộc khôi phục lại nhãn hiệu, màu sơn ghi trong chứng nhận đăng ký xe theo quy định;"
+                                },
+                                {
+                                    "point": "o",
+                                    "content": "Buộc thực hiện đúng quy định về biển số xe, quy định về kẻ hoặc dán chữ, số biển số, thông tin trên thành xe, cửa xe, quy định về màu sơn, biển báo dấu hiệu nhận biết của xe;"
+                                },
+                                {
+                                    "point": "p",
+                                    "content": "Buộc khôi phục lại hình dáng, kích thước, tình trạng an toàn kỹ thuật ban đầu của xe và đăng kiểm lại trước khi đưa phương tiện ra tham gia giao thông;"
+                                },
+                                {
+                                    "point": "q",
+                                    "content": "Buộc thực hiện điều chỉnh thùng xe theo đúng quy định hiện hành, đăng kiểm lại và điều chỉnh lại khối lượng hàng hóa cho phép chuyên chở được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định hiện hành trước khi đưa phương tiện ra tham gia giao thông;"
+                                },
+                                {
+                                    "point": "r",
+                                    "content": "Buộc làm thủ tục đổi, thu hồi, cấp mới, cấp chứng nhận đăng ký xe, biển số xe, giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường theo quy định;"
+                                },
+                                {
+                                    "point": "s",
+                                    "content": "Buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung;"
+                                },
+                                {
+                                    "point": "t",
+                                    "content": "Buộc đưa phương tiện quay trở lại Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế."
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Thủ tục thi hành biện pháp khắc phục hậu quả buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung; thu hồi giấy phép, chứng chỉ hành nghề đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Cá nhân, tổ chức vi phạm có trách nhiệm thi hành biện pháp khắc phục hậu quả buộc nộp lại giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung gồm: giấy phép lái xe; chứng nhận đăng ký xe; bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe; giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của phương tiện bị tẩy xóa, sửa chữa làm sai lệch nội dung thực hiện theo quy định tại Điều 85 của Luật Xử lý vi phạm hành chính. Người có thẩm quyền ra quyết định thi hành biện pháp khắc phục hậu quả chuyển giấy phép, chứng chỉ hành nghề bị tẩy xóa, sửa chữa làm sai lệch nội dung cho cơ quan, người có thẩm quyền đã cấp giấy phép, chứng chỉ hành nghề đó;",
+                                    "references": [
+                                        {
+                                            "document": "Luật xử lý vi phạm hành chính",
+                                            "article": 85,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Đối với giấy phép, chứng chỉ hành nghề đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp (giấy phép lái xe không do cơ quan có thẩm quyền cấp, không hợp lệ; phù hiệu, giấy phép lưu hành đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp; hồ sơ, các loại giấy tờ, tài liệu bị tẩy xóa, sửa chữa hoặc giả mạo; chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe) không do cơ quan có thẩm quyền cấp hoặc không đúng với số khung, số động cơ (số máy); giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp), người có thẩm quyền tạm giữ phải tiến hành thu hồi theo quy định. Trường hợp người có thẩm quyền tạm giữ giấy phép, chứng chỉ hành nghề không có thẩm quyền thu hồi giấy phép, chứng chỉ hành nghề đó thì phải chuyển cho cơ quan, người có thẩm quyền đã cấp các loại giấy tờ đó để xử lý theo quy định của pháp luật (trừ trường hợp vụ việc có dấu hiệu tội phạm) và thông báo cho cá nhân, tổ chức vi phạm biết."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

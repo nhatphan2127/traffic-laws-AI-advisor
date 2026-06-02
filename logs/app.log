@@ -1533,3 +1533,8 @@
 [2026-05-24 14:01:57] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
 [2026-05-24 14:02:28] INFO - retrieval - Successfully retrieved 5 items
 [2026-05-24 14:18:21] INFO - retrieval - Loading Reranker model: BAAI/bge-reranker-v2-m3
+[2026-05-24 14:22:26] INFO - embedding - Loadding embeding model. BAAI/bge-m3
+[2026-05-24 14:22:45] INFO - embedding - Completed embedding texts 1
+[2026-05-24 14:22:46] INFO - sparse_vector - Model loaded from vectorstore\bm25store\bm25store.pkl
+[2026-05-24 14:22:46] INFO - retrieval - Reranking 20 documents using Cross-Encoder...
+[2026-05-24 14:23:18] INFO - retrieval - Successfully retrieved 5 items
