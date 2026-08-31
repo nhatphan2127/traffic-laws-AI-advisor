@@ -17,19 +17,25 @@ handlers:
     level: INFO
     formatter: simple
     filename: logs/app.log
+    encoding: utf-8
     
 loggers:
+  embedding:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+
+  tools:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+
   ingestion:
     level: INFO
     handlers: [console, file]
     propagate: no
 
   llm:
-    level: INFO
-    handlers: [console, file]
-    propagate: no
-
-  embedding:
     level: INFO
     handlers: [console, file]
     propagate: no
@@ -44,15 +50,8 @@ loggers:
     handlers: [console, file]
     propagate: no
 
-  functions:
-    level: INFO
-    handlers: [console, file]
-    propagate: no
+
   
-  
-
-
-
 root:
   level: INFO
   handlers: [console, file]

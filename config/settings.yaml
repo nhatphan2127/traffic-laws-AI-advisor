@@ -3,35 +3,44 @@ app:
   verstion: 1.0.0
   env: production
 
+
+backend:
+  jwt_secret: YOUR_SUPER_SECRET_KEY_123456789
+  jwt_algorithm: HS256
+  monggodb_uri: 
+  db_name: 
+
 data: 
   processed_dir: data/processed
   raw_dir: data/raw
 
-# setting env
-api_key:
-  unstructured_api_key:
-  llamaindex_api:
-
 embedding:
   model:
-  device: cpu
   batch_size: 64
 
-chunking:
-  size:
-
-
-
 llm:
-  # model_name: "Qwen/Qwen2-VL-2B-Instruct" # Example model, can be changed
-  # model_name: "Qwen/Qwen2.5-3B" # Example model, can be changed
-  model_name: Qwen/Qwen2.5-3B-Instruct
+  llm_provider:
+  llm_temperature:
+  llm_max_new_tokens:
 
-  device: "cuda" # or "cpu"
-  max_new_tokens: 512
-  temperature: 0.1
-  top_p: 0.9
-  load_in_4bit: true
+  google_studio_api_key:
+  google_studio_model:
+
+  cloud_ollama_url:
+  cloud_ollama_key:
+  cloud_ollama_key:
+
+  local_ollama_url:
+  local_ollama_key:
+  local_ollama_model:
+
+retrieval:
+  top_k: 5
+  rrf_k: 60
+  dense_threshold: 0.4
+  reranker:
+    enabled: false
+    model: "BAAI/bge-reranker-v2-m3"
 
 vector_database:
   type: qdrant
@@ -43,14 +52,11 @@ vector_database:
   distance: cosine           
   vector_size: 1024
   # vector_size: 384
-  timeout: 30                
+  timeout: 30    
 
-retrieval:
-  top_k: 7
-  beta: 0.6
-  dense_threshhold: 0.4
-  reranker:
-    enabled: false
-    model_name: "BAAI/bge-reranker-v2-m3"
-    top_n: 5
+
+
+            
+
+
 

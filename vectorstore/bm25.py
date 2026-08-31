@@ -5,7 +5,7 @@ import pickle
 from collections import Counter
 from pyvi import ViTokenizer
 
-logger = logging.getLogger('sparse_vector')
+logger = logging.getLogger('vectorstore')
 
 class BM25:
     def __init__(self, documents: list[str], k1: float = 1.5, b: float = 0.75):

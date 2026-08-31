@@ -5,21 +5,21 @@ from qdrant_client.models import Distance, VectorParams, SparseVectorParams
 from core.load_settings import load_settings
 
 settings = load_settings()
-logger = logging.getLogger('vector_datatbase')
+logger = logging.getLogger('vectorstore')
 
 _client = None
-VECTOR_DB_SETTINGS = settings['vector_database']
+vector_db_settings = settings['vector_database']
 
 # VECTOR_DB SETTINGS
-VECTOR_DB_TYPE = VECTOR_DB_SETTINGS.get("type", "qdrant")
-VECTOR_DB_HOST = VECTOR_DB_SETTINGS.get("host", "localhost")
-VECTOR_DB_PORT = VECTOR_DB_SETTINGS.get("port", 6333)
-VECTOR_DB_URL = VECTOR_DB_SETTINGS.get("url", f"http://{VECTOR_DB_HOST}:{VECTOR_DB_PORT}")
-VECTOR_DB_API_KEY = VECTOR_DB_SETTINGS.get("api_key", None)
-VECTOR_DB_COLLECTION = VECTOR_DB_SETTINGS.get("collection_name", "default_collection")
-VECTOR_DB_DISTANCE = VECTOR_DB_SETTINGS.get("distance", "cosine")
-VECTOR_DB_SIZE = VECTOR_DB_SETTINGS.get("vector_size", 384)
-VECTOR_DB_TIMEOUT = VECTOR_DB_SETTINGS.get("timeout", 30)
+VECTOR_DB_TYPE = vector_db_settings['type']
+VECTOR_DB_HOST = vector_db_settings['host']
+VECTOR_DB_PORT = vector_db_settings['port']
+VECTOR_DB_URL = vector_db_settings['url']
+VECTOR_DB_API_KEY = vector_db_settings['api_key']
+VECTOR_DB_COLLECTION = vector_db_settings['collection_name']
+VECTOR_DB_DISTANCE = vector_db_settings['distance']
+VECTOR_DB_SIZE = vector_db_settings['vector_size']
+VECTOR_DB_TIMEOUT = vector_db_settings['timeout']
 
 
 def get_qdrant_client() -> QdrantClient:

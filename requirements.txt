@@ -16,3 +16,11 @@ matplotlib
 seaborn
 pytest
 pyvi
+fastapi
+uvicorn
+pymongo
+dnspython
+python-dotenv
+pyjwt
+bcrypt
+pydantic

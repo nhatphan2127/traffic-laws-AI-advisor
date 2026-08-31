@@ -17,19 +17,19 @@ from core.schema import RetrievalDocument
 settings = load_settings()
 setup_logging()
 logger = logging.getLogger('retrieval')
+retrieval_settings = settings['retrieval']
 
-COLLECTION_NAME = settings['vector_database'].get("collection_name", "nmk_chatbot_collection")
-TOP_K = settings['retrieval'].get("top_k", 5)
-RRF_K = settings['retrieval'].get("rrf_k", 60)
-DENSE_SCORE_THRESHOLD = settings['retrieval'].get('dense_score_threshold', 0.4)
+COLLECTION_NAME = settings['vector_database']['collection_name']
+TOP_K = retrieval_settings['top_k']
+RRF_K = retrieval_settings['rrf_k']
+DENSE_THRESHOLD = retrieval_settings['dense_threshold']
 
-RERANKER_CONFIG = settings['retrieval'].get("reranker", {"enabled": False})
+RERANKER_CONFIG = retrieval_settings['reranker']
 reranker_model = None
 if RERANKER_CONFIG.get("enabled"):
-    logger.info(f"Loading Reranker model: {RERANKER_CONFIG.get('model_name')}")
-    reranker_model = CrossEncoder(RERANKER_CONFIG.get("model_name", "cross-encoder/ms-marco-MiniLM-L-6-v2"))
+    logger.info(f"Loading Reranker model: {RERANKER_CONFIG.get('model')}")
+    reranker_model = CrossEncoder(RERANKER_CONFIG.get("model", "cross-encoder/ms-marco-MiniLM-L-6-v2"))
 
-# --- Sub-functions ---
 
 def get_hybrid_results(client: QdrantClient, query: str, query_embedding: list[float], limit: int) -> list[RetrievalDocument]:
     """Retrieves and ranks documents using Hybrid search (Dense + Sparse) with RRF fusion in Qdrant."""
@@ -46,7 +46,7 @@ def get_hybrid_results(client: QdrantClient, query: str, query_embedding: list[f
             query=query_embedding,
             using="dense",
             limit=limit,
-            score_threshold=DENSE_SCORE_THRESHOLD
+            score_threshold=DENSE_THRESHOLD
         )
         return [
             RetrievalDocument(

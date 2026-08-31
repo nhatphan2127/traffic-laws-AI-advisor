@@ -6,7 +6,7 @@ from vectorstore.qdrant import get_qdrant_client, ensure_collection
 from vectorstore.index import build_qdrant_points
 
 settings = load_settings()
-logger = logging.getLogger("vector_database")
+logger = logging.getLogger("vectorstore")
 
 QDRANT_CONFIG = settings["vector_database"]
 COLLECTION_NAME = QDRANT_CONFIG["collection_name"]

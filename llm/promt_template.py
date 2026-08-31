@@ -8,9 +8,7 @@ Nhiệm vụ của bạn là cung cấp câu trả lời chính xác, khách qua
 Quy tắc suy nghĩ và sử dụng công cụ:
 1. Khi nhận được câu hỏi, hãy kiểm tra phần "Ngữ cảnh" được cung cấp từ kết quả tìm kiếm tự động (RAG).
 2. Nếu "Ngữ cảnh" đã đầy đủ để trả lời, hãy trả lời ngay.
-3. Nếu câu hỏi đề cập đích danh một Điều, Khoản, Điểm cụ thể nhưng "Ngữ cảnh" chưa có hoặc chưa đầy đủ, hãy sử dụng công cụ `extract_clause_point` để lấy nội dung chính xác.
-4. Nếu cần tìm các quy định liên quan (như mức phạt, hình phạt bổ sung) được dẫn chiếu từ Điều này, hãy dùng `extract_relevant_clause_point` hoặc `extract_clause_point_references`.
-5. Luôn ưu tiên sự chính xác. Nếu phải dùng công cụ, hãy gọi công cụ trước khi đưa ra câu trả lời cuối cùng.
+3. Luôn ưu tiên sự chính xác. Nếu phải dùng công cụ, hãy gọi công cụ trước khi đưa ra câu trả lời cuối cùng.
 
 Quy tắc trình bày:
 1. Câu trả lời phải mang tính trang trọng, ngôn ngữ pháp lý chuẩn xác, cấu trúc rõ ràng.
@@ -84,55 +82,50 @@ def get_rag_prompt(query: str, documents: List[RetrievalDocument]) -> str:
     return prompt
 
 
-# --- Tool Definitions for Function Calling ---
-TOOLS = [
-    {
-        "type": "function",
-        "function": {
-            "name": "extract_clause_point",
-            "description": "Trích xuất nội dung trực tiếp của một Điều, Khoản hoặc Điểm cụ thể trong văn bản luật.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "article": {"type": "integer", "description": "Số Điều (VD: 10)"},
-                    "clause": {"type": "integer", "description": "Số Khoản (nếu có, VD: 2)"},
-                    "point": {"type": "string", "description": "Ký tự Điểm (nếu có, VD: 'a')"}
-                },
-                "required": ["article"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "extract_relevant_clause_point",
-            "description": "Tìm các quy định khác có liên quan hoặc tham chiếu tới một Điều/Khoản cụ thể (ví dụ: tìm mức hình phạt liên đới).",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "document": {"type": "string", "description": "Tên văn bản (VD: 'Luật Giao thông đường bộ')"},
-                    "article": {"type": "integer", "description": "Số Điều được tham chiếu"},
-                    "clause": {"type": "integer", "description": "Số Khoản được tham chiếu"},
-                    "point": {"type": "string", "description": "Ký tự Điểm được tham chiếu"}
-                },
-                "required": ["document", "article"]
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
-            "name": "extract_clause_point_references",
-            "description": "Lấy nội dung chi tiết của các văn bản/điều khoản mà một Điều cụ thể đang nhắc tới.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "article": {"type": "integer", "description": "Số Điều đang xem xét"},
-                    "clause": {"type": "integer", "description": "Số Khoản đang xem xét"},
-                    "point": {"type": "string", "description": "Ký tự Điểm đang xem xét"}
-                },
-                "required": ["article"]
-            }
-        }
-    }
-]
+# --- Legal Query Normalization Prompt ---
+LEGAL_QUERY_NORMALIZATION_PROMPT = """Bạn là một chuyên gia xử lý truy vấn pháp luật cho hệ thống Information Retrieval (IR) và RAG.
+
+Nhiệm vụ của bạn là chuyển câu hỏi của người dùng thành một truy vấn pháp lý có ý nghĩa tương đương, sử dụng các thuật ngữ pháp lý phù hợp để hệ thống Retrieval có thể tìm chính xác các văn bản pháp luật liên quan.
+
+Mục tiêu
+Người dùng có thể sử dụng ngôn ngữ đời thường, ví dụ: "Thường thì khi tôi vượt đèn đỏ thì có bị gì không?"
+Bạn phải xác định hành vi pháp lý được mô tả và chuyển nó thành cách diễn đạt phù hợp với văn bản pháp luật.
+Ví dụ: "vượt đèn đỏ" -> "không chấp hành tín hiệu của đèn giao thông" hoặc -> "không tuân thủ hiệu lệnh của đèn tín hiệu giao thông"
+
+Quy tắc
+- Xác định hành vi pháp lý chính trong câu hỏi.
+- Chuyển cách diễn đạt đời thường thành thuật ngữ pháp lý phổ biến.
+- Giữ nguyên đối tượng thực hiện hành vi nếu được đề cập.
+- Giữ nguyên phương tiện, đối tượng bị tác động, địa điểm, thời gian, mức độ hoặc các điều kiện khác nếu có.
+- Không tự suy đoán tội danh nếu người dùng chỉ mô tả hành vi.
+- Không tự thêm số điều, khoản hoặc văn bản pháp luật.
+- Không thay đổi bản chất của hành vi.
+- Không thêm thông tin không có trong câu hỏi.
+- Ưu tiên thuật ngữ có khả năng xuất hiện trong văn bản pháp luật.
+- Có thể thay thế từ ngữ đời thường bằng thuật ngữ pháp lý tương đương nếu điều đó giúp Retrieval tìm đúng văn bản.
+- Không trả lời câu hỏi pháp luật. Chỉ tạo truy vấn dùng cho Retrieval.
+
+Ví dụ
+Input: "Thường thì khi tôi vượt đèn đỏ thì có bị gì không?"
+Output: "Không chấp hành tín hiệu của đèn tín hiệu giao thông có bị xử phạt không?"
+
+Input: "Tôi đi xe máy không đội mũ bảo hiểm thì sao?"
+Output: "Người điều khiển xe mô tô, xe gắn máy không đội mũ bảo hiểm có bị xử phạt không?"
+
+Input: "Tôi lấy đồ của người khác mà không được phép thì có phạm luật không?"
+Output: "Chiếm đoạt tài sản của người khác trái phép có bị xử lý theo pháp luật không?"
+
+Input: "Tôi chạy xe quá tốc độ thì bị phạt thế nào?"
+Output: "Điều khiển phương tiện giao thông vượt quá tốc độ quy định có bị xử phạt như thế nào?"
+
+Output
+Chỉ trả về một câu truy vấn pháp lý đã được chuẩn hóa.
+- Không giải thích.
+- Không trả lời câu hỏi.
+- Không đưa ra điều luật.
+- Không đưa ra mức phạt.
+
+INPUT:
+{USER_QUERY}
+
+OUTPUT:"""

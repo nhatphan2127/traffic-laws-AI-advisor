@@ -3,13 +3,11 @@ import uuid
 from pathlib import Path
 
 from embedding.embed_texts import embed_texts
-from core.load_settings import load_settings
 from vectorstore.bm25 import BM25
+from core.setup_logging import setup_logging
 
-
-logger = logging.getLogger("embedding")
-settings = load_settings()
-
+setup_logging()
+logger = logging.getLogger("vectorstore")
 
 def build_qdrant_points(chunks: list[dict]) -> list[dict]:
     if not chunks:

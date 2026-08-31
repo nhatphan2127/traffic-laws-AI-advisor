@@ -1,476 +1,32 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Legal Advisor - Expert Mode</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #0d1117;
-            --sidebar-bg: #161b22;
-            --text-color: #e6edf3;
-            --border-color: #30363d;
-            --bot-msg-bg: #161b22;
-            --accent-color: #238636;
-            --thinking-bg: #010409;
-            --thinking-text: #8b949e;
-            --tool-call-bg: #1c2128;
-            --gold: #d29922;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            height: 100vh;
-            display: flex;
-            overflow: hidden;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            width: 280px;
-            background-color: var(--sidebar-bg);
-            border-right: 1px solid var(--border-color);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .sidebar-header {
-            padding: 16px;
-            border-bottom: 1px solid var(--border-color);
-            font-weight: 600;
-            color: var(--gold);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .new-chat {
-            margin: 12px;
-            padding: 10px;
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 13px;
-        }
-
-        .new-chat:hover {
-            background: #21262d;
-        }
-
-        .history {
-            flex: 1;
-            overflow-y: auto;
-            padding: 8px;
-        }
-
-        .history-item {
-            padding: 8px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 13px;
-            margin-bottom: 4px;
-            color: #8b949e;
-        }
-
-        .history-item:hover {
-            background: #21262d;
-            color: white;
-        }
-
-        /* Main Chat */
-        .main-chat {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            background: var(--bg-color);
-        }
-
-        .chat-container {
-            flex: 1;
-            overflow-y: auto;
-            padding-bottom: 150px;
-            scroll-behavior: smooth;
-        }
-
-        .message-row {
-            padding: 24px 15%;
-            display: flex;
-            gap: 20px;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .message-row.user {
-            background: transparent;
-        }
-
-        .message-row.bot {
-            background: var(--bot-msg-bg);
-        }
-
-        .avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 4px;
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        .avatar.user {
-            background: #238636;
-            color: white;
-        }
-
-        .avatar.bot {
-            background: #d29922;
-            color: #0d1117;
-        }
-
-        .content {
-            flex: 1;
-            line-height: 1.6;
-            font-size: 14.5px;
-        }
-
-        /* Thinking Console */
-        .thinking-console {
-            margin-bottom: 16px;
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            background: var(--thinking-bg);
-            overflow: hidden;
-        }
-
-        .console-header {
-            padding: 8px 12px;
-            font-size: 11px;
-            font-family: 'JetBrains Mono', monospace;
-            color: #58a6ff;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            background: #161b22;
-        }
-
-        .console-body {
-            padding: 12px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 12px;
-            line-height: 1.5;
-            color: #8b949e;
-            display: none;
-        }
-
-        .console-body.show {
-            display: block;
-        }
-
-        .log-line {
-            margin-bottom: 4px;
-            display: flex;
-            gap: 8px;
-        }
-
-        .log-time {
-            color: #484f58;
-            flex-shrink: 0;
-        }
-
-        .log-info {
-            color: #3fb950;
-        }
-
-        .log-action {
-            color: #d29922;
-            font-weight: bold;
-        }
-
-        .log-result {
-            color: #58a6ff;
-        }
-
-        .log-error {
-            color: #f85149;
-        }
-
-        /* Agent Action UI */
-        .agent-action {
-            margin: 12px 0;
-            padding: 12px;
-            background: var(--tool-call-bg);
-            border: 1px solid var(--border-color);
-            border-left: 4px solid var(--gold);
-            border-radius: 0 4px 4px 0;
-        }
-
-        .action-header {
-            font-size: 11px;
-            color: var(--gold);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-
-        .action-call {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 13px;
-            color: #e6edf3;
-        }
-
-        .action-args {
-            font-size: 12px;
-            color: #8b949e;
-            margin-top: 4px;
-        }
-
-        /* Answer Area */
-        .answer-text {
-            white-space: pre-wrap;
-        }
-
-        /* Input Area */
-        .input-area {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 20px 15%;
-            background: linear-gradient(transparent, var(--bg-color) 40%);
-        }
-
-        .input-wrapper {
-            position: relative;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background: #0d1117;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        }
-
-        .chat-input {
-            width: 100%;
-            border: none;
-            padding: 14px 45px 14px 14px;
-            border-radius: 8px;
-            outline: none;
-            font-size: 14px;
-            resize: none;
-            max-height: 200px;
-            background: transparent;
-            color: white;
-        }
-
-        .send-btn {
-            position: absolute;
-            right: 8px;
-            bottom: 8px;
-            background: #238636;
-            border: none;
-            border-radius: 4px;
-            padding: 6px;
-            cursor: pointer;
-            color: white;
-            display: flex;
-            transition: background 0.2s;
-        }
-
-        .send-btn:hover {
-            background: #2ea043;
-        }
-
-        .send-btn:disabled {
-            background: #21262d;
-            cursor: not-allowed;
-            opacity: 0.5;
-        }
-
-        /* Retrieval Panel (Side) */
-        .retrieval-panel {
-            width: 380px;
-            border-left: 1px solid var(--border-color);
-            background: var(--sidebar-bg);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .panel-header {
-            padding: 16px;
-            border-bottom: 1px solid var(--border-color);
-            font-weight: 600;
-            font-size: 13px;
-            color: #8b949e;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .doc-list {
-            flex: 1;
-            overflow-y: auto;
-            padding: 12px;
-        }
-
-        .doc-card {
-            background: #0d1117;
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 16px;
-            margin-bottom: 12px;
-            transition: border-color 0.2s;
-            cursor: pointer;
-        }
-
-        .doc-card:hover {
-            border-color: #58a6ff;
-        }
-
-        .doc-meta {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            font-size: 11px;
-            margin-bottom: 8px;
-            font-family: 'JetBrains Mono', monospace;
-            border-bottom: 1px solid #30363d;
-            padding-bottom: 8px;
-        }
-
-        .doc-meta-row {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .doc-score {
-            color: #3fb950;
-            font-weight: bold;
-        }
-
-        .doc-sub-scores {
-            display: flex;
-            gap: 8px;
-            color: #8b949e;
-            font-size: 10px;
-        }
-
-        .doc-law-id {
-            color: var(--gold);
-        }
-
-        .doc-title {
-            font-weight: 600;
-            font-size: 14px;
-            margin-bottom: 8px;
-            color: #58a6ff;
-            display: block;
-        }
-
-        .doc-content {
-            font-size: 12.5px;
-            color: #8b949e;
-            line-height: 1.5;
-            height: 3.8em;
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            margin-bottom: 8px;
-        }
-
-        .doc-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px;
-        }
-
-        .doc-tag {
-            font-size: 10px;
-            background: #21262d;
-            padding: 2px 6px;
-            border-radius: 3px;
-            color: #c9d1d9;
-            border: 1px solid var(--border-color);
-        }
-
-        .doc-card.expanded .doc-content {
-            height: auto;
-            display: block;
-        }
-
-        /* Animation */
-        .loading-line {
-            width: 100%;
-            height: 2px;
-            background: transparent;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .loading-line::after {
-            content: '';
-            position: absolute;
-            left: -50%;
-            width: 50%;
-            height: 100%;
-            background: var(--gold);
-            animation: loading 1.5s infinite;
-        }
-
-        @keyframes loading {
-            from {
-                left: -50%;
-            }
-
-            to {
-                left: 100%;
-            }
-        }
-
-        @media (max-width: 1200px) {
-            .retrieval-panel {
-                display: none;
-            }
-
-            .message-row {
-                padding: 24px 5%;
-            }
-
-            .input-area {
-                padding: 20px 5%;
-            }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-
 <body>
     <aside class="sidebar">
-        <div class="sidebar-header">⚖ AI Legal Advisor</div>
-        <div class="new-chat" onclick="window.location.reload()">+ New Conversation</div>
-        <div class="history" id="chatHistory"></div>
+        <div class="sidebar-top">
+            <div class="sidebar-header">⚖ AI Legal Advisor</div>
+            <div class="new-chat" onclick="startNewConversation()">+ New Conversation</div>
+            <div class="history" id="chatHistory"></div>
+        </div>
+
+        <div class="user-auth-section" id="authSection">
+            <!-- JS sẽ điền thông tin user hoặc nút Đăng nhập ở đây -->
+        </div>
     </aside>
 
     <main class="main-chat">
         <div class="chat-container" id="chatContainer">
-            <div style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0.3;"
+            <div style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #0d0d0d;"
                 id="welcomeView">
                 <h1 style="font-size: 28px; font-weight: 600; margin-bottom: 8px;">Legal Reasoning Engine</h1>
-                <p style="font-size: 14px;">Truy xuất đa tầng & Phân tích chuyên sâu luật Việt Nam</p>
+                <p style="font-size: 14px; color: #6e6e80;">Truy xuất đa tầng &amp; Phân tích chuyên sâu luật Việt Nam</p>
             </div>
         </div>
 
@@ -490,21 +46,189 @@
     <aside class="retrieval-panel">
         <div class="panel-header">Knowledge Base (RAG)</div>
         <div class="doc-list" id="docList">
-            <div style="text-align: center; padding-top: 60px; color: #484f58; font-size: 13px;">No documents retrieved
-                yet.</div>
+            <div style="text-align: center; padding-top: 60px; color: #b0b0bb; font-size: 13px;">No documents retrieved yet.</div>
         </div>
     </aside>
 
+    <!-- Modal Đăng nhập / Đăng ký -->
+    <div class="modal" id="authModal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Đăng nhập</h3>
+            <form id="authForm" onsubmit="handleAuthSubmit(event)">
+                <div class="form-group">
+                    <label>Tên đăng nhập</label>
+                    <input type="text" id="authUsername" required>
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu</label>
+                    <input type="password" id="authPassword" required>
+                </div>
+                <div id="authError" style="color: #d1293d; font-size: 12px; margin-bottom: 8px; display: none;"></div>
+                <button type="submit" class="auth-btn" id="authSubmitBtn">Đăng nhập</button>
+            </form>
+            <div class="toggle-auth" id="toggleAuthBtn" onclick="toggleAuthMode()">Chưa có tài khoản? Đăng ký ngay</div>
+            <button class="auth-btn" style="background: #f0f0f1; color: #0d0d0d; margin-top: 8px;" onclick="closeAuthModal()">Hủy</button>
+        </div>
+    </div>
+
     <script>
+        if (typeof marked !== 'undefined') {
+            marked.setOptions({ gfm: true, breaks: true });
+        }
+
         const chatContainer = document.getElementById('chatContainer');
         const userInput = document.getElementById('userInput');
         const sendBtn = document.getElementById('sendBtn');
         const docList = document.getElementById('docList');
         const welcomeView = document.getElementById('welcomeView');
+        const authSection = document.getElementById('authSection');
+        const chatHistoryContainer = document.getElementById('chatHistory');
 
         let chatHistory = [];
         let isProcessing = false;
+        let activeChatId = null;
+        let isRegisterMode = false;
 
+        // --- Init Auth Status ---
+        function checkAuthStatus() {
+            const token = localStorage.getItem('token');
+            const username = localStorage.getItem('username');
+
+            if (token && username) {
+                authSection.innerHTML = `
+                    <div style="font-size: 13px; color: #0d0d0d; margin-bottom: 6px;">👤 <b>${username}</b></div>
+                    <button class="auth-btn logout-btn" onclick="logout()">Đăng xuất</button>
+                `;
+                fetchUserChats();
+            } else {
+                authSection.innerHTML = `
+                    <button class="auth-btn" onclick="openAuthModal()">Đăng nhập / Đăng ký</button>
+                `;
+                chatHistoryContainer.innerHTML = '';
+            }
+        }
+
+        checkAuthStatus();
+
+        function openAuthModal() {
+            document.getElementById('authModal').classList.add('show');
+        }
+        function closeAuthModal() {
+            document.getElementById('authModal').classList.remove('show');
+        }
+
+        function toggleAuthMode() {
+            isRegisterMode = !isRegisterMode;
+            document.getElementById('modalTitle').textContent = isRegisterMode ? 'Đăng ký' : 'Đăng nhập';
+            document.getElementById('authSubmitBtn').textContent = isRegisterMode ? 'Đăng ký' : 'Đăng nhập';
+            document.getElementById('toggleAuthBtn').textContent = isRegisterMode ? 'Đã có tài khoản? Đăng nhập' : 'Chưa có tài khoản? Đăng ký ngay';
+        }
+
+        async function handleAuthSubmit(e) {
+            e.preventDefault();
+            const username = document.getElementById('authUsername').value.trim();
+            const password = document.getElementById('authPassword').value.trim();
+            const errDiv = document.getElementById('authError');
+            errDiv.style.display = 'none';
+
+            const endpoint = isRegisterMode ? '/api/register' : '/api/login';
+
+            try {
+                const res = await fetch(`http://127.0.0.1:8000${endpoint}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.detail || 'Lỗi hệ thống');
+
+                localStorage.setItem('token', data.token);
+                localStorage.setItem('username', data.username);
+                closeAuthModal();
+                checkAuthStatus();
+            } catch (err) {
+                errDiv.textContent = err.message;
+                errDiv.style.display = 'block';
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('username');
+            startNewConversation();
+            checkAuthStatus();
+        }
+
+        // --- Load History List ---
+        async function fetchUserChats() {
+            const token = localStorage.getItem('token');
+            if (!token) return;
+
+            try {
+                const res = await fetch('http://127.0.0.1:8000/api/chats', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                if (!res.ok) return;
+                const chats = await res.json();
+
+                chatHistoryContainer.innerHTML = '';
+                chats.forEach(c => {
+                    const item = document.createElement('div');
+                    item.className = `history-item ${activeChatId === c.id ? 'active' : ''}`;
+                    item.textContent = c.title;
+                    item.onclick = () => loadChatDetail(c.id);
+                    chatHistoryContainer.appendChild(item);
+                });
+            } catch (err) {
+                console.error("Lỗi lấy lịch sử chat:", err);
+            }
+        }
+
+        // --- Load Detailed History Chat ---
+        async function loadChatDetail(chatId) {
+            const token = localStorage.getItem('token');
+            if (!token) return;
+
+            try {
+                const res = await fetch(`http://127.0.0.1:8000/api/chats/${chatId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                if (!res.ok) return;
+                const chat = await res.json();
+
+                activeChatId = chatId;
+                chatContainer.innerHTML = ''; // Clear current UI
+                chatHistory = []; // Reset local chat array
+
+                chat.messages.forEach(msg => {
+                    const box = createMessage(msg.role === 'user' ? 'user' : 'bot');
+                    if (msg.role === 'user') {
+                        box.textContent = msg.content;
+                    } else {
+                        box.innerHTML = `<div class="answer-text">${marked.parse(convertRawTableToMarkdown(msg.content))}</div>`;
+                    }
+                    chatHistory.push({ role: msg.role, content: msg.content });
+                });
+
+                fetchUserChats(); // highlight active item
+            } catch (err) {
+                console.error("Lỗi load chi tiết chat:", err);
+            }
+        }
+
+        function startNewConversation() {
+            activeChatId = null;
+            chatHistory = [];
+            chatContainer.innerHTML = `
+                <div style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #0d0d0d;" id="welcomeView">
+                    <h1 style="font-size: 28px; font-weight: 600; margin-bottom: 8px;">Legal Reasoning Engine</h1>
+                    <p style="font-size: 14px; color: #6e6e80;">Truy xuất đa tầng &amp; Phân tích chuyên sâu luật Việt Nam</p>
+                </div>
+            `;
+            docList.innerHTML = '<div style="text-align: center; padding-top: 60px; color: #b0b0bb; font-size: 13px;">No documents retrieved yet.</div>';
+            fetchUserChats();
+        }
 
         userInput.addEventListener('input', function () {
             this.style.height = 'auto';
@@ -519,6 +243,49 @@
         });
 
         sendBtn.addEventListener('click', handleChat);
+
+        function convertRawTableToMarkdown(text) {
+            const lines = text.split('\n');
+            const resultLines = [];
+            let i = 0;
+
+            while (i < lines.length) {
+                const line = lines[i];
+                const parts = line.trim().split(/\t|\s{2,}/);
+
+                if (parts.length >= 2 && line.trim() !== "" && !line.trim().startsWith('-') && !line.trim().startsWith('*') && !/^\d+\./.test(line.trim())) {
+                    const tableRows = [];
+                    while (i < lines.length) {
+                        const currentLine = lines[i];
+                        const currentParts = currentLine.trim().split(/\t|\s{2,}/);
+
+                        if (currentParts.length >= 2 && currentLine.trim() !== "" && !currentLine.trim().startsWith('-') && !currentLine.trim().startsWith('*') && !/^\d+\./.test(currentLine.trim())) {
+                            tableRows.push(currentParts.map(p => p.trim()));
+                            i++;
+                        } else {
+                            break;
+                        }
+                    }
+
+                    if (tableRows.length >= 2) {
+                        const header = tableRows[0];
+                        const alignmentRow = header.map(() => '---');
+                        resultLines.push('| ' + header.join(' | ') + ' |');
+                        resultLines.push('| ' + alignmentRow.join(' | ') + ' |');
+                        for (let r = 1; r < tableRows.length; r++) {
+                            resultLines.push('| ' + tableRows[r].join(' | ') + ' |');
+                        }
+                    } else if (tableRows.length === 1) {
+                        resultLines.push(lines[i - tableRows.length]);
+                    }
+                } else {
+                    resultLines.push(line);
+                    i++;
+                }
+            }
+
+            return resultLines.join('\n');
+        }
 
         function createMessage(role) {
             const row = document.createElement('div');
@@ -549,7 +316,8 @@
             const query = userInput.value.trim();
             if (!query || isProcessing) return;
 
-            if (welcomeView) welcomeView.style.display = 'none';
+            const currentWelcome = document.getElementById('welcomeView');
+            if (currentWelcome) currentWelcome.style.display = 'none';
 
             // User UI
             const userBox = createMessage('user');
@@ -578,178 +346,72 @@
             `;
 
             const consoleBody = document.getElementById(`console-body-${sessionID}`);
-            const actionsArea = document.getElementById(`actions-${sessionID}`);
             const answerArea = document.getElementById(`answer-${sessionID}`);
             const loader = document.getElementById(`loader-${sessionID}`);
 
-            // try {
-            //     const response = await fetch('http://127.0.0.1:8000/api/chat', {
-            //         method: 'POST',
-            //         headers: { 'Content-Type': 'application/json' },
-            //         body: JSON.stringify({ message: query, history: chatHistory })
-            //     });
-
-            //     const reader = response.body.getReader();
-            //     const decoder = new TextDecoder();
-            //     let lastLogCount = 0;
-            //     let finalAnswer = "";
-
-            //     while (true) {
-            //         const { value, done } = await reader.read();
-            //         if (done) break;
-
-            //         const chunk = decoder.decode(value);
-            //         const lines = chunk.split('\n');
-
-            //         for (const line of lines) {
-            //             if (line.startsWith('data: ')) {
-            //                 const data = JSON.parse(line.substring(6));
-
-            //                 // 1. RAG Display
-            //                 if (data.docs && data.docs.length > 0) renderDocs(data.docs);
-
-            //                 // 2. Thinking Logs
-            //                 if (data.thinking && data.thinking.length > lastLogCount) {
-            //                     for (let i = lastLogCount; i < data.thinking.length; i++) {
-            //                         const log = data.thinking[i];
-            //                         const div = document.createElement('div');
-            //                         div.className = 'log-line';
-
-            //                         let content = log;
-            //                         if (log.includes('-> [Action')) {
-            //                             content = `<span class="log-action">${log}</span>`;
-            //                         } else if (log.includes('<- [Result')) {
-            //                             content = `<span class="log-result">${log}</span>`;
-            //                         } else if (log.includes('!! [Error]')) {
-            //                             content = `<span class="log-error">${log}</span>`;
-            //                         } else {
-            //                             content = `<span class="log-info">${log}</span>`;
-            //                         }
-
-            //                         div.innerHTML = `<span class="log-time">[${new Date().toLocaleTimeString()}]</span> ${content}`;
-            //                         consoleBody.appendChild(div);
-            //                     }
-            //                     lastLogCount = data.thinking.length;
-            //                     consoleBody.scrollTop = consoleBody.scrollHeight;
-            //                 }
-
-            //                 // 3. Action Cards
-            //                 if (data.tool_calls && data.tool_calls.length > 0) {
-            //                     actionsArea.innerHTML = data.tool_calls.map(tc => `
-            //                         <div class="agent-action">
-            //                             <div class="action-header">Agent Task: ${tc.status}</div>
-            //                             <div class="action-call">exec: ${tc.name}()</div>
-            //                             <div class="action-args">params: ${JSON.stringify(tc.args)}</div>
-            //                             ${tc.results_count ? `<div style="font-size:11px; color:#3fb950; margin-top:5px;">✓ Found ${tc.results_count} relevant clauses</div>` : ''}
-            //                         </div>
-            //                     `).join('');
-            //                 }
-
-            //                 // 4. Answer
-            //                 if (data.answer) {
-            //                     answerArea.textContent = data.answer;
-            //                     finalAnswer = data.answer;
-            //                 }
-
-            //                 chatContainer.scrollTop = chatContainer.scrollHeight;
-            //             }
-            //         }
-            //     }
-
-            //     loader.remove();
-            //     chatHistory.push({ role: 'user', content: query });
-            //     chatHistory.push({ role: 'assistant', content: finalAnswer });
-
-            // } catch (error) {
-            //     console.error(error);
-            //     answerArea.innerHTML = `<span style="color:#f85149">Error: Network connection failed. Please check backend server.</span>`;
-            // } finally {
-            //     isProcessing = false;
-            //     sendBtn.disabled = false;
-            // }
-
             try {
+                const token = localStorage.getItem('token');
+                const headers = { 'Content-Type': 'application/json' };
+                if (token) headers['Authorization'] = `Bearer ${token}`;
+
                 const response = await fetch('http://127.0.0.1:8000/api/chat', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: query, history: chatHistory })
+                    headers: headers,
+                    body: JSON.stringify({
+                        message: query,
+                        chat_id: activeChatId,
+                        history: chatHistory
+                    })
                 });
 
                 const reader = response.body.getReader();
                 const decoder = new TextDecoder();
-                let lastLogCount = 0;
                 let finalAnswer = "";
-                let buffer = ""; // Sử dụng biến buffer để lưu trữ các chuỗi JSON dở dang
+                let accumulatedThinking = "";
+                let buffer = "";
 
                 while (true) {
                     const { value, done } = await reader.read();
                     if (done) break;
 
-                    // Cộng dồn dữ liệu mới vào buffer
                     buffer += decoder.decode(value, { stream: true });
                     const lines = buffer.split('\n');
-
-                    // Giữ lại dòng cuối cùng dở dang vào buffer để xử lý tiếp ở vòng lặp sau
                     buffer = lines.pop();
 
                     for (const line of lines) {
                         const trimmedLine = line.trim();
                         if (trimmedLine.startsWith('data: ')) {
                             try {
-                                // Thực hiện parse an toàn bên trong khối try-catch
                                 const data = JSON.parse(trimmedLine.substring(6));
 
-                                // 1. RAG Display
+                                if (data.new_chat_id) {
+                                    activeChatId = data.new_chat_id;
+                                    fetchUserChats();
+                                }
+
                                 if (data.docs && data.docs.length > 0) renderDocs(data.docs);
 
-                                // 2. Thinking Logs
-                                if (data.thinking && data.thinking.length > lastLogCount) {
-                                    for (let i = lastLogCount; i < data.thinking.length; i++) {
-                                        const log = data.thinking[i];
-                                        const div = document.createElement('div');
-                                        div.className = 'log-line';
-
-                                        let content = log;
-                                        if (log.includes('-> [Action')) {
-                                            content = `<span class="log-action">${log}</span>`;
-                                        } else if (log.includes('<- [Result')) {
-                                            content = `<span class="log-result">${log}</span>`;
-                                        } else if (log.includes('!! [Error]')) {
-                                            content = `<span class="log-error">${log}</span>`;
-                                        } else {
-                                            content = `<span class="log-info">${log}</span>`;
-                                        }
-
-                                        div.innerHTML = `<span class="log-time">[${new Date().toLocaleTimeString()}]</span> ${content}`;
-                                        consoleBody.appendChild(div);
-                                    }
-                                    lastLogCount = data.thinking.length;
+                                if (data.thinking) {
+                                    accumulatedThinking += data.thinking;
+                                    consoleBody.textContent = accumulatedThinking;
+                                    consoleBody.style.whiteSpace = 'pre-wrap';
                                     consoleBody.scrollTop = consoleBody.scrollHeight;
                                 }
 
-                                // 3. Action Cards
-                                if (data.tool_calls && data.tool_calls.length > 0) {
-                                    actionsArea.innerHTML = data.tool_calls.map(tc => `
-                                    <div class="agent-action">
-                                        <div class="action-header">Agent Task: ${tc.status}</div>
-                                        <div class="action-call">exec: ${tc.name}()</div>
-                                        <div class="action-args">params: ${JSON.stringify(tc.args)}</div>
-                                        ${tc.results_count ? `<div style="font-size:11px; color:#3fb950; margin-top:5px;">✓ Found ${tc.results_count} relevant clauses</div>` : ''}
-                                    </div>
-                                `).join('');
-                                }
-
-                                // 4. Answer
                                 if (data.answer) {
-                                    answerArea.textContent = data.answer;
-                                    finalAnswer = data.answer;
+                                    finalAnswer += data.answer;
+                                    const processedAnswer = convertRawTableToMarkdown(finalAnswer);
+
+                                    if (typeof marked !== 'undefined') {
+                                        answerArea.innerHTML = marked.parse(processedAnswer);
+                                    } else {
+                                        answerArea.textContent = finalAnswer;
+                                        answerArea.style.whiteSpace = 'pre-wrap';
+                                    }
                                 }
 
                                 chatContainer.scrollTop = chatContainer.scrollHeight;
-                            } catch (parseError) {
-                                // Bỏ qua lỗi parse nếu dòng dữ liệu chưa hoàn chỉnh (sẽ được ghép đầy đủ ở chunk sau)
-                                console.warn("Đang chờ gói tin hoàn chỉnh...", parseError);
-                            }
+                            } catch (parseError) {}
                         }
                     }
                 }
@@ -761,18 +423,17 @@
             } catch (error) {
                 console.error(error);
                 if (answerArea) {
-                    answerArea.innerHTML = `<span style="color:#f85149">Error: Network connection failed. Please check backend server.</span>`;
+                    answerArea.innerHTML = `<span style="color:#d1293d">Error: Network connection failed. Please check backend server.</span>`;
                 }
             } finally {
                 isProcessing = false;
                 sendBtn.disabled = false;
             }
-
         }
 
         function renderDocs(docs) {
             docList.innerHTML = '';
-            docs.forEach((doc, idx) => {
+            docs.forEach((doc) => {
                 const card = document.createElement('div');
                 card.className = 'doc-card';
                 card.onclick = () => card.classList.toggle('expanded');
@@ -810,5 +471,4 @@
         }
     </script>
 </body>
-
 </html>

@@ -26,6 +26,5 @@ def embed_texts(texts:list)->list:
 
     segmented_texts = [ViTokenizer.tokenize(text) for text in texts]
     embeddings = model.encode(segmented_texts, batch_size=EMBEDDING_SIZE, normalize_embeddings=True, convert_to_tensor=False).tolist()
-    # embeddings = model.encode(texts, batch_size=EMBEDDING_SIZE, normalize_embeddings=True, convert_to_tensor=False).tolist()
     logger.info(f'Completed embedding texts {len(texts)}')
     return embeddings
