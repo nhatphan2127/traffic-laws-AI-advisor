@@ -1,485 +1,319 @@
 import sys
-import os
 import json
+import math
 import logging
+import argparse
 from pathlib import Path
 
 # Add root directory to sys.path to allow module imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-# Import retrieval function
 from retrieval.retrieval import retrieval
+from tools.qdrant_filter import extract_relevant_clause_point
 
-
-# ============================================================
-# Logging
-# ============================================================
-
-# Set up logging to stdout with UTF-8 support
-if sys.stdout and hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8")
-
-if sys.stderr and hasattr(sys.stderr, "reconfigure"):
-    sys.stderr.reconfigure(encoding="utf-8")
-
+# Set up logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[logging.StreamHandler(sys.stdout)],
     force=True,
 )
-
 logger = logging.getLogger("evaluate_retrieval")
 
 
-# ============================================================
-# Ground Truth Matching
-# ============================================================
-
 def is_match(chunk_metadata: dict, gt_item: dict) -> bool:
-    """
-    Check whether a retrieved chunk matches a ground-truth item.
-
-    Matching is based on:
-        1. Document
-        2. Article
-        3. Clause
-        4. Point (if provided in ground truth)
-    """
-
-    # --------------------------------------------------------
-    # Document matching
-    # --------------------------------------------------------
-
+    """Check whether a retrieved chunk matches a ground-truth item."""
     doc_short_name = chunk_metadata.get("document_short_name", "")
     gt_doc = gt_item.get("document", "")
 
-    clean_doc_short = (
-        str(doc_short_name)
-        .lower()
-        .replace("/", "_")
-        .replace("đ", "d")
+    clean_doc_short = str(doc_short_name).lower().replace("/", "_").replace("đ", "d")
+    clean_gt_doc = str(gt_doc).lower().replace("/", "_").replace("đ", "d")
+
+    # Document matching logic
+    doc_match = (
+        ("168" in clean_doc_short and "2024" in clean_doc_short)
+        or (clean_gt_doc in clean_doc_short)
+        or (clean_doc_short in clean_gt_doc)
+        or not gt_doc
+        or not doc_short_name
     )
-
-    clean_gt_doc = (
-        str(gt_doc)
-        .lower()
-        .replace("/", "_")
-        .replace("đ", "d")
-    )
-
-    doc_match = False
-
-    # Special case for document 168/2024
-    if "168" in clean_doc_short and "2024" in clean_doc_short:
-        doc_match = True
-
-    # Normal document matching
-    elif clean_gt_doc in clean_doc_short:
-        doc_match = True
-
-    elif clean_doc_short in clean_gt_doc:
-        doc_match = True
-
-    # If document information is missing,
-    # do not reject the document based on document name.
-    elif not gt_doc or not doc_short_name:
-        doc_match = True
-
     if not doc_match:
         return False
 
-    # --------------------------------------------------------
-    # Article matching
-    # --------------------------------------------------------
-
+    # Article matching logic
     if chunk_metadata.get("article_number") != gt_item.get("article"):
         return False
 
-    # --------------------------------------------------------
-    # Clause matching
-    # --------------------------------------------------------
-
+    # Clause matching logic
     if chunk_metadata.get("clause_number") != gt_item.get("clause"):
         return False
 
-    # --------------------------------------------------------
-    # Point matching
-    # --------------------------------------------------------
-
+    # Point matching logic
     gt_point = gt_item.get("point")
-
     if gt_point is not None:
-
         chunk_point = chunk_metadata.get("point")
-
-        if chunk_point is None:
-            return False
-
-        if (
-            str(chunk_point).strip().lower()
-            != str(gt_point).strip().lower()
-        ):
+        if chunk_point is None or str(chunk_point).strip().lower() != str(gt_point).strip().lower():
             return False
 
     return True
 
 
-# ============================================================
-# Evaluate One Query
-# ============================================================
+def _get_doc_key(doc) -> tuple:
+    """Extract a unique key from metadata to avoid duplicates in document lists."""
+    meta = getattr(doc, "metadata", {})
+    return (
+        meta.get("document_short_name"),
+        meta.get("article_number"),
+        meta.get("clause_number"),
+        meta.get("point"),
+    )
 
-def evaluate_query(question: str, gt_items: list[dict]) -> dict:
-    """
-    Run retrieval for one query and calculate:
 
-        Precision@3
-        Precision@5
-        Precision@10
-
-        Recall@3
-        Recall@5
-        Recall@10
-    """
-
-    # --------------------------------------------------------
-    # Retrieve documents
-    # --------------------------------------------------------
-
-    retrieved_docs = retrieval(question)
-
+def compute_retrieval_metrics(docs: list, gt_items: list[dict], k_values=(3, 5, 10)) -> dict:
+    """Compute Initial Retrieval metrics: MRR, Recall@K, and NDCG@K."""
     results = {}
+    if not gt_items:
+        results["mrr"] = 0.0
+        for k in k_values:
+            results[f"recall@{k}"] = 0.0
+            results[f"ndcg@{k}"] = 0.0
+        return results
 
-    # --------------------------------------------------------
-    # Evaluate at K = 3, 5, 10
-    # --------------------------------------------------------
-
-    for k in [3, 5, 10]:
-
-        # Take top K documents
-        top_k_docs = retrieved_docs[:k]
-
-        # Number of retrieved documents that are relevant
-        relevant_retrieved_count = 0
-
-        # Ground-truth items that were successfully retrieved
-        matched_gt_indices = set()
-
-        # ----------------------------------------------------
-        # Check every retrieved document
-        # ----------------------------------------------------
-
-        for doc in top_k_docs:
-
-            is_doc_relevant = False
-
-            for gt_idx, gt in enumerate(gt_items):
-
-                if is_match(doc.metadata, gt):
-
-                    is_doc_relevant = True
-                    matched_gt_indices.add(gt_idx)
-
-            if is_doc_relevant:
-                relevant_retrieved_count += 1
-
-        # ----------------------------------------------------
-        # Precision@K
-        #
-        # Precision@K =
-        # relevant documents in top K / K
-        # ----------------------------------------------------
-
-        precision = (
-            relevant_retrieved_count / k
-            if k > 0
-            else 0.0
-        )
-
-        # ----------------------------------------------------
-        # Recall@K
-        #
-        # Recall@K =
-        # relevant GT documents retrieved / total GT documents
-        # ----------------------------------------------------
-
-        recall = (
-            len(matched_gt_indices) / len(gt_items)
-            if len(gt_items) > 0
-            else 0.0
-        )
-
-        results[f"precision@{k}"] = precision
-        results[f"recall@{k}"] = recall
-
-    # --------------------------------------------------------
-    # Store retrieved documents
-    # --------------------------------------------------------
-
-    results["retrieved"] = [
-        {
-            "text": doc.text[:150] + "...",
-            "metadata": doc.metadata,
-            "score": doc.total_score,
-        }
-        for doc in retrieved_docs
+    rel_flags = [
+        any(is_match(getattr(doc, "metadata", {}), gt) for gt in gt_items)
+        for doc in docs
     ]
 
+    # Calculate Reciprocal Rank (MRR)
+    first_rel_idx = next((i for i, rel in enumerate(rel_flags) if rel), None)
+    results["mrr"] = 1.0 / (first_rel_idx + 1) if first_rel_idx is not None else 0.0
+
+    # Calculate Recall@K and NDCG@K
+    for k in k_values:
+        top_k_docs = docs[:k]
+
+        # Recall@K: Number of unique GT items matched in top K / total GT items
+        matched_gt_indices = {
+            gt_idx
+            for gt_idx, gt in enumerate(gt_items)
+            for doc in top_k_docs
+            if is_match(getattr(doc, "metadata", {}), gt)
+        }
+        recall = len(matched_gt_indices) / len(gt_items)
+
+        # NDCG@K
+        dcg = sum(
+            1.0 / math.log2(i + 2)
+            for i, rel in enumerate(rel_flags[:k])
+            if rel
+        )
+        idcg = sum(
+            1.0 / math.log2(i + 2)
+            for i in range(min(k, len(gt_items)))
+        )
+        ndcg = dcg / idcg if idcg > 0 else 0.0
+
+        results[f"recall@{k}"] = round(recall, 4)
+        results[f"ndcg@{k}"] = round(ndcg, 4)
+
+    results["mrr"] = round(results["mrr"], 4)
     return results
 
 
-# ============================================================
-# Main Evaluation
-# ============================================================
+def compute_expansion_metrics(retrieved_docs: list, combined_docs: list, gt_items: list[dict]) -> dict:
+    """Compute Expansion metrics: final_recall (Recall@ALL) and rescue_rate."""
+    total_gt = len(gt_items)
+    if total_gt == 0:
+        return {
+            "final_recall": 0.0,
+            "rescue_rate": 0.0
+        }
+
+    # 1. Determine ground-truth items matched by initial retrieval
+    initial_matched_gt = {
+        gt_idx
+        for gt_idx, gt in enumerate(gt_items)
+        for doc in retrieved_docs
+        if is_match(getattr(doc, "metadata", {}), gt)
+    }
+
+    # 2. Determine ground-truth items matched by combined (expanded) docs
+    final_matched_gt = {
+        gt_idx
+        for gt_idx, gt in enumerate(gt_items)
+        for doc in combined_docs
+        if is_match(getattr(doc, "metadata", {}), gt)
+    }
+
+    # 3. Compute Final Recall (Recall@ALL)
+    final_recall = len(final_matched_gt) / total_gt
+
+    # 4. Compute Rescue Rate
+    initial_missed_gt = set(range(total_gt)) - initial_matched_gt
+    rescued_gt = final_matched_gt - initial_matched_gt
+
+    if len(initial_missed_gt) > 0:
+        rescue_rate = len(rescued_gt) / len(initial_missed_gt)
+    else:
+        # Initial retrieval found all ground-truth items, no items needed rescuing
+        rescue_rate = 0.0
+
+    return {
+        "final_recall": round(final_recall, 4),
+        "rescue_rate": round(rescue_rate, 4),
+    }
+
+
+def evaluate_query(question: str, gt_items: list[dict], k_values=(1, 3, 5)) -> dict:
+    """Execute retrieval, apply document expansion, and evaluate both stages."""
+    # 1. Initial Retrieval
+    retrieved_docs = retrieval(question)
+
+    # 2. Document Expansion & Deduplication
+    combined_docs = []
+    seen_keys = set()
+
+    for doc in retrieved_docs:
+        doc_key = _get_doc_key(doc)
+        if doc_key not in seen_keys:
+            seen_keys.add(doc_key)
+            combined_docs.append(doc)
+
+        # Call reference expansion tool
+        try:
+            metadata = getattr(doc, "metadata", {})
+            article_raw = metadata.get("article_number")
+            clause_raw = metadata.get("clause_number")
+
+            article_number = int(article_raw) if article_raw is not None else None
+            clause = int(clause_raw) if clause_raw is not None else None
+            point = metadata.get("point") if metadata.get("is_point") else None
+
+            if (not article_number) and (not clause) and (not point):
+                continue
+
+            extracted = extract_relevant_clause_point(
+                article=article_number,
+                clause=clause,
+                point=point
+            )
+            if extracted:
+                for rel_doc in extracted:
+                    rel_key = _get_doc_key(rel_doc)
+                    if rel_key not in seen_keys:
+                        seen_keys.add(rel_key)
+                        combined_docs.append(rel_doc)
+        except (ValueError, TypeError, KeyError) as e:
+            logger.warning(f"Metadata extraction warning for document: {e}")
+        except Exception as e:
+            logger.error(f"Unexpected error extracting clause/point: {e}", exc_info=True)
+
+    # 3. Calculate Metrics
+    retrieval_metrics = compute_retrieval_metrics(retrieved_docs, gt_items, k_values=k_values)
+    expansion_metrics = compute_expansion_metrics(retrieved_docs, combined_docs, gt_items)
+
+    return {
+        "question": question,
+        "retrieval_metrics": retrieval_metrics,
+        "expansion_metrics": expansion_metrics,
+    }
+
 
 def main():
-
-    # --------------------------------------------------------
-    # Evaluation dataset
-    # --------------------------------------------------------
-
-    eval_file_path = Path(
-        "data/processed/evals_168_2024.json"
+    parser = argparse.ArgumentParser(description="Evaluate RAG Retrieval and Expansion metrics.")
+    parser.add_argument(
+        "--input",
+        "-i",
+        type=str,
+        default="data/processed/evals_168_2024.json",
+        help="Path to evaluation dataset file (JSON)",
     )
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=str,
+        default="evaluation/evaluation_results.json",
+        help="Path to save output evaluation report",
+    )
+    args = parser.parse_args()
 
+    eval_file_path = Path(args.input)
     if not eval_file_path.exists():
-
-        logger.error(
-            f"Evaluation file not found: {eval_file_path}"
-        )
-
+        logger.error(f"Evaluation dataset file not found: {eval_file_path}")
         return
 
-    logger.info(
-        f"Loading evaluation queries from {eval_file_path}"
-    )
-
-    # --------------------------------------------------------
-    # Load JSON
-    # --------------------------------------------------------
-
-    with open(
-        eval_file_path,
-        "r",
-        encoding="utf-8"
-    ) as f:
-
+    logger.info(f"Loading evaluation dataset from: {eval_file_path}")
+    with open(eval_file_path, "r", encoding="utf-8") as f:
         evals = json.load(f)
 
-    logger.info(
-        f"Starting evaluation of {len(evals)} queries..."
-    )
+    logger.info(f"Starting evaluation on {len(evals)} queries...")
 
-    # ========================================================
-    # Initialize totals
-    # ========================================================
+    k_values = (1,3,5)
+    retrieval_keys = ["mrr"] + [f"recall@{k}" for k in k_values] + [f"ndcg@{k}" for k in k_values]
+    expansion_keys = ["final_recall", "rescue_rate"]
 
-    total_p3 = 0.0
-    total_p5 = 0.0
-    total_p10 = 0.0
+    retrieval_sums = {k: 0.0 for k in retrieval_keys}
+    expansion_sums = {k: 0.0 for k in expansion_keys}
 
-    total_r3 = 0.0
-    total_r5 = 0.0
-    total_r10 = 0.0
-
-    # Detailed results for every query
     detailed_results = []
 
-    # ========================================================
-    # Evaluate every query
-    # ========================================================
-
     for idx, item in enumerate(evals):
-
         question = item["question"]
-        gt_items = item["retrieve_items"]
+        gt_items = item.get("retrieve_items", [])
 
-        logger.info(
-            f"[{idx + 1}/{len(evals)}] "
-            f"Evaluating query: '{question}'"
-        )
+        logger.info(f"[{idx + 1}/{len(evals)}] Evaluating query: '{question}'")
+        res = evaluate_query(question, gt_items, k_values=k_values)
 
-        # ----------------------------------------------------
-        # Evaluate query
-        # ----------------------------------------------------
+        for k in retrieval_keys:
+            retrieval_sums[k] += res["retrieval_metrics"][k]
+        for k in expansion_keys:
+            expansion_sums[k] += res["expansion_metrics"][k]
 
-        res = evaluate_query(
-            question,
-            gt_items
-        )
-
-        # ----------------------------------------------------
-        # Get metrics
-        # ----------------------------------------------------
-
-        p3 = res["precision@3"]
-        p5 = res["precision@5"]
-        p10 = res["precision@10"]
-
-        r3 = res["recall@3"]
-        r5 = res["recall@5"]
-        r10 = res["recall@10"]
-
-        # ----------------------------------------------------
-        # Accumulate totals
-        # ----------------------------------------------------
-
-        total_p3 += p3
-        total_p5 += p5
-        total_p10 += p10
-
-        total_r3 += r3
-        total_r5 += r5
-        total_r10 += r10
-
-        # ----------------------------------------------------
-        # Store detailed result
-        # ----------------------------------------------------
-
-        detailed_results.append(
-            {
-                "question": question,
-
-                "ground_truth": gt_items,
-
-                "metrics": {
-                    "precision@3": p3,
-                    "precision@5": p5,
-                    "precision@10": p10,
-
-                    "recall@3": r3,
-                    "recall@5": r5,
-                    "recall@10": r10,
-                },
-
-                "retrieved_items": res["retrieved"],
-            }
-        )
-
-    # ========================================================
-    # Calculate averages
-    # ========================================================
+        detailed_results.append(res)
 
     num_queries = len(evals)
 
-    if num_queries > 0:
-
-        avg_p3 = total_p3 / num_queries
-        avg_p5 = total_p5 / num_queries
-        avg_p10 = total_p10 / num_queries
-
-        avg_r3 = total_r3 / num_queries
-        avg_r5 = total_r5 / num_queries
-        avg_r10 = total_r10 / num_queries
-
-    else:
-
-        avg_p3 = 0.0
-        avg_p5 = 0.0
-        avg_p10 = 0.0
-
-        avg_r3 = 0.0
-        avg_r5 = 0.0
-        avg_r10 = 0.0
-
-    # ========================================================
-    # Summary
-    # ========================================================
+    avg_retrieval_metrics = (
+        {k: round(retrieval_sums[k] / num_queries, 4) for k in retrieval_keys}
+        if num_queries > 0
+        else {k: 0.0 for k in retrieval_keys}
+    )
+    avg_expansion_metrics = (
+        {k: round(expansion_sums[k] / num_queries, 4) for k in expansion_keys}
+        if num_queries > 0
+        else {k: 0.0 for k in expansion_keys}
+    )
 
     summary = {
         "total_queries": num_queries,
-
-        "metrics": {
-            "average_precision@3": avg_p3,
-            "average_precision@5": avg_p5,
-            "average_precision@10": avg_p10,
-
-            "average_recall@3": avg_r3,
-            "average_recall@5": avg_r5,
-            "average_recall@10": avg_r10,
-        },
+        "retrieval_metrics": avg_retrieval_metrics,
+        "expansion_metrics": avg_expansion_metrics,
     }
-
-    # ========================================================
-    # Complete report
-    # ========================================================
 
     report = {
         "summary": summary,
         "results": detailed_results,
     }
 
-    # ========================================================
-    # Save report
-    # ========================================================
+    output_path = Path(args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    output_dir = Path("evaluation")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
 
-    output_dir.mkdir(
-        exist_ok=True
-    )
+    logger.info("=== EVALUATION REPORT SUMMARY ===")
+    logger.info(f"Total Queries Evaluated: {num_queries}")
+    logger.info("--- Initial Retrieval Metrics ---")
+    for k, v in avg_retrieval_metrics.items():
+        logger.info(f"  {k}: {v:.4f}")
 
-    report_file_path = (
-        output_dir / "evaluation_results.json"
-    )
+    logger.info("--- Expansion Metrics ---")
+    for k, v in avg_expansion_metrics.items():
+        logger.info(f"  {k}: {v:.4f}")
 
-    with open(
-        report_file_path,
-        "w",
-        encoding="utf-8"
-    ) as f:
+    logger.info(f"Report successfully written to: {output_path}")
 
-        json.dump(
-            report,
-            f,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    # ========================================================
-    # Print summary
-    # ========================================================
-
-    logger.info(
-        "=== EVALUATION REPORT SUMMARY ==="
-    )
-
-    logger.info(
-        f"Total evaluated queries: {num_queries}"
-    )
-
-    logger.info(
-        f"Average Precision@3:  {avg_p3:.4f}"
-    )
-
-    logger.info(
-        f"Average Precision@5:  {avg_p5:.4f}"
-    )
-
-    logger.info(
-        f"Average Precision@10: {avg_p10:.4f}"
-    )
-
-    logger.info(
-        f"Average Recall@3:     {avg_r3:.4f}"
-    )
-
-    logger.info(
-        f"Average Recall@5:     {avg_r5:.4f}"
-    )
-
-    logger.info(
-        f"Average Recall@10:    {avg_r10:.4f}"
-    )
-
-    logger.info(
-        f"Full report saved to {report_file_path}"
-    )
-
-
-# ============================================================
-# Entry Point
-# ============================================================
 
 if __name__ == "__main__":
     main()
+    # python -m evaluation.evaluate --input evaluation/data/evals_168_2024.json --output evaluation/result/evaluation_results.json

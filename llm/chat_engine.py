@@ -27,11 +27,15 @@ class ChatEngine:
             prompt_content = LEGAL_QUERY_NORMALIZATION_PROMPT.format(USER_QUERY=query)
             messages = [{"role": "user", "content": prompt_content}]
             
-            # Use generate_with_tools without tools to get a single generation
-            _, normalized = self.llm.generate_with_tools(
-                messages, tools=None, provider="cloud_ollama", stream=False
+            normalized = self.llm.generate(
+                messages, stream=False
             )
-            normalized = normalized.strip()
+
+            if isinstance(normalized, tuple):
+                thinking, content = normalized
+                normalized = content if content else thinking
+
+            normalized = str(normalized or "").strip()
             logger.debug(f"[QUERY NORMALIZATION] Raw LLM output: '{normalized}'")
             
             # Strip any quotes if LLM wraps the query in them
@@ -86,6 +90,9 @@ class ChatEngine:
                 clause = int(clause_raw) if clause_raw is not None else None
                 point = metadata.get('point') if metadata.get('is_point') else None
 
+                if (not article_number) and (not clause) and (not point):
+                    continue
+                
                 extracted = extract_relevant_clause_point(article=article_number, clause=clause, point=point)
                 if extracted:
                     relevant_docs.extend(extracted)
@@ -136,3 +143,4 @@ class ChatEngine:
     def reset_history(self):
         logger.debug("Chat history reset triggered.")
         pass
+

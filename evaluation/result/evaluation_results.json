@@ -1,0 +1,1620 @@
+{
+  "summary": {
+    "total_queries": 100,
+    "retrieval_metrics": {
+      "mrr": 0.8495,
+      "recall@1": 0.595,
+      "recall@3": 0.735,
+      "recall@10": 0.7433,
+      "ndcg@1": 0.77,
+      "ndcg@3": 0.7382,
+      "ndcg@10": 0.7469
+    },
+    "expansion_metrics": {
+      "final_recall": 0.935,
+      "rescue_rate": 0.37
+    }
+  },
+  "results": [
+    {
+      "question": "Nghị định này quy định về những nội dung gì?",
+      "retrieval_metrics": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "expansion_metrics": {
+        "final_recall": 0.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm giao thông đường bộ thì bị xử phạt theo mức của cá nhân hay tổ chức?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Các hình thức xử phạt chính đối với vi phạm hành chính về trật tự, an toàn giao thông đường bộ gồm những gì?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.5,
+        "recall@10": 1.0,
+        "ndcg@10": 1.9307
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Hình thức xử phạt bổ sung đối với cá nhân, tổ chức vi phạm giao thông đường bộ bao gồm những hình thức nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 2.1309,
+        "recall@10": 1.0,
+        "ndcg@10": 2.1309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép lái xe được quy định như thế nào nếu tại thời điểm ra quyết định xử phạt đã tạm giữ được giấy phép?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Trường hợp tại thời điểm ra quyết định xử phạt người có thẩm quyền chưa tạm giữ được giấy phép lái xe thì thời hạn tước được tính từ khi nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Việc tước quyền sử dụng giấy phép lái xe tích hợp không thời hạn và có thời hạn được thực hiện như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô lùi xe trên đường cao tốc bị phạt bao nhiêu tiền và trừ bao nhiêu điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô sử dụng còi trong khu đông dân cư từ 22 giờ đêm đến 05 giờ sáng bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.6309,
+        "recall@10": 1.0,
+        "ndcg@10": 0.6309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức phạt đối với hành vi điều khiển xe ô tô chuyển làn đường không có tín hiệu báo trước là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô không thắt dây đai an toàn khi lái xe chạy trên đường bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.5,
+        "recall@10": 1.0,
+        "ndcg@10": 0.5
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét ngồi cùng hàng ghế với người lái xe ô tô bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.6309,
+        "recall@10": 1.0,
+        "ndcg@10": 0.6309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn bị phạt tiền bao nhiêu và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Hành vi lùi xe ô tô trên đường một chiều bị xử phạt tiền và trừ điểm giấy phép lái xe ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người vừa lái xe ô tô vừa dùng tay cầm điện thoại di động bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Chạy ô tô quá tốc độ từ 10 km/h đến 20 km/h bị xử phạt tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển ô tô vượt xe tại đoạn đường có biển báo cấm vượt bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Xe ô tô đi vào đường có biển báo cấm đi vào bị phạt tiền và trừ điểm GPLX như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô đi trên vỉa hè bị xử phạt tiền và trừ điểm giấy phép lái xe bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Lái ô tô mà trong máu có nồng độ cồn chưa vượt quá 50 mg/100 ml máu bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô chạy quá tốc độ quy định trên 20 km/h đến 35 km/h bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô chạy quá tốc độ trên 35 km/h bị xử phạt tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3869,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3869
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Đỗ xe ô tô trên đường cao tốc không đúng nơi quy định bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Mức phạt đối với tài xế ô tô gây tai nạn giao thông rồi bỏ trốn khỏi hiện trường là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe ô tô có nồng độ cồn vượt quá 50 mg đến 80 mg/100 ml máu bị xử phạt ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe ô tô vượt đèn đỏ (không chấp hành hiệu lệnh của đèn tín hiệu giao thông) bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3869,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3869
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Mức xử phạt đối với người điều khiển xe ô tô đi ngược chiều của đường một chiều là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái ô tô mà nồng độ cồn vượt quá 80 mg/100 ml máu bị phạt tiền bao nhiêu và tước GPLX bao lâu?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ khi đi xe ô tô bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3869,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3869
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Hành vi lạng lách, đánh võng bằng xe ô tô bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "expansion_metrics": {
+        "final_recall": 0.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô lạng lách, đánh võng gây tai nạn giao thông bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe mô tô sử dụng còi trong khu đông dân cư từ 22 giờ đến 05 giờ sáng bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chở người ngồi trên xe mô tô sử dụng ô (dù) thì người điều khiển xe mô tô bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe mô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe mô tô chở theo 02 người trên xe (trừ các trường hợp được phép) bị xử phạt bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe mô tô không đội mũ bảo hiểm bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô chở theo từ 03 người trở lên bị phạt tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô chạy dàn hàng ngang từ 03 xe trở lên bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chạy xe mô tô quá tốc độ quy định từ 10 km/h đến 20 km/h bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người đang điều khiển xe mô tô dùng tay cầm và sử dụng điện thoại di động bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe mô tô mà trong máu có nồng độ cồn chưa vượt quá 50 mg/100 ml máu bị phạt bao nhiêu tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3869,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3869
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô đi vào khu vực cấm, đường có biển báo hiệu cấm đi vào bị phạt tiền và trừ điểm GPLX như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe mô tô đi ngược chiều trên đường một chiều bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô đi vào đường cao tốc bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe mô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông bị xử phạt ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Mức phạt đối với xe mô tô chạy quá tốc độ quy định trên 20 km/h là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 0.2,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@10": 0.5,
+        "ndcg@10": 0.2372
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe mô tô có nồng độ cồn vượt quá 50 mg đến 80 mg/100 ml máu bị xử phạt ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Hành vi điều khiển xe mô tô lạng lách, đánh võng trên đường bộ bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe mô tô có nồng độ cồn vượt quá 80 mg/100 ml máu bị xử phạt tiền và tước GPLX như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Hành vi buông cả hai tay khi đang điều khiển xe mô tô bị xử lý như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Xe máy chuyên dùng chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức phạt tiền đối với hành vi đi ngược chiều đường một chiều của người điều khiển xe máy chuyên dùng là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe đạp đi dàn hàng ngang từ 03 xe trở lên bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người điều khiển xe đạp máy không đội mũ bảo hiểm bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức phạt tiền đối với hành vi điều khiển xe đạp đi vào đường cao tốc là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người đi bộ vượt qua dải phân cách để qua đường bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức xử phạt đối với người đi bộ đi vào đường cao tốc là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Dẫn dắt vật nuôi đi vào đường cao tốc bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Đá bóng, chơi cầu lông trái phép trên phần đường xe chạy bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Bán hàng rong trên lòng đường các tuyến phố có quy định cấm bán hàng bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Sử dụng trái phép vỉa hè để kinh doanh dịch vụ ăn uống, buôn bán bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Hành vi rải vật sắc nhọn trên đường bộ bị xử phạt tiền và bổ sung như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô không có kính chắn gió bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô lắp thêm đèn phía trên nóc hoặc phía trước xe bị xử phạt ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Lái xe ô tô có tem kiểm định an toàn kỹ thuật hết hạn dưới 01 tháng bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô không gắn biển số bị xử phạt tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Mức phạt đối với hành vi điều khiển xe ô tô gắn biển số giả (không do cơ quan có thẩm quyền cấp) là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 0.25,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@10": 0.3333,
+        "ndcg@10": 0.2021
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô không có gương chiếu hậu bên trái bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức phạt tiền và trừ điểm GPLX đối với người điều khiển xe mô tô không gắn biển số là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chở đất đá, phế thải trên xe ô tô làm rơi vãi xuống đường bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Đổ trái phép rác, đất, đá, chất phế thải ra đường phố bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh 100 cm3 bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe mô tô 110 cm3 không có giấy phép lái xe bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.6309,
+        "recall@10": 1.0,
+        "ndcg@10": 0.6309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Lái xe mô tô trên 125 cm3 không có giấy phép lái xe bị xử phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Sử dụng giấy phép lái xe ô tô hết hạn dưới 01 năm bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Mức phạt tiền đối với hành vi điều khiển xe ô tô không có giấy phép lái xe là bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.5,
+        "recall@10": 1.0,
+        "ndcg@10": 0.5
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Xe ô tô chở khách đang chạy mà không đóng cửa lên xuống bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Hành vi đón, trả hành khách trên đường cao tốc đối với lái xe ô tô bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Không chốt, đóng cố định cửa sau, cửa bên thùng xe tải khi đang chạy bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Lái xe ô tô tải chở hàng vượt trọng tải cho phép từ 30% đến 50% bị xử phạt ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chở hàng vượt trọng tải cho phép của xe ô tô tải trên 150% bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Vận chuyển hàng nguy hiểm là chất nổ đi qua hầm đường bộ dài trên 100 mét bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Vận chuyển hàng hóa nguy hiểm mà không có giấy phép vận chuyển bị xử phạt như thế nào?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.3066,
+        "recall@10": 0.5,
+        "ndcg@10": 0.3066
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Doanh nghiệp không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.6309,
+        "recall@10": 1.0,
+        "ndcg@10": 0.6309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe ô tô đưa đón học sinh không có thiết bị cảnh báo chống bỏ quên trẻ em bị phạt tiền bao nhiêu?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 0.5,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt tiền và trừ điểm GPLX ra sao?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.9197,
+        "recall@10": 1.0,
+        "ndcg@10": 0.9197
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với đăng ký xe bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 0.5,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.6309,
+        "recall@10": 1.0,
+        "ndcg@10": 0.6309
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chủ xe ô tô tự ý thay đổi màu sơn của xe bị xử phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Chủ xe ô tô giao xe cho người không có giấy phép lái xe điều khiển tham gia giao thông bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 0.3333,
+        "recall@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 1.0,
+        "ndcg@3": 0.5,
+        "recall@10": 1.0,
+        "ndcg@10": 0.5
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Hành khách mang hóa chất độc hại, chất dễ cháy nổ lên xe chở khách bị xử phạt thế nào?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Lái xe ô tô chở hàng vượt quá tải trọng cho phép của đường bộ trên 50% bị phạt tiền bao nhiêu và trừ mấy điểm GPLX?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "ndcg@3": 0.6131,
+        "recall@10": 0.5,
+        "ndcg@10": 0.6131
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 1.0
+      }
+    },
+    {
+      "question": "Hành vi tụ tập để cổ vũ, xúi giục đua xe trái phép bị phạt bao nhiêu tiền?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    },
+    {
+      "question": "Thời hạn bao lâu không bị trừ điểm thì giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm?",
+      "retrieval_metrics": {
+        "mrr": 1.0,
+        "recall@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 1.0,
+        "ndcg@3": 1.0,
+        "recall@10": 1.0,
+        "ndcg@10": 1.0
+      },
+      "expansion_metrics": {
+        "final_recall": 1.0,
+        "rescue_rate": 0.0
+      }
+    }
+  ]
+}

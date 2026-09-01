@@ -107,46 +107,7 @@ class LLMModel:
             self.logger.error(f"Error calling Gemini API: {e}", exc_info=True)
             return f"Error: Unable to call Gemini. {str(e)}"
 
-    def _stream_gemini(self, messages: List[Dict[str, str]]) -> Generator[str, None, None]:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.google_model}:streamGenerateContent?key={self.google_api_key}"
-        payload = self._to_gemini_payload(messages)
 
-        self.logger.debug(f"Streaming from Gemini API model: '{self.google_model}'")
-        try:
-            response = self.session.post(url, json=payload, stream=True, timeout=60)
-            response.raise_for_status()
-
-            for line in response.iter_lines(decode_unicode=True):
-                if not line:
-                    continue
-                
-                # Clean the line received from the Gemini SSE Stream
-                cleaned = line.strip()
-                if cleaned.startswith("data:"):
-                    cleaned = cleaned[5:].strip()
-                if cleaned.startswith("[") or cleaned.startswith(","):
-                    cleaned = cleaned[1:].strip()
-                if cleaned.endswith("]"):
-                    cleaned = cleaned[:-1].strip()
-
-                if not cleaned:
-                    continue
-
-                try:
-                    data = json.loads(cleaned)
-                    candidates = data.get("candidates", [])
-                    if candidates:
-                        parts = candidates[0].get("content", {}).get("parts", [])
-                        if parts:
-                            text_chunk = parts[0].get("text", "")
-                            if text_chunk:
-                                yield text_chunk
-                except json.JSONDecodeError:
-                    continue
-
-        except Exception as e:
-            self.logger.error(f"Error streaming from Gemini API: {e}", exc_info=True)
-            yield f"\n[Streaming Error: {str(e)}]"
 
     def _call_cloud_ollama(self, messages: List[Dict[str, str]], stream: bool = True):
         if not self._cloud_ollama_client:

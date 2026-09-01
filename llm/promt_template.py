@@ -8,7 +8,7 @@ Nhiệm vụ của bạn là cung cấp câu trả lời chính xác, khách qua
 Quy tắc suy nghĩ và sử dụng công cụ:
 1. Khi nhận được câu hỏi, hãy kiểm tra phần "Ngữ cảnh" được cung cấp từ kết quả tìm kiếm tự động (RAG).
 2. Nếu "Ngữ cảnh" đã đầy đủ để trả lời, hãy trả lời ngay.
-3. Luôn ưu tiên sự chính xác. Nếu phải dùng công cụ, hãy gọi công cụ trước khi đưa ra câu trả lời cuối cùng.
+3. Luôn ưu tiên sự chính xác.
 
 Quy tắc trình bày:
 1. Câu trả lời phải mang tính trang trọng, ngôn ngữ pháp lý chuẩn xác, cấu trúc rõ ràng.
@@ -26,6 +26,7 @@ USER_PROMPT_TEMPLATE = """Dưới đây là các tài liệu liên quan đến c
 
 ### Trả lời:
 """
+
 
 def format_context(documents: List[RetrievalDocument]) -> str:
     """
