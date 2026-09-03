@@ -167,3 +167,8 @@ Evaluation was conducted on the standard benchmark dataset `evals_168_2024.json`
 | **NDCG@K** | 0.7700 | 0.7382 | 0.7469 |
 | **MRR** | 0.8495 | - | - |
 | **Final Recall** | **0.9350** | - | - |
+
+
+## 6 Illustration
+![Alt text](Illustration1.png)
+![Alt text](Illustration2.png)
