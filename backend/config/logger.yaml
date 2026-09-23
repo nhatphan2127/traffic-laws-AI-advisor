@@ -1,0 +1,45 @@
+version: 1
+
+formatters:
+  simple:
+    format: '[%(asctime)s] %(levelname)s - %(name)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+
+  file:
+    class: logging.FileHandler
+    level: INFO
+    formatter: simple
+    filename: logs/app.log
+    encoding: utf-8
+    
+loggers:
+  llm:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+
+  server:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+
+  tools:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+  
+  api:
+    level: INFO
+    handlers: [console, file]
+    propagate: no
+
+root:
+  level: INFO
+  handlers: [console, file]

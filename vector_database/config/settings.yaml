@@ -1,0 +1,39 @@
+app:
+  name: app
+  verstion: 1.0.0
+  env: production
+
+data: 
+  processed_dir: data/processed
+  raw_dir: data/raw
+
+embedding:
+  model:
+  batch_size: 64
+
+retrieval:
+  top_k: 5
+  rrf_k: 60
+  dense_threshold: 0.4
+  reranker:
+    enabled: false
+    model: "BAAI/bge-reranker-v2-m3"
+
+vector_database:
+  type: qdrant
+  host: localhost
+  port: 6333
+  url: http://localhost:6333  
+  api_key: null               
+  collection_name: nmk_chatbot_collection
+  distance: cosine           
+  vector_size: 1024
+  # vector_size: 384
+  timeout: 30    
+
+
+
+            
+
+
+

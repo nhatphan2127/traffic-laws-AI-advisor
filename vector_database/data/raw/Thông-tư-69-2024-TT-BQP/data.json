@@ -1,0 +1,1612 @@
+{
+  "document": "69/2024/TT-BQP",
+  "document_title": "THÔNG TƯ Quy định về đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng",
+  "legal_basis": "Căn cứ Luật Trật tự, an toàn giao thông đường bộ ngày 27 tháng 6 năm 2024;\nCăn cứ Nghị định số 01/2022/NĐ-CP ngày 30 tháng 11 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Quốc phòng;\nTheo đề nghị của Chủ nhiệm Tổng cục Kỹ thuật;\nBộ trưởng Bộ Quốc phòng ban hành Thông tư quy định về đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng.",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_title": "QUY ĐỊNH CHUNG",
+      "articles": [
+        {
+          "article_number": 1,
+          "article_title": "Điều 1. Phạm vi điều chỉnh",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Thông tư này quy định việc đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng (sau đây viết chung là xe quân sự) thuộc phạm vi quản lý của Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Việc đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng của doanh nghiệp quân đội đã cổ phần hóa do Nhà nước nắm giữ dưới 50% vốn điều lệ không thuộc phạm vi điều chỉnh của Thông tư này.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 2,
+          "article_title": "Điều 2. Đối tượng áp dụng",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Cơ quan, đơn vị, tổ chức và cá nhân liên quan đến việc đăng ký, quản lý, sử dụng xe quân sự thuộc phạm vi quản lý của Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Doanh nghiệp quân đội (kể cả doanh nghiệp quân đội đã cổ phần hóa do Nhà nước nắm giữ trên 50% vốn điều lệ) có xe cơ giới, xe máy chuyên dùng đăng ký biển số xe dân sự tại Cơ quan Công an.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 3,
+          "article_title": "Điều 3. Giải thích từ ngữ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Xe quân sự gồm xe cơ giới và xe máy chuyên dùng được trang bị cho các cơ quan, đơn vị thuộc Bộ Quốc phòng quản lý, sử dụng vào mục đích quân sự, quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Xe cơ giới gồm xe ô tô kể cả xe cơ sở là ô tô có lắp các trang thiết bị chuyên, dùng, xe ô tô đầu kéo, xe ô tô điện; xe xích; rơ moóc, sơ mi rơ moóc được kéo bởi ô tô; xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy kể cả xe máy điện.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Xe máy chuyên dùng gồm xe máy chuyên dùng quân sự, xe máy thi công; xe máy nông nghiệp, lâm nghiệp và các loại xe chuyên dùng khác có tham gia giao thông được trang bị cho các cơ quan, đơn vị thuộc Bộ Quốc phòng quản lý, sử dụng theo quy định tại Phụ lục IV kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Biển số xe là tấm biển gắn trên xe quân sự mà trên đó thể hiện chữ và số do cơ quan có thẩm quyền cấp; đây là ký hiệu pháp lý về quyền, trách nhiệm quản lý, sử dụng xe quân sự của cơ quan, đơn vị.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Chứng nhận đăng ký là tài liệu chứng nhận pháp lý về quyền, trách nhiệm quản lý, sử dụng xe quân sự của cơ quan, đơn vị thuộc phạm vi quản lý của Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 6,
+              "content": "Số VIN là một dãy chữ và số gồm 17 ký tự được dùng để nhận dạng, quản lý và xác định nguồn gốc, xuất xứ của xe.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 7,
+              "content": "Etiket (nhãn) là tấm kim loại hoặc vật liệu khác được gắn vào xe theo quy định của nhà sản xuất, trên đó ghi thông tin về xe như nước sản xuất, năm sản xuất, số VIN hoặc số máy.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 4,
+          "article_title": "Điều 4. Nguyên tắc đăng ký, quản lý, sử dụng xe quân sự",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Xe quân sự phải thực hiện việc đăng ký và quản lý theo đúng quy định của pháp luật và Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Quản lý số lượng, chất lượng, chủng loại, nhãn hiệu, nhóm xe, trạng thái sử dụng và sự đồng bộ; thực hiện đầy đủ, chặt chẽ, thống nhất theo hệ thống từ cấp cơ sở đến cơ quan quản lý cấp chiến dịch, chiến lược.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Sử dụng đúng mục đích, nhiệm vụ, nhóm xe, tính năng chiến-kỹ thuật; bảo đảm an toàn tuyệt đối và hiệu quả.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 5,
+          "article_title": "Điều 5. Hình thức đăng ký",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Đăng ký chính thức.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Đăng ký tạm thời.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 6,
+          "article_title": "Điều 6. Cơ quan quản lý, đăng ký",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Bộ Quốc phòng thống nhất việc quản lý, đăng ký xe quân sự.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật là cơ quan trực tiếp giúp Bộ trưởng Bộ Quốc phòng thực hiện việc quản lý, đăng ký xe quân sự theo quy định tại Thông tư này.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 7,
+          "article_title": "Điều 7. Biển số xe quân sự",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật sản xuất biển số xe quân sự theo Mẫu quy định tại Phụ lục II kèm theo Thông tư này và cấp cho cơ quan, đơn vị sau khi thực hiện xong thủ tục đăng ký xe theo quy định tại Điều 23 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 23,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 2,
+              "content": "Ký hiệu biển số xe quân sự theo quy định tại Phụ lục III kèm theo Thông tư này cho từng cơ quan, đơn vị trực thuộc Bộ Quốc phòng.\nBộ Tổng Tham mưu quyết định và thông báo ký hiệu biển số xe quân sự đối với cơ quan, đơn vị trực thuộc Bộ Quốc phòng mới thành lập.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Biển số xe bị mất, bị mờ, gẫy, hỏng; cơ quan, đơn vị trực tiếp quản lý có trách nhiệm kiểm tra, báo cáo cơ quan xe - máy hoặc cơ quan xe máy - vận tải hoặc cơ quan quản lý trang bị cấp trên đến cấp trực thuộc Bộ Quốc phòng để đề nghị Cục Xe máy - Vận tải cấp lại, cấp đổi theo quy định tại Điều 24 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 24,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 4,
+              "content": "Ô tô, rơ moóc, sơ mi rơ moóc, xe máy chuyên dùng trước khi đưa vào sử dụng, phải thực hiện đăng ký hệ thống số phụ theo quy định tại Phụ lục II kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 8,
+          "article_title": "Điều 8. Chứng nhận đăng ký xe quân sự",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật tổ chức in theo Mẫu số 03a, Mẫu số 03b, Mẫu số 03c, Mẫu số 03d, Mẫu số 04a, Mẫu số 04b quy định tại Phụ lục I kèm theo Thông tư này và cấp Chứng nhận đăng ký cho cơ quan, đơn vị sau khi thực hiện xong thủ tục đăng ký theo quy định tại Điều 23 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 23,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 2,
+              "content": "Cơ quan, đơn vị và cá nhân có trách nhiệm quản lý, sử dụng Chứng nhận đăng ký theo quy định tại Thông tư này. Khi Chứng nhận đăng ký bị mất, bị mờ, rách nát thì cơ quan, đơn vị trực tiếp quản lý phải kiểm tra, báo cáo cơ quan xe - máy hoặc cơ quan xe máy - vận tải hoặc cơ quan quản lý trang bị cấp trên đến cấp trực thuộc Bộ Quốc phòng để đề nghị Cục Xe máy - Vận tải cấp lại, cấp đổi theo quy định tại Điều 24 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 24,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 9,
+          "article_title": "Điều 9. Chứng từ nguồn gốc xe quân sự",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Đối với xe sản xuất, lắp ráp trong nước: Phiếu kiểm tra chất lượng xuất xưởng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Đối với xe nhập khẩu",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Mua trong nước, mua qua hợp đồng ủy thác:\nĐối với xe cơ giới gồm: Dữ liệu điện tử về nguồn gốc xe được cơ quan đăng ký tiếp nhận từ cổng dịch vụ công hoặc tờ khai nguồn gốc xe nhập khẩu (đối với xe nhập khẩu trước ngày 01 tháng 7 năm 2021); Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường (bản gốc hoặc bản điện tử được in ra từ hệ thống một cửa Quốc gia có đóng dấu xác nhận của đơn vị, doanh nghiệp nhập khẩu) hoặc Giấy xác nhận đối với xe cơ giới nhập khẩu phục vụ nhiệm vụ quốc phòng.\nĐối với xe máy chuyên dùng gồm: Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường hoặc Giấy xác nhận xe máy chuyên dùng nhập khẩu phục vụ nhiệm vụ quốc phòng.",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Đối với xe được miễn mọi thủ tục Hải quan, bao gồm:\nVăn bản của Bộ Quốc phòng về giải quyết thủ tục hải quan đặc biệt nhập khẩu hàng hóa chuyên dùng quân sự;\nVăn bản của cơ quan Hải quan xác nhận hàng hóa nhập khẩu (nêu rõ hàng hóa đã qua khu vực giám sát);\nVăn bản của doanh nghiệp được ủy thác nhập khẩu xác nhận số khung, số máy của xe cơ giới, xe máy chuyên dùng nhập khẩu.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Đối với xe nhập khẩu thuộc diện cho, tặng; viện trợ; nhập khẩu phi mậu dịch, nhập khẩu là tài sản di chuyển (nhập khẩu trực tiếp), bao gồm:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Tờ khai hải quan theo quy định của Bộ Tài chính;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Giấy phép nhập khẩu đối với xe cho tặng;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Giấy xác nhận viện trợ của Bộ Tài chính đối với xe viện trợ;",
+                  "references": []
+                },
+                {
+                  "point": "d",
+                  "content": "Biên lai thu thuế nhập khẩu, thuế tiêu thụ đặc biệt đối với xe nhập khẩu phi mậu dịch, xe nhập khẩu là tài sản di chuyển.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Xe đã đăng ký tại Cơ quan Công an, Sở giao thông vận tải: Chứng từ nguồn gốc xe thực hiện theo quy định trình tự, thủ tục cấp, thu hồi Chứng nhận đăng ký xe, biển số xe cơ giới, xe máy chuyên dùng của Bộ Công an và quy định về đăng ký xe máy chuyên dùng của Bộ Giao thông vận tải.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Trường hợp mất chứng từ nguồn gốc xe quân sự; cơ quan, đơn vị có văn bản giải trình kèm theo bản sao chứng từ nguồn gốc xe cơ giới, xe máy chuyên dùng của cơ quan đã cấp chứng từ đó.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 10,
+          "article_title": "Điều 10. Giải quyết các trường hợp cụ thể về số khung, số máy",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Đối với xe nhập khẩu",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Xe quân sự có số khung, số máy ở Etiket, số ghi bằng sơn, số bị mờ, hoen gỉ thì sẽ đóng theo số được Cơ quan Hải quan xác nhận;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Xe quân sự được Cơ quan Hải quan xác nhận chỉ tìm thấy số VIN, không có số khung, số máy thì đóng số khung, số máy theo số VIN;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Xe quân sự đã bị đóng lại số khung, số máy thì không giải quyết đăng ký, trừ trường hợp có văn bản giải trình của Cơ quan Hải quan hoặc Cơ quan nhập khẩu có xác nhận của nhà sản xuất.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Đối với xe quân sự sản xuất, lắp ráp trong nước có số máy, số khung đóng châm kim hoặc số đóng bị mờ, không cà được thì đóng lại số theo số ghi trong phiếu kiểm tra chất lượng xuất xưởng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Xe quân sự đã đăng ký, nếu thay máy, thân máy mà chưa có số thì đóng số theo biển số xe đã đăng ký.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật là cơ quan duy nhất được đóng lại số khung, số máy.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 11,
+          "article_title": "Điều 11. Những hành vi nghiêm cấm",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Giả mạo hồ sơ; làm thay đổi số khung, số máy; sửa chữa, tẩy xoá, thay đổi các thông tin ghi trên Chứng nhận đăng ký.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Tự sản xuất, sử dụng biển số xe không đúng quy định tại Điều 4 Thông tư này; mua, bán, thuê, mượn, cho thuê, cho mượn, thế chấp xe, biển số xe, Chứng nhận đăng ký xe quân sự.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 4,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 3,
+              "content": "Thay thế động cơ không rõ nguồn gốc hoặc nguồn gốc không hợp pháp.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Cung cấp giấy tờ xe quân sự cho người và phương tiện không thuộc thẩm quyền, điều kiện tham gia giao thông đường bộ.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Sử dụng xe quân sự không đúng mục đích; liên doanh, liên kết với các tổ chức, cá nhân ngoài Quân đội.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 6,
+              "content": "Giao xe quân sự cho người không đủ điều kiện điều khiển tham gia giao thông đường bộ.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 7,
+              "content": "Điều khiển xe quân sự khi không được giao nhiệm vụ (trừ các trường hợp làm nhiệm vụ đặc biệt hoặc kiểm tra tình trạng kỹ thuật xe).",
+              "points": [],
+              "references": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_title": "ĐĂNG KÝ, QUẢN LÝ, SỬ DỤNG XE QUÂN SỰ",
+      "articles": [
+        {
+          "article_number": 12,
+          "article_title": "Điều 12. Hồ sơ đăng ký đối với xe quân sự có nguồn gốc viện trợ trước ngày 31 tháng 12 năm 1989",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định của Tổng Tham mưu trưởng đưa vào trang bị quân sự.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Văn bản của Thủ trưởng cơ quan, đơn vị trực thuộc Bộ Quốc phòng xác nhận nguồn gốc xe viện trợ.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Bản khai đăng ký xe quân sự theo quy định tại Mẫu số 01a, Mẫu số 01b Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Lệnh xuất kho (áp dụng đối với xe quân sự đã nhập kho).",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Biên bản giao, nhận xe.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 13,
+          "article_title": "Điều 13. Hồ sơ đăng ký đối với xe quân sự do Bộ Quốc phòng trang bị",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Các giấy tờ được quy định tại các khoản 1, 3, 4 và 5 Điều 12 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 1,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 3,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 4,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 5,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 2,
+              "content": "Bản sao hợp đồng, thanh lý hợp đồng, hóa đơn tài chính (không áp dụng đối với xe quân sự do Cục Xe máy - Vận tải mua tập trung).",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Chứng từ nguồn gốc xe theo quy định tại Điều 9 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 9,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 14,
+          "article_title": "Điều 14. Hồ sơ đăng ký đối với xe quân sự do đơn vị tự mua",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Hồ sơ đăng ký lần đầu, gồm các giấy tờ quy định tại các khoản 1, 3 Điều 12 Thông tư này và các giấy tờ sau:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Bản sao hợp đồng, thanh lý hợp đồng mua bán hoặc hợp đồng, thanh lý hợp đồng ủy thác;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Bản sao hóa đơn tài chính;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Chứng từ nguồn gốc xe quy định tại Điều 9 Thông tư này.",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 9,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 1,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 3,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 2,
+              "content": "Hồ sơ xe quân sự đã đăng ký tại Cơ quan Công an, Sở Giao thông vận tải, gồm các giấy tờ quy định tại các khoản 1, 3 Điều 12 Thông tư này và các giấy tờ sau:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Bản sao hợp đồng, thanh lý hợp đồng mua bán;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Bản sao hóa đơn tài chính (áp dụng đối với trường hợp mua xe quân sự của các tổ chức, cá nhân có đăng ký kinh doanh);",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Chứng từ nguồn gốc xe theo quy định tại Điều 9 Thông tư này, cơ quan, đơn vị mua xe có trách nhiệm đến Cơ quan Công an làm thủ tục nhận chứng nhận thu hồi đăng ký, biển số xe và hồ sơ gốc để thực hiện đăng ký;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 9,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                },
+                {
+                  "point": "d",
+                  "content": "Đối với xe quân sự thuộc quyền sở hữu của đơn vị đã đăng ký tại Cơ quan Công an, Sở Giao thông vận tải, không áp dụng các điểm a, b khoản 2 Điều này.",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 14,
+                      "clause": 2,
+                      "point": "a"
+                    },
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 14,
+                      "clause": 2,
+                      "point": "b"
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 1,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 3,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 15,
+          "article_title": "Điều 15. Hồ sơ đăng ký đối với xe quân sự điều động giữa các cơ quan, đơn vị trực thuộc Bộ Quốc phòng",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định của Tổng Tham mưu trưởng về việc điều động xe quân sự.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Bản khai đăng ký xe quân sự theo quy định tại Mẫu số 01a, Mẫu số 01b Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Biên bản giao, nhận xe.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Chứng nhận đăng ký, biển số xe, lý lịch theo xe.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 16,
+          "article_title": "Điều 16. Hồ sơ đăng ký đối với xe quân sự điều động nội bộ của cơ quan, đơn vị trực thuộc Bộ Quốc phòng",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định điều động xe quân sự của Thủ trưởng cơ quan, đơn vị trực thuộc Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Bản khai đăng ký xe quân sự theo quy định tại Mẫu số 01 ạ, Mẫu số 01b Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Biên bản giao, nhận xe.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Chứng nhận đăng ký theo xe.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 17,
+          "article_title": "Điều 17. Hồ sơ đăng ký đối với xe quân sự được cho tặng; viện trợ; nhập khẩu phi mậu dịch, nhập khẩu là tài sản di chuyển",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Hồ sơ đăng ký đối với xe quân sự được cho tặng gồm các giấy tờ được quy định tại các khoản 1, 3 Điều 12 Thông tư này và các giấy tờ sau:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Văn bản cho tặng của bên cho tặng;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Chứng từ nguồn gốc xe quân sự quy định tại Điều 9 Thông tư này.",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 9,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 1,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 3,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 2,
+              "content": "Hồ sơ đăng ký xe quân sự được viện trợ; nhập khẩu phi mậu dịch, nhập khẩu là tài sản di chuyển (nhập khẩu trực tiếp), gồm các giấy tờ quy định tại các khoản 1, 3 Điều 12 Thông tư này và các giấy tờ sau:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Văn bản của Bộ Quốc phòng xác nhận đối với xe viện trợ;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Bản sao hợp đồng mua bán, bản sao hóa đơn tài chính (nếu có) đối với xe nhập khẩu phi mậu dịch, nhập khẩu là tài sản di chuyển (nhập khẩu trực tiếp);",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Chứng từ nguồn gốc xe theo quy định tại Điều 9 Thông tư này.",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 9,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 1,
+                  "point": null
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 12,
+                  "clause": 3,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 18,
+          "article_title": "Điều 18. Hồ sơ đăng ký đối với xe quân sự được cải tạo",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định của cấp có thẩm quyền cho phép cải tạo xe quân sự.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Bản khai đăng ký xe quân sự theo quy định tại Mẫu số 01a, Mẫu số 01b Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Giấy chứng nhận chất lượng, an toàn kỹ thuật xe quân sự sau cải tạo.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Chứng nhận đăng ký đối với xe quân sự đã đăng ký.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Đối với xe quân sự chưa đăng ký phải có Quyết định của Tổng Tham mưu trưởng đưa vào trang bị quân sự và chứng từ nguồn gốc xe quân sự theo quy định tại Điều 9 Thông tư này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 9,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 19,
+          "article_title": "Điều 19. Hồ sơ đăng ký đối với xe quân sự thay thế động cơ cùng loại",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Bản khai đăng ký xe quân sự theo quy định tại Mẫu số 01a, Mẫu số 01b Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Văn bản đề nghị của Thủ trưởng cơ quan kỹ thuật hoặc cơ quan hậu cần - kỹ thuật đơn vị trực thuộc Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Phiếu hợp cách xuất xưởng của xe sau khi thay động cơ.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Biên bản giao, nhận xe khi xuất xưởng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Chứng nhận đăng ký theo xe.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 6,
+              "content": "Chứng từ nguồn gốc động cơ.",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Động cơ nhận tại kho của Cục Xe máy - Vận tải: Lệnh xuất kho.",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Động cơ do đơn vị tự mua:\nPhiếu kiểm tra chất lượng xuất xưởng (đối với động cơ sản xuất, lắp ráp trong nước);\nTờ khai hải quan theo quy định của Bộ Tài chính (đối với động cơ nhập khẩu);\nBản sao hợp đồng, thanh lý hợp đồng mua bán;\nBản sao hóa đơn tài chính.",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Động cơ sau sửa chữa tại các nhà máy, xưởng:\nBiên bản kiểm tra tình trạng kỹ thuật trước khi vào sửa chữa;\nPhiếu hợp cách xuất xưởng sửa chữa động cơ.",
+                  "references": []
+                }
+              ],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 20,
+          "article_title": "Điều 20. Hồ sơ đăng ký, cấp thêm biển số xe cơ giới đối với xe phục vụ Lãnh đạo Đảng, Nhà nước; xe nghiệp vụ của Quân đội đã đăng ký biển số dân sự",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định của Tổng Tham mưu trưởng về việc đăng ký, cấp biển số xe cơ giới.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Bản khai đăng ký xe cơ giới theo quy định tại Mẫu số 01a Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Bản sao Chứng nhận đăng ký, hồ sơ gốc của xe cơ giới theo quy định trình tự, thủ tục cấp, thu hồi chứng nhận đăng ký xe, biển số xe cơ giới của Bộ Công an.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 21,
+          "article_title": "Điều 21. Hồ sơ giới thiệu đăng ký, cấp biển số xe dân sự đối với xe cơ giới, xe máy chuyên dùng của các doanh nghiệp, cơ quan, đơn vị Quân đội",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Xe của các doanh nghiệp Quân đội",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Xe đăng ký lần đầu:\nGiấy giới thiệu do Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật cấp khi doanh nghiệp có đầy đủ các giấy tờ sau: Văn bản do cơ quan xe - máy hoặc cơ quan xe máy - vận tải hoặc cơ quan quản lý trang bị các đơn vị trực thuộc Bộ Quốc phòng đề nghị; văn bản của Bộ Quốc phòng hoặc Quyết định của Bộ Tổng Tham mưu cho phép doanh nghiệp mua xe; bản sao chứng từ nguồn gốc xe và hồ sơ mua bán theo quy định trình tự, thủ tục cấp, thu hồi chứng nhận đăng ký xe, biển số xe cơ giới, xe máy chuyên dùng của Bộ Công an;\nDoanh nghiệp mang giấy giới thiệu và hồ sơ đến cơ quan đăng ký của Bộ Công an để đăng ký.",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Xe đã đăng ký, cấp biển số xe quân sự:\nQuyết định của Tổng Tham mưu trưởng cho phép đăng ký biển số xe dân sự;\nGiấy giới thiệu do Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật cấp;\nBản sao Chứng nhận đăng ký, hồ sơ gốc của xe theo các quy định tại Mục 1 Chương II Thông tư này.\nDoanh nghiệp mang giấy giới thiệu và hồ sơ đến cơ quan đăng ký của Bộ Công an để đăng ký.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Xe của các cơ quan, đơn vị đã đăng ký, cấp biển số xe quân sự.",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Công văn đề nghị của Bộ Quốc phòng và được Bộ Công an chấp thuận;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Giấy giới thiệu do Cục Xe máy-Vận tải/Tổng cục Hậu Cần-Kỹ thuật cấp khi cơ quan, đơn vị có đầy đủ các giấy tờ sau: Công văn do cơ quan xe - máy hoặc cơ quan xe máy - vận tải hoặc cơ quan quản lý trang bị các đơn vị trực thuộc Bộ Quốc phòng đề nghị cấp giấy giới thiệu; bản sao Công văn đề nghị của Bộ trưởng Bộ Quốc phòng gửi Bộ Công an;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Bản sao Chứng nhận đăng ký, hồ sơ gốc của xe cơ giới, xe máy chuyên dùng theo các quy định tại Mục 1 Chương II Thông tư này.\nCơ quan, đơn vị mang giấy giới thiệu và hồ sơ đến cơ quan đăng ký của Bộ Công an để đăng ký.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Hồ sơ cấp đổi, cấp lại Chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng; sang tên, di chuyển thực hiện theo quy định trình tự, thủ tục cấp, thu hồi chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng của Bộ Công an.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 22,
+          "article_title": "Điều 22. Cấp biển số tạm thời cho xe quân sự",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Các trường hợp cấp biển số tạm thời",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Xe đã được Tổng Tham mưu trưởng quyết định đưa vào trang bị quân sự nhưng hồ sơ chưa đầy đủ theo quy định tại Điều 13 Thông tư này;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 13,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                },
+                {
+                  "point": "b",
+                  "content": "Xe đã được Tổng Tham mưu trưởng quyết định cho phép đơn vị tự mua nhưng hồ sơ chưa đầy đủ theo quy định tại Điều 14 Thông tư này;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 14,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                },
+                {
+                  "point": "c",
+                  "content": "Xe cho tặng; viện trợ; nhập khẩu phi mậu dịch, nhập khẩu là tài sản di chuyển (nhập khẩu trực tiếp) nhưng hồ sơ chưa đầy đủ theo quy định tại Điều 17 Thông tư này;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 17,
+                      "clause": null,
+                      "point": null
+                    }
+                  ]
+                },
+                {
+                  "point": "d",
+                  "content": "Xe nhập khẩu; sản xuất, lắp ráp trong nước thực hiện trung chuyển;",
+                  "references": []
+                },
+                {
+                  "point": "đ",
+                  "content": "Xe chạy khảo sát, thử nghiệm; xe thuộc các dự án, chương trình được Bộ trưởng Bộ Quốc phòng phê duyệt.",
+                  "references": []
+                },
+                {
+                  "point": "e",
+                  "content": "Biển số tạm thời theo quy định tại Mẫu số 02 Phụ lục I kèm theo Thông tư này.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Hồ sơ đăng ký tạm thời cho xe quân sự",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Công văn do cơ quan kỹ thuật hoặc cơ quan hậu cần - kỹ thuật đơn vị trực thuộc Bộ Quốc phòng đề nghị cấp biển số tạm thời hoặc Thủ trưởng cơ quan, đơn vị được Bộ Quốc phòng giao nhiệm vụ mua xe.",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Bản sao hồ sơ đối với các trường hợp quy định tại các điểm a, b, c khoản 1 Điều này;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 22,
+                      "clause": 1,
+                      "point": "a"
+                    },
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 22,
+                      "clause": 1,
+                      "point": "b"
+                    },
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 22,
+                      "clause": 1,
+                      "point": "c"
+                    }
+                  ]
+                },
+                {
+                  "point": "c",
+                  "content": "Kế hoạch trung chuyển, kế hoạch chạy thử nghiệm; văn bản của cấp có thẩm quyền chứng minh xe quân sự thuộc các đề tài, thử nghiệm, dự án đối với các trường hợp quy định tại các điểm d, đ khoản 1 Điều này.",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 22,
+                      "clause": 1,
+                      "point": "d"
+                    },
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 22,
+                      "clause": 1,
+                      "point": "đ"
+                    }
+                  ]
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Thời hạn sử dụng biển số tạm thời được ghi trên biển số nhưng không được quá 90 ngày kể từ ngày cấp.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Ngoài các quy định tại khoản 1 Điều này, Tổng Tham mưu trưởng quyết định cấp biển số xe quân sự hoặc biển số tạm thời để thực hiện nhiệm vụ đột xuất, đặc biệt.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 22,
+                  "clause": 1,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 23,
+          "article_title": "Điều 23. Trình tự đăng ký",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Cơ quan, đơn vị trực thuộc Bộ Quốc phòng có trách nhiệm lập 01 bộ hồ sơ đăng ký đối với từng trường hợp xe quân sự theo các quy định tại Mục 1 Chương II Thông tư này, gửi qua mạng quân sự hoặc trực tiếp hoặc quân bưu về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Trong thời hạn 10 ngày, kể từ ngày nhận được hồ sơ hợp lệ, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật có trách nhiệm kiểm tra tính hợp lệ của hồ sơ trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật ký duyệt; đối với trường hợp gửi hồ sơ qua mạng quân sự, đơn vị có trách nhiệm gửi bổ sung hồ sơ gốc để kiểm tra tính hợp lệ trước khi trình Cục trưởng Cục Xe máy-Vận tải/Tổng cục Hậu cần -Kỹ thuật ký duyệt.\nTrường hợp hồ sơ không hợp lệ, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật có văn bản yêu cầu cơ quan, đơn vị bổ sung, thời gian bổ sung hồ sơ không được tính vào thời hạn giải quyết.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Sau khi Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật phê duyệt hồ sơ đăng ký, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật cấp biển số, Chứng nhận đăng ký, lý lịch xe cho cơ quan, đơn vị. Cá nhân được giao nhiệm vụ nhận biển số xe, Chứng nhận đăng ký, lý lịch xe phải trình Giấy giới thiệu và ký sổ giao nhận.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 24,
+          "article_title": "Điều 24. Cấp lại, cấp đổi, thu hồi biển số, chứng nhận đăng ký xe quân sự",
+          "category": "Mục 1 HỒ SƠ ĐĂNG KÝ XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Trường hợp cấp lại, cấp đổi Chứng nhận đăng ký: Chứng nhận đăng ký bị mờ, rách nát, bị mất hoặc hết hạn sử dụng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Trường hợp cấp lại, cấp đổi biển số đăng ký: Biển số bị mờ, gẫy hỏng hoặc bị mất.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Hồ sơ cấp lại, cấp đổi",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Công văn đề nghị của Thủ trưởng cơ quan kỹ thuật hoặc cơ quan hậu cần - kỹ thuật đơn vị trực thuộc Bộ Quốc phòng (đối với trường hợp Chứng nhận đăng ký bị mất phải được cơ quan chức năng của Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật kiểm tra, xác nhận không bị thu giữ);",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Bản khai đăng ký xe theo quy định tại Mẫu số 01a, Mẫu số 01b Phụ lục I kèm theo Thông tư này (không áp dụng đối với trường hợp cấp đổi, cấp lại biển số);",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Bản tường trình nêu rõ lý do mất (của lái xe hoặc người được giao nhiệm vụ quản lý), có xác nhận của chỉ huy đơn vị từ cấp trung đoàn hoặc tương đương trở lên;",
+                  "references": []
+                },
+                {
+                  "point": "d",
+                  "content": "Biển số xe, Chứng nhận đăng ký theo xe (trường hợp bị mờ, rách nát, gẫy, hỏng hoặc hết hạn sử dụng).",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Trình tự thực hiện",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Cơ quan, đơn vị trực thuộc Bộ Quốc phòng có trách nhiệm lập 01 bộ hồ sơ theo quy định tại khoản 3 Điều này, gửi qua mạng quân sự hoặc trực tiếp hoặc quân bưu về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật;",
+                  "references": [
+                    {
+                      "document": "69/2024/TT-BQP",
+                      "article": 24,
+                      "clause": 3,
+                      "point": null
+                    }
+                  ]
+                },
+                {
+                  "point": "b",
+                  "content": "Trong thời hạn 10 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Xe máy -Vận tải/Tổng cục Hậu cần - Kỹ thuật có trách nhiệm kiểm tra, đăng ký và trình Cục trưởng ký phê duyệt;\nTrường hợp hồ sơ không hợp lệ, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật có văn bản yêu cầu cơ quan, đơn vị bổ sung, thời gian bổ sung hồ sơ không được tính vào thời hạn giải quyết.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Thu hồi biển số, Chứng nhận đăng ký trong các trường hợp sau:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Xe loại khỏi trang bị quân sự hoặc xe điều động giữa các cơ quan, đơn vị trực thuộc Bộ Quốc phòng;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Xe hết hạn sử dụng hoặc chuyển ra đăng ký tại Cơ quan Công an;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Biển số xe, Chứng nhận đăng ký bị mất, không thu hồi được, thủ trưởng cơ quan kỹ thuật hoặc cơ quan hậu cần - kỹ thuật đơn vị trực thuộc Bộ Quốc phòng chịu trách nhiệm báo cáo, giải trình để Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật xem xét, giải quyết.",
+                  "references": []
+                }
+              ],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 25,
+          "article_title": "Điều 25. Quản lý xe quân sự",
+          "category": "Mục 2 QUẢN LÝ, SỬ DỤNG XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật là cơ quan tham mưu, giúp Chủ nhiệm Tổng cục Hậu cần - Kỹ thuật và Bộ trưởng Bộ Quốc phòng, chỉ đạo thực hiện quản lý số lượng, chất lượng, chủng loại, sự đồng bộ của xe quân sự, xe mang biển số dân sự của các cơ quan, đơn vị, doanh nghiệp thuộc phạm vi quản lý của Bộ quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Thủ trưởng cơ quan, đơn vị, doanh nghiệp trong Bộ Quốc phòng chịu trách nhiệm trước Bộ trưởng Bộ Quốc phòng:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Quản lý số lượng, chất lượng, chủng loại xe quân sự, xe mang biển số dân sự trong cơ quan, đơn vị, doanh nghiệp mình quản lý;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Điều động, phân nhóm và xác định trạng thái sử dụng và sự đồng bộ xe quân sự trong cơ quan, đơn vị thuộc quyền.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Cơ quan xe - máy hoặc cơ quan xe máy - vận tải các đơn vị chịu trách nhiệm tổ chức thực hiện các biện pháp nhằm duy trì hệ số kỹ thuật, nâng cao chất lượng quản lý xe quân sự theo quyết định của người chỉ huy và hướng dẫn của cơ quan xe - máy cấp trên.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 26,
+          "article_title": "Điều 26. Sử dụng xe quân sự",
+          "category": "Mục 2 QUẢN LÝ, SỬ DỤNG XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Đối với người điều khiển xe quân sự:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Có giấy phép lái xe quân sự phù hợp với loại xe theo quy định;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Trường hợp điều khiển xe mang biển số quân sự phục vụ Lãnh đạo Đảng, Nhà nước; được phép sử dụng giấy phép lái xe dân sự;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Phải chấp hành nghiêm quy định của pháp luật và quy định của Bộ Quốc phòng về điều khiển xe quân sự khi tham gia giao thông.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Đối với người điều khiển xe máy chuyên dùng:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Nếu chưa có giấy phép lái xe, phải có chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Có chứng chỉ điều khiển xe máy chuyên dùng;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Phải chấp hành nghiêm quy định của pháp luật và Bộ Quốc phòng về điều khiển xe máy chuyên dùng khi tham gia giao thông.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 3,
+              "content": "Trường hợp xe quá tải trọng, quá khổ giới hạn, xe bánh xích; vận chuyển hàng siêu trường, siêu trọng trên đường bộ trong điều kiện bình thường phải thực hiện theo quy định của Bộ Giao thông vận tải; trường hợp làm nhiệm vụ khẩn cấp thực hiện theo quy định của Bộ Quốc phòng và phải có các biện pháp bảo đảm an toàn giao thông, an toàn công trình đường bộ theo quy định của pháp luật.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 4,
+              "content": "Trường hợp xe chở hàng trái phép bị tạm giữ hàng hóa, phương tiện thì chuyển giao cho cơ quan chức năng xử lý theo quy định của pháp luật. Người điều khiển xe nếu vi phạm các quy định khi tham gia giao thông, tùy theo tính chất, mức độ vi phạm bị xử phạt vi phạm hành chính, xử lý kỷ luật hoặc bị truy cứu trách nhiệm hình sự theo quy định của pháp luật.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Lực lượng kiểm tra xe quân sự, kiểm soát quân sự phối hợp chặt chẽ với các cơ quan chức năng, kiểm tra các hoạt động của xe quân sự; xe mang biển số dân sự của các doanh nghiệp Quân đội tham gia giao thông. Khi phát hiện hành vi vi phạm thì chấn chỉnh kịp thời, xử lý theo quy định của pháp luật và quy định của Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 6,
+              "content": "Chỉ huy cơ quan, đơn vị các cấp chịu trách nhiệm về việc sử dụng xe quân sự do cơ quan, đơn vị mình quản lý.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 27,
+          "article_title": "Điều 27. Điều kiện xe quân sự tham gia giao thông",
+          "category": "Mục 2 QUẢN LÝ, SỬ DỤNG XE QUÂN SỰ",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Đối với xe cơ giới:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Biển số xe;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Chứng nhận đăng ký;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Tem kiểm định còn hiệu lực;",
+                  "references": []
+                },
+                {
+                  "point": "d",
+                  "content": "Hệ thống số phụ;",
+                  "references": []
+                },
+                {
+                  "point": "đ",
+                  "content": "Giấy công tác xe;",
+                  "references": []
+                },
+                {
+                  "point": "e",
+                  "content": "Đối với xe vận chuyển hàng hóa phải có chứng từ hàng hóa. Trường hợp đặc biệt thực hiện theo quy định của pháp luật.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Đối với xe máy chuyên dùng: Thực hiện theo quy định tại các điểm a, b, c, đ, e, khoản 1 Điều này.",
+              "points": [],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": "a"
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": "b"
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": "c"
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": "đ"
+                },
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": "e"
+                }
+              ]
+            },
+            {
+              "clause_number": 3,
+              "content": "Khi thực hiện nhiệm vụ đào tạo thực hành lái xe, ngoài các quy định tại khoản 1 Điều này:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Giấy phép xe tập lái;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Biển xe tập lái.",
+                  "references": []
+                }
+              ],
+              "references": [
+                {
+                  "document": "69/2024/TT-BQP",
+                  "article": 27,
+                  "clause": 1,
+                  "point": null
+                }
+              ]
+            },
+            {
+              "clause_number": 4,
+              "content": "Trường hợp chạy kiểm tra, thử nghiệm:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Lệnh sửa chữa hoặc kế hoạch chạy kiểm tra, thử nghiệm được cấp có thẩm quyền phê duyệt;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Biển báo “Xe chạy thử” có nền đỏ, chữ trắng (kích thước 297 mm x 210 mm) treo phía trước và phía sau xe.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 5,
+              "content": "Xe cơ giới phục vụ Lãnh đạo Đảng, Nhà nước:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Biển số xe;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Chứng nhận đăng ký theo quy định tại Mẫu số 04a, Mẫu số 04b Phụ lục I kèm theo Thông tư này;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Giấy tờ khác theo quy định của pháp luật.",
+                  "references": []
+                }
+              ],
+              "references": []
+            },
+            {
+              "clause_number": 6,
+              "content": "Xe mang biển số dân sự của doanh nghiệp Quân đội thực hiện theo quy định của pháp luật hiện hành.",
+              "points": [],
+              "references": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_title": "TRÁCH NHIỆM CỦA CÁC CƠ QUAN, ĐƠN VỊ VÀ DOANH NGHIỆP CÓ LIÊN QUAN",
+      "articles": [
+        {
+          "article_number": 28,
+          "article_title": "Điều 28. Bộ Tổng Tham mưu",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Quyết định đưa xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng vào trang bị quân sự.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Quyết định cho doanh nghiệp Quân đội mua xe cơ giới, xe máy chuyên dùng đăng ký biển số xe dân sự tại Cơ quan Công an.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 29,
+          "article_title": "Điều 29. Tổng cục Hậu cần - Kỹ thuật",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Tham mưu giúp Bộ trưởng Bộ Quốc phòng quản lý nhà nước về công tác đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Quốc phòng.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Chỉ đạo Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Chịu trách nhiệm trước Chủ nhiệm Hậu cần - Kỹ thuật trong chỉ đạo, hướng dẫn, triển khai, tổ chức thực hiện công tác đăng ký, quản lý, sử dụng xe quân sự thuộc phạm vi quản lý của Bộ Quốc phòng;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Cấp Giấy giới thiệu ra cơ quan đăng ký xe của Bộ Công an để đăng ký, cấp biển số dân sự cho xe của các doanh nghiệp, cơ quan, đơn vị quân đội;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Tổ chức đăng ký, cấp biển số xe, Chứng nhận đăng ký theo quy định tại Thông tư này; hướng dẫn, chỉ đạo, kiểm tra, quản lý, sử dụng xe theo đúng quy định của pháp luật và Bộ Quốc phòng;",
+                  "references": []
+                },
+                {
+                  "point": "d",
+                  "content": "Nghiên cứu, đề xuất cấp có thẩm quyền ban hành các văn bản hướng dẫn, chỉ đạo; quy định quản lý, sử dụng; hệ thống sổ sách nghiệp vụ; chế độ thống kê, báo cáo bảo đảm thống nhất, chính quy trong Bộ Quốc phòng;",
+                  "references": []
+                },
+                {
+                  "point": "đ",
+                  "content": "Quản lý, lưu trữ hồ sơ đăng ký xe quân sự theo quy định của pháp luật.",
+                  "references": []
+                }
+              ],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 30,
+          "article_title": "Điều 30. Các cơ quan, đơn vị và doanh nghiệp có liên quan",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Thủ trưởng các cơ quan, đơn vị chịu trách nhiệm trước Bộ trưởng Bộ Quốc phòng về việc đăng ký, quản lý, sử dụng xe quân sự theo đúng quy định của pháp luật và quy định tại Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Cơ quan xe - máy hoặc cơ quan xe máy - vận tải các đơn vị trực thuộc Bộ Quốc phòng:",
+              "points": [
+                {
+                  "point": "a",
+                  "content": "Tham mưu giúp thủ trưởng cơ quan, đơn vị thực hiện công tác đăng ký, quản lý, sử dụng xe quân sự; xe mang biển số dân sự của các doanh nghiệp Quân đội theo quy định;",
+                  "references": []
+                },
+                {
+                  "point": "b",
+                  "content": "Chịu trách nhiệm về tính pháp lý của hồ sơ đề nghị đăng ký;",
+                  "references": []
+                },
+                {
+                  "point": "c",
+                  "content": "Chấp hành nghiêm công tác chỉ đạo, hướng dẫn, kiểm tra của Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật về đăng ký, quản lý, sử dụng xe quân sự theo quy định của Bộ Quốc phòng.",
+                  "references": []
+                }
+              ],
+              "references": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+      "articles": [
+        {
+          "article_number": 31,
+          "article_title": "Điều 31. Hiệu lực thi hành",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025 và thay thế Thông tư số 169/2021/TT-BQP ngày 23 tháng 12 năm 2021 của Bộ trưởng Bộ Quốc phòng quy định về đăng ký, quản lý, sử dụng xe cơ giới, xe máy chuyên dùng trong Bộ Quốc phòng.",
+              "points": [],
+              "references": [
+                {
+                  "document": "169/2021/TT-BQP",
+                  "article": null,
+                  "clause": null,
+                  "point": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "article_number": 32,
+          "article_title": "Điều 32. Quy định chuyển tiếp",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Chứng nhận đăng ký xe quân sự được cấp trước ngày Thông tư này có hiệu lực thi hành thì tiếp tục sử dụng, cấp mới, cấp đổi theo quy định tại Mẫu số 03b, Mẫu số 03d, Mẫu số 04b Phụ lục I kèm theo Thông tư này đến khi điều kiện về hạ tầng, kỹ thuật đảm bảo in được trên vật liệu PET thì được cấp mới, cấp đổi theo quy định tại Mẫu số 03 a, Mẫu số 03 c, Mẫu số 04a Phụ lục I kèm theo Thông tư này.",
+              "points": [],
+              "references": []
+            },
+            {
+              "clause_number": 2,
+              "content": "Thực hiện đăng ký xe cơ giới, xe máy chuyên dùng qua mạng quân sự (đối với hồ sơ gốc gửi trực tiếp hoặc quân bưu về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật) khi điều kiện về hạ tầng, kỹ thuật đảm bảo cho việc đăng ký theo quy định tại Thông tư này.",
+              "points": [],
+              "references": []
+            }
+          ]
+        },
+        {
+          "article_number": 33,
+          "article_title": "Điều 33. Trách nhiệm thi hành",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "content": "Tổng Tham mưu trưởng, Chủ nhiệm Tổng cục Hậu cần - Kỹ thuật, Thủ trưởng các cơ quan, đơn vị, tổ chức và cá nhân liên quan chịu trách nhiệm thực hiện Thông tư này./.",
+              "points": [],
+              "references": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

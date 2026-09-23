@@ -1,17 +1,58 @@
-services:
-  backend:
-    build: .
-    depends_on:
-      - mongodb
-    environment:
-      MONGO_URI: mongodb://mongodb:27017/mydb
+version: '3.8'
 
-  mongodb:
-    image: mongo:8
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
-      - "27017:27017"
+      - "3000:3000"           
     volumes:
-      - mongodb_data:/data/db
+      - ./frontend:/app       
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"           
+    volumes:
+      - ./backend:/app        
+    depends_on:
+      - qdrant
+    env_file:
+      - ./backend/.env
+    networks:
+      - app-network
+
+  database_interface:
+    build:
+      context: ./vector_database
+      dockerfile: Dockerfile
+    ports:
+      - "5555:5555"           
+    depends_on:
+      - qdrant
+    env_file:
+      - ./vector_database/.env
+    networks:
+      - app-network
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"           
+      - "6334:6334"           
+    volumes:
+      - qdrant-data:/qdrant/storage 
+    networks:
+      - app-network
 
 volumes:
-  mongodb_data:
+  qdrant-data:
+
+networks:
+  app-network:
+    driver: bridge

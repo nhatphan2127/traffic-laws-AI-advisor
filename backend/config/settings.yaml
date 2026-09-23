@@ -1,0 +1,39 @@
+app:
+  name: app
+  verstion: 1.0.0
+  env: production
+
+
+backend:
+  jwt_secret: YOUR_SUPER_SECRET_KEY_123456789
+  jwt_algorithm: HS256
+  monggodb_uri: 
+  db_name: 
+
+llm:
+  llm_provider:
+  llm_temperature:
+  llm_max_new_tokens:
+
+  google_studio_api_key:
+  google_studio_model:
+
+  cloud_ollama_url:
+  cloud_ollama_key:
+  cloud_ollama_key:
+
+  local_ollama_url:
+  local_ollama_key:
+  local_ollama_model:
+
+api:
+  vector_database_api_url:
+  request_timeout:
+  
+
+
+
+            
+
+
+

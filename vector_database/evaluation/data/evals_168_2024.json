@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Nghị định này quy định về những nội dung gì?",
+    "answers": "Theo quy định tại khoản 1 Điều 1 Nghị định này, Nghị định quy định về: a) Xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; b) Mức trừ điểm giấy phép lái xe đối với từng hành vi vi phạm hành chính; trình tự, thủ tục, thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 1,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm giao thông đường bộ thì bị xử phạt theo mức của cá nhân hay tổ chức?",
+    "answers": "Theo khoản 3 Điều 2 Nghị định này, hộ kinh doanh, hộ gia đình thực hiện hành vi vi phạm hành chính quy định tại Nghị định này bị xử phạt như đối với cá nhân vi phạm.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 2,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Các hình thức xử phạt chính đối với vi phạm hành chính về trật tự, an toàn giao thông đường bộ gồm những gì?",
+    "answers": "Theo khoản 1 Điều 3 Nghị định này, các hình thức xử phạt chính bao gồm: Cảnh cáo; Phạt tiền; Tịch thu phương tiện được sử dụng để vi phạm hành chính.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 3,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hình thức xử phạt bổ sung đối với cá nhân, tổ chức vi phạm giao thông đường bộ bao gồm những hình thức nào?",
+    "answers": "Theo khoản 2 Điều 3 Nghị định này, hình thức xử phạt bổ sung bao gồm: a) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn; b) Đình chỉ hoạt động có thời hạn; c) Tịch thu tang vật, phương tiện vi phạm hành chính.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 3,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là bao lâu?",
+    "answers": "Theo khoản 1 Điều 4 Nghị định này, thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là 01 năm.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 4,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép lái xe được quy định như thế nào nếu tại thời điểm ra quyết định xử phạt đã tạm giữ được giấy phép?",
+    "answers": "Theo điểm a khoản 3 Điều 5 Nghị định này, trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền đã tạm giữ được giấy phép lái xe thì thời điểm bắt đầu tính thời hạn tước quyền sử dụng là thời điểm quyết định xử phạt vi phạm hành chính có hiệu lực thi hành.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 5,
+        "clause": 3,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Trường hợp tại thời điểm ra quyết định xử phạt người có thẩm quyền chưa tạm giữ được giấy phép lái xe thì thời hạn tước được tính từ khi nào?",
+    "answers": "Theo điểm b khoản 3 Điều 5 Nghị định này, trong nội dung quyết định xử phạt phải ghi rõ thời điểm bắt đầu tính hiệu lực thi hành của hình thức tước quyền sử dụng giấy phép lái xe là kể từ thời điểm người vi phạm xuất trình giấy phép lái xe cho người có thẩm quyền xử phạt tạm giữ.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 5,
+        "clause": 3,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Việc tước quyền sử dụng giấy phép lái xe tích hợp không thời hạn và có thời hạn được thực hiện như thế nào?",
+    "answers": "Theo khoản 6 Điều 5 Nghị định này, người có thẩm quyền xử phạt áp dụng tước quyền sử dụng đối với giấy phép lái xe không thời hạn khi người điều khiển xe mô tô vi phạm, hoặc tước giấy phép lái xe có thời hạn khi người điều khiển xe ô tô vi phạm. Trong thời gian bị tước, người có GPLX tích hợp được cấp, đổi GPLX đối với loại GPLX không bị tước.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 5,
+        "clause": 6,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô lùi xe trên đường cao tốc bị phạt bao nhiêu tiền và trừ bao nhiêu điểm GPLX?",
+    "answers": "Theo điểm đ khoản 11 và điểm d khoản 16 Điều 6 Nghị định này, người điều khiển xe ô tô lùi xe trên đường cao tốc bị phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị trừ 10 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 11,
+        "point": "đ"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô sử dụng còi trong khu đông dân cư từ 22 giờ đêm đến 05 giờ sáng bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm đ khoản 1 Điều 6 Nghị định này, người điều khiển xe ô tô sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư (trừ xe ưu tiên) bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 1,
+        "point": "đ"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt đối với hành vi điều khiển xe ô tô chuyển làn đường không có tín hiệu báo trước là bao nhiêu?",
+    "answers": "Theo điểm a khoản 2 Điều 6 Nghị định này, hành vi chuyển làn đường không có tín hiệu báo trước đối với xe ô tô bị phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm a khoản 3 Điều 6 Nghị định này, người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 3,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô không thắt dây đai an toàn khi lái xe chạy trên đường bị xử phạt như thế nào?",
+    "answers": "Theo điểm k khoản 3 Điều 6 Nghị định này, hành vi không thắt dây đai an toàn khi điều khiển xe ô tô chạy trên đường bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 3,
+        "point": "k"
+      }
+    ]
+  },
+  {
+    "question": "Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét ngồi cùng hàng ghế với người lái xe ô tô bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm m khoản 3 Điều 6 Nghị định này, hành vi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ loại xe chỉ có một hàng ghế) bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 3,
+        "point": "m"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần bị xử phạt như thế nào?",
+    "answers": "Theo điểm n khoản 3 Điều 6 Nghị định này, hành vi chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần đối với xe ô tô bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 3,
+        "point": "n"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn bị phạt tiền bao nhiêu và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm d khoản 4 và điểm a khoản 16 Điều 6 Nghị định này, người điều khiển xe ô tô không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 4,
+        "point": "d"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi lùi xe ô tô trên đường một chiều bị xử phạt tiền và trừ điểm giấy phép lái xe ra sao?",
+    "answers": "Theo điểm e khoản 4 và điểm a khoản 16 Điều 6 Nghị định này, hành vi lùi xe ở đường một chiều bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 4,
+        "point": "e"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Người vừa lái xe ô tô vừa dùng tay cầm điện thoại di động bị xử phạt như thế nào?",
+    "answers": "Theo điểm h khoản 5 và điểm b khoản 16 Điều 6 Nghị định này, hành vi dùng tay cầm và sử dụng điện thoại khi điều khiển xe ô tô đang di chuyển bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 5,
+        "point": "h"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Chạy ô tô quá tốc độ từ 10 km/h đến 20 km/h bị xử phạt tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo điểm đ khoản 5 và điểm a khoản 16 Điều 6 Nghị định này, điều khiển xe ô tô chạy quá tốc độ quy định từ 10 km/h đến 20 km/h bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 5,
+        "point": "đ"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển ô tô vượt xe tại đoạn đường có biển báo cấm vượt bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 5 và điểm a khoản 16 Điều 6 Nghị định này, hành vi vượt xe tại đoạn đường có biển báo hiệu cấm vượt bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 5,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Xe ô tô đi vào đường có biển báo cấm đi vào bị phạt tiền và trừ điểm GPLX như thế nào?",
+    "answers": "Theo điểm i khoản 5 và điểm a khoản 16 Điều 6 Nghị định này, hành vi đi vào đường có biển báo cấm đi vào đối với xe ô tô bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 5,
+        "point": "i"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô đi trên vỉa hè bị xử phạt tiền và trừ điểm giấy phép lái xe bao nhiêu?",
+    "answers": "Theo điểm d khoản 6 và điểm b khoản 16 Điều 6 Nghị định này, hành vi điều khiển xe ô tô đi trên vỉa hè (trừ đi qua vỉa hè vào nhà, cơ quan) bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 6,
+        "point": "d"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái ô tô mà trong máu có nồng độ cồn chưa vượt quá 50 mg/100 ml máu bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm c khoản 6 và điểm b khoản 16 Điều 6 Nghị định này, điều khiển xe ô tô mà nồng độ cồn chưa vượt quá 50 miligam/100 mililít máu bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 6,
+        "point": "c"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô chạy quá tốc độ quy định trên 20 km/h đến 35 km/h bị xử phạt thế nào?",
+    "answers": "Theo điểm a khoản 6 và điểm b khoản 16 Điều 6 Nghị định này, hành vi chạy quá tốc độ trên 20 km/h đến 35 km/h bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 6,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô chạy quá tốc độ trên 35 km/h bị xử phạt tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo điểm a khoản 7 và điểm c khoản 16 Điều 6 Nghị định này, hành vi điều khiển xe ô tô chạy quá tốc độ trên 35 km/h bị phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 7,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Đỗ xe ô tô trên đường cao tốc không đúng nơi quy định bị xử phạt như thế nào?",
+    "answers": "Theo điểm c khoản 7 và điểm c khoản 16 Điều 6 Nghị định này, hành vi dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định bị phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 7,
+        "point": "c"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt đối với tài xế ô tô gây tai nạn giao thông rồi bỏ trốn khỏi hiện trường là bao nhiêu?",
+    "answers": "Theo khoản 8 và điểm c khoản 16 Điều 6 Nghị định này, người điều khiển xe ô tô gây tai nạn giao thông không dừng ngay phương tiện, không ở lại hiện trường bị phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 8,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe ô tô có nồng độ cồn vượt quá 50 mg đến 80 mg/100 ml máu bị xử phạt ra sao?",
+    "answers": "Theo điểm a khoản 9 và điểm d khoản 16 Điều 6 Nghị định này, hành vi điều khiển xe ô tô có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng và bị trừ 10 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 9,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe ô tô vượt đèn đỏ (không chấp hành hiệu lệnh của đèn tín hiệu giao thông) bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm b khoản 9 và điểm b khoản 16 Điều 6 Nghị định này, không chấp hành hiệu lệnh của đèn tín hiệu giao thông bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 9,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Mức xử phạt đối với người điều khiển xe ô tô đi ngược chiều của đường một chiều là bao nhiêu?",
+    "answers": "Theo điểm d khoản 9 và điểm b khoản 16 Điều 6 Nghị định này, hành vi đi ngược chiều của đường một chiều bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 9,
+        "point": "d"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 16,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái ô tô mà nồng độ cồn vượt quá 80 mg/100 ml máu bị phạt tiền bao nhiêu và tước GPLX bao lâu?",
+    "answers": "Theo điểm a khoản 11 và điểm c khoản 15 Điều 6 Nghị định này, hành vi điều khiển xe ô tô có nồng độ cồn vượt quá 80 miligam/100 mililít máu bị phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 11,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 15,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ khi đi xe ô tô bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm b khoản 11 và điểm c khoản 15 Điều 6 Nghị định này, không chấp hành yêu cầu kiểm tra nồng độ cồn bị phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và tước GPLX từ 22 tháng đến 24 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 11,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 15,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi lạng lách, đánh võng bằng xe ô tô bị xử phạt thế nào?",
+    "answers": "Theo khoản 12 và điểm b khoản 15 Điều 6 Nghị định này, hành vi điều khiển xe ô tô lạng lách, đánh võng bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 12,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 15,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô lạng lách, đánh võng gây tai nạn giao thông bị xử phạt như thế nào?",
+    "answers": "Theo khoản 13 và điểm c khoản 15 Điều 6 Nghị định này, hành vi lạng lách đánh võng gây tai nạn giao thông bị phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 13,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 6,
+        "clause": 15,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe mô tô sử dụng còi trong khu đông dân cư từ 22 giờ đến 05 giờ sáng bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm i khoản 1 Điều 7 Nghị định này, người điều khiển xe mô tô sử dụng còi từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư bị phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 1,
+        "point": "i"
+      }
+    ]
+  },
+  {
+    "question": "Chở người ngồi trên xe mô tô sử dụng ô (dù) thì người điều khiển xe mô tô bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm d khoản 1 Điều 7 Nghị định này, hành vi chở người ngồi trên xe sử dụng ô (dù) bị phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 1,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe mô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm b khoản 2 Điều 7 Nghị định này, điều khiển xe mô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 2,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe mô tô chở theo 02 người trên xe (trừ các trường hợp được phép) bị xử phạt bao nhiêu?",
+    "answers": "Theo điểm g khoản 2 Điều 7 Nghị định này, hành vi chở theo 02 người trên xe mô tô (trừ chở người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, áp giải người vi phạm...) bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 2,
+        "point": "g"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe mô tô không đội mũ bảo hiểm bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm h khoản 2 Điều 7 Nghị định này, không đội mũ bảo hiểm hoặc đội mũ bảo hiểm không cài quai đúng quy cách khi điều khiển xe mô tô tham gia giao thông bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 2,
+        "point": "h"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô chở theo từ 03 người trở lên bị phạt tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo điểm b khoản 3 và điểm a khoản 13 Điều 7 Nghị định này, hành vi chở theo từ 03 người trở lên trên xe mô tô bị phạt tiền từ 600.000 đồng đến 800.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 3,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô chạy dàn hàng ngang từ 03 xe trở lên bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm k khoản 3 Điều 7 Nghị định này, hành vi điều khiển xe mô tô chạy dàn hàng ngang từ 03 xe trở lên bị phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 3,
+        "point": "k"
+      }
+    ]
+  },
+  {
+    "question": "Chạy xe mô tô quá tốc độ quy định từ 10 km/h đến 20 km/h bị xử phạt như thế nào?",
+    "answers": "Theo điểm a khoản 4 Điều 7 Nghị định này, hành vi điều khiển xe mô tô chạy quá tốc độ quy định từ 10 km/h đến 20 km/h bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 4,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Người đang điều khiển xe mô tô dùng tay cầm và sử dụng điện thoại di động bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm đ khoản 4 và điểm b khoản 13 Điều 7 Nghị định này, người đang điều khiển xe mô tô dùng tay cầm và sử dụng điện thoại bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 4,
+        "point": "đ"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe mô tô mà trong máu có nồng độ cồn chưa vượt quá 50 mg/100 ml máu bị phạt bao nhiêu tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo điểm a khoản 6 và điểm b khoản 13 Điều 7 Nghị định này, hành vi điều khiển xe mô tô mà nồng độ cồn chưa vượt quá 50 mg/100 ml máu bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 6,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô đi vào khu vực cấm, đường có biển báo hiệu cấm đi vào bị phạt tiền và trừ điểm GPLX như thế nào?",
+    "answers": "Theo điểm b khoản 6 và điểm a khoản 13 Điều 7 Nghị định này, đi vào đường cấm bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 6,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe mô tô đi ngược chiều trên đường một chiều bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 7 và điểm a khoản 13 Điều 7 Nghị định này, đi ngược chiều đường một chiều bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 7,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô đi vào đường cao tốc bị xử phạt thế nào?",
+    "answers": "Theo điểm b khoản 7 và điểm c khoản 13 Điều 7 Nghị định này, điều khiển xe mô tô đi vào đường cao tốc bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 7,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe mô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông bị xử phạt ra sao?",
+    "answers": "Theo điểm c khoản 7 và điểm b khoản 13 Điều 7 Nghị định này, không chấp hành hiệu lệnh đèn tín hiệu giao thông bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 7,
+        "point": "c"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt đối với xe mô tô chạy quá tốc độ quy định trên 20 km/h là bao nhiêu?",
+    "answers": "Theo điểm a khoản 8 và điểm b khoản 13 Điều 7 Nghị định này, điều khiển xe mô tô chạy quá tốc độ trên 20 km/h bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 8,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe mô tô có nồng độ cồn vượt quá 50 mg đến 80 mg/100 ml máu bị xử phạt ra sao?",
+    "answers": "Theo điểm b khoản 8 và điểm d khoản 13 Điều 7 Nghị định này, nồng độ cồn vượt quá 50 mg đến 80 mg/100 ml máu bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 10 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 8,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 13,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi điều khiển xe mô tô lạng lách, đánh võng trên đường bộ bị xử phạt thế nào?",
+    "answers": "Theo điểm a khoản 9 và điểm b khoản 12 Điều 7 Nghị định này, hành vi lạng lách, đánh võng bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng và bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 9,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 12,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe mô tô có nồng độ cồn vượt quá 80 mg/100 ml máu bị xử phạt tiền và tước GPLX như thế nào?",
+    "answers": "Theo điểm d khoản 9 và điểm c khoản 12 Điều 7 Nghị định này, điều khiển xe mô tô có nồng độ cồn vượt quá 80 mg/100 ml máu bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng và bị tước quyền sử dụng GPLX từ 22 tháng đến 24 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 9,
+        "point": "d"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 12,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi buông cả hai tay khi đang điều khiển xe mô tô bị xử lý như thế nào?",
+    "answers": "Theo điểm a khoản 11 Điều 7 Nghị định này, người điều khiển xe mô tô thực hiện hành vi buông cả hai tay khi đang điều khiển xe sẽ bị tịch thu phương tiện.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 7,
+        "clause": 11,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Xe máy chuyên dùng chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 3 Điều 8 Nghị định này, người điều khiển xe máy chuyên dùng chạy quá tốc độ từ 05 km/h đến dưới 10 km/h bị phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 8,
+        "clause": 3,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt tiền đối với hành vi đi ngược chiều đường một chiều của người điều khiển xe máy chuyên dùng là bao nhiêu?",
+    "answers": "Theo điểm d khoản 7 Điều 8 Nghị định này, người điều khiển xe máy chuyên dùng đi ngược chiều của đường một chiều bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 8,
+        "clause": 7,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe đạp đi dàn hàng ngang từ 03 xe trở lên bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm g khoản 1 Điều 9 Nghị định này, hành vi điều khiển xe đạp, xe đạp máy đi dàn hàng ngang từ 03 xe trở lên bị phạt tiền từ 100.000 đồng đến 200.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 9,
+        "clause": 1,
+        "point": "g"
+      }
+    ]
+  },
+  {
+    "question": "Người điều khiển xe đạp máy không đội mũ bảo hiểm bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm d khoản 4 Điều 9 Nghị định này, người điều khiển xe đạp máy không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc cài quai không đúng quy cách bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 9,
+        "clause": 4,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt tiền đối với hành vi điều khiển xe đạp đi vào đường cao tốc là bao nhiêu?",
+    "answers": "Theo khoản 5 Điều 9 Nghị định này, người điều khiển xe đạp đi vào đường cao tốc (trừ xe phục vụ quản lý, bảo trì) bị phạt tiền từ 800.000 đồng đến 1.200.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 9,
+        "clause": 5,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Người đi bộ vượt qua dải phân cách để qua đường bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm a khoản 1 Điều 10 Nghị định này, hành vi vượt qua dải phân cách của người đi bộ bị phạt tiền từ 150.000 đồng đến 250.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 10,
+        "clause": 1,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Mức xử phạt đối với người đi bộ đi vào đường cao tốc là bao nhiêu?",
+    "answers": "Theo điểm a khoản 2 Điều 10 Nghị định này, hành vi đi vào đường cao tốc của người đi bộ (trừ người phục vụ quản lý, bảo trì) bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 10,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Dẫn dắt vật nuôi đi vào đường cao tốc bị xử phạt như thế nào?",
+    "answers": "Theo khoản 3 Điều 11 Nghị định này, hành vi điều khiển, dẫn dắt vật nuôi đi vào đường cao tốc bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 11,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Đá bóng, chơi cầu lông trái phép trên phần đường xe chạy bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm b khoản 2 Điều 12 Nghị định này, cá nhân thực hiện hành vi đá bóng, đá cầu, chơi cầu lông trái phép trên đường bộ bị phạt tiền từ 200.000 đồng đến 250.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 12,
+        "clause": 2,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Bán hàng rong trên lòng đường các tuyến phố có quy định cấm bán hàng bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm e khoản 2 Điều 12 Nghị định này, hành vi bán hàng rong trên lòng đường, vỉa hè các tuyến phố có quy định cấm bị phạt tiền từ 200.000 đồng đến 250.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 12,
+        "clause": 2,
+        "point": "e"
+      }
+    ]
+  },
+  {
+    "question": "Sử dụng trái phép vỉa hè để kinh doanh dịch vụ ăn uống, buôn bán bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 7 Điều 12 Nghị định này, hành vi sử dụng trái phép lòng đường, vỉa hè để kinh doanh dịch vụ ăn uống, bày bán hàng hóa bị phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ 4.000.000 đồng đến 6.000.000 đồng đối với tổ chức.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 12,
+        "clause": 7,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hành vi rải vật sắc nhọn trên đường bộ bị xử phạt tiền và bổ sung như thế nào?",
+    "answers": "Theo điểm b khoản 14 và khoản 15 Điều 12 Nghị định này, hành vi rải vật sắc nhọn trên đường bộ bị phạt tiền từ 35.000.000 đồng đến 37.000.000 đồng. Nếu người vi phạm là người điều khiển phương tiện còn bị tước GPLX từ 22 tháng đến 24 tháng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 12,
+        "clause": 14,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 12,
+        "clause": 15,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô không có kính chắn gió bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 1 Điều 13 Nghị định này, hành vi điều khiển xe ô tô không có kính chắn gió (đối với xe có thiết kế lắp kính chắn gió) bị phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô lắp thêm đèn phía trên nóc hoặc phía trước xe bị xử phạt ra sao?",
+    "answers": "Theo điểm a khoản 3 và điểm a khoản 13 Điều 13 Nghị định này, hành vi lắp thêm đèn phía trước, phía sau, trên nóc xe bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 3,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe ô tô có tem kiểm định an toàn kỹ thuật hết hạn dưới 01 tháng bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 5 và điểm a khoản 13 Điều 13 Nghị định này, điều khiển xe có tem kiểm định hết hiệu lực dưới 01 tháng bị phạt tiền từ 3.000.000 đồng đến 4.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 5,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô không gắn biển số bị xử phạt tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo điểm b khoản 7 và điểm b khoản 13 Điều 13 Nghị định này, điều khiển xe không gắn biển số bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 7,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 13,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt đối với hành vi điều khiển xe ô tô gắn biển số giả (không do cơ quan có thẩm quyền cấp) là bao nhiêu?",
+    "answers": "Theo điểm a khoản 8, điểm a khoản 10 và điểm c khoản 13 Điều 13 Nghị định này, gắn biển số không do cơ quan có thẩm quyền cấp bị phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng, bị tịch thu biển số xe và bị trừ 10 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 8,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 10,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 13,
+        "clause": 13,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô không có gương chiếu hậu bên trái bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm a khoản 1 Điều 14 Nghị định này, điều khiển xe mô tô không có gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 14,
+        "clause": 1,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt tiền và trừ điểm GPLX đối với người điều khiển xe mô tô không gắn biển số là bao nhiêu?",
+    "answers": "Theo điểm a khoản 3 và điểm b khoản 8 Điều 14 Nghị định này, điều khiển xe mô tô không gắn biển số bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 14,
+        "clause": 3,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 14,
+        "clause": 8,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Chở đất đá, phế thải trên xe ô tô làm rơi vãi xuống đường bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 2 Điều 17 Nghị định này, hành vi chở đất đá, phế thải mà không có mui bạt che đậy hoặc có nhưng để rơi vãi xuống đường bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 17,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Đổ trái phép rác, đất, đá, chất phế thải ra đường phố bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo khoản 4 và khoản 5 Điều 17 Nghị định này, người điều khiển xe ô tô thực hiện hành vi đổ trái phép rác, phế thải ra đường phố bị phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 17,
+        "clause": 4,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 17,
+        "clause": 5,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô bị xử phạt như thế nào?",
+    "answers": "Theo khoản 1 Điều 18 Nghị định này, phạt cảnh cáo đối với người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh 100 cm3 bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 4 Điều 18 Nghị định này, người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh từ 50 cm3 trở lên bị phạt tiền từ 400.000 đồng đến 600.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 4,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe mô tô 110 cm3 không có giấy phép lái xe bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 5 Điều 18 Nghị định này, người điều khiển xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 không có giấy phép lái xe bị phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 5,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe mô tô trên 125 cm3 không có giấy phép lái xe bị xử phạt bao nhiêu tiền?",
+    "answers": "Theo điểm b khoản 7 Điều 18 Nghị định này, điều khiển xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 mà không có giấy phép lái xe bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 7,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Sử dụng giấy phép lái xe ô tô hết hạn dưới 01 năm bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm a khoản 8 Điều 18 Nghị định này, người điều khiển xe ô tô có giấy phép lái xe nhưng đã hết hạn sử dụng dưới 01 năm bị phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 8,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Mức phạt tiền đối với hành vi điều khiển xe ô tô không có giấy phép lái xe là bao nhiêu?",
+    "answers": "Theo điểm b khoản 9 Điều 18 Nghị định này, người điều khiển xe ô tô không có giấy phép lái xe bị phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 18,
+        "clause": 9,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Xe ô tô chở khách đang chạy mà không đóng cửa lên xuống bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 3 Điều 20 Nghị định này, hành vi không đóng cửa lên xuống khi xe đang chạy đối với xe ô tô chở hành khách bị phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 20,
+        "clause": 3,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi đón, trả hành khách trên đường cao tốc đối với lái xe ô tô bị xử phạt thế nào?",
+    "answers": "Theo khoản 8 và điểm c khoản 10 Điều 20 Nghị định này, người điều khiển xe ô tô đón, trả hành khách trên đường cao tốc bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng và bị trừ 06 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 20,
+        "clause": 8,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 20,
+        "clause": 10,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Không chốt, đóng cố định cửa sau, cửa bên thùng xe tải khi đang chạy bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm b khoản 1 Điều 21 Nghị định này, hành vi không chốt, đóng cố định cửa sau, cửa bên thùng xe khi xe đang chạy bị phạt tiền từ 600.000 đồng đến 800.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 21,
+        "clause": 1,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Lái xe ô tô tải chở hàng vượt trọng tải cho phép từ 30% đến 50% bị xử phạt ra sao?",
+    "answers": "Theo điểm a khoản 5 và điểm a khoản 13 Điều 21 Nghị định này, hành vi chở hàng vượt trọng tải cho phép từ 30% đến 50% bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 21,
+        "clause": 5,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 21,
+        "clause": 13,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Chở hàng vượt trọng tải cho phép của xe ô tô tải trên 150% bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 8 và điểm đ khoản 13 Điều 21 Nghị định này, chở hàng vượt trọng tải cho phép trên 150% bị phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng và bị trừ 10 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 21,
+        "clause": 8,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 21,
+        "clause": 13,
+        "point": "đ"
+      }
+    ]
+  },
+  {
+    "question": "Chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị phạt bao nhiêu tiền và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 3 và điểm b khoản 6 Điều 22 Nghị định này, chở hàng siêu trường, siêu trọng không có giấy phép lưu hành bị phạt tiền từ 13.000.000 đồng đến 15.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 22,
+        "clause": 3,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 22,
+        "clause": 6,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Vận chuyển hàng nguy hiểm là chất nổ đi qua hầm đường bộ dài trên 100 mét bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 4 và điểm a khoản 7 Điều 23 Nghị định này, chở hàng nguy hiểm (thuốc nổ, xăng, dầu...) qua hầm dài từ 100m trở lên bị phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 23,
+        "clause": 4,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 23,
+        "clause": 7,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Vận chuyển hàng hóa nguy hiểm mà không có giấy phép vận chuyển bị xử phạt như thế nào?",
+    "answers": "Theo khoản 5 và điểm b khoản 7 Điều 23 Nghị định này, vận chuyển hàng hóa nguy hiểm không có giấy phép bị phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 23,
+        "clause": 5,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 23,
+        "clause": 7,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Doanh nghiệp không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm a khoản 8 Điều 26 Nghị định này, không tổ chức khám sức khỏe định kỳ cho lái xe bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ 20.000.000 đồng đến 24.000.000 đồng đối với tổ chức kinh doanh vận tải.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 26,
+        "clause": 8,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe ô tô đưa đón học sinh không có thiết bị cảnh báo chống bỏ quên trẻ em bị phạt tiền bao nhiêu?",
+    "answers": "Theo điểm b khoản 3 và khoản 4 Điều 27 Nghị định này, không có thiết bị cảnh báo, chống bỏ quên trẻ em trên xe bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 27,
+        "clause": 3,
+        "point": "b"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 27,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Điều khiển xe chở người bốn bánh có gắn động cơ chở quá số người quy định bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 1 Điều 28 Nghị định này, hành vi chở quá số người quy định trên xe chở người bốn bánh có gắn động cơ bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 28,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Lái xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt tiền và trừ điểm GPLX ra sao?",
+    "answers": "Theo khoản 2 và khoản 3 Điều 30 Nghị định này, điều khiển xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 30,
+        "clause": 2,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 30,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Mua bán biển số xe không do cơ quan nhà nước có thẩm quyền sản xuất bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 1 và khoản 3 Điều 31 Nghị định này, mua, bán biển số xe giả bị phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với cá nhân, từ 20.000.000 đồng đến 24.000.000 đồng đối với tổ chức và bị tịch thu biển số.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 31,
+        "clause": 1,
+        "point": null
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 31,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Chủ xe mô tô tự ý thay đổi màu sơn của xe không đúng với đăng ký xe bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm a khoản 1 Điều 32 Nghị định này, chủ xe mô tô tự ý thay đổi màu sơn của xe bị phạt tiền từ 200.000 đồng đến 300.000 đồng đối với cá nhân, từ 400.000 đồng đến 600.000 đồng đối với tổ chức.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 32,
+        "clause": 1,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Chủ xe ô tô tự ý thay đổi màu sơn của xe bị xử phạt bao nhiêu tiền?",
+    "answers": "Theo điểm i khoản 7 Điều 32 Nghị định này, chủ xe ô tô tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong chứng nhận đăng ký xe bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 32,
+        "clause": 7,
+        "point": "i"
+      }
+    ]
+  },
+  {
+    "question": "Chủ xe ô tô giao xe cho người không có giấy phép lái xe điều khiển tham gia giao thông bị phạt bao nhiêu tiền?",
+    "answers": "Theo điểm i khoản 14 Điều 32 Nghị định này, hành vi giao xe hoặc để cho người không đủ điều kiện (không có GPLX) điều khiển xe ô tô tham gia giao thông bị phạt tiền từ 28.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 56.000.000 đồng đến 60.000.000 đồng đối với tổ chức.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 32,
+        "clause": 14,
+        "point": "i"
+      }
+    ]
+  },
+  {
+    "question": "Hành khách mang hóa chất độc hại, chất dễ cháy nổ lên xe chở khách bị xử phạt thế nào?",
+    "answers": "Theo điểm a khoản 2 và khoản 4 Điều 33 Nghị định này, mang chất dễ cháy nổ, hàng nguy hiểm lên xe khách bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng và bị tịch thu hàng nguy hiểm mang theo.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 33,
+        "clause": 2,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 33,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Lái xe ô tô chở hàng vượt quá tải trọng cho phép của đường bộ trên 50% bị phạt tiền bao nhiêu và trừ mấy điểm GPLX?",
+    "answers": "Theo điểm a khoản 5 và điểm c khoản 7 Điều 34 Nghị định này, hành vi quá tải trọng đường bộ trên 50% bị phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng và bị trừ 04 điểm giấy phép lái xe.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 34,
+        "clause": 5,
+        "point": "a"
+      },
+      {
+        "document": "168_2024_ND-CP",
+        "article": 34,
+        "clause": 7,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Hành vi tụ tập để cổ vũ, xúi giục đua xe trái phép bị phạt bao nhiêu tiền?",
+    "answers": "Theo khoản 1 Điều 35 Nghị định này, hành vi tụ tập để cổ vũ, giúp sức, xúi giục đua xe trái phép bị phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 35,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn bao lâu không bị trừ điểm thì giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm?",
+    "answers": "Theo điểm a khoản 2 Điều 51 Nghị định này, khi đủ thời hạn 12 tháng kể từ ngày bị trừ điểm giấy phép lái xe gần nhất mà chưa bị trừ hết điểm và không bị trừ điểm thêm thì dữ liệu điểm giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm.",
+    "retrieve_items": [
+      {
+        "document": "168_2024_ND-CP",
+        "article": 51,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  }
+]

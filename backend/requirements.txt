@@ -1,0 +1,10 @@
+PyYAML
+fastapi
+uvicorn
+pymongo
+python-dotenv
+pyjwt
+bcrypt
+pydantic
+requests
+ollama

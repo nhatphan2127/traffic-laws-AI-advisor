@@ -1,0 +1,524 @@
+{
+    "document": "67/2024/TT-BQP",
+    "document_title": "THÔNG TƯ Quy định trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng",
+    "legal_basis": "Căn cứ Luật Trật tự, an toàn giao thông đường bộ ngày 27 tháng 6 năm 2024;\nCăn cứ Nghị định số 01/2022/NĐ-CP ngày 30 tháng 11 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Quốc phòng;\nTheo đề nghị của Chủ nhiệm Tổng cục Kỹ thuật;\nBộ trưởng Bộ Quốc phòng ban hành Thông tư quy định về trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng.",
+    "chapters": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "QUY ĐỊNH CHUNG",
+            "articles": [
+                {
+                    "article_number": 1,
+                    "article_title": "Điều 1. Phạm vi điều chỉnh",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Thông tư này quy định trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Xe cơ giới nhập khẩu, sản xuất, lắp ráp trong nước do Cục Đăng kiểm Việt Nam cấp chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường không thuộc phạm vi điều chỉnh của Thông tư này.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 2,
+                    "article_title": "Điều 2. Đối tượng áp dụng",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Thông tư này áp dụng đối với các cơ quan, đơn vị, doanh nghiệp và tổ chức, cá nhân liên quan đến việc nhập khẩu, sản xuất, lắp ráp xe cơ giới thuộc phạm vi quản lý của Bộ Quốc phòng.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 3,
+                    "article_title": "Điều 3. Giải thích từ ngữ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Trong Thông tư này, các từ ngữ dưới đây được hiểu như sau:\n1. Xe cơ giới gồm xe ô tô kể cả xe sát xi, xe ô tô chuyên dùng, rơ moóc, sơ mi rơ moóc, mô tô.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Sản xuất, lắp ráp xe cơ giới là quá trình tạo ra xe cơ giới hoàn chỉnh từ các chi tiết, cụm chi tiết, bộ phận, hệ thống, tổng thành.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "3. Cơ sở nhập khẩu, sản xuất, lắp ráp là doanh nghiệp ngoài quân đội có chức năng kinh doanh ngành nghề nhập khẩu, sản xuất, lắp ráp xe cơ giới theo quy định của pháp luật hoặc các doanh nghiệp sản xuất, lắp ráp xe cơ giới đã ký hợp đồng chuyển giao công nghệ lắp ráp xe cơ giới với nhà sản xuất nước ngoài và các đơn vị trong toàn quân được giao nhiệm vụ nhập khẩu, sản xuất, lắp ráp xe cơ giới.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "4. Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp là quá trình kiểm tra cấu hình, thử nghiệm, đánh giá tính năng chiến - kỹ thuật của xe cơ giới, không bao gồm tính năng chiến - kỹ thuật của phần chuyên dùng do Tổng Tham mưu trưởng quyết định phê duyệt.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 5,
+                            "content": "5. Cơ quan chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp (viết chung là cơ quan chứng nhận chất lượng) là Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 4,
+                    "article_title": "Điều 4. Nguyên tắc nhập khẩu, sản xuất, lắp ráp xe cơ giới",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Các nhãn xe cơ giới được nhập khẩu, sản xuất, lắp ráp theo các chương trình, dự án, đề án, kế hoạch, nhiệm vụ được Bộ Quốc phòng phê duyệt.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Các nhãn xe cơ giới nhập khẩu, sản xuất, lắp ráp được Tổng Tham mưu trưởng quyết định phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "3. Xe cơ giới sản xuất, lắp ráp được thi công theo đúng hồ sơ thiết kế đã được phê duyệt hoặc hồ sơ được công nhận bảo đảm các yêu cầu về chất lượng an toàn kỹ thuật và bảo vệ môi trường.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "4. Cơ sở sản xuất, lắp ráp xe cơ giới kiểm tra, nghiệm thu chất lượng xuất xưởng và lập Phiếu xuất xưởng cho từng xe, chịu trách nhiệm về chất lượng xe cơ giới xuất xưởng.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 2,
+            "chapter_title": "TRÌNH TỰ, THỦ TỤC CHỨNG NHẬN CHẤT LƯỢNG AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG XE CƠ GIỚI NHẬP KHẨU, SẢN XUẤT, LẮP RÁP",
+            "articles": [
+                {
+                    "article_number": 5,
+                    "article_title": "Điều 5. Trình tự, thủ tục thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới nộp trực tiếp hoặc gửi qua dịch vụ bưu chính công ích (hoặc quân bưu) hoặc trên môi trường điện tử về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Hồ sơ đề nghị thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "a) Trường hợp xe cơ giới sản xuất, lắp ráp theo thiết kế mới, gồm:\nCông văn đề nghị thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế theo quy định tại Mẫu số 01 Phụ lục kèm theo Thông tư này;\nBản thuyết minh thiết kế kỹ thuật và các bản vẽ kỹ thuật theo quy định tại Mẫu số 02 Phụ lục kèm theo Thông tư này;\nBản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;\nBản sao quyết định của Tổng Tham mưu trưởng phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "b) Trường hợp xe cơ giới sản xuất, lắp ráp theo thiết kế và mang nhãn hiệu hàng hóa của nước ngoài, gồm:\nCông văn đề nghị thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế theo quy định tại Mẫu số 01 Phụ lục kèm theo Thông tư này;\nBản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;\nBản sao quyết định của Tổng Tham mưu trưởng phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới;\nBản sao có xác nhận của bên chuyển giao công nghệ các bản vẽ kỹ thuật của xe cơ giới (thể hiện: Bố trí chung của xe; các kích thước cơ bản của xe cơ giới; bố trí lắp đặt ghế ngồi, giường nằm; vị trí lắp đặt đèn, gương chiếu hậu; chiều rộng ca bin và kích thước bao thùng chở hàng đối với xe cơ giới chở hàng);\nBản sao thông số kỹ thuật và tính năng cơ bản của xe cơ giới sản xuất, lắp ráp có xác nhận của bên chuyển giao công nghệ;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "c) Trường hợp xe cơ giới sản xuất, lắp ráp theo hồ sơ thiết kế đã được Cục Đăng kiểm Việt Nam thẩm định, phê duyệt, gồm:\nCông văn đề nghị thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế theo quy định tại Mẫu số 01 Phụ lục kèm theo Thông tư này;\nBản sao hồ sơ thiết kế đã được phê duyệt; bản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;\nBản sao quyết định của Tổng Tham mưu trưởng phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới.",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "3. Thẩm định, phê duyệt hoặc công nhận hồ sơ thiết kế",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "a) Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật Quyết định phê duyệt hoặc công nhận hồ sơ thiết kế sản xuất, lắp ráp theo quy định tại Mẫu số 03 Phụ lục kèm theo Thông tư này. Trường hợp nội dung thẩm định phức tạp thì thời gian tối đa không vượt quá 30 ngày;\nTrường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để bổ sung;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "b) Thành lập Hội đồng thẩm định\nHội đồng thẩm định hồ sơ thiết kế do Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập;\nHội đồng tổ chức kiểm tra, đối chiếu các nội dung hồ sơ thiết kế với cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới được Tổng Tham mưu trưởng phê duyệt, thông qua biên bản thẩm định;\nTrường hợp hồ sơ thiết kế đạt yêu cầu, Hội đồng thẩm định trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định phê duyệt;\nTrường hợp hồ sơ chưa đạt yêu cầu, Hội đồng thẩm định thông báo đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để chỉnh sửa, hoàn thiện. Thời gian chỉnh sửa, hoàn thiện không tính vào thời, gian thẩm định, phê duyệt hoặc công nhận được quy định tại điểm a khoản này;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": 5,
+                                            "clause": 3,
+                                            "point": "a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "c) Quyết định phê duyệt hoặc công nhận hồ sơ thiết kế sản xuất, lắp ráp theo quy định tại Mẫu số 03 Phụ lục kèm theo Thông tư này được lập thành 02 bản, có giá trị pháp lý như nhau, 01 bản lưu tại Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật, 01 bản gửi cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng.",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 6,
+                    "article_title": "Điều 6. Thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Đơn vị được Bộ Quốc phòng giao nhiệm vụ trực tiếp mua sắm hoặc cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nộp trực tiếp hoặc gửi qua dịch vụ bưu chính công ích (hoặc quân bưu) hoặc trên môi trường điện tử về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Hồ sơ đề nghị cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "a) Xe cơ giới nhập khẩu, gồm:\nCông văn của đơn vị được Bộ Quốc phòng giao nhiệm vụ trực tiếp mua sắm đề nghị cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định tại Mẫu 04 Phụ lục kèm theo Thông tư này;\nBản sao quyết định của Bộ trưởng Bộ Quốc phòng giao nhiệm vụ mua sắm cho đơn vị;\nBản sao quyết định của Tổng Tham mưu trưởng phê duyệt tính năng chiến - kỹ thuật cơ bản xe nhập khẩu;\nGiấy xác nhận hàng hoá nhập khẩu phục vụ nhiệm vụ quốc phòng;\nBản sao chứng từ nhập khẩu có xác nhận của đơn vị nhập khẩu xe (Tờ khai hàng hóa nhập khẩu và các tài liệu liên quan có thể hiện số khung, số máy, năm sản xuất của xe);\nBản sao Bảng các thông số kỹ thuật của xe;\nPhiếu kiểm tra chất lượng xuất xưởng của doanh nghiệp sản xuất, lắp ráp ô tô nước ngoài cấp cho từng ô tô hoặc tài liệu khác có giá trị tương đương;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "b) Xe cơ giới xe thuộc diện cho, tặng, viện trợ, gồm:\nCông văn của đơn vị được tiếp nhận đề nghị cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định tại Mẫu 04 Phụ lục kèm theo Thông tư này;\nBản sao các quyết định của cấp có thẩm quyền về việc cho, tặng, viện trợ và các tài liệu liên quan về tính năng chiến - kỹ thuật cơ bản của xe;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "c) Xe cơ giới sản xuất, lắp ráp, gồm:\nCông văn của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng đề nghị cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường theo quy định tại Mẫu 04 Phụ lục kèm theo Thông tư này;\nBản sao quyết định của Tổng Tham mưu trưởng phê duyệt tính năng chiến - kỹ thuật cơ bản của xe;\nBản sao các quyết định của Bộ trưởng Bộ Quốc phòng phê duyệt dự án, đề án, kế hoạch, nhiệm vụ hoặc các tài liệu khác có liên quan (nếu có);\nPhiếu kiểm tra chất lượng xuất xưởng của cơ sở sản xuất, lắp ráp theo quy định tại Mẫu số 05 Phụ lục kèm theo Thông tư này.",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "3. Thẩm quyền, trình tự cấp Giấy Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "a) Trong thời hạn 45 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật kiểm tra, cấp Giấy Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước;\nTrường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến đơn vị được Bộ Quốc phòng giao nhiệm vụ trực tiếp mua sắm hoặc cơ sở sản xuất, lắp ráp hoặc đơn đặt hàng để bổ sung;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "b) Thành lập Hội đồng kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước\nHội đồng kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường do Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập;\nHội đồng kiểm tra cấu hình, thử nghiệm, đánh giá tính năng chiến - kỹ thuật của xe cơ giới do Tổng Tham mưu trưởng phê duyệt và thông qua biên bản kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường. Kết quả kiểm tra được lập thành biên bản theo quy định tại Mẫu số 06 Phụ lục kèm theo Thông tư này;\nTrường hợp các thông số kỹ thuật xe cơ giới đạt yêu cầu, Hội đồng kiểm tra trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường;\nTrường hợp có thông số kỹ thuật xe cơ giới chưa đạt yêu cầu, Hội đồng kiểm tra thông báo đến đơn vị được Bộ Quốc phòng giao nhiệm vụ trực tiếp mua sắm hoặc cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng khắc phục, hoàn thiện. Thời gian khắc phục, hoàn thiện không tính vào thời gian cấp Giấy Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường được quy định tại điểm a khoản này;",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        },
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": 6,
+                                            "clause": 3,
+                                            "point": "a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "c) Cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường, không thành lập Hội đồng đối với các trường hợp sau:\nXe cơ giới nhập khẩu có cùng nhãn hiệu, cấu hình, tính năng chiến - kỹ thuật cơ bản đã được cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường lần trước đó;\nXe cơ giới sản xuất, lắp ráp có cùng nhãn hiệu, cấu hình, tính năng chiến - kỹ thuật cơ bản và cùng cơ sở sản xuất, lắp ráp đã được cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường lần trước đó;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "d) Giấy Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước theo quy định tại Mẫu số 07 Phụ lục kèm theo Thông tư này được lập thành 03 bản, có giá trị pháp lý như nhau, 01 bản lưu tại Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật, 02 bản gửi cho đơn vị được Bộ Quốc phòng giao nhiệm vụ trực tiếp nhập khẩu hoặc cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng.",
+                                    "references": [
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 3,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, ĐƠN VỊ VÀ TỔ CHỨC",
+            "articles": [
+                {
+                    "article_number": 7,
+                    "article_title": "Điều 7. Bộ Tổng Tham mưu",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Thẩm định, trình Tổng Tham mưu trưởng phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới trong nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 8,
+                    "article_title": "Điều 8. Tổng cục Hậu cần - Kỹ thuật",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Tham mưu giúp Bộ trưởng Bộ Quốc phòng quản lý nhà nước về chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Chỉ đạo Cục Xe máy - Vận tải chịu trách nhiệm trước Bộ trưởng Bộ Quốc phòng, Chủ nhiệm Tổng cục Hậu cần - Kỹ thuật:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "a) Chỉ đạo, hướng dẫn, tổ chức thực hiện công tác chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "b) Thẩm định, phê duyệt, công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "c) Tổ chức kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường; cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu hoặc sản xuất, lắp ráp trong nước;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "d) Trưng cầu các chuyên gia để đánh giá mức độ nguy hiểm của xe cơ giới có khuyết tật làm cơ sở để đưa ra các quyết định kịp thời và cần thiết;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "đ) Quản lý, lưu trữ hồ sơ chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp theo quy định của pháp luật về trật tự an toàn giao thông đường bộ và quy định tại Thông tư này.",
+                                    "references": [
+                                        {
+                                            "document": "36/2024/QH15",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        },
+                                        {
+                                            "document": "67/2024/TT-BQP",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 9,
+                    "article_title": "Điều 9. Cơ sở nhập khẩu, sản xuất, lắp ráp",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "1. Chịu trách nhiệm về tính hợp pháp, chính xác của thông tin khai báo và các tài liệu nộp trong hồ sơ, tuân thủ các quy định, quyết định kiểm tra của cơ quan chức năng.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "2. Chịu trách nhiệm về nguồn gốc, xuất xứ, chất lượng của xe cơ giới; lưu trữ các thông tin liên quan đến xe cơ giới để truy xuất nguồn gốc.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "3. Chấp hành các quy định của pháp luật liên quan đến quyền sở hữu trí tuệ.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "4. Lưu trữ hồ sơ đăng ký chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường các tài liệu liên quan đến việc đảm bảo chất lượng của xe cơ giới theo quy định của pháp luật về trật tự an toàn giao thông đường bộ và quy định tại Thông tư này.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "36/2024/QH15",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                },
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 4,
+            "chapter_title": "ĐIỀU KHOẢN THI HÀNH",
+            "articles": [
+                {
+                    "article_number": 10,
+                    "article_title": "Điều 10. Hiệu lực thi hành",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 11,
+                    "article_title": "Điều 11. Quy định chuyển tiếp",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Xe cơ giới nhập khẩu phục vụ mục đích quốc phòng đã được thông quan trước ngày Thông tư này có hiệu lực, không áp dụng thực hiện theo quy định của Thông tư này.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 12,
+                    "article_title": "Điều 12. Trách nhiệm thi hành",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Tổng Tham mưu trưởng, Chủ nhiệm Tổng cục Hậu cần - Kỹ thuật, Thủ trưởng các cơ quan, đơn vị, doanh nghiệp và tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Thông tư này./.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "67/2024/TT-BQP",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

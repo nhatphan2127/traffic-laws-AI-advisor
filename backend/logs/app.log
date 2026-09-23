@@ -1,0 +1,173 @@
+[2026-09-22 18:44:30] CRITICAL - server - Không thể kết nối tới MongoDB: SSL handshake failed: ac-k0p9jw6-shard-00-01.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-k0p9jw6-shard-00-00.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-k0p9jw6-shard-00-02.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 6ab26a1830bff39402ef678d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-k0p9jw6-shard-00-00.3tr1v0x.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-k0p9jw6-shard-00-00.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-k0p9jw6-shard-00-01.3tr1v0x.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-k0p9jw6-shard-00-01.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-k0p9jw6-shard-00-02.3tr1v0x.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-k0p9jw6-shard-00-02.3tr1v0x.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[2026-09-22 18:47:55] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:48:12] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:49:14] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:49:36] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:49:37] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 18:49:37] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 18:49:37] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 18:49:37] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 18:49:37] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 18:53:59] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:54:00] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 18:54:00] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 18:54:00] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 18:54:00] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 18:54:00] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 18:56:29] INFO - server - Successfully connected to MongoDB
+[2026-09-22 18:56:30] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 18:56:30] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 18:56:30] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 18:56:30] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 18:56:30] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 20:13:39] INFO - server - Successfully connected to MongoDB
+[2026-09-22 20:13:41] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 20:13:41] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 20:13:41] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 20:13:41] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 20:13:41] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 21:28:32] WARNING - server - Invalid JWT token
+[2026-09-22 21:28:32] INFO - server - Chat request received. User ID: 'None', Chat ID: 'None'
+[2026-09-22 21:28:32] INFO - llm - Executing chat engine for query: 'hello'
+[2026-09-22 21:28:32] INFO - llm - [QUERY NORMALIZATION] Original query: hello
+[2026-09-22 21:28:34] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:28:34] INFO - llm - [QUERY NORMALIZATION] Normalized query: hello
+[2026-09-22 21:28:34] INFO - api - retrievalApi: Sending retrieval request to http://localhost:5555/api/retrieval for: 'hello'
+[2026-09-22 21:28:34] ERROR - api - retrievalApi: Unexpected error during retrieval API call: Timeout value connect was 30, but it must be an int, float or None.
+Traceback (most recent call last):
+  File "C:\Nhat\HK6\processingPDF\backend\api\qdrantApi.py", line 56, in retrievalApi
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\adapters.py", line 693, in send
+    resolved_timeout = TimeoutSauce(connect=timeout, read=timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 115, in __init__
+    self._connect = self._validate_timeout(connect, "connect")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 165, in _validate_timeout
+    raise ValueError(
+ValueError: Timeout value connect was 30, but it must be an int, float or None.
+[2026-09-22 21:28:34] INFO - llm - Retrieved 0 primary documents from database.
+[2026-09-22 21:28:34] INFO - llm - Total contextual document references: 0
+[2026-09-22 21:28:34] INFO - llm - Starting response generation stream from LLM...
+[2026-09-22 21:28:34] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:28:57] WARNING - server - Invalid JWT token
+[2026-09-22 21:28:57] INFO - server - Chat request received. User ID: 'None', Chat ID: 'None'
+[2026-09-22 21:28:57] INFO - llm - Executing chat engine for query: 'Hôm qua tôi vượt đèn đỏ thì có sao không'
+[2026-09-22 21:28:57] INFO - llm - [QUERY NORMALIZATION] Original query: Hôm qua tôi vượt đèn đỏ thì có sao không
+[2026-09-22 21:29:00] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:29:00] INFO - llm - [QUERY NORMALIZATION] Normalized query: Không chấp hành tín hiệu đèn giao thông có bị xử phạt không?
+[2026-09-22 21:29:00] INFO - api - retrievalApi: Sending retrieval request to http://localhost:5555/api/retrieval for: 'Không chấp hành tín hiệu đèn giao thông có bị xử phạt không?'
+[2026-09-22 21:29:00] ERROR - api - retrievalApi: Unexpected error during retrieval API call: Timeout value connect was 30, but it must be an int, float or None.
+Traceback (most recent call last):
+  File "C:\Nhat\HK6\processingPDF\backend\api\qdrantApi.py", line 56, in retrievalApi
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\adapters.py", line 693, in send
+    resolved_timeout = TimeoutSauce(connect=timeout, read=timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 115, in __init__
+    self._connect = self._validate_timeout(connect, "connect")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 165, in _validate_timeout
+    raise ValueError(
+ValueError: Timeout value connect was 30, but it must be an int, float or None.
+[2026-09-22 21:29:00] INFO - llm - Retrieved 0 primary documents from database.
+[2026-09-22 21:29:00] INFO - llm - Total contextual document references: 0
+[2026-09-22 21:29:00] INFO - llm - Starting response generation stream from LLM...
+[2026-09-22 21:29:00] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:32:57] INFO - server - Successfully connected to MongoDB
+[2026-09-22 21:32:58] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 21:32:58] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 21:32:58] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 21:32:58] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 21:32:58] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 21:33:25] WARNING - server - Invalid JWT token
+[2026-09-22 21:33:25] INFO - server - Chat request received. User ID: 'None', Chat ID: 'None'
+[2026-09-22 21:33:25] INFO - llm - Executing chat engine for query: 'hôm qua tôi vượt đèn đỏ thì có sao không'
+[2026-09-22 21:33:25] INFO - llm - [QUERY NORMALIZATION] Original query: hôm qua tôi vượt đèn đỏ thì có sao không
+[2026-09-22 21:33:27] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:33:27] INFO - llm - [QUERY NORMALIZATION] Normalized query: Không chấp hành tín hiệu của đèn tín hiệu giao thông có bị xử phạt không?
+[2026-09-22 21:33:27] INFO - api - retrievalApi: Sending retrieval request to http://localhost:5555/api/retrieval for: 'Không chấp hành tín hiệu của đèn tín hiệu giao thông có bị xử phạt không?'
+[2026-09-22 21:33:27] ERROR - api - retrievalApi: Unexpected error during retrieval API call: Timeout value connect was 30, but it must be an int, float or None.
+Traceback (most recent call last):
+  File "C:\Nhat\HK6\processingPDF\backend\api\qdrantApi.py", line 56, in retrievalApi
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\requests\adapters.py", line 693, in send
+    resolved_timeout = TimeoutSauce(connect=timeout, read=timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 115, in __init__
+    self._connect = self._validate_timeout(connect, "connect")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nhat\HK6\processingPDF\.venv\Lib\site-packages\urllib3\util\timeout.py", line 165, in _validate_timeout
+    raise ValueError(
+ValueError: Timeout value connect was 30, but it must be an int, float or None.
+[2026-09-22 21:33:27] INFO - llm - Retrieved 0 primary documents from database.
+[2026-09-22 21:33:27] INFO - llm - Total contextual document references: 0
+[2026-09-22 21:33:27] INFO - llm - Starting response generation stream from LLM...
+[2026-09-22 21:33:27] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:48:37] INFO - server - Successfully connected to MongoDB
+[2026-09-22 21:48:38] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-22 21:48:38] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-22 21:48:38] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-22 21:48:38] INFO - server - ChatEngine initialized successfully.
+[2026-09-22 21:48:38] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-22 21:49:11] WARNING - server - Invalid JWT token
+[2026-09-22 21:49:11] INFO - server - Chat request received. User ID: 'None', Chat ID: 'None'
+[2026-09-22 21:49:11] INFO - llm - Executing chat engine for query: 'Hôm qua tôi vượt đèn đỏ thì có sao không'
+[2026-09-22 21:49:11] INFO - llm - [QUERY NORMALIZATION] Original query: Hôm qua tôi vượt đèn đỏ thì có sao không
+[2026-09-22 21:49:13] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-22 21:49:13] INFO - llm - [QUERY NORMALIZATION] Normalized query: Không chấp hành tín hiệu của đèn giao thông có bị xử phạt không?
+[2026-09-22 21:49:13] INFO - api - retrievalApi: Sending retrieval request to http://localhost:5555/api/retrieval for: 'Không chấp hành tín hiệu của đèn giao thông có bị xử phạt không?'
+[2026-09-22 21:49:32] INFO - api - retrievalApi: Successfully received 5 docs from API.
+[2026-09-22 21:49:32] INFO - llm - Retrieved 5 primary documents from database.
+[2026-09-22 21:49:32] INFO - api - extractRelevantClausePointApi: Sending extract request: Article=9, Clause=2, Point=đ
+[2026-09-22 21:49:34] INFO - api - extractRelevantClausePointApi: Successfully received 1 docs for Article 9.
+[2026-09-22 21:49:34] INFO - api - extractRelevantClausePointApi: Sending extract request: Article=8, Clause=7, Point=c
+[2026-09-22 21:49:36] INFO - api - extractRelevantClausePointApi: Successfully received 2 docs for Article 8.
+[2026-09-22 21:49:36] INFO - api - extractRelevantClausePointApi: Sending extract request: Article=6, Clause=9, Point=b
+[2026-09-22 21:49:38] INFO - api - extractRelevantClausePointApi: Successfully received 3 docs for Article 6.
+[2026-09-22 21:49:38] INFO - api - extractRelevantClausePointApi: Sending extract request: Article=7, Clause=7, Point=c
+[2026-09-22 21:49:40] INFO - api - extractRelevantClausePointApi: Successfully received 4 docs for Article 7.
+[2026-09-22 21:49:40] INFO - api - extractRelevantClausePointApi: Sending extract request: Article=11, Clause=1, Point=b
+[2026-09-22 21:49:43] INFO - api - extractRelevantClausePointApi: Successfully received 0 docs for Article 11.
+[2026-09-22 21:49:43] INFO - llm - Total contextual document references: 15
+[2026-09-22 21:49:43] INFO - llm - Starting response generation stream from LLM...
+[2026-09-22 21:49:44] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"

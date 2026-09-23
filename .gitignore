@@ -1,4 +1,6 @@
 __pycache__/
 .venv/
-.env
-data/
+backend/.env
+backend/data/
+frontend/node_modules/
+frontend/dist/

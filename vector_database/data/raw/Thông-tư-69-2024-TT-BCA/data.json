@@ -1,0 +1,1240 @@
+{
+    "document": "69/2024/TT-BCA",
+    "document_title": "THÔNG TƯ Quy định về chỉ huy, điều khiển giao thông đường bộ của Cảnh sát giao thông",
+    "legal_basis": "Căn cứ Luật Công an nhân dân năm 2018; Luật sửa đổi, bổ sung một số điều của Luật Công an nhân dân năm 2023;\nCăn cứ Luật Trật tự, an toàn giao thông đường bộ năm 2024;\nCăn cứ Luật Đường bộ năm 2024;\nCăn cứ Luật Xử lý vi phạm hành chính năm 2012; Luật sửa đổi, bổ sung một số điều của Luật Xử lý vi phạm hành chính năm 2020;\nCăn cứ Nghị định số 01/2018/NĐ-CP ngày 06 tháng 8 năm 2018 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công an;\nTheo đề nghị của Cục trưởng Cục Cảnh sát giao thông;\nBộ trưởng Bộ Công an ban hành Thông tư quy định về chỉ huy, điều khiển giao thông đường bộ của Cảnh sát giao thông.",
+    "chapters": [
+        {
+            "chapter_number": 1,
+            "chapter_title": "QUY ĐỊNH CHUNG",
+            "articles": [
+                {
+                    "article_number": 1,
+                    "article_title": "Điều 1. Phạm vi điều chỉnh",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Thông tư này quy định về yêu cầu, tiêu chuẩn, nhiệm vụ, quyền hạn, trách nhiệm, trang thiết bị, phương tiện, vũ khí, công cụ hỗ trợ, nguyên tắc, biểu mẫu trong chỉ huy, điều khiển giao thông đường bộ; phân công, phân cấp trong công tác chỉ huy, điều khiển giao thông đường bộ; quản lý, vận hành, khai thác hệ thống đèn tín hiệu giao thông đường bộ; sử dụng thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ; trình tự chỉ huy, điều khiển giao thông đường bộ; giải quyết một số trường hợp cụ thể trong khi làm nhiệm vụ chỉ huy, điều khiển giao thông đường bộ của Cảnh sát giao thông và trách nhiệm của các lực lượng khác được giao nhiệm vụ hướng dẫn giao thông trên đường bộ.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 2,
+                    "article_title": "Điều 2. Đối tượng áp dụng",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Sĩ quan, hạ sĩ quan Cảnh sát giao thông làm nhiệm vụ chỉ huy, điều khiển giao thông đường bộ (sau đây viết gọn là Cảnh sát chỉ huy, điều khiển giao thông).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Công an các đơn vị, địa phương.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Cơ quan, tổ chức, cá nhân liên quan đến hoạt động giao thông đường bộ trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 3,
+                    "article_title": "Điều 3. Nguyên tắc chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Tuân thủ quy định tại Thông tư này, các quy định khác của pháp luật có liên quan và quy định về thực hiện dân chủ trong công tác bảo đảm trật tự, an toàn giao thông.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Bảo đảm cho người, phương tiện tham gia giao thông đi lại trật tự, an toàn và thông suốt. Trường hợp có xe ưu tiên tham gia lưu thông thì phải cho xe ưu tiên lưu thông trước, căn cứ theo thứ tự quyền ưu tiên của các xe để mở hướng lưu thông. Chiều đường có nhiều phương tiện thì cho lưu thông trước và thời gian lưu thông nhiều hơn; chiều đường có ít phương tiện thì cho lưu thông sau và thời gian lưu thông ít hơn; chiều đường có xe cơ giới thì cho lưu thông trước chiều đường có xe thô sơ.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Bảo đảm sự thống nhất về tổ chức, chỉ đạo, điều hành, phân công, phân cấp, phối hợp trong hoạt động chỉ huy, điều khiển giao thông đường bộ.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Trường hợp gặp xe, đoàn xe chở các lãnh đạo cấp cao của Đảng, Nhà nước và khách nước ngoài có xe Cảnh sát giao thông dẫn đường, Cảnh sát chỉ huy, điều khiển giao thông phải chào theo Điều lệnh Công an nhân dân (theo mẫu số 01 ban hành kèm theo Thông tư này) trừ khi đang thực hiện động tác điều khiển giao thông đường bộ.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 4,
+                    "article_title": "Điều 4. Yêu cầu, tiêu chuẩn của Cảnh sát chỉ huy, điều khiển giao thông",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Yêu cầu",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Nắm vững và thực hiện đúng các quy định của Thông tư này và các quy định khác của pháp luật có liên quan;",
+                                    "references": [
+                                        {
+                                            "document": "69/2024/TT-BCA",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Thực hiện đúng, đầy đủ đối với nhiệm vụ được phân công; quy định về thực hiện dân chủ trong công tác bảo đảm trật tự, an toàn giao thông và Điều lệnh Công an nhân dân.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Tiêu chuẩn",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Có trình độ Trung cấp Công an nhân dân hoặc tương đương trở lên. Đối với sĩ quan, hạ sĩ quan tốt nghiệp các trường ngoài ngành Công an phải đã qua lớp bồi dưỡng pháp luật và nghiệp vụ Công an nhân dân theo quy định;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Đã được tập huấn nghiệp vụ công tác chỉ huy, điều khiển giao thông đường bộ theo chương trình, nội dung của Cục Cảnh sát giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Phải được tập huấn hoặc hướng dẫn về quy trình vận hành, xử lý tình huống, cách thức sử dụng, bảo dưỡng khi được giao nhiệm vụ quản lý, vận hành, khai thác hệ thống đèn tín hiệu giao thông đường bộ; sử dụng thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ; chỉ huy, điều khiển giao thông đường bộ tại Trung tâm chỉ huy giao thông.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 5,
+                    "article_title": "Điều 5. Nhiệm vụ, quyền hạn của Cảnh sát chỉ huy, điều khiển giao thông và trách nhiệm của lực lượng khác được giao nhiệm vụ hướng dẫn giao thông trên đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Nhiệm vụ của Cảnh sát chỉ huy, điều khiển giao thông",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Thực hiện chỉ đạo của lãnh đạo Bộ Công an; Cục trưởng Cục Cảnh sát giao thông; Giám đốc Công an tỉnh, thành phố trực thuộc Trung ương (sau đây viết gọn là Giám đốc Công an cấp tỉnh); kế hoạch hoặc phương án của Trưởng phòng Hướng dẫn điều khiển giao thông và dẫn đoàn thuộc Cục Cảnh sát giao thông; Trưởng phòng Cảnh sát giao thông Công an cấp tỉnh; Trưởng Công an quận, huyện, thị xã, thành phố thuộc tỉnh, thành phố trực thuộc Trung ương (sau đây viết gọn là Trưởng Công an cấp huyện);",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Chỉ huy, điều khiển giao thông, phân luồng, phân tuyến, phòng ngừa và giải quyết ùn tắc giao thông đường bộ, phối hợp với các cơ quan chức năng bảo đảm trật tự, an toàn giao thông trên tuyến giao thông, địa bàn được phân công theo quy định;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Phát hiện, xử lý kịp thời, nghiêm minh các hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ và các hành vi vi phạm pháp luật khác bảo đảm đúng trình tự, thủ tục, thẩm quyền theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Bảo vệ hiện trường vụ tai nạn giao thông đường bộ, phối hợp tổ chức cấp cứu người bị nạn và giải quyết tai nạn giao thông đường bộ theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "Phối hợp với các đơn vị, cơ quan chức năng phòng ngừa, đấu tranh chống các loại tội phạm hoạt động trên tuyến giao thông đường bộ, phương tiện giao thông đường bộ theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "e",
+                                    "content": "Phát hiện sơ hở, thiếu sót trong quản lý nhà nước về an ninh, trật tự để kiến nghị với cơ quan chức năng có biện pháp xử lý, khắc phục kịp thời.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Quyền hạn của Cảnh sát chỉ huy, điều khiển giao thông",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Tạm thời đình chỉ người và phương tiện đi lại ở một số đoạn đường nhất định, phân lại luồng, phân lại tuyến, nơi tạm dừng xe, đỗ xe khi xảy ra ùn tắc giao thông hoặc có yêu cầu cần thiết khác về bảo đảm an ninh, trật tự;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Trong phạm vi, địa bàn được phân công nhiệm vụ chỉ huy, điều khiển giao thông đường bộ hoặc theo kế hoạch, mệnh lệnh của cấp có thẩm quyền được dừng phương tiện để kiểm tra, kiểm soát người và phương tiện vi phạm trật tự, an toàn giao thông theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Xử phạt các hành vi vi phạm hành chính trong lĩnh vực giao thông đường bộ, an ninh, trật tự và các vi phạm hành chính trong lĩnh vực quản lý nhà nước khác theo quy định của pháp luật; được áp dụng các biện pháp ngăn chặn và bảo đảm xử lý vi phạm hành chính theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Được yêu cầu cơ quan, đơn vị, tổ chức, cá nhân phối hợp, hỗ trợ giải quyết tai nạn, ùn tắc, cản trở giao thông hoặc trường hợp khác gây mất trật tự, an toàn giao thông đường bộ;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "Được sử dụng vũ khí, công cụ hỗ trợ và phương tiện, thiết bị kỹ thuật nghiệp vụ theo quy định của pháp luật;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "e",
+                                    "content": "Thực hiện các quyền hạn khác theo quy định của pháp luật.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Đối với Cảnh sát chỉ huy giao thông ngoài các nhiệm vụ, quyền hạn quy định tại khoản 1 và khoản 2 Điều này phải có trách nhiệm thu thập, phân tích, đánh giá các yếu tố có liên quan để đưa ra giải pháp điều hành hoạt động giao thông đường bộ bảo đảm trật tự, an toàn, thông suốt.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": 5,
+                                    "clause": 1,
+                                    "point": null
+                                },
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": 5,
+                                    "clause": 2,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Trách nhiệm của lực lượng khác được giao nhiệm vụ hướng dẫn giao thông trên đường bộ",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Các lực lượng Cảnh sát khác khi được giao nhiệm vụ tham gia bảo đảm trật tự, an toàn giao thông tại các nút giao thông, các điểm phức tạp về trật tự, an toàn giao thông có trách nhiệm hướng dẫn giao thông, phân luồng, phân tuyến theo sự phân công của Cảnh sát chỉ huy, điều khiển giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Lực lượng Cảnh sát điều tra, Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ khi nhận được thông báo về vụ tai nạn giao thông có dấu hiệu tội phạm hoặc sự cố liên quan đến cháy, nổ phương tiện phải kịp thời có mặt tại nơi xảy ra vụ việc để giải quyết theo quy định của pháp luật và phối hợp với Cảnh sát chỉ huy, điều khiển giao thông trong bảo đảm trật tự, an toàn giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Các lực lượng khác ngoài ngành Công an khi được giao nhiệm vụ hướng dẫn giao thông trên đường bộ có trách nhiệm hướng dẫn, phân luồng giao thông tại các nơi phức tạp về trật tự, an toàn giao thông; hỗ trợ công tác chỉ huy, điều khiển giao thông đường bộ theo sự phân công của Cảnh sát chỉ huy, điều khiển giao thông.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 6,
+                    "article_title": "Điều 6. Trang thiết bị, phương tiện, vũ khí, công cụ hỗ trợ của Cảnh sát chỉ huy, điều khiển giao thông",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Ngoài trang phục, trang thiết bị, phương tiện quy định cho Cảnh sát giao thông, Cảnh sát chỉ huy, điều khiển giao thông được trang bị:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Còi, gậy chỉ huy giao thông, găng tay trắng, áo phản quang, đèn pin, áo mưa Cảnh sát giao thông và ủng đi mưa;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Xe môtô, khóa số tám, súng ngắn, bao súng, bộ đàm cầm tay, dây micrô bộ đàm, micrô bộ đàm, gậy điện, loa pin cầm tay và hộp sơn đánh dấu hiện trường;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ đã được cơ quan có thẩm quyền kiểm định an toàn và được Bộ Công an trang cấp hoặc cho phép sử dụng;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Các phương tiện, thiết bị kỹ thuật nghiệp vụ khác theo quy định của Bộ Công an.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Việc sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ, vũ khí, công cụ hỗ trợ phải thực hiện theo quy định của pháp luật và Bộ Công an.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Vị trí đeo vũ khí, công cụ hỗ trợ của Cảnh sát chỉ huy, điều khiển giao thông thực hiện theo mẫu số 02A, 02B và 02C ban hành kèm theo Thông tư này.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Việc trang bị bục điều khiển giao thông và ô che mưa, che nắng tại các nút giao thông",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Bục điều khiển giao thông có hình lăng trụ tròn hoặc lục lăng, được sơn màu trắng, có mũi tên dẫn hướng màu xanh ở giữa các mặt xung quanh thân bục;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Ô che mưa, che nắng làm bằng chất liệu vải màu vàng có in lô gô Cảnh sát giao thông và chữ “CSGT”; chất liệu khung, chân đế phải bảo đảm chắc chắn, dễ di chuyển, tháo lắp, sửa chữa và thay thế;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Việc quy định cụ thể kích thước, hình dáng và trang bị bục điều khiển giao thông, ô che mưa, che nắng do Cục trưởng Cục Cảnh sát giao thông, Giám đốc Công an cấp tỉnh quyết định bảo đảm phù hợp với tổ chức, hạ tầng giao thông, an toàn cho Cảnh sát chỉ huy, điều khiển giao thông, người và phương tiện tham gia giao thông đường bộ.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 7,
+                    "article_title": "Điều 7. Các biểu mẫu trong công tác chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Ban hành kèm theo Thông tư này các mẫu trong công tác chỉ huy, điều khiển giao thông đường bộ, như sau:",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 1,
+                            "content": "Mẫu động tác chào (mẫu số 01).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Mẫu vị trí đeo vũ khí, công cụ hỗ trợ của Cảnh sát chỉ huy, điều khiển giao thông (mẫu số 02A, 02B và 02C).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Mẫu kế hoạch bố trí lực lượng làm nhiệm vụ chỉ huy, điều khiển giao thông đường bộ; sổ báo cáo kết quả ca công tác chỉ huy, điều khiển giao thông đường bộ (mẫu số 03A và 03B).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Mẫu động tác báo hiệu cấm lưu thông tất cả các chiều đường (mẫu số 04A, 04B và 04C).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 5,
+                            "content": "Mẫu động tác báo hiệu cho phép lưu thông (mẫu số 05A, 05B và 05C).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 6,
+                            "content": "Mẫu động tác báo hiệu bên phải đi nhanh hơn (mẫu số 06).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 7,
+                            "content": "Mẫu động tác báo hiệu bên trái đi nhanh hơn (mẫu số 07).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 8,
+                            "content": "Mẫu động tác báo hiệu bên phải đi chậm lại (mẫu số 08A và 08B).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 9,
+                            "content": "Mẫu động tác báo hiệu bên trái đi chậm lại (mẫu số 09A và 09B).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 10,
+                            "content": "Mẫu động tác báo hiệu bên phải dừng lại (mẫu số 10).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 11,
+                            "content": "Mẫu động tác báo hiệu bên trái dừng lại (mẫu số 11).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 12,
+                            "content": "Mẫu động tác báo hiệu cho phương tiện rẽ trái qua mặt (mẫu số 12A, 12B và 12C).",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 2,
+            "chapter_title": "PHÂN CÔNG, PHÂN CẤP; QUẢN LÝ, VẬN HÀNH, KHAI THÁC HỆ THỐNG ĐÈN TÍN HIỆU GIAO THÔNG ĐƯỜNG BỘ; SỬ DỤNG THIẾT BỊ THÔNG MINH HỖ TRỢ CHỈ HUY, ĐIỀU KHIỂN GIAO THÔNG VÀ TRÌNH TỰ CHỈ HUY, ĐIỀU KHIỂN GIAO THÔNG ĐƯỜNG BỘ",
+            "articles": [
+                {
+                    "article_number": 8,
+                    "article_title": "Điều 8. Phân công, phân cấp trong công tác chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Đơn vị được giao nhiệm vụ bảo đảm trật tự, an toàn giao thông đường bộ trên tuyến, địa bàn nào thì thực hiện công tác chỉ huy, điều khiển giao thông trên tuyến, địa bàn đó hoặc theo chỉ đạo của Cục trưởng Cục Cảnh sát giao thông, Giám đốc Công an cấp tỉnh.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Cục Cảnh sát giao thông tổ chức thực hiện công tác chỉ huy, điều khiển giao thông đường bộ trên các tuyến cao tốc được giao quản lý; chỉ đạo triển khai công tác chỉ huy, điều khiển giao thông đường bộ, phối hợp phân luồng giao thông tại các tuyến giao thông đường bộ trên phạm vi toàn quốc khi xảy ra các tình huống giao thông phức tạp có liên quan đến nhiều địa phương hoặc yêu cầu khác về bảo đảm an ninh, trật tự.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Công an các tỉnh, thành phố trực thuộc Trung ương căn cứ vào tình hình thực tế để quyết định việc phân công, phân cấp công tác chỉ huy, điều khiển giao thông đường bộ trên tuyến, địa bàn thuộc phạm vi quản lý.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 9,
+                    "article_title": "Điều 9. Quản lý, vận hành, khai thác hệ thống đèn tín hiệu giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Hệ thống đèn tín hiệu giao thông đường bộ phải được kết nối dữ liệu với Trung tâm chỉ huy giao thông để đáp ứng các yêu cầu về quản lý, điều hành, chỉ huy, chỉ đạo và thống kê trong công tác bảo đảm trật tự, an toàn giao thông.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Khi quản lý, vận hành hệ thống đèn tín hiệu giao thông đường bộ, lực lượng Cảnh sát giao thông có trách nhiệm như sau:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Tham mưu, đề xuất, kiến nghị về chính sách quy hoạch, kế hoạch đầu tư xây dựng, phát triển hệ thống đèn tín hiệu giao thông đường bộ phù hợp với tổ chức, hạ tầng giao thông; vận hành, khai thác có hiệu quả các thiết bị của hệ thống đèn tín hiệu giao thông đường bộ, nghiên cứu áp dụng điều khiển giao thông thông minh;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Bố trí lực lượng theo dõi, cập nhật tình hình trật tự, an toàn giao thông và thông tin có liên quan trên các tuyến giao thông đường bộ để kịp thời điều chỉnh chu kỳ tín hiệu đèn giao thông cho phù hợp; phối hợp với các lực lượng làm nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến, địa bàn để chỉ huy, điều khiển, phân luồng giao thông khi có xe ưu tiên lưu thông hoặc phát hiện ùn tắc, tai nạn, sự cố về giao thông và xử lý các hành vi vi phạm pháp luật về trật tự, an toàn giao thông.",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Thường xuyên theo dõi, kiểm tra tình hình hoạt động của hệ thống đèn tín hiệu giao thông đường bộ để báo cáo, đề xuất, kiến nghị cấp có thẩm quyền việc bảo dưỡng, sửa chữa, thay thế kịp thời khi phát hiện hư hỏng, bảo đảm hệ thống hoạt động ổn định, liên tục.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 10,
+                    "article_title": "Điều 10. Sử dụng thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Việc sử dụng thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ phải đáp ứng các yêu cầu về an ninh, quốc phòng, nghiệp vụ của Cảnh sát giao thông và an toàn cho người, phương tiện tham gia giao thông.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ được sử dụng để ghi nhận các thông tin, dữ liệu về tình hình giao thông trên các tuyến giao thông và truyền tải thông tin, dữ liệu về Trung tâm chỉ huy giao thông; căn cứ tình hình lưu lượng, mật độ người và phương tiện tham gia giao thông, lực lượng Cảnh sát giao thông phải chỉ đạo kịp thời việc điều chỉnh hoạt động của hệ thống đèn tín hiệu giao thông đường bộ hoặc triển khai phương án bố trí lực lượng, phương tiện tổ chức phân luồng, phân tuyến giao thông, xử lý, khắc phục các tình huống gây mất trật tự, an toàn giao thông hoặc phối hợp với các cơ quan chức năng trong việc bảo đảm an ninh, trật tự.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Cung cấp các thông tin về tình hình trật tự, an toàn giao thông trên các phương tiện thông tin đại chúng cho người tham gia giao thông biết để lựa chọn thời gian, lộ trình di chuyển phù hợp.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 11,
+                    "article_title": "Điều 11. Xây dựng, triển khai kế hoạch công tác chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Căn cứ kế hoạch của cấp trên và tình hình thực tế về trật tự, an toàn giao thông, yêu cầu về an ninh, trật tự, các đơn vị Cảnh sát giao thông xây dựng kế hoạch công tác theo thẩm quyền và địa bàn được phân công, bố trí lực lượng, phân công nhiệm vụ cụ thể cho từng Cảnh sát chỉ huy, điều khiển giao thông (theo mẫu số 03A ban hành kèm theo Thông tư này). Việc bố trí lực lượng phải phù hợp với tình hình, đặc điểm tại từng vị trí, nút giao thông. Đối với các vị trí, nút giao thông bố trí từ 02 Cảnh sát chỉ huy, điều khiển giao thông trở lên phải phân công 01 đồng chí làm Tổ trưởng, các đồng chí còn lại làm Tổ viên.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Cảnh sát chỉ huy, điều khiển giao thông trước khi thực hiện nhiệm vụ phải nắm vững nội dung kế hoạch, vị trí được phân công; chuẩn bị đầy đủ, kiểm tra kỹ các phương tiện, vũ khí, công cụ hỗ trợ, tài liệu liên quan và những trang thiết bị khác phục vụ công tác chỉ huy, điều khiển giao thông đường bộ.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Cảnh sát chỉ huy, điều khiển giao thông phải có mặt tại vị trí làm nhiệm vụ trước 10 phút để nắm tình hình trật tự, an toàn giao thông và nhận những vụ việc phải giải quyết tiếp do ca trước bàn giao (nếu có); kiểm tra, giám sát hoạt động của hệ thống đèn tín hiệu giao thông đường bộ, nếu hệ thống đèn tín hiệu giao thông đường bộ hoạt động không bình thường thì báo cáo ngay chỉ huy đơn vị hoặc Trung tâm chỉ huy giao thông để khắc phục. Khi hết ca công tác mà tình hình trật tự, an toàn giao thông còn phức tạp thì báo cáo chỉ huy đơn vị để chỉ đạo và tiếp tục phối hợp với Cảnh sát chỉ huy, điều khiển giao thông của ca tiếp theo giải quyết cho đến khi tình hình trật tự, an toàn giao thông trở lại bình thường.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Kết thúc ca công tác, Tổ trưởng hoặc Cảnh sát chỉ huy, điều khiển giao thông (khi có 01 Cảnh sát) phải tổng hợp tình hình, báo cáo kết quả công tác (theo mẫu số 03B ban hành kèm theo Thông tư này) và bàn giao các trang thiết bị, phương tiện, vũ khí, công cụ hỗ trợ, hồ sơ vụ việc với chỉ huy hoặc trực ban đơn vị.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 12,
+                    "article_title": "Điều 12. Hình thức hoạt động của Cảnh sát chỉ huy, điều khiển giao thông",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Chỉ huy, điều khiển giao thông trực tiếp trên tuyến giao thông đường bộ",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Chỉ huy, điều khiển giao thông tại nút giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Chỉ huy, điều khiển giao thông tại một vị trí hoặc một khu vực trên đường giao thông khi xảy ra ùn tắc giao thông đường bộ;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Chỉ huy, điều khiển giao thông đường bộ tại khu vực diễn ra các sự kiện, lễ hội, hội nghị.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Chỉ huy, điều khiển giao thông đường bộ tại Trung tâm chỉ huy giao thông.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 13,
+                    "article_title": "Điều 13. Phân công nhiệm vụ của Cảnh sát chỉ huy, điều khiển giao thông trực tiếp trên tuyến giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Chỉ huy, điều khiển giao thông tại nút giao thông",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Đối với nút giao thông có 01 Cảnh sát chỉ huy, điều khiển giao thông\nTrường hợp trật tự, an toàn giao thông tại nút giao thông bình thường, Cảnh sát chỉ huy, điều khiển giao thông phải đứng ở vị trí thuận lợi, dễ theo dõi và quan sát để hướng dẫn người tham gia giao thông đi lại trật tự, an toàn, đúng quy định; phát hiện, xử lý các trường hợp vi phạm trật tự, an toàn giao thông, giải quyết ban đầu các vụ vi phạm pháp luật khác hoặc tai nạn giao thông và thực hiện chế độ thông tin, báo cáo theo quy định.\nTrường hợp tại nút giao thông có diễn biến phức tạp về trật tự, an toàn giao thông, Cảnh sát chỉ huy, điều khiển giao thông đứng ở vị trí trung tâm nút hoặc đứng trên bục để chỉ huy, điều khiển giao thông nếu nút giao thông có bố trí bục điều khiển giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Đối với nút giao thông có từ 02 Cảnh sát chỉ huy, điều khiển giao thông trở lên\nTổ trưởng có nhiệm vụ chỉ huy, điều hành và chịu trách nhiệm về mọi hoạt động của Tổ công tác; phân công vị trí cụ thể cho từng Tổ viên. Khi đèn tín hiệu giao thông hoạt động không bình thường hoặc mật độ người và phương tiện tham gia giao thông đông thì tự mình hoặc phân công đồng chí Tổ viên đứng ở vị trí trung tâm nút giao thông hoặc đứng trên bục để chỉ huy, điều khiển giao thông nếu nút giao thông có bố trí bục điều khiển giao thông; chỉ đạo, kiểm tra, xử lý các hành vi vi phạm pháp luật về giao thông đường bộ và thực hiện chế độ thông tin, báo cáo theo quy định.\nTổ viên đứng ở mép đường ngang vạch dừng hoặc giữa tim đường ngang vạch dừng (đứng ở chiều đường chính, có mật độ người và phương tiện tham gia giao thông đông hoặc phức tạp về trật tự, an toàn giao thông); khi thay đổi tín hiệu đèn giao thông thì tuỳ tình hình phức tạp về trật tự, an toàn giao thông của các chiều đường, Tổ viên có thể di chuyển vị trí sang chiều đường khác. Tổ viên có nhiệm vụ điều hành, hướng dẫn người tham gia giao thông đi lại trật tự, an toàn theo hiệu lệnh của đèn tín hiệu giao thông hoặc hiệu lệnh của người điều khiển giao thông đứng ở vị trí trung tâm nút giao thông hoặc trên bục điều khiển giao thông; phát hiện, xử lý các trường hợp vi phạm trật tự, an toàn giao thông, giải quyết ban đầu các vụ vi phạm pháp luật khác hoặc tai nạn giao thông theo quy định; thực hiện các nhiệm vụ khác do Tổ trưởng phân công;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Phạm vi hoạt động của Cảnh sát chỉ huy, điều khiển giao thông là từ trung tâm nút giao thông đến các vạch dừng xe hoặc đường giới hạn phạm vi nơi giao nhau. Trường hợp có các vụ việc liên quan đến trật tự, an toàn xã hội hoặc tai nạn, ùn tắc giao thông xảy ra bên ngoài khu vực nút giao thông thì Cảnh sát chỉ huy, điều khiển giao thông phải trực tiếp hoặc phối hợp với các lực lượng khác để giải quyết theo quy định.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Chỉ huy, điều khiển giao thông tại một vị trí hoặc một khu vực trên đường giao thông khi xảy ra ùn tắc giao thông đường bộ\nCăn cứ vào tình hình và mức độ ùn tắc giao thông để bố trí lực lượng chỉ huy, điều khiển giao thông tại các vị trí trên đường giao thông. Việc bố trí lực lượng thực hiện theo quy định sau:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Bố trí lực lượng tại các điểm phân luồng ở vòng ngoài cùng phía ùn tắc giao thông. Tại các điểm này, lực lượng được phân công có nhiệm vụ hướng dẫn, phân luồng giao thông hoặc tạm dừng các phương tiện từ xa theo phương án phòng ngừa và giải quyết ùn tắc giao thông hoặc theo chỉ đạo của cấp trên để hạn chế các phương tiện đi vào khu vực ùn tắc giao thông, tạo điều kiện cho các phương tiện đi từ khu vực ùn tắc giao thông ra;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Bố trí lực lượng trên dọc tuyến phía khu vực ùn tắc giao thông để điều khiển, hướng dẫn giao thông, không cho các phương tiện lấn chiếm phần đường của nhau và nhanh chóng giải tỏa từ ngoài đến khu vực ùn tắc giao thông, tạo điều kiện cho xe cứu hộ, cứu nạn và các lực lượng nhanh chóng tiếp cận hiện trường để giải quyết các nguyên nhân gây ra ùn tắc giao thông.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Chỉ huy, điều khiển giao thông trên đường bộ tại khu vực diễn ra các sự kiện, lễ hội, hội nghị\nCăn cứ vào tình hình thực tế về trật tự, an toàn giao thông, yêu cầu về an ninh, trật tự và quy mô, tính chất, mức độ quan trọng của sự kiện, lễ hội, hội nghị được tổ chức, các đơn vị Cảnh sát giao thông tổ chức khảo sát, xây dựng kế hoạch hoặc phương án bố trí lực lượng để hướng dẫn, điều khiển giao thông, phân luồng, phân tuyến tại các nút giao thông, các điểm phức tạp về trật tự, an toàn giao thông trong khu vực tổ chức sự kiện, lễ hội, hội nghị và trên các tuyến đường xung quanh bảo đảm giao thông trật tự, an toàn, thông suốt.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 14,
+                    "article_title": "Điều 14. Chỉ huy, điều khiển giao thông đường bộ tại Trung tâm chỉ huy giao thông",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Cảnh sát chỉ huy, điều khiển giao thông có trách nhiệm tiếp nhận, ghi nhận thông tin, theo dõi, giám sát, phân tích, đánh giá, dự báo tình hình liên quan đến trật tự, an toàn giao thông đường bộ qua hệ thống camera và các công cụ theo dõi khác kết nối về Trung tâm chỉ huy giao thông để triển khai thực hiện nhiệm vụ theo kế hoạch, phương án đã được cấp có thẩm quyền phê duyệt.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Khi xảy ra các tình huống phức tạp về trật tự, an toàn giao thông hoặc yêu cầu về bảo đảm an ninh, trật tự trên địa bàn được giao quản lý, Cảnh sát chỉ huy, điều khiển giao thông phải kịp thời điều chỉnh chu kỳ tín hiệu đèn giao thông hoặc báo cáo cấp có thẩm quyền để chỉ đạo bố trí lực lượng, phân luồng, phân tuyến giao thông, xử lý vi phạm về trật tự, an toàn giao thông, cung cấp thông tin về tình trạng giao thông cho người tham gia giao thông hoặc thông tin cho các đơn vị chức năng để điều động lực lượng, phương tiện thực hiện nhiệm vụ cứu nạn, cứu hộ theo quy định.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Trung tâm chỉ huy giao thông quốc gia trực tiếp chỉ đạo công tác chỉ huy, điều khiển giao thông đường bộ trên các tuyến cao tốc do Cục Cảnh sát giao thông được giao quản lý và chỉ đạo Trung tâm chỉ huy giao thông tỉnh, thành phố trực thuộc Trung ương triển khai thực hiện công tác chỉ huy, điều khiển giao thông đường bộ theo quy định tại khoản 1, khoản 2 Điều này.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": 14,
+                                    "clause": 1,
+                                    "point": null
+                                },
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": 14,
+                                    "clause": 2,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Trung tâm chỉ huy giao thông tỉnh, thành phố trực thuộc Trung ương có trách nhiệm:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Tổ chức triển khai thực hiện các quy định tại khoản 1, khoản 2 Điều này và chỉ đạo của Trung tâm chỉ huy giao thông quốc gia;",
+                                    "references": [
+                                        {
+                                            "document": "69/2024/TT-BCA",
+                                            "article": 14,
+                                            "clause": 1,
+                                            "point": null
+                                        },
+                                        {
+                                            "document": "69/2024/TT-BCA",
+                                            "article": 14,
+                                            "clause": 2,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Trường hợp xảy ra các tình huống phức tạp về trật tự, an toàn giao thông trên các tuyến giao thông đường bộ trong phạm vi quản lý có nguy cơ lan rộng đến nhiều tỉnh, thành phố lân cận, liên tuyến phải báo cáo ngay về Trung tâm chỉ huy giao thông quốc gia để chỉ đạo kịp thời.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 15,
+                    "article_title": "Điều 15. Sử dụng âm hiệu còi, loa trong chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Âm hiệu còi được sử dụng kết hợp với động tác chỉ huy, điều khiển giao thông đường bộ, cụ thể:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Một tiếng còi dài, mạnh là báo hiệu dừng lại;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Một tiếng còi ngắn, nhanh là cho phép lưu thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Một tiếng còi dài và một tiếng còi ngắn là cho phép rẽ trái qua mặt;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Hai tiếng còi ngắn, mạnh là báo hiệu đi chậm lại;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "đ",
+                                    "content": "Ba tiếng còi ngắn, nhanh là báo hiệu đi nhanh lên;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "e",
+                                    "content": "Thổi liên tiếp tiếng một, nhiều lần, mạnh là báo hiệu phương tiện dừng lại để kiểm soát hoặc báo hiệu phương tiện vi phạm.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Đối với một số vị trí nhất định có tình hình trật tự, an toàn giao thông phức tạp, Cảnh sát chỉ huy, điều khiển giao thông được sử dụng loa gắn trên các phương tiện, loa pin cầm tay để nhắc nhở, hướng dẫn hoặc yêu cầu người tham gia giao thông chấp hành công tác chỉ huy, điều khiển giao thông của lực lượng chức năng.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 16,
+                    "article_title": "Điều 16. Động tác chỉ huy, điều khiển giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Động tác báo hiệu cấm lưu thông tất cả các chiều đường (theo mẫu số 04A, 04B và 04C ban hành kèm theo Thông tư này)",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Đứng nghiêm;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Thổi một tiếng còi dài, mạnh; đồng thời, tay phải cầm gậy áp sát vào thân người, quay từ từ về phía trước theo chiều kim đồng hồ và giơ tay thẳng lên, lòng bàn tay hướng vào trước đỉnh đầu, gậy thẳng đứng, tay trái buông thẳng theo đường chỉ quần, động tác này có hiệu lực cấm lưu thông đối với người và phương tiện tham gia giao thông ở tất cả các chiều đường.\nTrường hợp người và phương tiện tham gia giao thông còn đang lưu thông trong phạm vi nút giao thông thì cho phép nhanh chóng đi khỏi nút giao thông. Ở nút giao thông có quy định vị trí dừng cho người và phương tiện tham gia giao thông thì phải dừng lại đúng vị trí quy định.",
+                                    "references": []
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Động tác báo hiệu cho phép lưu thông (theo mẫu số 05A, 05B và 05C ban hành kèm theo Thông tư này)\nSau hiệu lệnh cấm lưu thông tất cả các chiều đường (khi người và phương tiện tham gia giao thông trong phạm vi nút giao thông đã đi qua hết, trừ nút có quy định vị trí dừng cho người và phương tiện tham gia giao thông phải dừng), phải cho phép lưu thông, thời gian tuỳ theo lưu lượng và tình hình giao thông ở các chiều đường. Trình tự động tác báo hiệu như sau:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Từ tư thế thực hiện cấm lưu thông tất cả các chiều đường;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Thổi một tiếng còi ngắn, nhanh; đồng thời, tay trái từ từ đưa lên, tay phải cầm gậy quay về phía trước mặt ngược chiều kim đồng hồ cho đến khi hai tay dang ngang bằng vai, tay phải cầm gậy tạo thành một đường thẳng song song với mặt đất, lòng bàn tay úp xuống. Khi thực hiện động tác báo hiệu cho phép lưu thông nếu thời gian cho phép lưu thông nhiều thì Cảnh sát chỉ huy, điều khiển giao thông có thể bỏ một tay xuống. Động tác cho phép lưu thông là hiệu lệnh cho người và phương tiện tham gia giao thông ở bên phải và bên trái của Cảnh sát chỉ huy, điều khiển giao thông được đi, người và phương tiện tham gia giao thông từ phía trước và sau của Cảnh sát chỉ huy, điều khiển giao thông phải dừng lại.",
+                                    "references": []
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Động tác báo hiệu cho bên phải đi nhanh hơn (theo mẫu số 06 ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, gập cánh tay phải cầm gậy từ khuỷu tay đến bàn tay về phía trước ngực, cánh tay phải và gậy thẳng, sau đó duỗi ra như động tác báo hiệu cho phép lưu thông, tay gập đi gập lại ít nhất ba lần, mỗi lần kết hợp với ba tiếng còi ngắn, nhanh, mắt hướng về bên phải.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Động tác báo hiệu cho bên trái đi nhanh hơn (theo mẫu số 07 ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, gập cánh tay trái từ khuỷu tay đến bàn tay về phía sau gáy, tay hơi chếch lên, lòng bàn tay hướng vào gáy, sau đó lại duỗi ra như động tác báo hiệu cho phép lưu thông, tay gập đi gập lại ít nhất ba lần, mỗi lần kết hợp với ba tiếng còi ngắn, nhanh, mắt hướng về bên trái.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 5,
+                            "content": "Động tác báo hiệu cho bên phải đi chậm lại (theo mẫu số 08A và 08B ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, tay phải cầm gậy kéo về ngang thắt lưng, gậy buông thẳng theo đường chỉ quần, lòng bàn tay phải úp xuống, đưa lên đưa xuống ít nhất ba lần, mỗi lần kết hợp với hai tiếng còi ngắn, mạnh, mắt hướng về bên phải.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 6,
+                            "content": "Động tác báo hiệu cho bên trái đi chậm lại (theo mẫu số 09A và 09B ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, tay trái kéo về ngang thắt lưng, lòng bàn tay úp xuống, đưa lên đưa xuống ít nhất ba lần, mỗi lần kết hợp với hai tiếng còi ngắn, mạnh, mắt hướng về phía bên trái.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 7,
+                            "content": "Động tác báo hiệu cho bên phải dừng lại (theo mẫu số 10 ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, tay phải cầm gậy, cổ tay quay từ từ theo hướng thẳng đứng và vuông góc với cánh tay, kết hợp một tiếng còi dài, mạnh, báo hiệu cho phương tiện bên phải dừng lại, mắt hướng về bên phải.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 8,
+                            "content": "Động tác báo hiệu cho bên trái dừng lại (theo mẫu số 11 ban hành kèm theo Thông tư này)\nTừ tư thế báo hiệu cho phép lưu thông, cổ tay trái quay từ từ theo hướng thẳng đứng và vuông góc với cánh tay, lòng bàn tay trái hướng về phía bên trái, kết hợp một tiếng còi dài, mạnh, báo hiệu cho phương tiện bên trái dừng lại, mắt hướng về phía bên trái.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        },
+                        {
+                            "clause_number": 9,
+                            "content": "Động tác báo hiệu cho phương tiện rẽ trái qua mặt (theo mẫu số 12A, 12B và 12C ban hành kèm theo Thông tư này)",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Từ tư thế báo hiệu cho phép lưu thông, tay phải cầm gậy quay từ từ về phía trước giơ thẳng ngang vai, lòng bàn tay úp xuống, kết hợp với một tiếng còi dài, mạnh. Tay trái đưa từ từ về phía trước mặt theo hướng từ dưới lên trên, tay thẳng, lòng bàn tay trái ở tư thế úp từ từ lật nghiêng đến thẳng đứng, tay đưa đi đưa lại ít nhất ba lần, mỗi lần kết hợp với một tiếng còi ngắn, mắt hướng về phía bên trái, nơi có phương tiện được phép rẽ trái qua mặt;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Với tư thế này, các loại phương tiện, người đi bộ từ phía bên phải và phía sau Cảnh sát chỉ huy, điều khiển giao thông đều phải dừng lại; phía trước, các loại phương tiện được phép rẽ phải; phía bên trái Cảnh sát chỉ huy, điều khiển giao thông các loại phương tiện được phép đi tất cả các hướng.",
+                                    "references": []
+                                }
+                            ],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 3,
+            "chapter_title": "GIẢI QUYẾT MỘT SỐ TRƯỜNG HỢP CỤ THỂ TRONG KHI LÀM NHIỆM VỤ CHỈ HUY, ĐIỀU KHIỂN GIAO THÔNG ĐƯỜNG BỘ",
+            "articles": [
+                {
+                    "article_number": 17,
+                    "article_title": "Điều 17. Giải quyết các vụ ùn tắc giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Cảnh sát chỉ huy, điều khiển giao thông phải nắm vững phương án phòng ngừa, giải quyết ùn tắc giao thông trên các nút, tuyến giao thông đã được cấp có thẩm quyền phê duyệt.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Khi xảy ra ùn tắc giao thông không nghiêm trọng tại nút, tuyến giao thông phải căn cứ tình hình thực tế và phương án phòng ngừa giải quyết ùn tắc giao thông để phân luồng, phân tuyến, tách dòng phương tiện, tiến hành cho phép lưu thông, cấm lưu thông các chiều đường cho phù hợp. Trường hợp vượt quá khả năng, không tự giải quyết được thì phải báo cáo ngay chỉ huy đơn vị biết để tăng cường lực lượng, phân luồng từ xa, giải quyết kịp thời không để xảy ra ùn tắc giao thông nghiêm trọng, kéo dài.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Khi xảy ra ùn tắc giao thông nghiêm trọng có liên quan đến nhiều nút, tuyến giao thông hoặc khu vực phải thực hiện như sau:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Nhanh chóng xác định nguyên nhân, địa điểm, thời gian và mức độ ùn tắc giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Báo cáo ngay chỉ huy đơn vị để chỉ đạo tăng cường lực lượng, phương tiện, phối hợp với các đơn vị chức năng hướng dẫn, điều khiển giao thông, phân luồng, phân tuyến, nắn dòng phương tiện cho phù hợp, phân luồng từ xa theo phương án phòng ngừa, giải quyết ùn tắc giao thông.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Khi xảy ra ùn tắc giao thông kéo dài và trên diện rộng, liên quan đến các địa phương lân cận, liên tuyến thì thực hiện như sau:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Trường hợp xảy ra ùn tắc giao thông trên địa bàn thuộc phạm vi quản lý của Phòng Cảnh sát giao thông Công an cấp tỉnh thì Phòng Cảnh sát giao thông Công an cấp tỉnh có trách nhiệm báo cáo Giám đốc Công an cấp tỉnh và thông báo trực tiếp cho Phòng Cảnh sát giao thông Công an cấp tỉnh lân cận có liên quan đến ùn tắc giao thông, để bố trí lực lượng, phương tiện phối hợp phân luồng, phân tuyến từ xa, không để cho các phương tiện đi vào khu vực xảy ra ùn tắc giao thông. Đồng thời, báo cáo Cục Cảnh sát giao thông để thống nhất chỉ đạo;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Trường hợp xảy ra ùn tắc giao thông trên tuyến cao tốc do Phòng Hướng dẫn công tác tuần tra, kiểm soát giao thông đường bộ, đường sắt thuộc Cục Cảnh sát giao thông quản lý thì Phòng Hướng dẫn công tác tuần tra, kiểm soát giao thông đường bộ, đường sắt có trách nhiệm báo cáo Cục trưởng Cục Cảnh sát giao thông để thống nhất chỉ đạo và phối hợp với Phòng Cảnh sát giao thông thuộc Công an cấp tỉnh có liên quan để giải quyết ùn tắc giao thông theo quy định.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 5,
+                            "content": "Khi xảy ùn tắc giao thông, lực lượng Cảnh sát giao thông phải phối hợp với các cơ quan thông tin và truyền thông để thông báo trên các phương tiện thông tin đại chúng về tình hình trật tự, an toàn giao thông, biện pháp phân luồng của lực lượng Cảnh sát giao thông cho người tham gia giao thông biết, lựa chọn thời gian, lộ trình di chuyển phù hợp.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 6,
+                            "content": "Đối với các nút, tuyến giao thông thường xuyên xảy ra tình trạng ùn tắc giao thông, lực lượng Cảnh sát giao thông phải tiến hành khảo sát, đánh giá, xác định quy luật, nguyên nhân của ùn tắc giao thông để đưa ra các biện pháp khắc phục ùn tắc giao thông theo thẩm quyền; kiến nghị với các cơ quan chức năng khắc phục các nguyên nhân về tổ chức giao thông.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 18,
+                    "article_title": "Điều 18. Chỉ huy, điều khiển giao thông khi xảy ra tai nạn giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Khi phát hiện hoặc nhận được tin báo về vụ tai nạn giao thông đường bộ, Cảnh sát chỉ huy, điều khiển giao thông phải báo cáo ngay chỉ huy đơn vị trực tiếp của mình, thực hiện các nhiệm vụ theo quy định của Bộ Công an về phân công trách nhiệm và mối quan hệ phối hợp trong công tác điều tra, giải quyết tai nạn giao thông; quy trình điều tra, giải quyết tai nạn giao thông đường bộ của Cảnh sát giao thông.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Trường hợp vụ tai nạn giao thông không thuộc thẩm quyền thì Cảnh sát chỉ huy, điều khiển giao thông phải thông báo cho cơ quan, đơn vị có thẩm quyền để giải quyết; khi đơn vị chức năng đến giải quyết, Cảnh sát chỉ huy, điều khiển giao thông có trách nhiệm trao đổi tình hình, bàn giao công việc đã thực hiện và phối hợp giải quyết vụ việc (nếu có yêu cầu) theo chức năng, nhiệm vụ đã được quy định.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Triển khai việc bố trí lực lượng hướng dẫn, điều khiển giao thông, phân luồng, phân tuyến bảo đảm không xảy ra ùn tắc, tai nạn giao thông tại khu vực xảy ra tai nạn hoặc kịp thời giải quyết ùn tắc giao thông do tai nạn gây ra.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 19,
+                    "article_title": "Điều 19. Giải quyết trường hợp người vi phạm không chấp hành việc xử lý vi phạm về trật tự, an toàn giao thông đường bộ của Cảnh sát chỉ huy, điều khiển giao thông; xe cơ giới dừng, đỗ gây ùn tắc giao thông",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Trường hợp người vi phạm không chấp hành việc xử lý vi phạm về trật tự, an toàn giao thông đường bộ",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Giải thích ngắn gọn, rõ ràng cho người vi phạm thấy rõ hành vi vi phạm của mình và biện pháp giải quyết theo quy định của pháp luật để tự giác chấp hành;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Nếu người vi phạm không chấp hành thì tạm giữ giấy tờ hoặc phương tiện, mời người chứng kiến ký vào biên bản tạm giữ, sau đó mời người vi phạm về trụ sở đơn vị để giải quyết hoặc hướng dẫn khiếu nại theo quy định của pháp luật.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Trường hợp xe cơ giới dừng, đỗ gây ùn tắc giao thông",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Yêu cầu lái xe xuất trình các giấy tờ có liên quan để kiểm tra, đưa xe ra khỏi khu vực ùn tắc giao thông, lập biên bản vi phạm hành chính nếu lái xe dừng đỗ sai quy định hoặc không chấp hành hiệu lệnh của Cảnh sát chỉ huy, điều khiển giao thông và giải quyết theo quy định; đồng thời, tổ chức lực lượng hướng dẫn, điều khiển giao thông, giải tỏa ùn tắc giao thông;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Trường hợp lái xe đóng cửa bỏ đi hoặc không có mặt tại đó thì sử dụng các thiết bị kỹ thuật nghiệp vụ để ghi lại hình ảnh, báo cáo chỉ huy đơn vị có biện pháp đưa xe đó ra khỏi khu vực ùn tắc giao thông, mời người chứng kiến, dán niêm phong tại các vị trí cần thiết của xe và lập biên bản theo quy định; đồng thời, tổ chức lực lượng hướng dẫn, điều khiển giao thông, giải tỏa ùn tắc giao thông.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 20,
+                    "article_title": "Điều 20. Giải quyết trường hợp xảy ra lũ, lụt, sự cố khác làm cản trở giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Khi xảy ra lũ, lụt",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Thông báo hoặc đặt biển báo hiệu cấm tạm thời, hướng dẫn, điều khiển giao thông, phân luồng, phân tuyến cho người và phương tiện tham gia giao thông đi lại trật tự, an toàn, thông suốt;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Thông báo ngay cho cơ quan chức năng có liên quan để có biện pháp giải quyết kịp thời; đồng thời, báo cáo chỉ huy đơn vị để xin ý kiến chỉ đạo.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Trường hợp xe đang lưu thông trên đường bị hỏng đột ngột, chết máy hoặc có chướng ngại vật ở lòng đường gây cản trở giao thông, Cảnh sát chỉ huy, điều khiển giao thông phải yêu cầu lái xe, người tham gia giao thông hỗ trợ hoặc phối hợp với các cơ quan chức năng di chuyển xe, chướng ngại vật đó ra khỏi lòng đường để bảo đảm cho phương tiện và người tham gia giao thông qua lại được an toàn, thông suốt.",
+                            "points": [],
+                            "references": []
+                        }
+                    ]
+                },
+                {
+                    "article_number": 21,
+                    "article_title": "Điều 21. Giải quyết trường hợp xảy ra vụ gây rối trật tự công cộng làm cản trở đến trật tự, an toàn giao thông đường bộ",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Sử dụng thiết bị kỹ thuật nghiệp vụ để ghi nhận lại sự việc; đình chỉ ngay hành vi, thu hồi hung khí (nếu có), kiểm tra giấy tờ tùy thân của những người có liên quan, phối hợp tổ chức cấp cứu người bị nạn (nếu có); phối hợp với các lực lượng chức năng áp dụng các biện pháp nghiệp vụ theo quy định, không để xảy ra tình huống phức tạp về an ninh, trật tự.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Giải tán đám đông (nếu có).",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Lập biên bản ghi nhận vụ việc và yêu cầu những người có liên quan về trụ sở Công an hoặc chính quyền địa phương nơi gần nhất để giải quyết.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 4,
+                            "content": "Trường hợp người vi phạm cố tình không chấp hành yêu cầu của Cảnh sát, dùng vũ lực hoặc đe dọa dùng vũ lực chống người thi hành công vụ thì thực hiện các biện pháp phòng ngừa, ngăn chặn và xử lý hành vi chống người thi hành công vụ theo quy định. Đồng thời, sử dụng thiết bị kỹ thuật nghiệp vụ hoặc thiết bị có chức năng ghi âm, ghi hình để ghi nhận lại sự việc. Nếu gây ùn tắc giao thông thì xử lý theo quy định tại Điều 17 Thông tư này. Trường hợp nghiêm trọng vượt quá khả năng giải quyết thì báo cáo ngay chỉ huy đơn vị để chỉ đạo; đồng thời, thông báo kịp thời cho Công an, chính quyền địa phương nơi xảy ra vụ việc biết để phối hợp giải quyết.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": 17,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 22,
+                    "article_title": "Điều 22. Giải quyết một số trường hợp khác",
+                    "clauses": [
+                        {
+                            "clause_number": 0,
+                            "content": "Người lái xe không chấp hành hiệu lệnh dừng xe, bỏ chạy; người vi phạm không chấp hành yêu cầu kiểm soát, xúi giục lôi kéo người khác cản trở người thi hành công vụ; người vi phạm có hành vi lăng mạ, đe dọa, cản trở, xô đẩy người thi hành công vụ; người vi phạm không chấp hành việc kiểm soát, yêu cầu được xem kế hoạch tuần tra, kiểm soát, xem thiết bị sử dụng để phát hiện vi phạm; ghi hình, ghi âm lại hoạt động của Cảnh sát giao thông đang thực hiện nhiệm vụ; người vi phạm lợi dụng mạng xã hội để cung cấp, chia sẻ thông tin giả mạo, thông tin sai sự thật, xuyên tạc, vu khống, xúc phạm uy tín của lực lượng Cảnh sát giao thông, danh dự, nhân phẩm của cá nhân cán bộ, chiến sĩ trong khi thực hiện nhiệm vụ tuần tra, kiểm soát, xử lý vi phạm; người lái xe điều khiển xe đâm vào người thi hành công vụ; người lái xe dùng vũ lực, vũ khí, vật nguy hiểm chống người thi hành công vụ; trường hợp phạm tội quả tang, người có mặt trên xe vận chuyển vật, hàng hóa vi phạm, có dấu hiệu tội phạm; giải quyết vụ việc liên quan đến người nước ngoài, xe của người nước ngoài vi phạm trật tự, an toàn giao thông hoặc các hành vi vi phạm pháp luật khác thì Cảnh sát chỉ huy điều khiển giao thông thực hiện theo quy định tại Điều 73 Luật Trật tự, an toàn giao thông đường bộ, các quy định của Bộ Công an về công tác nghiệp vụ tuần tra, kiểm soát, xử lý vi phạm hành chính trong lĩnh vực giao thông đường bộ và các quy định khác của pháp luật có liên quan.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "36/2024/QH15",
+                                    "article": 73,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapter_number": 4,
+            "chapter_title": "TỔ CHỨC THỰC HIỆN",
+            "articles": [
+                {
+                    "article_number": 23,
+                    "article_title": "Điều 23. Hiệu lực thi hành",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025.",
+                            "points": [],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Thông tư số 26/2017/TT-BCA ngày 22 tháng 8 năm 2017 của Bộ trưởng Bộ Công an quy định về chỉ huy, điều khiển giao thông đường bộ của Cảnh sát giao thông hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "26/2017/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "article_number": 24,
+                    "article_title": "Điều 24. Trách nhiệm thi hành",
+                    "clauses": [
+                        {
+                            "clause_number": 1,
+                            "content": "Cục trưởng Cục Cảnh sát giao thông có trách nhiệm:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Chỉ đạo, theo dõi, hướng dẫn, kiểm tra, đôn đốc Công an các đơn vị, địa phương thực hiện Thông tư này;",
+                                    "references": [
+                                        {
+                                            "document": "69/2024/TT-BCA",
+                                            "article": null,
+                                            "clause": null,
+                                            "point": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Chỉ đạo xây dựng chương trình, kế hoạch, nội dung tập huấn nghiệp vụ công tác chỉ huy, điều khiển giao thông đường bộ;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "c",
+                                    "content": "Tổ chức tập huấn nghiệp vụ công tác chỉ huy, điều khiển giao thông đường bộ cho cán bộ, chiến sĩ thuộc Cục Cảnh sát giao thông và lãnh đạo, chỉ huy các đơn vị Cảnh sát giao thông trên toàn quốc;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "d",
+                                    "content": "Chỉ đạo công tác chỉ huy, điều khiển giao thông, tổ chức tập huấn hoặc hướng dẫn về quy trình vận hành, cách thức sử dụng, bảo dưỡng hệ thống đèn tín hiệu giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ cho các đơn vị.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 2,
+                            "content": "Giám đốc Công an cấp tỉnh có trách nhiệm:",
+                            "points": [
+                                {
+                                    "point": "a",
+                                    "content": "Tổ chức tập huấn nghiệp vụ công tác chỉ huy, điều khiển giao thông đường bộ cho cán bộ, chiến sĩ Cảnh sát giao thông và lực lượng Cảnh sát khác được giao nhiệm vụ hướng dẫn giao thông trên đường bộ thuộc địa phương quản lý theo nội dung tài liệu tập huấn do Cục Cảnh sát giao thông biên soạn;",
+                                    "references": []
+                                },
+                                {
+                                    "point": "b",
+                                    "content": "Tổ chức tập huấn hoặc hướng dẫn về quy trình vận hành, cách thức sử dụng, bảo dưỡng hệ thống đèn tín hiệu giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ cho các đơn vị thuộc Công an tỉnh.",
+                                    "references": []
+                                }
+                            ],
+                            "references": []
+                        },
+                        {
+                            "clause_number": 3,
+                            "content": "Thủ trưởng đơn vị thuộc cơ quan Bộ Công an; Giám đốc Công an tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm triển khai thi hành Thông tư này.\nTrong quá trình thực hiện, nếu có khó khăn, vướng mắc, Công an các đơn vị, địa phương báo cáo về Bộ Công an (qua Cục Cảnh sát giao thông) để có hướng dẫn kịp thời./.",
+                            "points": [],
+                            "references": [
+                                {
+                                    "document": "69/2024/TT-BCA",
+                                    "article": null,
+                                    "clause": null,
+                                    "point": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

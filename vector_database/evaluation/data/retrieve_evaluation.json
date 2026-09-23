@@ -1,0 +1,2156 @@
+[
+    {
+        "question": "Tốc độ khai thác tối đa cho phép đối với xe máy chuyên dùng và xe gắn máy khi tham gia giao thông trên đường bộ (trừ đường cao tốc) là bao nhiêu km/h?",
+        "answers": "Theo quy định tại Điều 7 Thông tư 38/2024/TT-BGTVT, xe máy chuyên dùng, xe gắn máy và các loại xe tương tự khi tham gia giao thông trên đường bộ (trừ đường cao tốc), tốc độ khai thác tối đa là 40 km/h.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 7,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Xe chở người bốn bánh có gắn động cơ và xe chở hàng bốn bánh có gắn động cơ khi tham gia giao thông trên đường bộ (trừ đường cao tốc) có tốc độ khai thác tối đa là bao nhiêu?",
+        "answers": "Theo quy định tại khoản 1 và khoản 2 Điều 8 Thông tư 38/2024/TT-BGTVT, xe chở người bốn bánh có gắn động cơ khi tham gia giao thông trong phạm vi và thời gian cho phép hoạt động có tốc độ khai thác tối đa là 30 km/h. Xe chở hàng bốn bánh có gắn động cơ khi tham gia giao thông trong phạm vi và thời gian cho phép hoạt động có tốc độ khai thác tối đa là 50 km/h.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 8,
+                "clause": 1,
+                "point": null
+            },
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 8,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tốc độ khai thác tối đa và tốc độ khai thác tối thiểu cho phép đối với các loại xe cơ giới, xe máy chuyên dùng trên đường cao tốc được quy định như thế nào?",
+        "answers": "Theo quy định tại khoản 2 và khoản 3 Điều 9 Thông tư 38/2024/TT-BGTVT, tốc độ khai thác tối đa cho phép trên đường cao tốc là 120 km/h. Tốc độ khai thác tối thiểu cho phép trên đường cao tốc là 60 km/h (trường hợp đường cao tốc có tốc độ thiết kế 60 km/h thì tốc độ khai thác tối thiểu thực hiện theo phương án tổ chức giao thông được cấp có thẩm quyền phê duyệt).",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 9,
+                "clause": 2,
+                "point": null
+            },
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 9,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khái niệm 'Khoảng cách an toàn' giữa các phương tiện giao thông đường bộ được giải thích như thế nào trong Thông tư 38/2024/TT-BGTVT?",
+        "answers": "Theo quy định tại khoản 8 Điều 3 Thông tư 38/2024/TT-BGTVT, khoảng cách an toàn là cự ly tối thiểu giữa phương tiện phía sau với phương tiện đang di chuyển liền trước, cùng làn đường, bảo đảm tránh xảy ra va chạm trong trường hợp phương tiện phía trước đột ngột giảm tốc độ hoặc dừng lại.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 3,
+                "clause": 8,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khi điều khiển xe ô tô chở người đến 28 chỗ di chuyển trong khu vực đông dân cư (trừ đường cao tốc), người lái xe được phép chạy với tốc độ tối đa là bao nhiêu trên đường đôi và đường hai chiều?",
+        "answers": "Theo quy định tại khoản 1 Điều 6 (Bảng 1) Thông tư 38/2024/TT-BGTVT, đối với các loại xe cơ giới (trừ các xe quy định tại Điều 7 và Điều 8) lưu thông trong khu vực đông dân cư, tốc độ khai thác tối đa là 60 km/h đối với đường đôi (đường một chiều có từ hai làn xe cơ giới trở lên) và 50 km/h đối với đường hai chiều (đường một chiều có một làn xe cơ giới).",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Ngoài khu vực đông dân cư, xe ô tô chở người trên 28 chỗ (trừ xe buýt) được phép tham gia giao thông với tốc độ khai thác tối đa là bao nhiêu km/h?",
+        "answers": "Theo quy định tại khoản 2 Điều 6 (Bảng 2) Thông tư 38/2024/TT-BGTVT, ngoài khu vực đông dân cư (trừ đường cao tốc), xe ô tô chở người trên 28 chỗ không kể chỗ người lái xe (trừ xe buýt) được phép chạy tối đa 80 km/h trên đường đôi (đường một chiều có từ hai làn xe cơ giới trở lên) và tối đa 70 km/h trên đường hai chiều (đường một chiều có một làn xe cơ giới).",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Trong điều kiện mặt đường khô ráo, địa hình bằng phẳng, khi điều khiển xe chạy với tốc độ 90 km/h thì người lái xe phải giữ khoảng cách an toàn tối thiểu với xe liền trước là bao nhiêu mét?",
+        "answers": "Theo quy định tại điểm a khoản 2 Điều 11 (Bảng 3) Thông tư 38/2024/TT-BGTVT, trong điều kiện mặt đường khô ráo, không sương mù, không trơn trượt, địa hình bằng phẳng, đường thẳng, tầm nhìn bảo đảm, ứng với tốc độ lưu hành trên 80 km/h đến 100 km/h (V = 90 km/h), khoảng cách an toàn tối thiểu giữa hai xe phải giữ là 70 mét.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 11,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Những cơ quan nào có thẩm quyền quyết định việc đặt biển báo tốc độ khai thác trên các tuyến đường bộ?",
+        "answers": "Theo quy định tại khoản 3 Điều 10 Thông tư 38/2024/TT-BGTVT, cơ quan có thẩm quyền quyết định đặt biển báo tốc độ khai thác bao gồm:\na) Cục Đường bộ Việt Nam, Cục Đường Cao tốc Việt Nam đối với đường cao tốc được Bộ Giao thông vận tải giao quản lý;\nb) Cục Đường bộ Việt Nam đối với đường cao tốc do doanh nghiệp được Nhà nước giao quản lý, vận hành, khai thác; hệ thống quốc lộ và đường khác thuộc phạm vi quản lý của Bộ Giao thông vận tải;\nc) Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương đối với đường cao tốc, quốc lộ, đường tỉnh, đường huyện, đường xã, đường thôn, đường đô thị và đường chuyên dùng có hoạt động giao thông công cộng thuộc phạm vi quản lý.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 10,
+                "clause": 3,
+                "point": "a"
+            },
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 10,
+                "clause": 3,
+                "point": "b"
+            },
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 10,
+                "clause": 3,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Trong trường hợp nào người lái xe phải điều chỉnh khoảng cách an toàn lớn hơn trị số khoảng cách quy định chuẩn hoặc trị số trên biển báo cự ly tối thiểu?",
+        "answers": "Theo quy định tại điểm b khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT, người lái xe phải điều chỉnh khoảng cách an toàn lớn hơn trị số ghi trên biển báo hoặc trị số quy định thông thường trong điều kiện trời mưa, có sương mù, mặt đường trơn trượt, đường có địa hình quanh co, đèo dốc, tầm nhìn hạn chế.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 11,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 38/2024/TT-BGTVT có hiệu lực thi hành kể từ thời điểm nào và thay thế văn bản quy phạm pháp luật nào trước đó?",
+        "answers": "Theo quy định tại khoản 1 Điều 12 Thông tư 38/2024/TT-BGTVT, Thông tư này có hiệu lực kể từ ngày 01 tháng 01 năm 2025. Thông tư này thay thế Thông tư số 31/2019/TT-BGTVT ngày 29 tháng 8 năm 2019 của Bộ trưởng Bộ Giao thông vận tải và thay thế Điều 15 Thông tư số 06/2023/TT-BGTVT ngày 12 tháng 5 năm 2023 của Bộ trưởng Bộ Giao thông vận tải.",
+        "retrieve_items": [
+            {
+                "document": "38/2024/TT-BGTVT",
+                "article": 12,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Cán bộ làm nhiệm vụ quản lý, vận hành, khai thác và sử dụng hệ thống giám sát giao thông phải đáp ứng những tiêu chuẩn gì về trình độ chuyên môn?",
+        "answers": "Theo quy định tại khoản 1 Điều 4 Thông tư 83/2024/TT-BCA, cán bộ làm nhiệm vụ phải tốt nghiệp trình độ Trung cấp Công an nhân dân trở lên; trường hợp tốt nghiệp ngành ngoài phải có trình độ cao đẳng trở lên về một trong các lĩnh vực: điện tử, viễn thông, công nghệ thông tin và hoàn thành chương trình bồi dưỡng pháp luật và nghiệp vụ Công an.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 4,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Trách nhiệm quản lý, vận hành hệ thống giám sát giao thông trên các tuyến đường cao tốc thuộc về cơ quan nào?",
+        "answers": "Theo quy định tại khoản 1 và khoản 2 Điều 6 Thông tư 83/2024/TT-BCA, Cục Cảnh sát giao thông chịu trách nhiệm quản lý, vận hành hệ thống giám sát giao thông trên các tuyến đường cao tốc, trừ các tuyến đường cao tốc do Bộ trưởng Bộ Công an phân công, phân cấp cho Công an các tỉnh, thành phố trực thuộc trung ương tổ chức tuần tra, kiểm soát, xử lý vi phạm. Đối với các tuyến cao tốc đã được phân công, phân cấp này, Công an tỉnh, thành phố trực thuộc trung ương sẽ chịu trách nhiệm quản lý, vận hành.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 6,
+                "clause": 1,
+                "point": null
+            },
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 6,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tổ chức, cá nhân không thuộc lực lượng quản lý, vận hành muốn khai thác thông tin, dữ liệu từ hệ thống giám sát giao thông thì cần điều kiện gì?",
+        "answers": "Theo quy định tại khoản 3 Điều 7 Thông tư 83/2024/TT-BCA, tổ chức, cá nhân không có chức năng, nhiệm vụ, quyền hạn trong quản lý, vận hành, khai thác, sử dụng hệ thống giám sát giao thông khi có nhu cầu khai thác, sử dụng thông tin, dữ liệu của hệ thống thì phải có văn bản đề nghị và phải được đơn vị quản lý, vận hành hệ thống giám sát giao thông đồng ý.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 7,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khi xây dựng hệ thống giám sát giao thông, những tuyến đường nào được ưu tiên lựa chọn?",
+        "answers": "Theo quy định tại điểm a khoản 1 Điều 5 Thông tư 83/2024/TT-BCA, việc xây dựng hệ thống giám sát giao thông ưu tiên thực hiện trên các tuyến đường cao tốc, quốc lộ và các tuyến giao thông đường bộ phức tạp về an ninh, trật tự, an toàn giao thông hoặc quan trọng trong phát triển kinh tế, xã hội, quốc phòng, an ninh.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 5,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Hạ tầng truyền dẫn phục vụ xây dựng hệ thống giám sát giao thông được quy định sử dụng ra sao?",
+        "answers": "Theo quy định tại điểm b khoản 1 Điều 5 Thông tư 83/2024/TT-BCA, hệ thống giám sát giao thông ưu tiên sử dụng hạ tầng truyền dẫn đã được xây dựng trong Công an nhân dân; trường hợp hạ tầng truyền dẫn trong Công an nhân dân chưa đáp ứng yêu cầu hoặc chưa được đầu tư xây dựng thì mới thuê hạ tầng truyền dẫn của nhà cung cấp dịch vụ.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 5,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Công an cấp tỉnh có cần xin ý kiến Cục Cảnh sát giao thông khi ban hành quy chế quản lý, vận hành hệ thống giám sát giao thông không?",
+        "answers": "Theo quy định tại khoản 5 Điều 6 Thông tư 83/2024/TT-BCA, Công an tỉnh, thành phố trực thuộc trung ương trước khi ban hành quy chế quản lý, vận hành, khai thác và sử dụng hệ thống giám sát giao thông bắt buộc phải có văn bản xin ý kiến Cục Cảnh sát giao thông.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 6,
+                "clause": 5,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Trường hợp đơn vị quản lý, vận hành không đủ khả năng tự thực hiện bảo trì, bảo dưỡng hệ thống giám sát giao thông thì xử lý như thế nào?",
+        "answers": "Theo quy định tại khoản 1 Điều 8 Thông tư 83/2024/TT-BCA, trường hợp đơn vị quản lý, vận hành không đủ khả năng tự thực hiện thì lựa chọn đơn vị, tổ chức khác thực hiện bảo trì, bảo dưỡng và phải giám sát chặt chẽ quá trình bảo trì, bảo dưỡng, bảo đảm bí mật thông tin về hệ thống.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 8,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khi phát hiện hệ thống giám sát giao thông bị xâm phạm, đơn vị quản lý, vận hành có trách nhiệm làm gì?",
+        "answers": "Theo quy định tại khoản 1 Điều 9 Thông tư 83/2024/TT-BCA, khi phát hiện hệ thống giám sát giao thông bị xâm phạm, đơn vị phải có biện pháp bảo vệ và kịp thời báo cáo đơn vị quản lý, vận hành hệ thống giám sát giao thông để có biện pháp xử lý theo quy định của pháp luật.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 9,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Kinh phí sử dụng để xây dựng, nâng cấp và bảo trì hệ thống giám sát giao thông được lấy từ nguồn nào?",
+        "answers": "Theo quy định tại khoản 1 Điều 12 Thông tư 83/2024/TT-BCA, nguồn kinh phí sử dụng để xây dựng, nâng cấp, quản lý, vận hành, khai thác, sử dụng, bảo trì, bảo dưỡng hệ thống giám sát giao thông được bảo đảm từ ngân sách nhà nước và các nguồn kinh phí hợp pháp khác theo quy định của pháp luật.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 12,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 83/2024/TT-BCA có hiệu lực kể từ ngày nào và thay thế văn bản quy phạm pháp luật nào trước đó?",
+        "answers": "Theo quy định tại Điều 13 Thông tư 83/2024/TT-BCA, Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025 và thay thế Thông tư số 17/2014/TT-BCA ngày 24 tháng 4 năm 2014 của Bộ trưởng Bộ Công an quy định về vận hành, quản lý, bảo trì, bảo vệ hệ thống giám sát, xử lý vi phạm trật tự, an toàn giao thông đường bộ.",
+        "retrieve_items": [
+            {
+                "document": "83/2024/TT-BCA",
+                "article": 13,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 36/2024/TT-BYT quy định về tiêu chuẩn sức khỏe và khám sức khỏe có áp dụng đối với người điều khiển xe gắn máy hay không?",
+        "answers": "Theo quy định tại khoản 2 Điều 1 Thông tư 36/2024/TT-BYT, Thông tư này không áp dụng đối với người điều khiển xe gắn máy.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 1,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người đăng ký khám sức khỏe để cấp giấy phép lái xe các hạng A, B và C1 sẽ áp dụng nhóm tiêu chuẩn sức khỏe nào theo Thông tư 36/2024/TT-BYT?",
+        "answers": "Theo quy định tại điểm b và điểm c khoản 2 Điều 2 Thông tư 36/2024/TT-BYT:\n- Đối với trường hợp khám sức khỏe để cấp giấy phép lái xe hạng A và B: Áp dụng tiêu chuẩn sức khỏe Nhóm 2.\n- Đối với trường hợp khám sức khỏe để cấp giấy phép lái xe hạng C1: Áp dụng tiêu chuẩn sức khỏe Nhóm 3.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 2,
+                "clause": 2,
+                "point": "b"
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 2,
+                "clause": 2,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Người đã có giấy phép lái xe hạng A1 cấp trước ngày 01/01/2025, khi làm thủ tục đổi sang giấy phép lái xe hạng A thì phải áp dụng tiêu chuẩn sức khỏe nhóm mấy?",
+        "answers": "Theo quy định tại khoản 3 Điều 2 Thông tư 36/2024/TT-BYT, người có giấy phép lái xe đã được cấp trước ngày 01 tháng 01 năm 2025 nếu có nhu cầu đổi, cấp lại giấy phép lái xe từ hạng A1 sang giấy phép lái xe hạng A theo quy định tại điểm a khoản 3 Điều 89 Luật Trật tự, an toàn giao thông đường bộ sẽ áp dụng tiêu chuẩn sức khỏe Nhóm 1 để khám sức khỏe.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 2,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người khuyết tật đề nghị cấp giấy phép lái xe hạng A1 hoặc hạng B được miễn khám chuyên khoa nào khi thực hiện khám sức khỏe?",
+        "answers": "Theo quy định tại khoản 4 Điều 2 Thông tư 36/2024/TT-BYT, người khuyết tật đề nghị cấp giấy phép lái xe hạng A1 hoặc cấp giấy phép lái xe hạng B áp dụng tiêu chuẩn sức khỏe quy định tại Phụ lục I ban hành kèm theo Thông tư này để khám sức khỏe nhưng không phải khám chuyên khoa Cơ Xương Khớp.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 2,
+                "clause": 4,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khi thực hiện khám sức khỏe định kỳ cho người hành nghề lái xe ô tô là nữ, ngoài các nội dung chung thì có quy định chuyên khoa và xét nghiệm bắt buộc nào?",
+        "answers": "Theo quy định tại điểm b và điểm c khoản 3 Điều 3 Thông tư 36/2024/TT-BYT, khi khám sức khỏe định kỳ đối với người hành nghề lái xe ô tô là nữ:\n1. Phải khám chuyên khoa phụ sản theo quy định tại khoản 4 Điều 36 Thông tư số 32/2023/TT-BYT.\n2. Phải thực hiện xét nghiệm ma túy và xét nghiệm nồng độ cồn.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 3,
+                "clause": 3,
+                "point": "b"
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 3,
+                "clause": 3,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Hồ sơ khám sức khỏe định kỳ đối với người hành nghề lái xe ô tô cần phải bổ sung thông tin gì đặc thù so với hồ sơ khám thông thường?",
+        "answers": "Theo quy định tại điểm a và điểm b khoản 2 Điều 4 Thông tư 36/2024/TT-BYT, hồ sơ khám sức khỏe định kỳ đối với người hành nghề lái xe ô tô thực hiện theo mẫu quy định tại điểm a khoản 4 Điều 34 Thông tư số 32/2023/TT-BYT và được bổ sung nội dung hạng giấy phép lái xe vào mục 7 (nghề nghiệp).",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 4,
+                "clause": 2,
+                "point": "a"
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 4,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Cấu trúc dữ liệu kết quả khám sức khỏe của người lái xe, người điều khiển xe máy chuyên dùng trên cơ sở dữ liệu gồm những thông tin nào?",
+        "answers": "Theo quy định tại Điều 5 Thông tư 36/2024/TT-BYT, cấu trúc dữ liệu kết quả khám sức khỏe gồm 4 phần thông tin chính:\n1. Phần Hành chính: Các thông tin theo quy định tại Quyết định số 06/QĐ-TTg ngày 06/01/2022 của Thủ tướng Chính phủ (Đề án 06).\n2. Tên cơ sở khám bệnh, chữa bệnh thực hiện khám sức khỏe; ngày khám sức khỏe.\n3. Kết quả xét nghiệm ma túy.\n4. Kết luận về tình trạng sức khỏe.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 5,
+                "clause": 1,
+                "point": null
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 5,
+                "clause": 2,
+                "point": null
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 5,
+                "clause": 3,
+                "point": null
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 5,
+                "clause": 4,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 36/2024/TT-BYT bắt đầu có hiệu lực thi hành từ khi nào và văn bản quy phạm pháp luật nào sẽ bị thay thế?",
+        "answers": "Theo quy định tại Điều 7 Thông tư 36/2024/TT-BYT:\n- Thông tư này có hiệu lực kể từ ngày 01 tháng 01 năm 2025 (khoản 1).\n- Thông tư liên tịch số 24/2015/TTLT-BYT-BGTVT ngày 28 tháng 8 năm 2015 của Bộ trưởng Bộ Y tế và Bộ trưởng Bộ Giao thông vận tải hết hiệu lực kể từ ngày Thông tư 36/2024/TT-BYT có hiệu lực thi hành (khoản 2).",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 7,
+                "clause": 1,
+                "point": null
+            },
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 7,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Mẫu sổ khám sức khỏe định kỳ bản giấy của người lái xe đã in theo Thông tư liên tịch 24/2015/TTLT-BYT-BGTVT được tiếp tục sử dụng đến thời gian nào và cần ghi bổ sung thông tin gì?",
+        "answers": "Theo quy định tại khoản 3 Điều 9 Thông tư 36/2024/TT-BYT, mẫu sổ khám sức khỏe định kỳ của người lái xe ban hành tại Thông tư liên tịch số 24/2015/TTLT-BYT-BGTVT bản giấy đã in được tiếp tục sử dụng đến hết ngày 30 tháng 6 năm 2025 và phải ghi bổ sung nội dung quy định tại khoản 3 Điều 36 Thông tư số 32/2023/TT-BYT.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 9,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Cơ sở khám bệnh, chữa bệnh đang thực hiện khám sức khỏe định kỳ cho người lái xe nhưng không đủ điều kiện khám các chuyên khoa Răng Hàm Mặt, Da liễu, Ngoại khoa thì phải xử lý như thế nào?",
+        "answers": "Theo quy định tại điểm b khoản 5 Điều 9 Thông tư 36/2024/TT-BYT, trường hợp cơ sở khám bệnh, chữa bệnh không đủ điều kiện khám chuyên khoa Răng Hàm Mặt, Da liễu, Ngoại khoa thì được phép ký hợp đồng với cơ sở khám bệnh, chữa bệnh khác để khám các chuyên khoa nêu trên. Tuy nhiên, từ ngày 01 tháng 01 năm 2026, cơ sở phải đáp ứng đầy đủ các điều kiện theo quy định tại Thông tư này.",
+        "retrieve_items": [
+            {
+                "document": "36/2024/TT-BYT",
+                "article": 9,
+                "clause": 5,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Phạm vi điều chỉnh của Thông tư 35/2024/TT-BGTVT bao gồm những nội dung gì?",
+        "answers": "Theo Điều 1 Thông tư 35/2024/TT-BGTVT, Thông tư này quy định về mẫu giấy phép lái xe, đào tạo, sát hạch, cấp, đổi, cấp lại, thu hồi giấy phép lái xe, sử dụng giấy phép lái xe và tiêu chuẩn của sân tập lái để sát hạch lái xe mô tô; mẫu giấy phép lái xe quốc tế, cấp, sử dụng giấy phép lái xe quốc tế; tiêu chuẩn đào tạo, kiểm tra, cấp, cấp lại chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ và tiêu chuẩn của cơ sở đào tạo người điều khiển xe máy chuyên dùng thực hiện bồi dưỡng, kiểm tra, cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 1,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 35/2024/TT-BGTVT không áp dụng đối với những đối tượng và hoạt động nào?",
+        "answers": "Theo khoản 2 Điều 2 Thông tư 35/2024/TT-BGTVT, Thông tư không áp dụng đối với việc sử dụng giấy phép lái xe, cơ sở đào tạo lái xe, tổ chức đào tạo lái xe, sát hạch lái xe; việc cấp, đổi, cấp lại, thu hồi giấy phép lái xe; cấp, cấp lại chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ cho lực lượng quân đội, công an làm nhiệm vụ quốc phòng, an ninh.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 2,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thế nào là \"Thời gian lái xe an toàn\" theo quy định tại Thông tư 35/2024/TT-BGTVT?",
+        "answers": "Căn cứ khoản 1 Điều 3 Thông tư 35/2024/TT-BGTVT, thời gian lái xe an toàn là thời gian người có giấy phép lái xe có hiệu lực, không để xảy ra tai nạn giao thông đường bộ gây hậu quả nghiêm trọng hoặc đặc biệt nghiêm trọng.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 3,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Số phôi giấy phép lái xe được định nghĩa như thế nào và nằm ở vị trí nào trên giấy phép lái xe?",
+        "answers": "Theo khoản 2 Điều 3 Thông tư 35/2024/TT-BGTVT, số phôi giấy phép lái xe là mã số do nhà sản xuất phôi ghi ở mặt sau của giấy phép lái xe, bao gồm 02 chữ cái và các số phía sau.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 3,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Dữ liệu DAT trong đào tạo lái xe ô tô là gì?",
+        "answers": "Theo khoản 3 Điều 3 Thông tư 35/2024/TT-BGTVT, dữ liệu DAT là tập hợp các thông tin về định danh và quá trình học thực hành lái xe trên đường của học viên, được truyền từ thiết bị DAT lắp trên xe ô tô tập lái để tập lái xe trên đường về máy chủ của cơ sở đào tạo lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 3,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời gian học lái xe ban đêm được tính từ mấy giờ đến mấy giờ?",
+        "answers": "Căn cứ khoản 5 Điều 3 Thông tư 35/2024/TT-BGTVT, thời gian học lái xe ban đêm là thời gian được tính từ 18 giờ ngày hôm trước đến 05 giờ sáng ngày hôm sau.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 3,
+                "clause": 5,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn gửi báo cáo định kỳ 6 tháng đầu năm của Sở Giao thông vận tải về Cục Đường bộ Việt Nam về công tác đào tạo, sát hạch, cấp GPLX là khi nào?",
+        "answers": "Theo điểm d khoản 1 Điều 4 Thông tư 35/2024/TT-BGTVT, thời hạn gửi báo cáo định kỳ 6 tháng đầu năm về công tác đào tạo, sát hạch, cấp giấy phép lái xe của Sở Giao thông vận tải gửi về Cục Đường bộ Việt Nam là trước ngày 20 tháng 6 hàng năm.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 4,
+                "clause": 1,
+                "point": "d"
+            }
+        ]
+    },
+    {
+        "question": "Người có nhu cầu cấp giấy phép lái xe mô tô các hạng A1, A và B1 có những hình thức học lý thuyết nào?",
+        "answers": "Theo điểm a khoản 1 Điều 5 Thông tư 35/2024/TT-BGTVT, đối với nội dung học lý thuyết, người học phải học đủ chương trình đào tạo và được lựa chọn một trong các hình thức: tự học các môn lý thuyết theo quy định của pháp luật hoặc học tập trung tại cơ sở đào tạo lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 5,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Đối với nội dung học lý thuyết lái xe các hạng B, C1, người học có được đào tạo từ xa không?",
+        "answers": "Theo điểm a khoản 2 Điều 5 Thông tư 35/2024/TT-BGTVT, người học lý thuyết lái xe hạng B, C1 được lựa chọn một trong các hình thức học: tập trung tại cơ sở đào tạo lái xe hoặc đào tạo từ xa, tự học có hướng dẫn theo quy định.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 5,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Tổng thời gian đào tạo tối thiểu đối với hạng giấy phép lái xe A1 là bao nhiêu giờ?",
+        "answers": "Theo bảng phân bổ tại khoản 1 Điều 6 Thông tư 35/2024/TT-BGTVT, tổng thời gian đào tạo tối thiểu đối với hạng giấy phép lái xe A1 là 12 giờ (bao gồm 8 giờ Pháp luật về giao thông đường bộ, 2 giờ Kỹ thuật lái xe và 2 giờ thực hành).",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tổng thời gian đào tạo tối thiểu đối với hạng giấy phép lái xe B1 là bao nhiêu giờ?",
+        "answers": "Theo bảng phân bổ tại khoản 1 Điều 6 Thông tư 35/2024/TT-BGTVT, tổng thời gian đào tạo tối thiểu đối với hạng giấy phép lái xe B1 là 44 giờ.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tổng thời gian khóa đào tạo trong chương trình đào tạo lái xe mô tô các hạng A1, A, B1 không được vượt quá bao nhiêu ngày?",
+        "answers": "Căn cứ điểm a khoản 2 Điều 6 Thông tư 35/2024/TT-BGTVT, tổng thời gian khóa đào tạo trong chương trình đào tạo lái xe mô tô không quá 10 ngày (không kể ngày nghỉ lễ, Tết).",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Số học viên học thực hành lái xe được quy định tối đa cho một xe tập lái hạng B1 là bao nhiêu?",
+        "answers": "Căn cứ điểm b khoản 2 Điều 6 Thông tư 35/2024/TT-BGTVT, số học viên học thực hành lái xe được quy định cho một xe tập lái hạng B1 không quá 05 học viên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Quy định về thang điểm và điểm kiểm tra đạt mỗi môn học khi kiểm tra hoàn thành khóa đào tạo hạng B1 là gì?",
+        "answers": "Theo điểm b khoản 4 Điều 6 Thông tư 35/2024/TT-BGTVT, điểm đánh giá kết quả học tập của học viên theo thang điểm 10 (từ 1 đến 10), có tính đến hàng thập phân 1 con số. Điểm kiểm tra đạt mỗi môn học từ 5,0 điểm trở lên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 6,
+                "clause": 4,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Tổng thời gian đào tạo lái xe hạng B (học xe chuyển số cơ khí/số sàn) là bao nhiêu giờ?",
+        "answers": "Theo bảng quy định tại khoản 1 Điều 7 Thông tư 35/2024/TT-BGTVT, tổng thời gian đào tạo lái xe hạng B học xe số cơ khí là 235 giờ (bao gồm 152 giờ lý thuyết và 83 giờ thực hành).",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 7,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tổng quãng đường đào tạo thực hành của 01 học viên lái xe ô tô hạng B xe số tự động là bao nhiêu km?",
+        "answers": "Căn cứ khoản 1 Điều 7 Thông tư 35/2024/TT-BGTVT, tổng quãng đường đào tạo thực hành của 01 học viên hạng B học xe số tự động là 1.000 km (bao gồm 290 km trên sân tập lái và 710 km trên đường giao thông).",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 7,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khóa đào tạo lái xe hạng B, C1 có tổng thời gian không được vượt quá bao nhiêu ngày?",
+        "answers": "Theo điểm a khoản 2 Điều 7 Thông tư 35/2024/TT-BGTVT, tổng thời gian khóa đào tạo trong chương trình đào tạo lái xe hạng B, C1 không quá 90 ngày.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 7,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Mỗi xe tập lái hạng B và C1 được quy định tối đa bao nhiêu học viên học thực hành?",
+        "answers": "Căn cứ điểm b khoản 2 Điều 7 Thông tư 35/2024/TT-BGTVT, số học viên học thực hành lái xe được quy định cho một xe tập lái: hạng B không quá 05 học viên, hạng C1 không quá 08 học viên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 7,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Trường hợp quá thời hạn bao lâu kể từ ngày xét hoàn thành khóa đào tạo lần đầu mà học viên hạng B không đủ điều kiện xét hoàn thành thì phải học lại khóa mới?",
+        "answers": "Theo khoản 5 Điều 7 Thông tư 35/2024/TT-BGTVT, quá thời hạn 01 (một) năm kể từ ngày cơ sở đào tạo lái xe tổ chức xét hoàn thành khóa đào tạo lần đầu mà học viên không đủ điều kiện để được xét hoàn thành khóa đào tạo thì học viên phải được đào tạo lại theo khóa đào tạo mới.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 7,
+                "clause": 5,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời gian khóa đào tạo nâng hạng giấy phép lái xe tối đa không quá bao nhiêu ngày?",
+        "answers": "Theo điểm a khoản 2 Điều 8 Thông tư 35/2024/TT-BGTVT, tổng thời gian khóa đào tạo trong chương trình đào tạo lái xe đối với học nâng hạng không quá 60 ngày.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 8,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Số học viên tối đa quy định cho 01 xe tập lái khi đào tạo nâng hạng giấy phép lái xe từ B lên C là bao nhiêu?",
+        "answers": "Theo điểm b khoản 2 Điều 8 Thông tư 35/2024/TT-BGTVT, số học viên được quy định trên 01 xe tập lái đối với học nâng hạng B lên C không quá 08 học viên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 8,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Cơ sở đào tạo lái xe mô tô các hạng A1, A, B1 sử dụng những tài liệu nào làm tài liệu quản lý đào tạo?",
+        "answers": "Theo khoản 3 Điều 10 Thông tư 35/2024/TT-BGTVT, cơ sở đào tạo lái xe mô tô các hạng A1, A, B1 sử dụng Báo cáo đăng ký sát hạch (điểm a) và Sổ tay giáo viên (điểm e khoản 2 Điều 10) làm tài liệu quản lý đào tạo.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 10,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người khuyết tật bàn chân phải học lái xe hạng B số tự động được thay đổi nội dung đào tạo thực hành như thế nào?",
+        "answers": "Căn cứ điểm a khoản 2 Điều 12 Thông tư 35/2024/TT-BGTVT, người khuyết tật bàn chân phải học lái xe hạng B số tự động được thay nội dung học lái xe trên ca bin học lái xe ô tô bằng nội dung học trên xe tập lái.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 12,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Lớp học đào tạo lái xe mô tô hạng A1 cho người dân tộc thiểu số không biết đọc, viết tiếng Việt có yêu cầu đặc thù gì?",
+        "answers": "Theo khoản 1 Điều 13 Thông tư 35/2024/TT-BGTVT, lớp học cho người dân tộc thiểu số không biết đọc, viết tiếng Việt phải giảng dạy riêng và có người phiên dịch tiếng dân tộc thiểu số.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 13,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Phương pháp đào tạo lái xe hạng A1 đối với người dân tộc thiểu số không biết đọc, viết tiếng Việt được thực hiện như thế nào?",
+        "answers": "Căn cứ khoản 2 Điều 13 Thông tư 35/2024/TT-BGTVT, phương pháp đào tạo là bằng hình ảnh trực quan, tranh vẽ hệ thống biển báo hiệu đường bộ, mô hình, sa hình và kỹ năng xử lý tình huống giao thông đường bộ; hỏi - đáp và thực hành làm mẫu để thực hiện nội dung chương trình đào tạo.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 13,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người học lái xe nâng hạng từ B lên C1 yêu cầu có thời gian lái xe an toàn tối thiểu là bao nhiêu?",
+        "answers": "Theo điểm a khoản 2 Điều 14 Thông tư 35/2024/TT-BGTVT, người học lái xe nâng hạng từ B lên C1 phải có thời gian lái xe an toàn từ 02 năm trở lên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 14,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Nâng hạng giấy phép lái xe từ hạng B lên D2 yêu cầu thời gian lái xe an toàn là bao nhiêu năm?",
+        "answers": "Theo điểm b khoản 2 Điều 14 Thông tư 35/2024/TT-BGTVT, người học lái xe nâng hạng từ hạng B lên D2 phải có thời gian lái xe an toàn từ 03 năm trở lên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 14,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Hồ sơ của người học lái xe lần đầu gồm những giấy tờ, thủ tục gì?",
+        "answers": "Theo khoản 1 Điều 15 Thông tư 35/2024/TT-BGTVT, người học lái xe lần đầu nộp 01 bộ hồ sơ trực tiếp tại cơ sở đào tạo gồm: Đơn đề nghị học, sát hạch để cấp giấy phép lái xe (Phụ lục XI); Bản sao hoặc bản sao điện tử giấy tờ xác nhận cư trú/thẻ tạm trú đối với người nước ngoài; và chụp ảnh trực tiếp lưu trữ trong cơ sở dữ liệu GPLX.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 15,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người học nâng hạng giấy phép lái xe lên các hạng D1, D2 và D phải nộp bằng tốt nghiệp trình độ nào trong hồ sơ?",
+        "answers": "Căn cứ điểm b khoản 2 Điều 15 Thông tư 35/2024/TT-BGTVT, người học nâng hạng GPLX lên D1, D2 và D phải nộp bản sao bằng tốt nghiệp trung học cơ sở hoặc bằng cấp tương đương trở lên.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 15,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn lưu trữ sổ theo dõi học viên hoàn thành khóa đào tạo tại cơ sở đào tạo lái xe là bao lâu?",
+        "answers": "Theo điểm a khoản 1 Điều 16 Thông tư 35/2024/TT-BGTVT, cơ sở đào tạo lái xe lưu trữ không thời hạn đối với sổ theo dõi học viên hoàn thành khóa đào tạo.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 16,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Hồ sơ kiểm tra hoàn thành khóa học và dữ liệu DAT tại cơ sở đào tạo lái xe được lưu trữ trong thời gian bao lâu?",
+        "answers": "Theo điểm b khoản 1 Điều 16 Thông tư 35/2024/TT-BGTVT, cơ sở đào tạo lái xe phải lưu trữ 03 năm đối với hồ sơ kiểm tra hoàn thành khóa học, dữ liệu giám sát thời gian và quãng đường học lái xe trên đường và các dữ liệu đào tạo liên quan.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 16,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Trường hợp nào người dự sát hạch lái xe hạng A1 được miễn sát hạch lý thuyết?",
+        "answers": "Theo điểm a khoản 1 Điều 17 Thông tư 35/2024/TT-BGTVT, thí sinh dự sát hạch lái xe hạng A1 có giấy phép lái xe ô tô còn hiệu lực do ngành Giao thông vận tải cấp được miễn sát hạch lý thuyết.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 17,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Sát hạch thực hành lái xe trong hình đối với các hạng A1, A gồm những bài sát hạch nào?",
+        "answers": "Căn cứ điểm a khoản 2 Điều 17 Thông tư 35/2024/TT-BGTVT, người dự sát hạch hạng A1, A phải điều khiển xe mô tô qua 04 bài sát hạch: đi theo hình số 8, qua vạch đường thẳng, qua đường có vạch cản, qua đường gồ ghề.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 17,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Phương pháp và bài sát hạch thực hành lái xe trong hình đối với hạng B1 được quy định thế nào?",
+        "answers": "Theo điểm b khoản 2 Điều 17 Thông tư 35/2024/TT-BGTVT, sát hạch thực hành hạng B1 thực hiện bằng phương pháp chấm điểm trực tiếp. Người dự sát hạch phải điều khiển xe tiến qua hình chữ chi và lùi theo hướng ngược lại.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 17,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Các bài sát hạch thực hành lái xe trong hình đối với hạng B và C1 bao gồm những bài thi nào?",
+        "answers": "Căn cứ điểm c khoản 2 Điều 17 Thông tư 35/2024/TT-BGTVT, bài sát hạch thực hành hạng B, C1 bao gồm: xuất phát, dừng xe nhường đường cho người đi bộ, dừng và khởi hành xe trên dốc, qua vệt bánh xe và đường vòng vuông góc, qua ngã tư có đèn tín hiệu, qua đường vòng quanh co, ghép xe vào nơi đỗ (ghép xe dọc và ghép xe ngang đối với hạng B), tạm dừng chỗ đường sắt, tình huống nguy hiểm, thay đổi số trên đường bằng, kết thúc.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 17,
+                "clause": 2,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Hội đồng sát hạch do cơ quan nào thành lập và nguyên tắc họp làm việc ra sao?",
+        "answers": "Theo khoản 1 Điều 19 Thông tư 35/2024/TT-BGTVT, Hội đồng sát hạch do Sở Giao thông vận tải thành lập. Hội đồng làm việc phải có tối thiểu 2/3 số thành viên tham dự, quyết định theo đa số; trường hợp ý kiến ngang nhau thì theo kết luận của Chủ tịch hội đồng.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 19,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Chủ tịch Hội đồng sát hạch lái xe phải đáp ứng điều kiện tiêu chuẩn nào?",
+        "answers": "Theo điểm a khoản 2 Điều 19 Thông tư 35/2024/TT-BGTVT, Chủ tịch hội đồng là công chức và là sát hạch viên thuộc Sở Giao thông vận tải, có giấy phép lái xe ô tô.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 19,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Nhiệm vụ chính của Tổ sát hạch tại kỳ sát hạch lái xe là gì?",
+        "answers": "Căn cứ khoản 3 Điều 20 Thông tư 35/2024/TT-BGTVT, Tổ sát hạch có nhiệm vụ: kiểm tra xe sát hạch, thiết bị chấm điểm, sân sát hạch; yêu cầu thí sinh chấp hành nội quy; lập biên bản xử lý vi phạm; sát hạch, tổng hợp kết quả đánh giá để báo cáo Hội đồng sát hạch hoặc cơ quan quản lý.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 20,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thẻ sát hạch viên do cơ quan nào cấp và có thời hạn tối đa bao nhiêu năm?",
+        "answers": "Căn cứ điểm b khoản 1 Điều 21 Thông tư 35/2024/TT-BGTVT, thẻ sát hạch viên do Cục Đường bộ Việt Nam cấp, thẻ có thời hạn tối đa 03 năm và không quá thời hạn hiệu lực của giấy phép lái xe tương ứng hạng sát hạch.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 21,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Tiêu chuẩn đối với cá nhân để trở thành sát hạch viên là gì?",
+        "answers": "Theo khoản 2 Điều 21 Thông tư 35/2024/TT-BGTVT, tiêu chuẩn gồm: a) Có tư cách đạo đức tốt, không trong thời gian bị xử lý kỷ luật; b) Có bằng tốt nghiệp cao đẳng trở lên; c) Có giấy phép lái xe tương ứng với hạng xe sát hạch.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 21,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn lấy ý kiến UBND cấp xã về đối tượng người dân tộc thiểu số không biết đọc, viết tiếng Việt tham gia sát hạch A1 tối đa là bao nhiêu ngày?",
+        "answers": "Căn cứ điểm c khoản 1 Điều 22 Thông tư 35/2024/TT-BGTVT, thời hạn lấy ý kiến Ủy ban nhân dân cấp xã nơi người dân tộc thiểu số không biết đọc, viết tiếng Việt cư trú tối đa không quá 15 ngày kể từ ngày Sở Giao thông vận tải có văn bản.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 22,
+                "clause": 1,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Số lượng cán bộ tối thiểu trong Tổ giám sát kỳ sát hạch lái xe mô tô và ô tô được quy định như thế nào?",
+        "answers": "Theo khoản 2 Điều 24 Thông tư 35/2024/TT-BGTVT, số lượng người giám sát đối với kỳ sát hạch lái xe mô tô tối thiểu là 02 người, sát hạch lái xe ô tô tối thiểu là 03 người, trong đó cử một thanh tra viên làm Tổ trưởng.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 24,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Kết quả sát hạch lý thuyết đạt đối với thí sinh sát hạch GPLX hạng A1 được bảo lưu trong thời gian bao lâu?",
+        "answers": "Theo điểm d khoản 1 Điều 25 Thông tư 35/2024/TT-BGTVT, thí sinh đạt nội dung sát hạch lý thuyết nhưng không đạt thực hành lái xe trong hình thì được bảo lưu kết quả sát hạch lý thuyết trong thời gian 01 năm kể từ ngày đạt kết quả.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 25,
+                "clause": 1,
+                "point": "d"
+            }
+        ]
+    },
+    {
+        "question": "Thí sinh mang điện thoại di động vào phòng sát hạch lý thuyết sẽ bị xử lý như thế nào?",
+        "answers": "Theo điểm đ khoản 1 Điều 25 Thông tư 35/2024/TT-BGTVT, thí sinh mang điện thoại hoặc thiết bị truyền tin trong phòng sát hạch lý thuyết hoặc có các hành vi gian dối khác làm sai lệch kết quả sát hạch sẽ bị đình chỉ làm bài, hủy bỏ kết quả sát hạch.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 25,
+                "clause": 1,
+                "point": "đ"
+            }
+        ]
+    },
+    {
+        "question": "Kết quả của các nội dung sát hạch đã đạt đối với thí sinh tham dự sát hạch lái xe ô tô hạng B được bảo lưu bao lâu?",
+        "answers": "Theo điểm d khoản 2 Điều 25 Thông tư 35/2024/TT-BGTVT, thí sinh đạt nội dung sát hạch lý thuyết, mô phỏng, thực hành trong hình được bảo lưu kết quả các nội dung đạt trong thời gian 01 năm, kể từ ngày có nội dung sát hạch đạt tại kỳ sát hạch gần nhất.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 25,
+                "clause": 2,
+                "point": "d"
+            }
+        ]
+    },
+    {
+        "question": "Sở Giao thông vận tải ra quyết định công nhận trúng tuyển kỳ sát hạch trong thời hạn bao nhiêu ngày làm việc?",
+        "answers": "Căn cứ khoản 3 Điều 25 Thông tư 35/2024/TT-BGTVT, trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kỳ sát hạch, Sở Giao thông vận tải rà soát, tổng hợp kết quả, ra quyết định công nhận trúng tuyển kỳ sát hạch.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 25,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Nội dung và hình thức sát hạch lý thuyết lái xe hạng A1 cho người dân tộc thiểu số không biết đọc, viết tiếng Việt được thực hiện thế nào?",
+        "answers": "Theo khoản 2 Điều 27 Thông tư 35/2024/TT-BGTVT, sát hạch lý thuyết thực hiện bằng hình thức hỏi - đáp, trắc nghiệm trên giấy, thời gian 30 phút. Có 02 sát hạch viên thực hiện (1 đọc câu hỏi, 1 đánh dấu lựa chọn của thí sinh) và có thể thông qua người phiên dịch.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 27,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người dự sát hạch lái xe phải đáp ứng các điều kiện chung nào theo Điều 28 Thông tư 35/2024/TT-BGTVT?",
+        "answers": "Căn cứ Điều 28 Thông tư 35/2024/TT-BGTVT, người dự sát hạch phải: 1. Đủ tuổi, sức khỏe theo quy định; 2. Học đủ nội dung chương trình và được cơ sở đào tạo xét hoàn thành khóa đào tạo (với hạng B1, B, C1...); 3. Có tên trong danh sách học viên của báo cáo 1 đối với người dự sát hạch lần đầu.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 28,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Hồ sơ dự sát hạch lại đối với người có giấy phép lái xe quá thời hạn sử dụng gồm những giấy tờ gì?",
+        "answers": "Căn cứ khoản 3 Điều 29 Thông tư 35/2024/TT-BGTVT, hồ sơ gồm: a) Giấy tờ cư trú/thẻ tạm trú đối với người nước ngoài; b) Đơn đề nghị theo Phụ lục XXVI; c) Giấy khám sức khỏe của người lái xe còn hiệu lực.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 29,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Quyết định công nhận trúng tuyển kỳ sát hạch được Sở Giao thông vận tải lưu trữ trong thời hạn bao lâu?",
+        "answers": "Theo điểm a khoản 5 Điều 30 Thông tư 35/2024/TT-BGTVT, các tài liệu quy định tại điểm i và điểm k khoản 1 Điều này (bao gồm Quyết định công nhận trúng tuyển và Danh sách trúng tuyển cấp GPLX) được lưu trữ không thời hạn.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 30,
+                "clause": 5,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Biên bản phân công nhiệm vụ của sát hạch viên được Sở Giao thông vận tải lưu trữ trong bao lâu?",
+        "answers": "Theo điểm b khoản 5 Điều 30 Thông tư 35/2024/TT-BGTVT, thời gian lưu trữ đối với biên bản phân công nhiệm vụ của sát hạch viên là 05 năm.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 30,
+                "clause": 5,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe theo Mẫu số 01 và Mẫu số 02 tại Phụ lục XXIV được áp dụng trong khoảng thời gian nào?",
+        "answers": "Căn cứ khoản 1 Điều 31 Thông tư 35/2024/TT-BGTVT, Mẫu số 01 được cấp từ ngày Thông tư có hiệu lực đến hết ngày 31/12/2025; Mẫu số 02 bắt đầu thực hiện cấp từ ngày 01/01/2026.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 31,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe bằng vật liệu PET cấp cho mỗi cá nhân tuân thủ nguyên tắc quản lý số lượng như thế nào?",
+        "answers": "Theo khoản 1 Điều 32 Thông tư 35/2024/TT-BGTVT, giấy phép lái xe bằng vật liệu PET cấp cho mỗi người bảo đảm duy nhất có 01 số quản lý, dùng chung cho cả giấy phép lái xe không thời hạn và giấy phép lái xe có thời hạn.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 32,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Khi đổi hoặc cấp giấy phép lái xe nâng hạng, cơ quan cấp giấy phép lái xe xử lý GPLX cũ như thế nào?",
+        "answers": "Căn cứ khoản 4 Điều 32 Thông tư 35/2024/TT-BGTVT, khi đổi, cấp giấy phép lái xe nâng hạng, cơ quan cấp giấy phép lái xe thu lại giấy phép lái xe cũ và tiêu hủy theo quy định của pháp luật về lưu trữ.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 32,
+                "clause": 4,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người có giấy phép lái xe hạng B số tự động có được điều khiển xe ô tô số cơ khí (số sàn) không?",
+        "answers": "Theo khoản 5 Điều 32 Thông tư 35/2024/TT-BGTVT, người có giấy phép lái xe hạng B số tự động không được lái loại xe ô tô số cơ khí (số sàn).",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 32,
+                "clause": 5,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Sau bao lâu kể từ khi nhận đủ hồ sơ hợp lệ, Sở Giao thông vận tải phải gửi văn bản đề nghị xác minh giấy phép lái xe?",
+        "answers": "Theo điểm a khoản 2 Điều 33 Thông tư 35/2024/TT-BGTVT, sau 01 ngày làm việc kể từ ngày nhận được danh sách đề nghị hoặc hồ sơ hợp lệ, Sở Giao thông vận tải có văn bản đề nghị xác minh giấy phép lái xe gửi cơ quan đã cấp.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 33,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn trả lời bằng văn bản kết quả xác minh giấy phép lái xe của cơ quan nhận được đề nghị là bao lâu?",
+        "answers": "Theo điểm b khoản 2 Điều 33 Thông tư 35/2024/TT-BGTVT, ngay khi nhận văn bản đề nghị, cơ quan trả lời qua điện thoại/email/fax và sau 02 ngày làm việc có văn bản trả lời chính thức.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 33,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Thời gian cấp giấy phép lái xe cho người đạt kết quả kỳ sát hạch chậm nhất là bao nhiêu ngày?",
+        "answers": "Căn cứ điểm b khoản 1 Điều 34 Thông tư 35/2024/TT-BGTVT, thời gian cấp giấy phép lái xe chậm nhất không quá 10 ngày, kể từ ngày kết thúc kỳ sát hạch và người đạt kết quả đã hoàn thành nghĩa vụ nộp lệ phí.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 34,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Người có GPLX hạng B quá thời hạn sử dụng dưới 01 năm phải dự sát hạch lại nội dung gì?",
+        "answers": "Theo điểm a khoản 2 Điều 34 Thông tư 35/2024/TT-BGTVT, quá hạn dưới 01 năm kể từ ngày hết hạn phải sát hạch lý thuyết để cấp lại giấy phép lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 34,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Người có GPLX hạng B quá thời hạn sử dụng từ 01 năm trở lên phải sát hạch những nội dung nào để cấp lại?",
+        "answers": "Theo điểm a khoản 2 Điều 34 Thông tư 35/2024/TT-BGTVT, quá hạn từ 01 năm trở lên kể từ ngày hết hạn phải sát hạch lý thuyết, thực hành lái xe trong hình và trên đường để cấp giấy phép lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 34,
+                "clause": 2,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Những trường hợp bị mất GPLX nào không được xét cấp lại?",
+        "answers": "Theo khoản 3 Điều 35 Thông tư 35/2024/TT-BGTVT, không cấp lại GPLX đối với các trường hợp: GPLX không có trong hệ thống thông tin GPLX tại Cục Đường bộ Việt Nam hay sổ quản lý; hoặc người vi phạm chưa thực hiện xong yêu cầu xử lý vi phạm hành chính về trật tự ATGT.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 35,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Trường hợp nào người có giấy phép lái xe do ngành Giao thông vận tải cấp không được đổi GPLX?",
+        "answers": "Căn cứ điểm đ khoản 1 Điều 36 Thông tư 35/2024/TT-BGTVT, không đổi GPLX khi: GPLX không có trong hệ thống thông tin GPLX tại Cục Đường bộ VN/sổ quản lý; hoặc người vi phạm chưa thực hiện xong yêu cầu xử lý vi phạm hành chính giao thông.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 36,
+                "clause": 1,
+                "point": "đ"
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn Sở Giao thông vận tải thực hiện việc đổi giấy phép lái xe kể từ ngày nhận đủ hồ sơ hợp lệ là bao lâu?",
+        "answers": "Theo điểm c khoản 3 Điều 36 Thông tư 35/2024/TT-BGTVT, trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định, Sở Giao thông vận tải thực hiện việc đổi giấy phép lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 36,
+                "clause": 3,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Thời gian lưu trữ bản chính hồ sơ đổi giấy phép lái xe của ngành Giao thông vận tải cấp là bao lâu?",
+        "answers": "Theo điểm d khoản 3 Điều 36 Thông tư 35/2024/TT-BGTVT, cơ quan cấp giấy phép lái xe lưu trữ bản chính hồ sơ đổi giấy phép lái xe trong thời hạn 02 năm kể từ ngày cấp.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 36,
+                "clause": 3,
+                "point": "d"
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe quân sự hạng Cx được đổi sang hạng giấy phép lái xe tương ứng nào do ngành Giao thông vận tải cấp?",
+        "answers": "Theo điểm b khoản 1 Điều 37 Thông tư 35/2024/TT-BGTVT, giấy phép lái xe quân sự hạng Cx được đổi sang giấy phép lái xe hạng C do ngành Giao thông vận tải cấp.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 37,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe quân sự cũ được xử lý ra sao sau khi đổi sang GPLX do ngành Giao thông vận tải cấp?",
+        "answers": "Theo điểm e khoản 3 Điều 37 Thông tư 35/2024/TT-BGTVT, cơ quan cấp giấy phép lái xe thực hiện cắt góc giấy phép lái xe cũ và giao lại cho người lái xe tự bảo quản cùng hồ sơ gốc.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 37,
+                "clause": 3,
+                "point": "e"
+            }
+        ]
+    },
+    {
+        "question": "Hồ sơ đổi giấy phép lái xe do ngành Công an cấp từ ngày 01 tháng 8 năm 1995 gồm những văn bản gì?",
+        "answers": "Theo khoản 3 Điều 38 Thông tư 35/2024/TT-BGTVT, hồ sơ gồm: a) Đơn đề nghị đổi GPLX; b) Bản sao GPLX; bản sao quyết định xuất ngũ/nghỉ hưu/chấm dứt hợp đồng; c) Giấy khám sức khỏe người lái xe còn hiệu lực.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 38,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe nước ngoài thuộc trường hợp nào thì không được đổi sang GPLX Việt Nam?",
+        "answers": "Theo điểm c khoản 1 Điều 39 Thông tư 35/2024/TT-BGTVT, không đổi GPLX tạm thời; GPLX quốc tế; GPLX nước ngoài quá hạn, bị tẩy xóa, rách nát; GPLX không do cơ quan có thẩm quyền cấp; hoặc người Việt Nam có thời gian lưu trú ở nước ngoài dưới 03 tháng không phù hợp thời gian đào tạo.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 39,
+                "clause": 1,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn sử dụng của giấy phép lái xe Việt Nam đổi cho người nước ngoài được xác định như thế nào?",
+        "answers": "Theo điểm a khoản 6 Điều 39 Thông tư 35/2024/TT-BGTVT, thời hạn sử dụng phù hợp với thời hạn ghi tại giấy tờ cư trú/thị thực và thời hạn GPLX nước ngoài, nhưng không vượt quá thời hạn quy định của GPLX Việt Nam.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 39,
+                "clause": 6,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Trình tự và thời gian ra quyết định thu hồi, hủy bỏ giấy phép lái xe khi phát hiện vi phạm được quy định thế nào?",
+        "answers": "Căn cứ điểm a khoản 1 Điều 40 Thông tư 35/2024/TT-BGTVT, sau 03 ngày kể từ ngày phát hiện hành vi vi phạm thuộc trường hợp thu hồi, thủ trưởng cơ quan có thẩm quyền ra quyết định thu hồi để hủy bỏ giấy phép lái xe.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 40,
+                "clause": 1,
+                "point": "a"
+            }
+        ]
+    },
+    {
+        "question": "Người bị thu hồi GPLX do có hành vi gian dối hoặc sử dụng giấy tờ giả mạo bị xử lý cấm cấp lại GPLX trong thời hạn bao lâu?",
+        "answers": "Theo điểm b khoản 2 Điều 40 Thông tư 35/2024/TT-BGTVT, người có hành vi vi phạm gian dối/giả mạo không được cấp giấy phép lái xe trong thời hạn 05 năm kể từ ngày phát hiện hành vi vi phạm.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 40,
+                "clause": 2,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Kích thước và màu sắc của Giấy phép lái xe quốc tế (IDP) được quy định như thế nào?",
+        "answers": "Theo khoản 1 Điều 41 Thông tư 35/2024/TT-BGTVT, IDP là một quyển sổ có kích thước A6 (148 mm x 105 mm), có ký hiệu bảo mật, bìa màu xám, những trang giấy bên trong màu trắng.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 41,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Số giấy phép lái xe quốc tế (IDP) bao gồm những ký tự và con số nào?",
+        "answers": "Căn cứ khoản 3 Điều 41 Thông tư 35/2024/TT-BGTVT, số IDP gồm ký hiệu phân biệt quốc gia của Việt Nam đối với giao thông quốc tế là VN và 12 chữ số sau là số giấy phép lái xe quốc gia.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 41,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn giải quyết cấp giấy phép lái xe quốc tế (IDP) kể từ ngày nhận được đơn đề nghị hợp lệ là bao nhiêu ngày làm việc?",
+        "answers": "Theo điểm b khoản 1 Điều 43 Thông tư 35/2024/TT-BGTVT, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được đơn đề nghị cấp IDP đúng theo quy định, Cục Đường bộ Việt Nam hoặc Sở Giao thông vận tải thực hiện việc cấp IDP.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 43,
+                "clause": 1,
+                "point": "b"
+            }
+        ]
+    },
+    {
+        "question": "Giấy phép lái xe quốc tế (IDP) do Việt Nam cấp có giá trị sử dụng trên lãnh thổ Việt Nam hay không?",
+        "answers": "Theo Điều 44 Thông tư 35/2024/TT-BGTVT, IDP do Việt Nam cấp không có giá trị sử dụng trong lãnh thổ Việt Nam.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 44,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Tổng thời gian đào tạo chương trình bồi dưỡng kiến thức pháp luật về giao thông đường bộ cho người điều khiển xe máy chuyên dùng là bao nhiêu giờ?",
+        "answers": "Theo bảng chương trình tại khoản 2 Điều 46 Thông tư 35/2024/TT-BGTVT, tổng thời gian đào tạo là 32 giờ.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 46,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Người học chưa đạt yêu cầu kiểm tra bồi dưỡng kiến thức pháp luật về giao thông đường bộ cho người điều khiển xe máy chuyên dùng thì được kiểm tra lại sau bao lâu?",
+        "answers": "Căn cứ khoản 3 Điều 48 Thông tư 35/2024/TT-BGTVT, trường hợp chưa đạt yêu cầu sẽ được tổ chức kiểm tra lại sau 07 ngày làm việc.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 48,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn cấp chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ kể từ khi học viên đạt kết quả kiểm tra là bao nhiêu ngày?",
+        "answers": "Theo Điều 52 Thông tư 35/2024/TT-BGTVT, sau 05 ngày làm việc, kể từ ngày kết quả kiểm tra đạt yêu cầu, người đứng đầu cơ sở đào tạo cấp chứng chỉ cho người học.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 52,
+                "clause": null,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thời hạn cấp lại chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ bị hỏng hoặc mất là bao nhiêu ngày làm việc?",
+        "answers": "Căn cứ điểm c khoản 3 Điều 53 Thông tư 35/2024/TT-BGTVT, trong thời hạn 03 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, người đứng đầu cơ sở đào tạo hoặc Sở Giao thông vận tải cấp lại chứng chỉ.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 53,
+                "clause": 3,
+                "point": "c"
+            }
+        ]
+    },
+    {
+        "question": "Thời gian lưu trữ dữ liệu về đào tạo, sát hạch, cấp, đổi giấy phép lái xe tại Sở Giao thông vận tải tối thiểu là bao nhiêu năm?",
+        "answers": "Theo khoản 2 Điều 57 Thông tư 35/2024/TT-BGTVT, thời gian lưu trữ dữ liệu về đào tạo, sát hạch, cấp, đổi giấy phép lái xe tại Sở Giao thông vận tải các tỉnh, thành phố trực thuộc Trung ương tối thiểu là 50 năm.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 57,
+                "clause": 2,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Dữ liệu về giấy phép lái xe lưu trữ tại Cục Đường bộ Việt Nam có thời gian tối đa là bao nhiêu năm?",
+        "answers": "Theo khoản 3 Điều 57 Thông tư 35/2024/TT-BGTVT, thời gian lưu trữ dữ liệu về giấy phép lái xe tại Cục Đường bộ Việt Nam tối đa là 70 năm.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 57,
+                "clause": 3,
+                "point": null
+            }
+        ]
+    },
+    {
+        "question": "Thông tư 35/2024/TT-BGTVT có hiệu lực thi hành kể từ thời điểm nào?",
+        "answers": "Căn cứ khoản 1 Điều 66 Thông tư 35/2024/TT-BGTVT, Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025.",
+        "retrieve_items": [
+            {
+                "document": "35/2024/TT-BGTVT",
+                "article": 66,
+                "clause": 1,
+                "point": null
+            }
+        ]
+    },
+    {
+    "question": "Trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng, phụ tùng nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Công an được quy định tại đâu?",
+    "answers": "Theo quy định tại khoản 1 Điều 1 Thông tư số 82/2024/TT-BCA, Thông tư này quy định về trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Công an.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 1,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới cải tạo, xe máy chuyên dùng cải tạo được quy định tại khoản nào của Điều 1?",
+    "answers": "Theo khoản 2 Điều 1 Thông tư số 82/2024/TT-BCA, Thông tư này quy định trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới cải tạo, xe máy chuyên dùng cải tạo thuộc phạm vi quản lý của Bộ Công an.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 1,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thông tư 82/2024/TT-BCA áp dụng đối với những đối tượng nào?",
+    "answers": "Theo Điều 2 Thông tư số 82/2024/TT-BCA, Thông tư này áp dụng đối với: 1. Công an các đơn vị, địa phương; 2. Các tổ chức, cá nhân có liên quan đến việc nhập khẩu, sản xuất, lắp ráp xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới, cải tạo xe cơ giới, cải tạo xe máy chuyên dùng cho lực lượng Công an nhân dân; kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới, xe máy chuyên dùng thuộc phạm vi quản lý của Bộ Công an.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 2,
+        "clause": 1,
+        "point": null
+      },
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 2,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thế nào là ô tô sát xi theo quy định của Bộ Công an?",
+    "answers": "Theo khoản 2 Điều 3 Thông tư số 82/2024/TT-BCA, ô tô sát xi là ô tô ở dạng bán thành phẩm, có thể tự di chuyển, có buồng lái hoặc không có buồng lái, không có thùng chở hàng, không có khoang chở khách, không gắn thiết bị chuyên dùng.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 3,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Phụ tùng xe cơ giới được định nghĩa như thế nào trong Thông tư 82/2024/TT-BCA?",
+    "answers": "Theo khoản 3 Điều 3 Thông tư số 82/2024/TT-BCA, phụ tùng xe cơ giới (sau đây viết gọn là phụ tùng) là các tổng thành, hệ thống, vật liệu sử dụng để chế tạo chi tiết, cụm chi tiết của xe cơ giới.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 3,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Khái niệm kiểm định an toàn kỹ thuật và bảo vệ môi trường xe cơ giới, xe máy chuyên dùng được giải thích ra sao?",
+    "answers": "Theo khoản 4 Điều 3 Thông tư số 82/2024/TT-BCA, kiểm định an toàn kỹ thuật và bảo vệ môi trường xe cơ giới, xe máy chuyên dùng (gọi tắt là kiểm định xe) là việc kiểm tra, đánh giá lần đầu và định kỳ tình trạng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng theo các tiêu chuẩn, quy chuẩn, quy định hiện hành.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 3,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường có ý nghĩa gì?",
+    "answers": "Theo khoản 9 Điều 3 Thông tư số 82/2024/TT-BCA, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường (gọi tắt là Tem kiểm định) là biểu trưng cấp cho xe đã được cấp Giấy chứng nhận kiểm định và được phép tham gia giao thông đường bộ theo thời hạn ghi trên Tem kiểm định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 3,
+        "clause": 9,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Giấy chứng nhận chất lượng xe nhập khẩu có hiệu lực trong bao lâu và được lập thành mấy bản?",
+    "answers": "Theo điểm d khoản 1 Điều 6 Thông tư số 82/2024/TT-BCA, Giấy chứng nhận chất lượng xe nhập khẩu có giá trị 12 tháng kể từ ngày cấp, được lập thành 03 bản có nội dung, giá trị như nhau (01 bản làm thủ tục đăng ký, 01 bản làm thủ tục kiểm định, 01 bản lưu tại Cục Cảnh sát giao thông). Riêng Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe mô tô, xe gắn máy nhập khẩu được lập thành 02 bản (01 bản đăng ký, 01 bản lưu tại Cục Cảnh sát giao thông).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 6,
+        "clause": 1,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Giấy chứng nhận chất lượng phụ tùng sản xuất, lắp ráp có thời hạn bao nhiêu tháng?",
+    "answers": "Theo điểm đ khoản 1 Điều 10 Thông tư số 82/2024/TT-BCA, Giấy chứng nhận chất lượng phụ tùng sản xuất, lắp ráp có giá trị 36 tháng kể từ ngày cấp, được lập thành 02 bản có nội dung, giá trị như nhau (01 bản cấp cho đơn vị sản xuất, lắp ráp, 01 bản lưu tại Cục Cảnh sát giao thông).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 10,
+        "clause": 1,
+        "point": "đ"
+      }
+    ]
+  },
+  {
+    "question": "Giấy chứng nhận chất lượng của xe cải tạo có giá trị trong thời hạn bao lâu?",
+    "answers": "Theo điểm d khoản 1 Điều 16 Thông tư số 82/2024/TT-BCA, Giấy chứng nhận cải tạo có giá trị 12 tháng kể từ ngày cấp, được lập thành 03 bản có nội dung, giá trị như nhau. Riêng Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe mô tô, xe gắn máy cải tạo được lập thành 02 bản.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 16,
+        "clause": 1,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn Cục Cảnh sát giao thông phải tổ chức kiểm tra, cấp, cấp đổi, cấp lại Giấy chứng nhận chất lượng xe nhập khẩu là bao nhiêu ngày?",
+    "answers": "Theo khoản 4 Điều 6 Thông tư số 82/2024/TT-BCA, trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Cảnh sát giao thông phải tổ chức kiểm tra, cấp, cấp đổi, cấp lại Giấy chứng nhận chất lượng xe nhập khẩu hoặc Giấy chứng nhận phụ tùng nhập khẩu.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 6,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn Cục Cảnh sát giao thông cấp, cấp đổi, cấp lại Giấy chứng nhận chất lượng xe sản xuất, lắp ráp là bao lâu?",
+    "answers": "Theo khoản 5 Điều 10 Thông tư số 82/2024/TT-BCA, trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Cảnh sát giao thông phải tổ chức kiểm tra, cấp, cấp đổi, cấp lại Giấy chứng nhận chất lượng xe sản xuất, lắp ráp hoặc Giấy chứng nhận chất lượng phụ tùng sản xuất, lắp ráp.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 10,
+        "clause": 5,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn cấp, cấp đổi, cấp lại chứng nhận chất lượng xe cải tạo là bao nhiêu ngày làm việc?",
+    "answers": "Theo khoản 5 Điều 16 Thông tư số 82/2024/TT-BCA, trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Cảnh sát giao thông phải tổ chức kiểm tra, cấp, cấp đổi, cấp lại chứng nhận chất lượng của xe cải tạo.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 16,
+        "clause": 5,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp chứng nhận chất lượng xe nhập khẩu bao gồm những tài liệu gì?",
+    "answers": "Theo khoản 1 Điều 7 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Bản phô tô Hợp đồng mua bán xe nhập khẩu giữa đơn vị nhập khẩu và Công an các đơn vị, địa phương; b) Bản phô tô Tờ khai hàng hóa nhập khẩu; c) Bản đăng ký thông số kỹ thuật xe nhập khẩu (Mẫu KĐ01, KĐ02 hoặc KĐ03) kèm tài liệu giới thiệu tính năng, thông số kỹ thuật; d) Bản phô tô C/Q của nhà sản xuất; đ) Chứng từ nguồn gốc xe (đối với xe đã qua sử dụng); e) Văn bản đề nghị cấp chứng nhận chất lượng xe nhập khẩu của đơn vị quản lý, sử dụng xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 7,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp đổi chứng nhận chất lượng xe nhập khẩu khi bị hỏng, hết hạn, sai thông tin gồm những gì?",
+    "answers": "Theo khoản 4 Điều 7 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường bị hỏng, hết hạn, sai thông tin; b) Văn bản đề nghị cấp đổi chứng nhận chất lượng của đơn vị sử dụng xe nhập khẩu, phụ tùng nhập khẩu (trường hợp Giấy chứng nhận bị hỏng, hết hạn). Trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người liên hệ.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 7,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Số lượng xe mẫu kiểm tra chất lượng đối với lô xe nhập khẩu cùng kiểu loại có số lượng từ 101 đến 500 xe là bao nhiêu?",
+    "answers": "Theo điểm a khoản 2 Điều 8 Thông tư số 82/2024/TT-BCA, Cục Cảnh sát giao thông tiến hành kiểm tra 02 xe mẫu được lấy ngẫu nhiên nếu số xe trong lô từ trên 100 xe đến 500 xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 8,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Lô xe nhập khẩu có số lượng lớn hơn 500 xe thì phải lấy bao nhiêu xe mẫu để kiểm tra?",
+    "answers": "Theo điểm a khoản 2 Điều 8 Thông tư số 82/2024/TT-BCA, đối với lô xe có số lượng lớn hơn 500 xe, Cục Cảnh sát giao thông tiến hành kiểm tra 03 xe mẫu lấy ngẫu nhiên trong lô xe nhập khẩu.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 8,
+        "clause": 2,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Khi kiểm tra xe mẫu nhập khẩu không đạt yêu cầu do lỗi của nhà sản xuất thì Cục Cảnh sát giao thông giải quyết thế nào?",
+    "answers": "Theo điểm c khoản 2 Điều 8 Thông tư số 82/2024/TT-BCA, trường hợp xe mẫu nhập khẩu khi kiểm tra có hạng mục không đạt yêu cầu do lỗi của nhà sản xuất thì Cục Cảnh sát giao thông thực hiện kiểm tra tất cả các xe trong lô xe nhập khẩu. Căn cứ kết quả kiểm tra từng xe, Cục Cảnh sát giao thông cấp Giấy chứng nhận chất lượng xe nhập khẩu cho các xe đạt yêu cầu.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 8,
+        "clause": 2,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Xe nhập khẩu bị hư hại trong quá trình vận chuyển từ cảng xếp hàng về Việt Nam thì đơn vị nhập khẩu được khắc phục những hạng mục nào?",
+    "answers": "Theo khoản 2 Điều 9 Thông tư số 82/2024/TT-BCA, đơn vị nhập khẩu được phép khắc phục các hạng mục: thân vỏ, buồng lái, thùng hàng bị móp méo, lớp sơn bị trầy xước hoặc ô xi hóa cục bộ nhưng không bị mọt, thủng; kính chắn gió, kính cửa sổ bị nứt vỡ; hệ thống đèn chiếu sáng, tín hiệu bị nứt, vỡ; gạt nước bị hư hại hoặc hoạt động không bình thường; ắc quy khởi động động cơ không hoạt động.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 9,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Năm sản xuất của xe nhập khẩu được xác định dựa trên những căn cứ nào?",
+    "answers": "Theo khoản 3 Điều 9 Thông tư số 82/2024/TT-BCA, năm sản xuất của xe nhập khẩu được xác định theo một trong các căn cứ: số nhận dạng của xe (số VIN, số PIN); số khung của xe; tài liệu của nhà sản xuất (catalog, sổ tay thông số kỹ thuật...); thông tin trên nhãn mác của nhà sản xuất gắn trên xe; năm sản xuất ghi trong Giấy chứng nhận đăng ký xe hoặc Giấy hủy đăng ký xe ở nước ngoài. Trường hợp chưa xác định được thì Cục CSGT thành lập Hội đồng giám định để quyết định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 9,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Đơn vị nào thực hiện thiết kế xe chuyên dùng sản xuất, lắp ráp cần bảo đảm bí mật của lực lượng Công an nhân dân?",
+    "answers": "Theo khoản 2 Điều 11 Thông tư số 82/2024/TT-BCA, việc thiết kế xe chuyên dùng sản xuất, lắp ráp cần bảo đảm bí mật quy định tại Phụ lục V phải do đơn vị thiết kế trong Công an nhân dân thực hiện. Trường hợp đơn vị trong ngành không đáp ứng được năng lực thì việc chỉ định đơn vị thiết kế ngoài ngành phải do Bộ trưởng Bộ Công an quyết định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 11,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Xe mô tô, xe gắn máy khi sản xuất, lắp ráp có phải lập hồ sơ thiết kế kỹ thuật không?",
+    "answers": "Theo khoản 4 Điều 11 Thông tư số 82/2024/TT-BCA, xe mô tô, xe gắn máy và các loại xe tương tự khi sản xuất, lắp ráp thì không phải lập hồ sơ thiết kế kỹ thuật nhưng phải thi công tại đơn vị thi công có chức năng theo quy định của pháp luật.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 11,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị thẩm định thiết kế xe sản xuất, lắp ráp gồm những thành phần cơ bản nào?",
+    "answers": "Theo khoản 3 Điều 11 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị thẩm định thiết kế; b) Bản phô tô Hợp đồng trang bị xe; c) Bản phô tô thông số, tính năng kỹ thuật của các tổng thành, hệ thống; d) Bản thuyết minh thiết kế kỹ thuật khổ A4; đ) Bản vẽ kỹ thuật khổ A3; e) Văn bản chỉ đạo của Bộ trưởng Bộ Công an (nếu có); g) Bản phô tô Giấy chứng nhận đăng ký doanh nghiệp thể hiện chức năng thiết kế (đối với đơn vị thẩm định lần đầu).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 11,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn thẩm định thiết kế xe sản xuất, lắp ráp được quy định như thế nào?",
+    "answers": "Theo khoản 3 Điều 12 Thông tư số 82/2024/TT-BCA, trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Hội đồng thẩm định phải trả kết quả. Trường hợp thẩm định thiết kế xe chuyên dùng theo quy định tại Phụ lục V thì thời hạn trả kết quả là trong 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 12,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Đơn vị thi công sản xuất, lắp ráp xe có trách nhiệm gì trong việc nghiệm thu xuất xưởng và chất lượng sản phẩm?",
+    "answers": "Theo khoản 4 Điều 13 Thông tư số 82/2024/TT-BCA, đơn vị thi công phải tự kiểm tra, lập biên bản nghiệm thu chất lượng xuất xưởng và chịu trách nhiệm về chất lượng sản phẩm do đơn vị mình thi công; thực hiện đúng thiết kế, quy định, tiêu chuẩn quốc gia; chịu trách nhiệm trước pháp luật và Bộ Công an về nội dung hồ sơ, nguồn gốc, xuất xứ, tính chính xác của tài liệu và chất lượng xe sản xuất, lắp ráp đã hoàn chỉnh.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 13,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp chứng nhận chất lượng xe ô tô, xe máy chuyên dùng sản xuất, lắp ráp gồm những tài liệu gì?",
+    "answers": "Theo khoản 1 Điều 14 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị kiểm tra chất lượng xe của đơn vị thi công; b) Ảnh chụp tổng thể góc 45 độ phía trước và phía sau góc đối diện của xe; c) Biên bản nghiệm thu xuất xưởng xe hoàn chỉnh; d) Bản phô tô văn bản chứng nhận cơ sở pháp lý của đơn vị thi công (lần đầu); đ) Bản cam kết về kiểu loại xe không xâm phạm quyền sở hữu công nghiệp.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 14,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp chứng nhận chất lượng phụ tùng trong sản xuất, lắp ráp thuộc đối tượng quy định tại Phụ lục IV gồm những gì?",
+    "answers": "Theo khoản 3 Điều 14 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị cấp chứng nhận chất lượng phụ tùng; b) Bản thông tin phụ tùng thể hiện thông số kỹ thuật; c) Kết quả thử nghiệm phụ tùng mẫu đạt yêu cầu kèm bản vẽ kỹ thuật; d) Ảnh chụp tổng thể sản phẩm, thuyết minh ký hiệu; đ) Danh mục các phụ tùng sử dụng trong sản xuất, lắp ráp.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 14,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Biên bản kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường xe sản xuất, lắp ráp của xe mẫu được phân bổ và lưu trữ ra sao?",
+    "answers": "Theo điểm b khoản 1 Điều 15 Thông tư số 82/2024/TT-BCA, Biên bản kiểm tra chất lượng an toàn kỹ thuật và bảo vệ môi trường xe sản xuất, lắp ráp của xe mẫu có giá trị để đơn vị thi công tự sản xuất, lắp ráp các xe cùng kiểu loại và được lập thành 02 bản có nội dung, giá trị như nhau: 01 bản lưu tại Cục Cảnh sát giao thông, 01 bản lưu tại đơn vị thi công.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 15,
+        "clause": 1,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Những trường hợp cải tạo xe nào không bắt buộc phải lập hồ sơ thiết kế xe cải tạo?",
+    "answers": "Theo khoản 4 Điều 17 Thông tư số 82/2024/TT-BCA, các trường hợp không phải lập hồ sơ thiết kế gồm: a) Xe ô tô cải tạo lắp phanh phụ bằng cách liên kết với bàn đạp phanh chính thông qua một thanh đòn dẫn động cơ khí để dùng làm xe ô tô tập lái, xe ô tô sát hạch và ngược lại; b) Xe mô tô, xe gắn máy cải tạo (tuy nhiên phải thi công tại đơn vị thi công có chức năng).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 17,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp chứng nhận chất lượng của xe cải tạo lần đầu bao gồm những gì?",
+    "answers": "Theo khoản 1 Điều 20 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị kiểm tra chất lượng xe cải tạo của đơn vị cải tạo; b) Ảnh chụp tổng thể góc 45 độ phía trước và phía sau góc đối diện của xe đã hoàn chỉnh; c) Biên bản nghiệm thu xuất xưởng của xe cải tạo hoàn chỉnh; d) Bản sao văn bản chứng nhận cơ sở pháp lý của đơn vị thi công (áp dụng với đơn vị thi công lần đầu).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 20,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thành phần Hội đồng thẩm định thiết kế xe cơ giới, xe máy chuyên dùng sản xuất, lắp ráp, cải tạo gồm những ai?",
+    "answers": "Theo Điều 22 Thông tư số 82/2024/TT-BCA, thành phần gồm: 1. Lãnh đạo Cục CSGT (Chủ tịch); 2. Lãnh đạo Phòng và cán bộ Phòng Hướng dẫn, đăng ký và kiểm định phương tiện thuộc Cục CSGT (Ủy viên); 3. Lãnh đạo Phòng và cán bộ Phòng Kỹ thuật quang học và cơ khí nghiệp vụ thuộc Viện Khoa học và Công nghệ (Ủy viên); 4. Lãnh đạo Phòng và cán bộ Phòng Quản lý phương tiện thuộc Cục Trang bị và kho vận (Ủy viên); 5. Cán bộ Phòng Hướng dẫn, đăng ký và kiểm định phương tiện thuộc Cục CSGT (Ủy viên, Thư ký).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 22,
+        "clause": null,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Cán bộ tham gia Hội đồng thẩm định thiết kế xe phải đáp ứng các tiêu chuẩn gì?",
+    "answers": "Theo điểm e khoản 1 Điều 23 Thông tư số 82/2024/TT-BCA, cán bộ tham gia Hội đồng thẩm định phải là sĩ quan có thời gian công tác trong lực lượng Công an nhân dân từ 02 năm trở lên; có trình độ đại học chuyên ngành phù hợp với nội dung thẩm định; đã được đào tạo, bồi dưỡng pháp luật và nghiệp vụ Công an nhân dân theo quy định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 23,
+        "clause": 1,
+        "point": "e"
+      }
+    ]
+  },
+  {
+    "question": "Xe trong lực lượng Công an nhân dân có được mang đến kiểm định tại cơ sở đăng kiểm dân sự ngoài ngành Công an hay không?",
+    "answers": "Theo khoản 1 Điều 24 Thông tư số 82/2024/TT-BCA, đơn vị quản lý, sử dụng xe có trách nhiệm đưa xe đến kiểm định tại cơ quan kiểm định xe quy định tại Điều 29 Thông tư này, không được kiểm định xe tại các đơn vị đăng kiểm xe ngoài ngành Công an (trừ trường hợp có văn bản đồng ý của Bộ trưởng Bộ Công an).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 24,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Xe sản xuất, lắp ráp, nhập khẩu mới đến bao nhiêu năm thì được miễn kiểm tra an toàn kỹ thuật và bảo vệ môi trường lần đầu?",
+    "answers": "Theo khoản 2 Điều 24 Thông tư số 82/2024/TT-BCA, xe sản xuất, lắp ráp, nhập khẩu mới đến 03 năm (kể từ năm sản xuất) thì được miễn kiểm tra an toàn kỹ thuật và bảo vệ môi trường lần đầu và được cơ quan kiểm định cấp Sổ kiểm định, Giấy chứng nhận kiểm định, Tem kiểm định sau khi được cấp đăng ký, biển số xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 24,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Trường hợp xe kiểm định không đạt yêu cầu và được đưa đi sửa chữa, kiểm định lại ngay trong ngày thì cơ quan kiểm định kiểm tra các hạng mục nào?",
+    "answers": "Theo điểm a khoản 5 Điều 24 Thông tư số 82/2024/TT-BCA, trường hợp xe thực hiện kiểm định lại trong ngày thì cơ quan kiểm định xe chỉ kiểm tra các hạng mục không đạt yêu cầu.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 24,
+        "clause": 5,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Các xe của đơn vị nghiệp vụ CAND làm nhiệm vụ bảo đảm bí mật có bắt buộc dán Tem kiểm định hay không?",
+    "answers": "Theo điểm a khoản 6 Điều 24 Thông tư số 82/2024/TT-BCA, trường hợp các đơn vị nghiệp vụ được cấp có thẩm quyền phê duyệt cấp biển số nghiệp vụ, trong khi làm nhiệm vụ có yêu cầu đảm bảo bí mật thì không phải dán Tem kiểm định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 24,
+        "clause": 6,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Những trường hợp nào được áp dụng phương pháp kiểm định xe bằng phương pháp bán cơ giới?",
+    "answers": "Theo khoản 2 Điều 25 Thông tư số 82/2024/TT-BCA, áp dụng kiểm định bán cơ giới đối với: cơ quan kiểm định xe chưa được trang cấp dây chuyền kiểm định; xe máy chuyên dùng, xe đặc chủng, xe quá khổ, quá tải; xe ở vùng sâu, vùng xa không có điều kiện đưa tới cơ quan kiểm định; trường hợp dây chuyền/thiết bị kiểm định di động bị hỏng không thể khắc phục ngay hoặc sự cố mất điện.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 25,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp Giấy chứng nhận kiểm định, Tem kiểm định, Sổ kiểm định định kỳ hoặc lần đầu gồm những giấy tờ gì?",
+    "answers": "Theo khoản 1 Điều 28 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Giấy giới thiệu của đơn vị quản lý, sử dụng xe; b) Giấy chứng nhận đăng ký xe; c) Giấy phép lái xe của cán bộ đưa xe đến kiểm định; d) Căn cước công dân hoặc Căn cước; Giấy chứng minh Công an nhân dân; đ) Sổ kiểm định đã cấp (đối với kiểm định định kỳ). Nếu cấp Sổ kiểm định lần đầu thì phải kê khai Biên bản kiểm tra lập Sổ kiểm định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 28,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp lại Giấy chứng nhận kiểm định, Tem kiểm định, Sổ kiểm định do bị mất gồm những gì?",
+    "answers": "Theo khoản 3 Điều 28 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Giấy giới thiệu, Giấy chứng nhận đăng ký xe, Giấy phép lái xe, Căn cước/CMND Công an nhân dân (theo quy định tại các điểm a, b, c, d khoản 1 Điều 28); b) Biên bản họp đơn vị của đơn vị quản lý, sử dụng xe về việc mất Sổ kiểm định, Tem kiểm định, Giấy chứng nhận kiểm định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 28,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Cục Cảnh sát giao thông trực tiếp thực hiện kiểm định xe đối với nhóm xe nào?",
+    "answers": "Theo khoản 1 Điều 29 Thông tư số 82/2024/TT-BCA, Cục Cảnh sát giao thông thực hiện cấp kiểm định lần đầu đối với xe chưa qua sử dụng do Cục Cảnh sát giao thông đăng ký, quản lý.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 29,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Trung tâm kiểm định xe cơ giới và đăng kiểm phương tiện thủy thuộc Cục CSGT thực hiện kiểm định đối với những xe nào?",
+    "answers": "Theo khoản 2 Điều 29 Thông tư số 82/2024/TT-BCA, Trung tâm kiểm định thực hiện kiểm định định kỳ đối với xe đã qua sử dụng của các đơn vị thuộc cơ quan Bộ Công an; xe của Công an tỉnh, thành phố trực thuộc Trung ương.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 29,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Phòng Cảnh sát giao thông Công an cấp tỉnh có thẩm quyền kiểm định đối với các đối tượng xe nào?",
+    "answers": "Theo khoản 3 Điều 29 Thông tư số 82/2024/TT-BCA, Phòng Cảnh sát giao thông thực hiện cấp kiểm định lần đầu đối với xe chưa qua sử dụng, kiểm định định kỳ đối với xe đã qua sử dụng của Công an các đơn vị trực thuộc Công an cấp tỉnh; xe của các đơn vị thuộc cơ quan Bộ Công an có trụ sở đóng quân trên địa bàn và xe của Công an các đơn vị, địa phương khác.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 29,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Ai có thẩm quyền ký Sổ kiểm định, Giấy chứng nhận kiểm định tại Phòng Cảnh sát giao thông Công an cấp tỉnh?",
+    "answers": "Theo khoản 3 Điều 30 Thông tư số 82/2024/TT-BCA, Trưởng phòng Phòng Cảnh sát giao thông ký Sổ kiểm định, Giấy chứng nhận kiểm định, cấp Tem kiểm định và các giấy tờ khác có liên quan đến công tác kiểm định xe theo quy định tại khoản 3 Điều 29 Thông tư này.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 30,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Kích thước thông xe tối thiểu của xưởng kiểm định loại xe có tải trọng trục đến 2.000 kg là bao nhiêu?",
+    "answers": "Theo điểm a khoản 1 Điều 31 Thông tư số 82/2024/TT-BCA, xưởng kiểm định 01 dây chuyền kiểm định xe có khối lượng phân bố lên mỗi trục đơn đến 2.000 kg phải có kích thước thông xe tối thiểu (dài x rộng x cao) là 30 x 4 x 3,5 (m).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 31,
+        "clause": 1,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Kích thước xưởng kiểm định đối với cơ quan kiểm định có dây chuyền kiểm định xe có tải trọng trục đơn đến 13.000 kg?",
+    "answers": "Theo điểm b khoản 1 Điều 31 Thông tư số 82/2024/TT-BCA, xưởng kiểm định có 01 dây chuyền kiểm định loại xe có khối lượng phân bố lên mỗi trục đơn đến 13.000 kg phải có kích thước thông xe tối thiểu (dài x rộng x cao) là 36 x 5 x 4,5 (m).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 31,
+        "clause": 1,
+        "point": "b"
+      }
+    ]
+  },
+  {
+    "question": "Khoảng cách tối thiểu giữa các dây chuyền kiểm định bố trí cạnh nhau trong xưởng kiểm định là bao nhiêu?",
+    "answers": "Theo điểm c khoản 1 Điều 31 Thông tư số 82/2024/TT-BCA, khoảng cách giữa tâm các dây chuyền kiểm định không nhỏ hơn 4m và khoảng cách từ tâm dây chuyền kiểm định ngoài cùng đến mặt trong tường bao gần nhất của xưởng kiểm định không nhỏ hơn 2,5 m.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 31,
+        "clause": 1,
+        "point": "c"
+      }
+    ]
+  },
+  {
+    "question": "Cơ quan kiểm định xe chưa có dây chuyền kiểm định phải đáp ứng mặt bằng thử nghiệm phanh và lái như thế nào?",
+    "answers": "Theo điểm d khoản 1 Điều 31 Thông tư số 82/2024/TT-BCA, cơ quan kiểm định xe chưa có dây chuyền kiểm định phải chọn một địa điểm có đoạn đường rộng, chiều dài tối thiểu 200m để kiểm tra hệ thống phanh, lái, có dốc thử để kiểm tra phanh đỗ của xe, có cầu kiểm tra để kiểm tra hạng mục gầm xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 31,
+        "clause": 1,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Mỗi dây chuyền kiểm định xe phải bố trí tối thiểu bao nhiêu cán bộ kiểm định xe Công an nhân dân?",
+    "answers": "Theo khoản 3 Điều 31 Thông tư số 82/2024/TT-BCA, đối với cơ quan kiểm định xe có dây chuyền kiểm định thì mỗi dây chuyền kiểm định phải bố trí tối thiểu 03 cán bộ kiểm định xe Công an nhân dân. Đối với cơ quan kiểm định xe không có dây chuyền kiểm định thì phải bố trí tối thiểu 02 cán bộ kiểm định xe Công an nhân dân.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 31,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Tiêu chuẩn về thâm niên công tác và trình độ học vấn của cán bộ kiểm định xe Công an nhân dân là gì?",
+    "answers": "Theo khoản 1 và khoản 2 Điều 32 Thông tư số 82/2024/TT-BCA, cán bộ kiểm định xe Công an nhân dân phải: 1. Là sĩ quan, hạ sĩ quan có thời gian công tác trong lực lượng Cảnh sát giao thông từ 02 năm trở lên; 2. Có trình độ trung cấp Công an nhân dân hoặc tương đương trở lên (đối với cán bộ ngoài ngành phải được đào tạo, bồi dưỡng pháp luật và nghiệp vụ CAND theo quy định).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 32,
+        "clause": 1,
+        "point": null
+      },
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 32,
+        "clause": 2,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Cán bộ kiểm định xe CAND có phải được cấp Giấy chứng nhận cán bộ kiểm định xe hay không?",
+    "answers": "Theo khoản 4 Điều 32 Thông tư số 82/2024/TT-BCA, cán bộ kiểm định xe CAND phải hoàn thành chương trình tập huấn về nghiệp vụ kiểm định xe do Cục Cảnh sát giao thông hoặc Công an tỉnh, thành phố trực thuộc Trung ương tổ chức và được Cục Cảnh sát giao thông cấp Giấy chứng nhận cán bộ kiểm định xe Công an nhân dân.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 32,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn Cục Cảnh sát giao thông thực hiện cấp, cấp đổi, cấp lại Giấy chứng nhận cán bộ kiểm định xe là bao nhiêu ngày?",
+    "answers": "Theo khoản 5 Điều 33 Thông tư số 82/2024/TT-BCA, trong thời hạn 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Cục Cảnh sát giao thông phải tổ chức kiểm tra, cấp, cấp đổi, cấp lại Giấy chứng nhận cán bộ kiểm định xe theo quy định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 33,
+        "clause": 5,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Giấy chứng nhận cán bộ kiểm định xe CAND bị thu hồi trong những trường hợp nào?",
+    "answers": "Theo khoản 4 Điều 33 Thông tư số 82/2024/TT-BCA, trường hợp cán bộ kiểm định xe Công an nhân dân được điều động sang đơn vị công tác khác, chuyển ngành, nghỉ hưu hoặc sử dụng Giấy chứng nhận kiểm định xe không đúng mục đích thì phải thu hồi.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 33,
+        "clause": 4,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ cấp Giấy chứng nhận cán bộ kiểm định xe CAND gồm những gì?",
+    "answers": "Theo khoản 1 Điều 34 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị của đơn vị công tác; b) Tờ khai (kèm 02 ảnh màu 2cm x 3cm trang phục điều lệnh CAND, đội mũ kê pi); c) Bản phô tô GPLX, Bằng hoặc Chứng chỉ điều khiển xe máy chuyên dùng; d) Quyết định công nhận kết quả tập huấn nghiệp vụ kiểm định xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 34,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Hồ sơ đề nghị cấp lại Giấy chứng nhận cán bộ kiểm định xe bị mất bao gồm những văn bản nào?",
+    "answers": "Theo khoản 3 Điều 34 Thông tư số 82/2024/TT-BCA, hồ sơ gồm: a) Công văn đề nghị, Tờ khai kèm ảnh, Bản phô tô Giấy phép lái xe/chứng chỉ (các tài liệu quy định tại điểm a, b, c khoản 1 Điều 34); b) Biên bản họp đơn vị về việc mất Giấy chứng nhận cán bộ kiểm định xe.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 34,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thời hạn gửi báo cáo tháng về số liệu kiểm định xe của cơ quan kiểm định xe là khi nào?",
+    "answers": "Theo khoản 1 Điều 35 Thông tư số 82/2024/TT-BCA, thời hạn gửi báo cáo tháng là trước ngày 20 của tháng báo cáo (số liệu chốt tính từ ngày 15 tháng trước đến ngày 14 tháng làm báo cáo).",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 35,
+        "clause": 1,
+        "point": "a"
+      }
+    ]
+  },
+  {
+    "question": "Mốc thời gian chốt số liệu đối với Báo cáo năm về đăng kiểm xe ô tô trong CAND?",
+    "answers": "Theo điểm d khoản 1 Điều 35 Thông tư số 82/2024/TT-BCA, Báo cáo năm được tính từ ngày 15 tháng 12 năm trước đến ngày 14 tháng 12 của năm làm báo cáo và được gửi trước ngày 20 của tháng cuối kỳ báo cáo.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 35,
+        "clause": 1,
+        "point": "d"
+      }
+    ]
+  },
+  {
+    "question": "Khi bán hoặc thanh lý xe ra khỏi biên chế Công an nhân dân, đơn vị quản lý xe phải có trách nhiệm gì đối với giấy tờ kiểm định xe?",
+    "answers": "Theo khoản 7 Điều 37 Thông tư số 82/2024/TT-BCA, trường hợp bán, thanh lý xe ra khỏi biên chế tài sản trong Công an nhân dân, đơn vị quản lý, sử dụng xe phải thu hồi Sổ kiểm định, Giấy chứng nhận kiểm định, Tem kiểm định và nộp lại cho cơ quan kiểm định xe đang quản lý xe để quản lý, lưu trữ theo quy định.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 37,
+        "clause": 7,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Thông tư số 82/2024/TT-BCA có hiệu lực thi hành từ ngày nào và thay thế những văn bản quy phạm pháp luật nào?",
+    "answers": "Theo khoản 1 Điều 39 Thông tư số 82/2024/TT-BCA, Thông tư này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025 và thay thế: a) Thông tư số 72/2019/TT-BCA ngày 12/12/2019; b) Thông tư số 118/2021/TT-BCA ngày 06/12/2021.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 39,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Các biểu mẫu đã in theo Thông tư 72/2019/TT-BCA và 118/2021/TT-BCA chưa sử dụng hết có được tiếp tục dùng không?",
+    "answers": "Theo khoản 2 và khoản 3 Điều 39 Thông tư số 82/2024/TT-BCA, đối với những biểu mẫu đã in theo quy định tại Thông tư 118/2021/TT-BCA và Thông tư 72/2019/TT-BCA nhưng chưa sử dụng thì được tiếp tục sử dụng đến ngày 31 tháng 12 năm 2025.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 39,
+        "clause": 2,
+        "point": null
+      },
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 39,
+        "clause": 3,
+        "point": null
+      }
+    ]
+  },
+  {
+    "question": "Cơ quan nào chịu trách nhiệm chỉ đạo, hướng dẫn, kiểm tra việc triển khai thực hiện Thông tư 82/2024/TT-BCA?",
+    "answers": "Theo khoản 1 Điều 40 Thông tư số 82/2024/TT-BCA, Cục trưởng Cục Cảnh sát giao thông có trách nhiệm chỉ đạo, hướng dẫn, kiểm tra việc triển khai thực hiện Thông tư này.",
+    "retrieve_items": [
+      {
+        "document": "82/2024/TT-BCA",
+        "article": 40,
+        "clause": 1,
+        "point": null
+      }
+    ]
+  }
+]
