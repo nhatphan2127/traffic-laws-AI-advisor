@@ -171,3 +171,62 @@ ValueError: Timeout value connect was 30, but it must be an int, float or None.
 [2026-09-22 21:49:43] INFO - llm - Total contextual document references: 15
 [2026-09-22 21:49:43] INFO - llm - Starting response generation stream from LLM...
 [2026-09-22 21:49:44] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-23 17:28:23] INFO - server - Successfully connected to MongoDB
+[2026-09-23 17:28:24] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 17:28:24] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 17:28:24] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 17:28:24] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 17:28:24] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:32:06] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:32:07] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:32:07] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:32:07] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:32:07] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:32:08] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:38:07] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:38:07] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:38:07] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:38:07] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:38:07] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:38:08] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:40:02] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:40:02] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:40:02] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:40:02] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:40:02] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:40:02] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:42:31] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:42:32] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:42:32] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:42:32] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:42:32] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:42:32] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:50:02] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:50:04] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:50:04] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:50:04] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:50:04] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:50:05] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:50:32] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:50:32] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:50:32] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:50:32] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:50:32] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:50:32] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:56:15] INFO - server - Successfully connected to MongoDB
+[2026-09-23 10:56:16] INFO - llm - Initialized LLMModel with default provider: 'cloud_ollama'
+[2026-09-23 10:56:16] INFO - llm - Active LLM Provider: Cloud Ollama (gpt-oss:120b) at https://ollama.com
+[2026-09-23 10:56:16] INFO - llm - LLMModel initialized successfully in ChatEngine.
+[2026-09-23 10:56:16] INFO - server - ChatEngine initialized successfully.
+[2026-09-23 10:56:16] INFO - server - Starting FastAPI application via Uvicorn...
+[2026-09-23 10:56:32] INFO - server - Chat request received. User ID: 'None', Chat ID: 'None'
+[2026-09-23 10:56:32] INFO - llm - Executing chat engine for query: 'hello'
+[2026-09-23 10:56:32] INFO - llm - [QUERY NORMALIZATION] Original query: hello
+[2026-09-23 10:56:34] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
+[2026-09-23 10:56:34] INFO - llm - [QUERY NORMALIZATION] Normalized query: hello
+[2026-09-23 10:56:34] INFO - api - retrievalApi: Sending retrieval request to http://localhost:5555/api/retrieval for: 'hello'
+[2026-09-23 10:56:34] ERROR - api - retrievalApi: Failed to connect to retrieval service at http://localhost:5555/api/retrieval
+[2026-09-23 10:56:34] INFO - llm - Retrieved 0 primary documents from database.
+[2026-09-23 10:56:34] INFO - llm - Total contextual document references: 0
+[2026-09-23 10:56:34] INFO - llm - Starting response generation stream from LLM...
+[2026-09-23 10:56:34] INFO - httpx - HTTP Request: POST https://ollama.com/api/chat "HTTP/1.1 200 OK"
