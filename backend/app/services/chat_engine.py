@@ -2,6 +2,7 @@ import json
 import logging
 from typing import List, Dict, Generator, Optional
 from dataclasses import asdict
+from guardrails.input_guardrails.sematic_checking import check_input_semantics
 
 from api.qdrantApi import retrievalApi
 from llm.model import LLMModel
@@ -9,6 +10,7 @@ from llm.promt_template import get_rag_prompt, SYSTEM_PROMPT, LEGAL_QUERY_NORMAL
 from api.qdrantApi import extractRelevantClausePointApi
 
 logger = logging.getLogger("llm")
+
 
 class ChatEngine:
     def __init__(self):
@@ -60,6 +62,11 @@ class ChatEngine:
         """
         if history is None:
             history = []
+
+        input_result = check_input_semantics(query=query, history=None, llm=self.llm)
+        if input_result.action != "allow":
+            yield [], input_result.message, ""
+            return
 
         logger.info(f"Executing chat engine for query: '{query}'")
         logger.info(f"[QUERY NORMALIZATION] Original query: {query}")
@@ -124,20 +131,23 @@ class ChatEngine:
 
         # 5. Build Chat Messages History
         formatted_messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-        for msg in history:
+        for msg in history[-8:]:
             formatted_messages.append(msg)
         formatted_messages.append({"role": "user", "content": rag_prompt})
 
-        # 6. Stream LLM Generation with Exception Handling
+        # 6. Generate, validate, then expose the complete answer.
         try:
-            logger.info("Starting response generation stream from LLM...")
-            for in_thinking, chunk in self.llm.generate(formatted_messages, stream=True):
-                if in_thinking:
-                    yield debug_json_list, "", chunk
-                else:
-                    yield debug_json_list, chunk, ""
+            logger.info("Starting response generation from LLM...")
+            response = self.llm.generate(formatted_messages, stream=False)
+            if isinstance(response, tuple):
+                answer = response[1] if len(response) > 1 else response[0]
+            else:
+                answer = response
+            answer = str(answer or "").strip()
+
+            yield debug_json_list, answer, ""
         except Exception as e:
-            logger.error(f"Error during LLM stream generation: {e}", exc_info=True)
+            logger.error(f"Error during LLM response generation: {e}", exc_info=True)
             yield debug_json_list, "An error occurred while generating the response.", ""
 
     def reset_history(self):
