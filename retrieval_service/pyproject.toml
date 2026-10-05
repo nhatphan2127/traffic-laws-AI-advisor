@@ -1,0 +1,9 @@
+[project]
+name = "traffic-law-retrieval-service"
+version = "1.1.0"
+description = "Hybrid retrieval over Vietnamese traffic-law documents, exposed via REST (/api) and MCP (/mcp)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -8,3 +8,4 @@ bcrypt
 pydantic
 requests
 ollama
+mcp>=2.3,<3

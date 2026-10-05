@@ -4,13 +4,11 @@ from typing import Dict, Generator, List, Optional, Tuple
 import requests
 from ollama import Client
 
-from core.load_settings import load_settings
-from core.setup_logging import setup_logging
+from app.core.config import load_settings
 
 class LLMModel:
     def __init__(self):
         # 1. Initialize logging
-        setup_logging()
         self.logger = logging.getLogger("llm")
 
         settings = load_settings()
@@ -44,7 +42,7 @@ class LLMModel:
         # 6. Hyperparameters & Provider
         self.temperature = llm_settings.get("temperature", 0.7)
         self.max_new_tokens = llm_settings.get("max_tokens", 2048)
-        self.provider = llm_settings.get("provider", "ollama_local")
+        self.provider = llm_settings.get("provider", "google_studio")
 
         # Logging thông tin khởi tạo
         self.logger.info(f"Initialized LLMModel with default provider: '{self.provider}'")
@@ -215,7 +213,8 @@ class LLMModel:
         """Routing the stream call for text response."""
 
         if self.provider == "google_studio":
-            yield from self._stream_gemini(messages)
+            # Gemini is called through the non-streaming endpoint: emit the full answer once.
+            yield self._call_gemini(messages)
         elif self.provider == "local_ollama":
             yield from self._stream_ollama(messages)
         else:

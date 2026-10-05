@@ -30,7 +30,7 @@ loggers:
     handlers: [console, file]
     propagate: no
 
-  tools:
+  clients:
     level: INFO
     handlers: [console, file]
     propagate: no

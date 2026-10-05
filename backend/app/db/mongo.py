@@ -1,29 +1,36 @@
 import logging
-from pymongo import MongoClient
-from pymongo.errors import ConnectionFailure, ConfigurationError
-from core.load_settings import load_settings
-from core.setup_logging import setup_logging
+from functools import lru_cache
 
-settings = load_settings()
-setup_logging()
+from pymongo import MongoClient
+from pymongo.collection import Collection
+from pymongo.database import Database
+from pymongo.errors import ConnectionFailure, ConfigurationError
+
+from app.core.config import load_settings
+
 logger = logging.getLogger("server")
 
-try:
-    MONGODB_URI = settings['backend']['mongodb_uri']
-    DB_NAME = settings['backend']['db_name']
 
-    client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
-    
-    client.admin.command('ping') 
-    logger.info("Successfully connected to MongoDB")
+@lru_cache
+def get_database() -> Database:
+    """Connect lazily (first use) instead of at import time."""
+    backend = load_settings()['backend']
+    try:
+        client = MongoClient(backend['mongodb_uri'], serverSelectionTimeoutMS=5000)
+        client.admin.command('ping')
+        logger.info("Successfully connected to MongoDB")
+        return client[backend['db_name']]
+    except KeyError as e:
+        logger.critical(f"Missing configuration key: {e}")
+        raise
+    except (ConnectionFailure, ConfigurationError) as e:
+        logger.critical(f"Không thể kết nối tới MongoDB: {e}")
+        raise
 
-    db = client[DB_NAME]
-    users_collection = db["users"]
-    chats_collection = db["chats"]
 
-except KeyError as e:
-    logger.critical(f"Missing configuration key: {e}")
-    raise e 
-except (ConnectionFailure, ConfigurationError) as e:
-    logger.critical(f"Không thể kết nối tới MongoDB: {e}")
-    raise e
+def users_collection() -> Collection:
+    return get_database()["users"]
+
+
+def chats_collection() -> Collection:
+    return get_database()["chats"]

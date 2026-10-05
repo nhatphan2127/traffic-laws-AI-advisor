@@ -1,0 +1,18 @@
+# Keep secrets, local state and offline-only files out of the image
+__pycache__
+*.pyc
+.pytest_cache
+.env
+logs
+tests
+scripts
+evaluation
+# only data/processed is needed at runtime
+data/raw
+data/wip
+data/pending
+data/archive
+# restored into Qdrant by the qdrant_init compose service, not baked into the image
+artifacts/qdrant_snapshots
+Dockerfile
+.dockerignore

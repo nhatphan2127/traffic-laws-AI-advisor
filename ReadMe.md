@@ -108,7 +108,7 @@ From the hierarchical JSON data, the system performs data chunking according to 
 
 ## 4. System Architecture
 
-![Alt text](system.png)
+![System architecture](docs/images/system.png)
 
 The system operates across 5 key stages:
 
@@ -170,5 +170,75 @@ Evaluation was conducted on the standard benchmark dataset `evals_168_2024.json`
 
 
 ## 6 Illustration
-![Alt text](Illustration1.png)
-![Alt text](Illustration2.png)
+![Illustration 1](docs/images/Illustration1.png)
+![Illustration 2](docs/images/Illustration2.png)
+
+---
+
+## 7. MCP Integration
+
+The retrieval service (`retrieval_service`) is also an **MCP (Model Context Protocol) server**.
+The backend consumes it as an MCP client, and any MCP-capable client (Claude Desktop, Claude Code, …)
+can query the legal corpus directly.
+
+| Tool | Arguments | Description |
+| :--- | :--- | :--- |
+| `search_legal_documents` | `query`, `top_k?` | Hybrid search (dense + BM25 sparse, RRF fusion, optional reranking) |
+| `find_referencing_chunks` | `article`, `clause?`, `point?` | Chunks whose cross-references cite the given Article / Clause / Point |
+
+Both tools are read-only and return structured JSON (`results: [{id, total_score, text, metadata, …}]`).
+
+* **Streamable HTTP**: `http://localhost:5555/mcp`, served by the retrieval FastAPI app (which also exposes `/api/health`).
+  Allowed `Host` headers are set with `MCP_ALLOWED_HOSTS` (DNS-rebinding protection).
+* **stdio**: `cd retrieval_service && python -m app.mcp_server`
+* Register with Claude Code (from the `retrieval_service` folder):
+  `claude mcp add legal-retrieval -- python -m app.mcp_server`
+
+The backend connects to `RETRIEVAL_MCP_URL` (default `http://localhost:5555/mcp`), opens one MCP session
+per chat turn and runs the reference-expansion lookups concurrently.
+
+## 8. Project Structure & How to Run
+
+```
+backend/                FastAPI API (auth, chat history, RAG chat via SSE)
+  app/main.py             app + routers
+  app/api/routes/         auth, chats, chat           app/api/deps.py   auth dependencies
+  app/services/           chat_engine.py              app/clients/      retrieval_mcp.py (MCP client)
+  app/llm/                model.py, prompts.py        app/guardrails/   input guardrails
+  app/core/               config, logging, security, schema           app/db/  MongoDB
+  tests/
+retrieval_service/      Retrieval service: MCP server (/mcp)
+  app/main.py             app (mounted MCP server + /api/health)
+  app/mcp_server/         MCP tools (server.py) + stdio/http runner (__main__.py)
+  app/retrieval/          hybrid.py (hybrid search), references.py (reference expansion)
+  app/vectorstore/        Qdrant, BM25, indexing      app/ingestion/    chunking + pipeline
+  scripts/                ingest.py, evaluate.py (offline jobs)
+  data/                   raw/ (source .docx + data.json), processed/ (ingested JSON),
+                          pending/ (processed, not ingested yet), wip/ (unfinished), archive/
+  artifacts/              bm25store.pkl, qdrant_snapshots/ (not in git)
+  evaluation/             datasets/, results/, prompts/
+  tests/
+frontend/               React (Vite) UI
+docs/images/            diagrams and screenshots
+```
+
+```bash
+# Docker (all services): frontend http://localhost:3000, backend :8000, retrieval :5555, Qdrant :6333
+docker compose up -d --build
+docker compose ps                  # all services should be "healthy"; qdrant_init "Exited (0)"
+docker compose logs -f backend
+docker compose down                # volumes (Qdrant data, model cache) are kept
+
+# Local development
+cd retrieval_service && uvicorn app.main:app --port 5555     # MCP at /mcp
+cd backend           && uvicorn app.main:app --port 8000
+cd frontend          && npm install && npm run dev
+
+# Ingestion / evaluation (from retrieval_service/)
+python scripts/ingest.py
+python scripts/evaluate.py
+
+# Tests
+cd backend && python -m pytest
+cd retrieval_service && python -m pytest
+```

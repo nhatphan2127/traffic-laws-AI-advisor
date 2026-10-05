@@ -1,24 +1,19 @@
-import os
-import jwt
-import bcrypt  # Import trực tiếp bcrypt thay vì passlib
-from datetime import datetime, timedelta
-from fastapi import HTTPException, Security, Depends
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from dotenv import load_dotenv
-from core.setup_logging import setup_logging
-from core.load_settings import load_settings
-import logging 
+import logging
+from datetime import datetime, timedelta, timezone
+from typing import Optional
 
-settings = load_settings()
-setup_logging()
+import bcrypt
+import jwt
+
+from app.core.config import load_settings
+
 logger = logging.getLogger("server")
 
-load_dotenv()
 
-SECRET_KEY = settings['backend']['jwt_secret']
-ALGORITHM = settings['backend']['jwt_algorithm']
+def _jwt_settings() -> tuple[str, str]:
+    backend = load_settings()['backend']
+    return backend['jwt_secret'], backend['jwt_algorithm']
 
-security = HTTPBearer(auto_error=False)
 
 def hash_password(password: str) -> str:
     pwd_bytes = password.encode('utf-8')[:72]
@@ -26,31 +21,26 @@ def hash_password(password: str) -> str:
     hashed = bcrypt.hashpw(pwd_bytes, salt)
     return hashed.decode('utf-8')
 
+
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     pwd_bytes = plain_password.encode('utf-8')[:72]
     hashed_bytes = hashed_password.encode('utf-8')
     return bcrypt.checkpw(pwd_bytes, hashed_bytes)
 
-def create_access_token(data: dict, expires_delta: timedelta = timedelta(days=7)) -> str:
-    to_encode = data.copy()
-    expire = datetime.utcnow() + expires_delta
-    to_encode.update({"exp": expire})
-    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
-def get_current_user_optional(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    if not credentials:
-        return None
-    token = credentials.credentials
+def create_access_token(data: dict, expires_delta: timedelta = timedelta(days=7)) -> str:
+    secret, algorithm = _jwt_settings()
+    to_encode = data.copy()
+    to_encode.update({"exp": datetime.now(timezone.utc) + expires_delta})
+    return jwt.encode(to_encode, secret, algorithm=algorithm)
+
+
+def decode_access_token(token: str) -> Optional[str]:
+    """Return the user id (`sub`) of a valid token, otherwise None."""
+    secret, algorithm = _jwt_settings()
     try:
-        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        return payload.get("sub")  
-    except Exception:
+        payload = jwt.decode(token, secret, algorithms=[algorithm])
+        return payload.get("sub")
+    except jwt.PyJWTError:
         logger.warning("Invalid JWT token")
         return None
-
-def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    user = get_current_user_optional(credentials)
-    if not user:
-        logger.error("Unauthorized access attempt")
-        raise HTTPException(status_code=401, detail="Unauthorized")
-    return user

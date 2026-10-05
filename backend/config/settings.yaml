@@ -1,39 +1,32 @@
 app:
   name: app
-  verstion: 1.0.0
+  version: 1.0.0
   env: production
 
-
+# Secrets and connection strings come from environment variables / backend/.env
 backend:
-  jwt_secret: YOUR_SUPER_SECRET_KEY_123456789
-  jwt_algorithm: HS256
-  monggodb_uri: 
-  db_name: 
+  jwt_secret:          # JWT_SECRET
+  jwt_algorithm: HS256 # JWT_ALGORITHM
+  mongodb_uri:         # MONGODB_URI
+  db_name:             # DB_NAME
 
 llm:
-  llm_provider:
-  llm_temperature:
-  llm_max_new_tokens:
+  provider: google_studio  # LLM_PROVIDER: google_studio | cloud_ollama | local_ollama
+  temperature: 0.2         # LLM_TEMPERATURE
+  max_tokens: 2048         # LLM_MAX_TOKENS
 
   google_studio_api_key:
   google_studio_model:
 
   cloud_ollama_url:
   cloud_ollama_key:
-  cloud_ollama_key:
+  cloud_ollama_model:
 
-  local_ollama_url:
+  local_ollama_url: http://localhost:11434/api/chat
   local_ollama_key:
-  local_ollama_model:
+  local_ollama_model: llama3.2
 
-api:
-  vector_database_api_url:
-  request_timeout:
-  
-
-
-
-            
-
-
-
+# Retrieval service, reached over MCP (Streamable HTTP)
+mcp:
+  retrieval_server_url: http://localhost:5555/mcp  # RETRIEVAL_MCP_URL
+  request_timeout: 30                              # REQUEST_TIMEOUT (seconds)

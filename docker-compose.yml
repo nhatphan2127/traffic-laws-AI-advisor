@@ -1,55 +1,110 @@
-version: '3.8'
+# =============================================================================
+# Vietnamese Traffic Law RAG: full stack
+#
+#   browser ──▶ frontend (nginx, :3000)
+#   browser ──▶ backend  (FastAPI, :8000) ──MCP /mcp──▶ retrieval_service (:5555) ──▶ qdrant (:6333)
+#                    └──▶ MongoDB Atlas + LLM provider (external, from backend/.env)
+#
+# Usage:
+#   docker compose up -d --build        # build + start everything
+#   docker compose ps                   # status / health
+#   docker compose logs -f backend      # follow one service
+#   docker compose down                 # stop (named volumes are kept)
+#
+# Secrets live in backend/.env and retrieval_service/.env (not baked into images).
+# Values under `environment:` override those files for the Docker network.
+# =============================================================================
 
 services:
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+  # --- Vector database --------------------------------------------------------
+  qdrant:
+    # Pinned version (the image has no shell, so its readiness is checked by qdrant_init).
+    image: qdrant/qdrant:v1.19.1
     ports:
-      - "3000:3000"           
+      - "6333:6333"   # REST API + dashboard (http://localhost:6333/dashboard)
+      - "6334:6334"   # gRPC
+    volumes:
+      - qdrant-data:/qdrant/storage
+    restart: unless-stopped
     networks:
       - app-network
 
+  # --- One-shot job: restore the collection from a snapshot if it is missing ----
+  qdrant_init:
+    image: curlimages/curl:8.11.1
+    depends_on:
+      - qdrant
+    env_file:
+      - ./retrieval_service/.env           # DB_COLLECTION_NAME
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+      - SNAPSHOT_DIR=/snapshots
+    volumes:
+      - ./retrieval_service/docker/qdrant-init.sh:/qdrant-init.sh:ro
+      - ./retrieval_service/artifacts/qdrant_snapshots:/snapshots:ro
+    entrypoint: ["sh", "/qdrant-init.sh"]
+    restart: "no"
+    networks:
+      - app-network
+
+  # --- Retrieval service: REST (/api) + MCP server (/mcp) ----------------------
+  retrieval_service:
+    build:
+      context: ./retrieval_service
+      dockerfile: Dockerfile
+    ports:
+      - "5555:5555"
+    depends_on:
+      qdrant_init:
+        condition: service_completed_successfully   # Qdrant is ready and the collection exists
+    env_file:
+      - ./retrieval_service/.env
+    environment:
+      - DB_URL=http://qdrant:6333                    # service name instead of localhost
+      - MCP_ALLOWED_HOSTS=localhost:*,127.0.0.1:*,retrieval_service:*
+    volumes:
+      - hf-cache:/models/huggingface                 # embedding model, downloaded once
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  # --- Backend API --------------------------------------------------------------
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"           
-    volumes:
-      - ./backend:/app        
+      - "8000:8000"
     depends_on:
-      - qdrant
+      retrieval_service:
+        condition: service_healthy
     env_file:
-      - ./backend/.env
+      - ./backend/.env                               # MongoDB, JWT, LLM provider keys
+    environment:
+      - RETRIEVAL_MCP_URL=http://retrieval_service:5555/mcp
+    restart: unless-stopped
     networks:
       - app-network
 
-  database_interface:
+  # --- Frontend (static build served by nginx) ----------------------------------
+  frontend:
     build:
-      context: ./vector_database
+      context: ./frontend
       dockerfile: Dockerfile
+      args:
+        # URL the *browser* uses to reach the backend (inlined at build time).
+        VITE_API_URL: http://localhost:8000
     ports:
-      - "5555:5555"           
+      - "3000:80"
     depends_on:
-      - qdrant
-    env_file:
-      - ./vector_database/.env
-    networks:
-      - app-network
-
-  qdrant:
-    image: qdrant/qdrant:latest
-    ports:
-      - "6333:6333"           
-      - "6334:6334"           
-    volumes:
-      - qdrant-data:/qdrant/storage 
+      - backend
+    restart: unless-stopped
     networks:
       - app-network
 
 volumes:
-  qdrant-data:
+  qdrant-data:   # Qdrant storage (collections)
+  hf-cache:      # Hugging Face model cache for retrieval_service
 
 networks:
   app-network:

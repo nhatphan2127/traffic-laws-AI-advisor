@@ -1,2 +1,10 @@
+# Keep secrets, local state and dev-only files out of the image
 .venv
 __pycache__
+*.pyc
+.pytest_cache
+.env
+logs
+tests
+Dockerfile
+.dockerignore

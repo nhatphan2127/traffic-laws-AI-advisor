@@ -2,7 +2,7 @@ import re
 import unicodedata
 from typing import Dict, List, Optional
 
-from guardrails.common import GuardrailResult
+from app.guardrails.common import GuardrailResult
 
 
 MAX_QUERY_LENGTH = 8000
